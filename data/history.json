@@ -4643,5 +4643,33 @@
       }
     },
     "warnings": []
+  },
+  {
+    "run_at": "2026-09-09T11:48:42.955450+00:00",
+    "offers": [
+      {
+        "id": "bbd5be0f-3bb8-4a40-9667-86b7d1e3efa7",
+        "site": "pracecz",
+        "title": "🚀 Práce v kryptoměnách bez zkušeností - 4 DNY TÝDNĚ S VÝPLATOU 50 - 150 000 💸",
+        "url": "https://www.prace.cz/nabidka/bbd5be0f-3bb8-4a40-9667-86b7d1e3efa7/?rps=2077",
+        "employer": "SalesDesk Czech Republic s.r.o.",
+        "salary": "50 000 – 100 000 Kč/měsíc",
+        "posted": "Nová nabídka",
+        "found_at": "2026-09-09T11:48:42.955450+00:00"
+      }
+    ],
+    "counts": {
+      "jobscz": {
+        "total_found": 60,
+        "new": 0,
+        "blacklisted": 0
+      },
+      "pracecz": {
+        "total_found": 84,
+        "new": 1,
+        "blacklisted": 0
+      }
+    },
+    "warnings": []
   }
 ]
