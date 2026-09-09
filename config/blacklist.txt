@@ -16,4 +16,3 @@ accountant
 účetní
 mobil pohotovost
 elektromontér
-# (test rychlého rebuildu bez scrapu - smaže se hned po ověření)
