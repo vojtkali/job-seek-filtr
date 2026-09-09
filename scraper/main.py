@@ -159,11 +159,18 @@ def run() -> int:
         counts[site_key] = {"total_found": total_found, "new": new_count}
 
         if total_found == 0:
-            warnings.append(
-                f"{site_cfg.get('name', site_key)}: nenalezena žádná nabídka. "
-                "Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls "
-                "a detail_url_pattern v config/settings.yaml)."
-            )
+            if site_key == "linkedin":
+                hint = (
+                    "LinkedIn nejspíš dočasně/trvale blokuje (rate limit z IP "
+                    "GitHub Actions runneru) - zkontroluj log běhu, jestli "
+                    "scraper.linkedin_source nehlásí konkrétní chybu."
+                )
+            else:
+                hint = (
+                    "Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls "
+                    "a detail_url_pattern v config/settings.yaml)."
+                )
+            warnings.append(f"{site_cfg.get('name', site_key)}: nenalezena žádná nabídka. {hint}")
         log.info("%s: nalezeno %d, nových %d", site_key, total_found, new_count)
 
     save_state(state)

@@ -22,6 +22,45 @@ from .common import Offer, clean_text
 
 log = logging.getLogger(__name__)
 
+_country_patch_applied = False
+
+
+def _patch_jobspy_country_bug() -> None:
+    """Workaround known bugu v python-jobspy (aktuálně nejnovější 1.1.82):
+    LinkedIn._get_location() u nabídek, jejichž lokalita na LinkedInu má
+    3 části oddělené čárkou (Město, Region, Země), volá
+    Country.from_string() na tu třetí část BEZ ošetření - pokud je to
+    země, kterou JobSpy nezná (např. nějaká nabídka s divnou/neobvyklou
+    lokalitou), vyhodí nezachycený ValueError, který shodí celé
+    scrape_jobs() volání (= 0 nabídek pro to klíčové slovo, i když
+    ostatní nabídky byly v pořádku). Country.from_string() se používá i
+    jinde (validace vlastního parametru country_indeed), tam ale s
+    platnou hodnotou nikdy nespadne, takže patch nic nekazí."""
+    global _country_patch_applied
+    if _country_patch_applied:
+        return
+    try:
+        from jobspy.model import Country
+    except ImportError:
+        return
+
+    original_from_string = Country.from_string.__func__
+
+    @classmethod
+    def _safe_from_string(cls, country_str):
+        try:
+            return original_from_string(cls, country_str)
+        except ValueError:
+            log.warning(
+                "JobSpy: nabídka má neznámou zemi v lokalitě ('%s') - "
+                "ignoruji jen tuhle zemi, ať to neshodí celé hledání.",
+                country_str,
+            )
+            return None
+
+    Country.from_string = _safe_from_string
+    _country_patch_applied = True
+
 
 def _id_from_job_url(url: str) -> str:
     path = urlparse(url).path
@@ -73,6 +112,8 @@ def scrape_linkedin(
     except ImportError:
         log.warning("python-jobspy není nainstalovaný - LinkedIn se přeskakuje.")
         return []
+
+    _patch_jobspy_country_bug()
 
     offers: dict[str, Offer] = {}
 
