@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:54:22.416586+00:00",
+  "generated_at": "2026-09-09T10:01:04.852726+00:00",
   "runs": [
     {
       "run_at": "2026-09-09T09:54:22.416586+00:00",
@@ -4082,6 +4082,51 @@
         "pracecz": {
           "total_found": 212,
           "new": 212,
+          "blacklisted": 0
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-09-09T10:01:04.852726+00:00",
+      "offers": [
+        {
+          "id": "2001417058",
+          "site": "jobscz",
+          "title": "SPECIALISTA PO A BOZP",
+          "url": "https://www.jobs.cz/rpd/2001417058/?searchId=0d68ab36-94c8-45fa-a5fa-9c6a20e57149&rps=233",
+          "employer": null,
+          "salary": null,
+          "found_at": "2026-09-09T10:01:04.852726+00:00"
+        },
+        {
+          "id": "2001323929",
+          "site": "jobscz",
+          "title": "Group Head of Total Rewards & HR Controlling",
+          "url": "https://www.jobs.cz/rpd/2001323929/?searchId=0d68ab36-94c8-45fa-a5fa-9c6a20e57149&rps=233",
+          "employer": null,
+          "salary": null,
+          "found_at": "2026-09-09T10:01:04.852726+00:00"
+        },
+        {
+          "id": "0fbe8eae-28c4-48eb-960b-bd6e7529de04",
+          "site": "pracecz",
+          "title": "Obchodník pro firemní klienty - schůzky domlouváme za tebe👌FIX 2 měsíce + provize 💰",
+          "url": "https://www.prace.cz/nabidka/0fbe8eae-28c4-48eb-960b-bd6e7529de04/?rps=2077",
+          "employer": "247 nabídek",
+          "salary": null,
+          "found_at": "2026-09-09T10:01:04.852726+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 90,
+          "new": 2,
+          "blacklisted": 0
+        },
+        "pracecz": {
+          "total_found": 82,
+          "new": 1,
           "blacklisted": 0
         }
       },
