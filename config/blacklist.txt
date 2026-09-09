@@ -17,3 +17,7 @@ accountant
 mobil pohotovost
 elektromontér
 firemní bankéř
+software developer
+magistr
+IP polná
+automation engineer
