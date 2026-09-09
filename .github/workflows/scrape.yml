@@ -42,19 +42,14 @@ jobs:
         env:
           SCRAPER_DEBUG_HTML: ${{ inputs.debug_html && '1' || '' }}
 
-      - name: Upload debug HTML
-        if: ${{ inputs.debug_html }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-html
-          path: debug_html
-          retention-days: 3
-
       - name: Commit updated data
         run: |
           git config user.name "job-seek-filtr-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/state.json data/history.json site/data.json
+          if [ "${{ inputs.debug_html }}" = "true" ]; then
+            git add -f debug_html
+          fi
           git diff --cached --quiet || git commit -m "Aktualizace nabídek $(date -u +%Y-%m-%d)"
           git push
 

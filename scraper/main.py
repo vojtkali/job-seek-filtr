@@ -148,6 +148,13 @@ def run() -> int:
     site_payload = {
         "generated_at": now_iso,
         "runs": history[-SITE_SHOW_RUNS:],
+        "repo": {
+            # GITHUB_REPOSITORY/GITHUB_REF_NAME jsou v Actions nastavené automaticky -
+            # díky tomu odkaz "přidat do blacklistu" na stránce vždy míří na aktuálně
+            # nasazenou větev, i po přejmenování/sloučení do jiné výchozí větve.
+            "full_name": os.environ.get("GITHUB_REPOSITORY", "vojtkali/job-seek-filtr"),
+            "branch": os.environ.get("GITHUB_REF_NAME", "claude/job-offers-filtering-hfug64"),
+        },
     }
     SITE_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     SITE_DATA_PATH.write_text(

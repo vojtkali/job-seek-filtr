@@ -26,6 +26,7 @@ class Offer:
     url: str
     employer: str | None = None
     salary: str | None = None
+    posted: str | None = None
     found_at: str = ""
 
     def to_dict(self) -> dict:

@@ -1,3 +1,5 @@
+let REPO_INFO = { full_name: "vojtkali/job-seek-filtr", branch: "claude/job-offers-filtering-hfug64" };
+
 async function main() {
   const metaEl = document.getElementById("meta");
   const runsEl = document.getElementById("runs");
@@ -12,6 +14,9 @@ async function main() {
     metaEl.textContent = "Data se ještě nepodařilo načíst (data.json chybí nebo je poškozený).";
     return;
   }
+
+  if (payload.repo) REPO_INFO = payload.repo;
+  setupAddKeywordForm();
 
   const runs = payload.runs || [];
   metaEl.textContent = runs.length
@@ -61,9 +66,46 @@ async function main() {
   }
 }
 
+function setupAddKeywordForm() {
+  const form = document.getElementById("add-keyword-form");
+  const input = document.getElementById("add-keyword-input");
+  const status = document.getElementById("add-keyword-status");
+  if (!form || !input) return;
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const term = input.value.trim();
+    if (!term) return;
+    blockTerm(term, status);
+    input.value = "";
+  });
+}
+
+function blacklistEditUrl() {
+  return `https://github.com/${REPO_INFO.full_name}/edit/${encodeURIComponent(REPO_INFO.branch)}/config/blacklist.txt`;
+}
+
+async function blockTerm(term, statusEl) {
+  let copied = false;
+  try {
+    await navigator.clipboard.writeText(term);
+    copied = true;
+  } catch (err) {
+    copied = false;
+  }
+  window.open(blacklistEditUrl(), "_blank", "noopener,noreferrer");
+  if (statusEl) {
+    statusEl.textContent = copied
+      ? `Zkopírováno: "${term}" — vlož ho na nový řádek do blacklist.txt, který se právě otevřel na GitHubu, a commitni.`
+      : `Otevřel se blacklist.txt na GitHubu — přidej na nový řádek: "${term}" a commitni (kopírování do schránky se nepovedlo).`;
+  }
+}
+
 function renderOffer(offer) {
+  const card = document.createElement("div");
+  card.className = "offer";
+
   const a = document.createElement("a");
-  a.className = "offer";
+  a.className = "offer-link";
   a.href = offer.url;
   a.target = "_blank";
   a.rel = "noopener noreferrer";
@@ -79,13 +121,31 @@ function renderOffer(offer) {
   const meta = document.createElement("div");
   meta.className = "offer-meta";
   const parts = [];
-  if (offer.employer) parts.push(offer.employer);
-  else parts.push("Neznámý zaměstnavatel");
+  parts.push(offer.employer || "Neznámý zaměstnavatel");
   if (offer.salary) parts.push(offer.salary);
+  if (offer.posted) parts.push(offer.posted);
   meta.textContent = parts.join(" · ");
   a.appendChild(meta);
 
-  return a;
+  card.appendChild(a);
+
+  if (offer.employer) {
+    const actions = document.createElement("div");
+    actions.className = "offer-actions";
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "block-btn";
+    btn.textContent = "🚫 Blokovat firmu";
+    btn.addEventListener("click", () => {
+      btn.textContent = "Zkopírováno ✓";
+      blockTerm(offer.employer, null);
+      setTimeout(() => { btn.textContent = "🚫 Blokovat firmu"; }, 3000);
+    });
+    actions.appendChild(btn);
+    card.appendChild(actions);
+  }
+
+  return card;
 }
 
 function formatDate(iso) {

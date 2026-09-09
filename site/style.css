@@ -72,21 +72,74 @@ main, #warnings { max-width: 860px; margin: 0 auto; }
 }
 
 .offer {
-  display: block;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 12px 14px;
   margin-bottom: 8px;
-  text-decoration: none;
-  color: var(--text);
 }
 
 .offer:hover { border-color: var(--accent); }
 
+.offer-link {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+}
+
 .offer-title { font-weight: 600; margin-bottom: 2px; }
 
 .offer-meta { font-size: 0.85rem; color: var(--muted); }
+
+.offer-actions {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.block-btn {
+  font-size: 0.78rem;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.block-btn:hover { color: var(--text); border-color: var(--accent); }
+
+.add-keyword-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  max-width: 480px;
+}
+
+.add-keyword-form input {
+  flex: 1;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.add-keyword-form button {
+  font-size: 0.8rem;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.add-keyword-form button:hover { border-color: var(--accent); }
+
+.add-keyword-status { min-height: 1.2em; margin-top: 6px; }
 
 .badge {
   display: inline-block;
