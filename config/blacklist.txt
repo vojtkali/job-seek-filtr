@@ -14,3 +14,5 @@ SalesDesk Czech Republic
 psychiatr
 accountant
 účetní
+mobil pohotovost
+elektromontér
