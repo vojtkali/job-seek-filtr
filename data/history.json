@@ -4787,5 +4787,22 @@
       }
     },
     "warnings": []
+  },
+  {
+    "run_at": "2026-09-09T11:56:42.378124+00:00",
+    "offers": [],
+    "counts": {
+      "jobscz": {
+        "total_found": 60,
+        "new": 0,
+        "blacklisted": 0
+      },
+      "pracecz": {
+        "total_found": 53,
+        "new": 0,
+        "blacklisted": 0
+      }
+    },
+    "warnings": []
   }
 ]
