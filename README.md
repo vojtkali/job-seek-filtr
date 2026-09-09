@@ -80,20 +80,22 @@ GitHub spouští naplánované (`schedule`) workflow jen z výchozí větve repa
 Dokud tuhle větev nesloučíš/nenastavíš jako výchozí, spouštěj scraper ručně
 přes záložku *Actions → Scrape job offers → Run workflow*.
 
-## Blokování zaměstnavatelů
+## Blokování klíčových slov (firmy i typy pozic)
 
-Přidej jméno firmy (stačí část, hledá se jako podřetězec, nezáleží na
-velikosti písmen) na nový řádek do `config/blacklist.txt`:
+Přidej výraz (stačí část, hledá se jako podřetězec, nezáleží na velikosti
+písmen) na nový řádek do `config/blacklist.txt`. Kontroluje se jak jméno
+zaměstnavatele, tak název pozice, takže jedním seznamem jde blokovat obojí:
 
 ```
 Grafton Recruitment
 Randstad
+stavbyvedoucí
 ```
 
-Nabídky od blokovaných firem se od dalšího běhu přestanou zobrazovat (ale
-scraper si je dál interně eviduje jako "viděné", takže se po odblokování
-znovu nevynoří jako "nové", pokud mezitím nepřibyla nová nabídka od stejné
-firmy).
+Nabídky odpovídající blacklistu se od dalšího běhu přestanou zobrazovat
+(ale scraper si je dál interně eviduje jako "viděné", takže se po odebrání
+z blacklistu znovu nevynoří jako "nové", pokud mezitím nepřibyla nová
+nabídka se stejným zaměstnavatelem/slovem v názvu).
 
 ## Lokální spuštění / test
 

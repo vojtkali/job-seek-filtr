@@ -57,11 +57,12 @@ def load_blacklist() -> list[str]:
     return entries
 
 
-def is_blacklisted(employer: str | None, blacklist: list[str]) -> bool:
-    if not employer:
-        return False
-    employer_lower = employer.lower()
-    return any(term in employer_lower for term in blacklist)
+def is_blacklisted(offer: Offer, blacklist: list[str]) -> bool:
+    """Blacklist se hledá jako podřetězec (case-insensitive) v názvu pozice
+    i ve jméně zaměstnavatele - jeden seznam pokrývá obojí (firmy i klíčová
+    slova jako "stavbyvedoucí")."""
+    haystack = f"{offer.title} {offer.employer or ''}".lower()
+    return any(term in haystack for term in blacklist)
 
 
 _WS_RE = re.compile(r"\s+")

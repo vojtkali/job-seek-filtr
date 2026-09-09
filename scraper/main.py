@@ -98,7 +98,7 @@ def run() -> int:
                 continue
             new_count += 1
             seen_ids.add(offer.id)
-            if is_blacklisted(offer.employer, blacklist):
+            if is_blacklisted(offer, blacklist):
                 blacklisted_count += 1
                 continue
             offer.found_at = now_iso

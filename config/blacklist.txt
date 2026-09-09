@@ -1,8 +1,10 @@
-# Zaměstnavatelé, jejichž nabídky nechceš vidět.
-# Jeden název (nebo jeho část) na řádek, řádky začínající # se ignorují.
-# Porovnání je case-insensitive a hledá se jako podřetězec ve jméně firmy,
-# takže stačí napsat kus názvu, např. "Grafton" chytí i "Grafton Recruitment s.r.o.".
+# Klíčová slova, která tě nezajímají - nabídka se odfiltruje, pokud se
+# libovolné z nich (jako podřetězec, case-insensitive) objeví buď v názvu
+# pozice, nebo ve jméně zaměstnavatele. Jeden výraz na řádek, řádky
+# začínající # se ignorují.
 #
-# Příklad:
+# Můžeš tak blokovat konkrétní firmy i celé typy pozic najednou:
+#
 # Grafton Recruitment
 # Randstad
+# stavbyvedoucí
