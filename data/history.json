@@ -5458,5 +5458,1605 @@
     "warnings": [
       "LinkedIn: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
     ]
+  },
+  {
+    "run_at": "2026-09-09T20:10:56.525226+00:00",
+    "offers": [
+      {
+        "id": "4454408490",
+        "site": "linkedin",
+        "title": "Pueblo Viejo - Project Lead",
+        "url": "https://www.linkedin.com/jobs/view/4454408490",
+        "employer": "Barrick Pueblo Viejo",
+        "salary": null,
+        "posted": "2026-09-08",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4460755684",
+        "site": "linkedin",
+        "title": "Marketing Project Coordinator",
+        "url": "https://www.linkedin.com/jobs/view/4460755684",
+        "employer": "Ultimate Jet Vacations",
+        "salary": null,
+        "posted": "2026-09-06",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4434191236",
+        "site": "linkedin",
+        "title": "Pueblo Viejo – Construction Project Professionals – Expression of Interest",
+        "url": "https://www.linkedin.com/jobs/view/4434191236",
+        "employer": "Barrick Mining Corporation",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4460743805",
+        "site": "linkedin",
+        "title": "Gestor de Proyectos Estrategicos",
+        "url": "https://www.linkedin.com/jobs/view/4460743805",
+        "employer": "Industrias San Miguel",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462837976",
+        "site": "linkedin",
+        "title": "Project Coordinator",
+        "url": "https://www.linkedin.com/jobs/view/4462837976",
+        "employer": "Vertiv",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4461516453",
+        "site": "linkedin",
+        "title": "Project Manager",
+        "url": "https://www.linkedin.com/jobs/view/4461516453",
+        "employer": "Applaudo",
+        "salary": null,
+        "posted": "2026-09-01",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4461509665",
+        "site": "linkedin",
+        "title": "Project Manager",
+        "url": "https://www.linkedin.com/jobs/view/4461509665",
+        "employer": "Applaudo",
+        "salary": null,
+        "posted": "2026-09-01",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4393479041",
+        "site": "linkedin",
+        "title": "PROJEKTOVÝ MANAŽER - STAVEBNÍ ZAMĚŘENÍ (M/Ž)",
+        "url": "https://www.linkedin.com/jobs/view/4393479041",
+        "employer": "Lhoist",
+        "salary": null,
+        "posted": "2026-08-31",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4457177120",
+        "site": "linkedin",
+        "title": "TECNICO PROYECTOS FUNDACION DOMINICANA",
+        "url": "https://www.linkedin.com/jobs/view/4457177120",
+        "employer": "ACCIONA",
+        "salary": null,
+        "posted": "2026-08-24",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454424574",
+        "site": "linkedin",
+        "title": "Project Manager – Construcción",
+        "url": "https://www.linkedin.com/jobs/view/4454424574",
+        "employer": "ccompass",
+        "salary": null,
+        "posted": "2026-08-17",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4451279203",
+        "site": "linkedin",
+        "title": "Gestor de Proyectos Estratégicos",
+        "url": "https://www.linkedin.com/jobs/view/4451279203",
+        "employer": "Industrias San Miguel",
+        "salary": null,
+        "posted": "2026-08-14",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4457143489",
+        "site": "linkedin",
+        "title": "PLANEADORA DE EVENTOS -BODAS- HIBRIDO - BILINGUE",
+        "url": "https://www.linkedin.com/jobs/view/4457143489",
+        "employer": "All People International",
+        "salary": null,
+        "posted": "2026-07-30",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4443882183",
+        "site": "linkedin",
+        "title": "Gerente de obra",
+        "url": "https://www.linkedin.com/jobs/view/4443882183",
+        "employer": "Hermida Constructora",
+        "salary": null,
+        "posted": "2026-07-23",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4443326702",
+        "site": "linkedin",
+        "title": "项目管理",
+        "url": "https://www.linkedin.com/jobs/view/4443326702",
+        "employer": "北京弘德信医药科技有限公司",
+        "salary": null,
+        "posted": "2026-07-21",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4440976261",
+        "site": "linkedin",
+        "title": "Project Manager - Architecture",
+        "url": "https://www.linkedin.com/jobs/view/4440976261",
+        "employer": "Gensler",
+        "salary": null,
+        "posted": "2026-07-15",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4436962388",
+        "site": "linkedin",
+        "title": "Corporativo - Coordinador Nuevas Tecnologías",
+        "url": "https://www.linkedin.com/jobs/view/4436962388",
+        "employer": "Centro Cuesta Nacional",
+        "salary": null,
+        "posted": "2026-07-04",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4436393638",
+        "site": "linkedin",
+        "title": "VIE Deputy Program",
+        "url": "https://www.linkedin.com/jobs/view/4436393638",
+        "employer": "Faurecia",
+        "salary": null,
+        "posted": "2026-07-02",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4432025892",
+        "site": "linkedin",
+        "title": "Construction Project Manager (on-site in Cabarete, Dominican Republic)",
+        "url": "https://www.linkedin.com/jobs/view/4432025892",
+        "employer": "Utopia Design",
+        "salary": null,
+        "posted": "2026-06-22",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4423122907",
+        "site": "linkedin",
+        "title": "Construction project manager(on-site in Cabarete)",
+        "url": "https://www.linkedin.com/jobs/view/4423122907",
+        "employer": "Utopia Design",
+        "salary": null,
+        "posted": "2026-06-10",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4248019557",
+        "site": "linkedin",
+        "title": "项目管理岗（吊装）",
+        "url": "https://www.linkedin.com/jobs/view/4248019557",
+        "employer": "特变电工国际工程有限公司",
+        "salary": null,
+        "posted": "2025-06-10",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4248023016",
+        "site": "linkedin",
+        "title": "项目管理岗（合规）",
+        "url": "https://www.linkedin.com/jobs/view/4248023016",
+        "employer": "特变电工国际工程有限公司",
+        "salary": null,
+        "posted": "2025-06-10",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464109234",
+        "site": "linkedin",
+        "title": "Technical Project Manager - Remote Work",
+        "url": "https://www.linkedin.com/jobs/view/4464109234",
+        "employer": "BairesDev",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464127367",
+        "site": "linkedin",
+        "title": "Semi Senior Project Manager - Remote Work",
+        "url": "https://www.linkedin.com/jobs/view/4464127367",
+        "employer": "BairesDev",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464995131",
+        "site": "linkedin",
+        "title": "Manažer/ka projektového managementu - sériové projekty",
+        "url": "https://www.linkedin.com/jobs/view/4464995131",
+        "employer": "MANN+HUMMEL",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4437813043",
+        "site": "linkedin",
+        "title": "Pueblo Viejo - Superintendente(a) Proyectos Estratégicos",
+        "url": "https://www.linkedin.com/jobs/view/4437813043",
+        "employer": "Barrick Pueblo Viejo",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464665017",
+        "site": "linkedin",
+        "title": "Manager/Senior Manager - EA&D(AI&D) - SH/BJ/SZ/GZ",
+        "url": "https://www.linkedin.com/jobs/view/4464665017",
+        "employer": "Deloitte",
+        "salary": null,
+        "posted": "2026-09-08",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464313933",
+        "site": "linkedin",
+        "title": "Consultant/Senior Consultant/Manager- SAP - Beijing/Shanghai/Shenzhen/Guangzhou副本1",
+        "url": "https://www.linkedin.com/jobs/view/4464313933",
+        "employer": "Deloitte",
+        "salary": null,
+        "posted": "2026-09-07",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4463189891",
+        "site": "linkedin",
+        "title": "Consultant/Senior Consultant/Manager- SAP - Beijing/Shanghai/Shenzhen/Guangzhou",
+        "url": "https://www.linkedin.com/jobs/view/4463189891",
+        "employer": "Deloitte",
+        "salary": null,
+        "posted": "2026-09-04",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4435111638",
+        "site": "linkedin",
+        "title": "Assistant Manager/Manager(PP/MM/SD/Basis)- SAP - GDC - CQ/GZ/DL(106495)",
+        "url": "https://www.linkedin.com/jobs/view/4435111638",
+        "employer": "Deloitte",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4435101619",
+        "site": "linkedin",
+        "title": "Assistant Manager/Manager(FICO)- SAP - GDC - CQ/GZ/DL(106496)",
+        "url": "https://www.linkedin.com/jobs/view/4435101619",
+        "employer": "Deloitte",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4457620143",
+        "site": "linkedin",
+        "title": "Gerente de Sucursal La Vega",
+        "url": "https://www.linkedin.com/jobs/view/4457620143",
+        "employer": "Atlántica Seguros, S.A",
+        "salary": null,
+        "posted": "2026-08-25",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4455853569",
+        "site": "linkedin",
+        "title": "Deputy Director",
+        "url": "https://www.linkedin.com/jobs/view/4455853569",
+        "employer": "Bahia Principe Hotels & Resorts",
+        "salary": null,
+        "posted": "2026-08-24",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4457853376",
+        "site": "linkedin",
+        "title": "Gerente de Ingeniería de Software",
+        "url": "https://www.linkedin.com/jobs/view/4457853376",
+        "employer": "DEVOCHO",
+        "salary": null,
+        "posted": "2026-08-22",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4446867775",
+        "site": "linkedin",
+        "title": "Gerente de Estación Iberica.",
+        "url": "https://www.linkedin.com/jobs/view/4446867775",
+        "employer": "TotalEnergies",
+        "salary": null,
+        "posted": "2026-08-20",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4446870816",
+        "site": "linkedin",
+        "title": "Gerente de Estación La perla.",
+        "url": "https://www.linkedin.com/jobs/view/4446870816",
+        "employer": "TotalEnergies",
+        "salary": null,
+        "posted": "2026-08-20",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4455411998",
+        "site": "linkedin",
+        "title": "General Manager",
+        "url": "https://www.linkedin.com/jobs/view/4455411998",
+        "employer": "Confidential Careers",
+        "salary": null,
+        "posted": "2026-08-19",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4452600525",
+        "site": "linkedin",
+        "title": "Corporativo - Gerente Tienda",
+        "url": "https://www.linkedin.com/jobs/view/4452600525",
+        "employer": "Centro Cuesta Nacional",
+        "salary": null,
+        "posted": "2026-08-11",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4449795069",
+        "site": "linkedin",
+        "title": "Gerente De Finanza y Contabilidad",
+        "url": "https://www.linkedin.com/jobs/view/4449795069",
+        "employer": "Taurus Security Service",
+        "salary": null,
+        "posted": "2026-08-05",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4438340724",
+        "site": "linkedin",
+        "title": "Gerente de Ventas Santiago",
+        "url": "https://www.linkedin.com/jobs/view/4438340724",
+        "employer": "Grupo L&R Comercial S.R.L",
+        "salary": null,
+        "posted": "2026-07-09",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "3681082152",
+        "site": "linkedin",
+        "title": "部门领导 - 带个人详细资料",
+        "url": "https://www.linkedin.com/jobs/view/3681082152",
+        "employer": "Hyatt Regency",
+        "salary": null,
+        "posted": "2026-06-19",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4430471113",
+        "site": "linkedin",
+        "title": "GERENTE DE TIENDA",
+        "url": "https://www.linkedin.com/jobs/view/4430471113",
+        "employer": "Evaluar",
+        "salary": null,
+        "posted": "2026-06-18",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4391861555",
+        "site": "linkedin",
+        "title": "Store Manager /vedoucí prodejny",
+        "url": "https://www.linkedin.com/jobs/view/4391861555",
+        "employer": "The Estée Lauder Companies Inc.",
+        "salary": null,
+        "posted": "2026-04-04",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4376714787",
+        "site": "linkedin",
+        "title": "产业运营岗",
+        "url": "https://www.linkedin.com/jobs/view/4376714787",
+        "employer": "特变电工国际工程有限公司",
+        "salary": null,
+        "posted": "2026-02-25",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4377064058",
+        "site": "linkedin",
+        "title": "BRIK Kennedy - Jefe Comercial",
+        "url": "https://www.linkedin.com/jobs/view/4377064058",
+        "employer": "Centro Cuesta Nacional",
+        "salary": null,
+        "posted": "2026-02-23",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4248019555",
+        "site": "linkedin",
+        "title": "项目管理岗（成本）",
+        "url": "https://www.linkedin.com/jobs/view/4248019555",
+        "employer": "特变电工国际工程有限公司",
+        "salary": null,
+        "posted": "2025-06-10",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4455343765",
+        "site": "linkedin",
+        "title": "Field Marketing Manager",
+        "url": "https://www.linkedin.com/jobs/view/4455343765",
+        "employer": "Check Point Software",
+        "salary": null,
+        "posted": "2026-09-08",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462998944",
+        "site": "linkedin",
+        "title": "Sr. Brand Development Manager",
+        "url": "https://www.linkedin.com/jobs/view/4462998944",
+        "employer": "Colgate-Palmolive",
+        "salary": null,
+        "posted": "2026-09-08",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462937565",
+        "site": "linkedin",
+        "title": "Coordinador de mercadeo",
+        "url": "https://www.linkedin.com/jobs/view/4462937565",
+        "employer": "Empresa Confidencial",
+        "salary": null,
+        "posted": "2026-09-07",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462664015",
+        "site": "linkedin",
+        "title": "Gerente de Marketing eCommerce",
+        "url": "https://www.linkedin.com/jobs/view/4462664015",
+        "employer": "Atlántica Seguros, S.A",
+        "salary": null,
+        "posted": "2026-09-04",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462850778",
+        "site": "linkedin",
+        "title": "UA/Growth Manager",
+        "url": "https://www.linkedin.com/jobs/view/4462850778",
+        "employer": "Billdu",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4459966981",
+        "site": "linkedin",
+        "title": "Marketing Manager",
+        "url": "https://www.linkedin.com/jobs/view/4459966981",
+        "employer": "Secrets Resorts",
+        "salary": null,
+        "posted": "2026-09-02",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4460966081",
+        "site": "linkedin",
+        "title": "灵犀互娱——品牌营销高级专家",
+        "url": "https://www.linkedin.com/jobs/view/4460966081",
+        "employer": "NStarts Consultants Co Ltd (Hong Kong Branch)",
+        "salary": null,
+        "posted": "2026-09-02",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4459268883",
+        "site": "linkedin",
+        "title": "Managing Consultant, Advisors & Consulting Services, Marketing",
+        "url": "https://www.linkedin.com/jobs/view/4459268883",
+        "employer": "Mastercard",
+        "salary": null,
+        "posted": "2026-09-01",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4458898617",
+        "site": "linkedin",
+        "title": "Jefe de Trade Marketing Operativo Caribe",
+        "url": "https://www.linkedin.com/jobs/view/4458898617",
+        "employer": "Corporación Multi Inversiones",
+        "salary": null,
+        "posted": "2026-08-31",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4458957923",
+        "site": "linkedin",
+        "title": "Marketing Director",
+        "url": "https://www.linkedin.com/jobs/view/4458957923",
+        "employer": "CCD",
+        "salary": null,
+        "posted": "2026-08-28",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4460177465",
+        "site": "linkedin",
+        "title": "Marketing Analyst - Greater Caribbean",
+        "url": "https://www.linkedin.com/jobs/view/4460177465",
+        "employer": "Colgate-Palmolive",
+        "salary": null,
+        "posted": "2026-08-28",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4456698506",
+        "site": "linkedin",
+        "title": "区域市场推广经理（广州)",
+        "url": "https://www.linkedin.com/jobs/view/4456698506",
+        "employer": "ShanZeBIO",
+        "salary": null,
+        "posted": "2026-08-23",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4456238387",
+        "site": "linkedin",
+        "title": "GERENTE DE MERCADEO",
+        "url": "https://www.linkedin.com/jobs/view/4456238387",
+        "employer": "RAC CONSULTORIA Y NEGOCIOS SRL",
+        "salary": null,
+        "posted": "2026-08-21",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4456749252",
+        "site": "linkedin",
+        "title": "Encargado de Trade Marketing Off Trade",
+        "url": "https://www.linkedin.com/jobs/view/4456749252",
+        "employer": "El Catador",
+        "salary": null,
+        "posted": "2026-08-20",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4455154664",
+        "site": "linkedin",
+        "title": "Corporativo - Gerente Mercadeo",
+        "url": "https://www.linkedin.com/jobs/view/4455154664",
+        "employer": "Centro Cuesta Nacional",
+        "salary": null,
+        "posted": "2026-08-16",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4448080858",
+        "site": "linkedin",
+        "title": "Community manager",
+        "url": "https://www.linkedin.com/jobs/view/4448080858",
+        "employer": "Hodelpa Nicolas de Ovando",
+        "salary": null,
+        "posted": "2026-08-06",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4445124911",
+        "site": "linkedin",
+        "title": "Brand Manager — República Dominicana",
+        "url": "https://www.linkedin.com/jobs/view/4445124911",
+        "employer": "Linuo Group",
+        "salary": null,
+        "posted": "2026-07-27",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4444672551",
+        "site": "linkedin",
+        "title": "Gerente de Mercadeo, Comunicaciones y Relaciones Institucionales",
+        "url": "https://www.linkedin.com/jobs/view/4444672551",
+        "employer": "Linuo Group",
+        "salary": null,
+        "posted": "2026-07-25",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4423955809",
+        "site": "linkedin",
+        "title": "Community Manager / Social Media Manager",
+        "url": "https://www.linkedin.com/jobs/view/4423955809",
+        "employer": "SH Marketer",
+        "salary": null,
+        "posted": "2026-06-01",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4372049608",
+        "site": "linkedin",
+        "title": "品牌战略岗",
+        "url": "https://www.linkedin.com/jobs/view/4372049608",
+        "employer": "特变电工国际工程有限公司",
+        "salary": null,
+        "posted": "2026-02-14",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462569749",
+        "site": "linkedin",
+        "title": "Creator & Influencer Manager - Media",
+        "url": "https://www.linkedin.com/jobs/view/4462569749",
+        "employer": "Truelogic",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464927633",
+        "site": "linkedin",
+        "title": "Encargado de Mercadeo",
+        "url": "https://www.linkedin.com/jobs/view/4464927633",
+        "employer": "We Recruit DR",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464687008",
+        "site": "linkedin",
+        "title": "Líder de Eventos, Marketing y Relaciones Públicas",
+        "url": "https://www.linkedin.com/jobs/view/4464687008",
+        "employer": "People Working Corp",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464100318",
+        "site": "linkedin",
+        "title": "Ecommerce Manager",
+        "url": "https://www.linkedin.com/jobs/view/4464100318",
+        "employer": "Xploy Solutions",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462535423",
+        "site": "linkedin",
+        "title": "eCommerce Specialist (Greater Caribbean)",
+        "url": "https://www.linkedin.com/jobs/view/4462535423",
+        "employer": "Colgate-Palmolive",
+        "salary": null,
+        "posted": "2026-09-08",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4433786991",
+        "site": "linkedin",
+        "title": "Director(a) de Ventas y Marketing",
+        "url": "https://www.linkedin.com/jobs/view/4433786991",
+        "employer": "Hyatt",
+        "salary": null,
+        "posted": "2026-09-08",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462312896",
+        "site": "linkedin",
+        "title": "Assistant Product Manager",
+        "url": "https://www.linkedin.com/jobs/view/4462312896",
+        "employer": "Midea Latam North",
+        "salary": null,
+        "posted": "2026-09-04",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4460765274",
+        "site": "linkedin",
+        "title": "Gerente OTC",
+        "url": "https://www.linkedin.com/jobs/view/4460765274",
+        "employer": "Ethical Pharmaceutical",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4463103330",
+        "site": "linkedin",
+        "title": "Analista Sr. de Trade Marketing",
+        "url": "https://www.linkedin.com/jobs/view/4463103330",
+        "employer": "Arbex",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462898414",
+        "site": "linkedin",
+        "title": "Account Manager Beauty & Personal Care/Home Care and I&I",
+        "url": "https://www.linkedin.com/jobs/view/4462898414",
+        "employer": "IMCD Group",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4458303467",
+        "site": "linkedin",
+        "title": "Coordinador Senior Marcas",
+        "url": "https://www.linkedin.com/jobs/view/4458303467",
+        "employer": "Centro Cuesta Nacional",
+        "salary": null,
+        "posted": "2026-08-26",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4459171591",
+        "site": "linkedin",
+        "title": "Gerente de Distrito",
+        "url": "https://www.linkedin.com/jobs/view/4459171591",
+        "employer": "Grupo Profarmaco",
+        "salary": null,
+        "posted": "2026-08-26",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454791231",
+        "site": "linkedin",
+        "title": "Coordinador de Mercadeo",
+        "url": "https://www.linkedin.com/jobs/view/4454791231",
+        "employer": "Macros Consulting",
+        "salary": null,
+        "posted": "2026-08-07",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4445864083",
+        "site": "linkedin",
+        "title": "互联网营销经理",
+        "url": "https://www.linkedin.com/jobs/view/4445864083",
+        "employer": "Changzhou Zhonghuan Internet Technology Co., Ltd.",
+        "salary": null,
+        "posted": "2026-08-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4459613068",
+        "site": "linkedin",
+        "title": "Coordinadora/o de Marcas",
+        "url": "https://www.linkedin.com/jobs/view/4459613068",
+        "employer": "Multimedios del Caribe",
+        "salary": null,
+        "posted": "2026-08-01",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4416837980",
+        "site": "linkedin",
+        "title": "Director Comercial (RD)",
+        "url": "https://www.linkedin.com/jobs/view/4416837980",
+        "employer": "Prime Janitorial Service Corporation",
+        "salary": null,
+        "posted": "2026-05-01",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464487201",
+        "site": "linkedin",
+        "title": "Operations manažer/ka",
+        "url": "https://www.linkedin.com/jobs/view/4464487201",
+        "employer": "MANN+HUMMEL",
+        "salary": null,
+        "posted": "2026-09-08",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462502821",
+        "site": "linkedin",
+        "title": "Ops Material Manager",
+        "url": "https://www.linkedin.com/jobs/view/4462502821",
+        "employer": "Eaton",
+        "salary": null,
+        "posted": "2026-09-08",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4464376131",
+        "site": "linkedin",
+        "title": "Gerente de Ciberseguridad",
+        "url": "https://www.linkedin.com/jobs/view/4464376131",
+        "employer": "Unika",
+        "salary": null,
+        "posted": "2026-09-07",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4414908624",
+        "site": "linkedin",
+        "title": "Shift Leader",
+        "url": "https://www.linkedin.com/jobs/view/4414908624",
+        "employer": "Parker Hannifin",
+        "salary": null,
+        "posted": "2026-08-31",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4459420186",
+        "site": "linkedin",
+        "title": "Maintenance Manager",
+        "url": "https://www.linkedin.com/jobs/view/4459420186",
+        "employer": "DC Global Talent Inc.",
+        "salary": null,
+        "posted": "2026-08-31",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4458498161",
+        "site": "linkedin",
+        "title": "Manufacturing Engineering Manager",
+        "url": "https://www.linkedin.com/jobs/view/4458498161",
+        "employer": "Eaton",
+        "salary": null,
+        "posted": "2026-08-29",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4459395030",
+        "site": "linkedin",
+        "title": "Concierge & Villa Manager",
+        "url": "https://www.linkedin.com/jobs/view/4459395030",
+        "employer": "Volalto Group",
+        "salary": null,
+        "posted": "2026-08-26",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4411809530",
+        "site": "linkedin",
+        "title": "Learning, Development & Quality Manager – Amanera",
+        "url": "https://www.linkedin.com/jobs/view/4411809530",
+        "employer": "Aman",
+        "salary": null,
+        "posted": "2026-08-23",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4420414635",
+        "site": "linkedin",
+        "title": "(Senior)Consultant/Manager - Supply Chain & Networks Operation - Shanghai/Beijing/Shenzhen(106245)",
+        "url": "https://www.linkedin.com/jobs/view/4420414635",
+        "employer": "Deloitte",
+        "salary": null,
+        "posted": "2026-08-22",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454192734",
+        "site": "linkedin",
+        "title": "Gerente de Ventas",
+        "url": "https://www.linkedin.com/jobs/view/4454192734",
+        "employer": "Dreams Dominicus La Romana",
+        "salary": null,
+        "posted": "2026-08-21",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4455303659",
+        "site": "linkedin",
+        "title": "Manufacturing Quality Manager",
+        "url": "https://www.linkedin.com/jobs/view/4455303659",
+        "employer": "Hayco",
+        "salary": null,
+        "posted": "2026-08-17",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454393219",
+        "site": "linkedin",
+        "title": "Local Purchasing Manager",
+        "url": "https://www.linkedin.com/jobs/view/4454393219",
+        "employer": "MANN+HUMMEL",
+        "salary": null,
+        "posted": "2026-08-14",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4453258008",
+        "site": "linkedin",
+        "title": "Gerente de Operaciones",
+        "url": "https://www.linkedin.com/jobs/view/4453258008",
+        "employer": "Ixiene Proservices",
+        "salary": null,
+        "posted": "2026-08-13",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4451949204",
+        "site": "linkedin",
+        "title": "Operations Manager",
+        "url": "https://www.linkedin.com/jobs/view/4451949204",
+        "employer": "RemoteVA",
+        "salary": null,
+        "posted": "2026-08-11",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4447644767",
+        "site": "linkedin",
+        "title": "306847 - Gerente de Operaciones",
+        "url": "https://www.linkedin.com/jobs/view/4447644767",
+        "employer": "VÜO Partners",
+        "salary": null,
+        "posted": "2026-07-29",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4440988417",
+        "site": "linkedin",
+        "title": "Fleet Manager",
+        "url": "https://www.linkedin.com/jobs/view/4440988417",
+        "employer": "Boels Rental",
+        "salary": null,
+        "posted": "2026-07-17",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4432031096",
+        "site": "linkedin",
+        "title": "Construction Project Manager (on-site in Cabarete, Dominican Republic)",
+        "url": "https://www.linkedin.com/jobs/view/4432031096",
+        "employer": "Utopia Design",
+        "salary": null,
+        "posted": "2026-06-22",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4421211871",
+        "site": "linkedin",
+        "title": "Merchant Experience Manager",
+        "url": "https://www.linkedin.com/jobs/view/4421211871",
+        "employer": "One Park Financial",
+        "salary": null,
+        "posted": "2026-05-29",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4391225774",
+        "site": "linkedin",
+        "title": "安全经理",
+        "url": "https://www.linkedin.com/jobs/view/4391225774",
+        "employer": "特变电工国际工程有限公司",
+        "salary": null,
+        "posted": "2026-03-28",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4391222853",
+        "site": "linkedin",
+        "title": "机电经理",
+        "url": "https://www.linkedin.com/jobs/view/4391222853",
+        "employer": "特变电工国际工程有限公司",
+        "salary": null,
+        "posted": "2026-03-28",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4390697395",
+        "site": "linkedin",
+        "title": "FES&Productivity Manager",
+        "url": "https://www.linkedin.com/jobs/view/4390697395",
+        "employer": "Faurecia",
+        "salary": null,
+        "posted": "2026-03-26",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4463880334",
+        "site": "linkedin",
+        "title": "BIM Manager",
+        "url": "https://www.linkedin.com/jobs/view/4463880334",
+        "employer": "Ureval Arquitectos e Ingenieros",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4463542396",
+        "site": "linkedin",
+        "title": "Chofer Repartidor",
+        "url": "https://www.linkedin.com/jobs/view/4463542396",
+        "employer": "INFALAB S.R.L.",
+        "salary": null,
+        "posted": "2026-09-08",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4461317734",
+        "site": "linkedin",
+        "title": "Mensajero La Romana",
+        "url": "https://www.linkedin.com/jobs/view/4461317734",
+        "employer": "Eco Mensajería",
+        "salary": null,
+        "posted": "2026-09-02",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462416078",
+        "site": "linkedin",
+        "title": "Chofer de Almacén",
+        "url": "https://www.linkedin.com/jobs/view/4462416078",
+        "employer": "MailAmericas",
+        "salary": null,
+        "posted": "2026-09-02",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462400607",
+        "site": "linkedin",
+        "title": "Chofer de Almacén",
+        "url": "https://www.linkedin.com/jobs/view/4462400607",
+        "employer": "MailAmericas",
+        "salary": null,
+        "posted": "2026-09-02",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4459020057",
+        "site": "linkedin",
+        "title": "Casa Cuesta Santiago - Chofer Camión",
+        "url": "https://www.linkedin.com/jobs/view/4459020057",
+        "employer": "Centro Cuesta Nacional",
+        "salary": null,
+        "posted": "2026-08-25",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4457162555",
+        "site": "linkedin",
+        "title": "Chofer",
+        "url": "https://www.linkedin.com/jobs/view/4457162555",
+        "employer": "OmegaTech",
+        "salary": null,
+        "posted": "2026-08-24",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454288899",
+        "site": "linkedin",
+        "title": "Chofer patanista",
+        "url": "https://www.linkedin.com/jobs/view/4454288899",
+        "employer": "Nesplas, S.A.",
+        "salary": null,
+        "posted": "2026-08-17",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4455122756",
+        "site": "linkedin",
+        "title": "Casa Cuesta Punta Cana - Chofer Camión",
+        "url": "https://www.linkedin.com/jobs/view/4455122756",
+        "employer": "Centro Cuesta Nacional",
+        "salary": null,
+        "posted": "2026-08-15",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4453954180",
+        "site": "linkedin",
+        "title": "Chofer Moca ( Casa Dominicana )",
+        "url": "https://www.linkedin.com/jobs/view/4453954180",
+        "employer": "Grupo L&R Comercial S.R.L",
+        "salary": null,
+        "posted": "2026-08-15",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4450751490",
+        "site": "linkedin",
+        "title": "Chofer Categoria 3 y 4",
+        "url": "https://www.linkedin.com/jobs/view/4450751490",
+        "employer": "Cilpen Global",
+        "salary": null,
+        "posted": "2026-08-06",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4459621005",
+        "site": "linkedin",
+        "title": "Chofer",
+        "url": "https://www.linkedin.com/jobs/view/4459621005",
+        "employer": "Multimedios del Caribe",
+        "salary": null,
+        "posted": "2026-08-01",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4446902442",
+        "site": "linkedin",
+        "title": "Chofer Distribuidor / Logística",
+        "url": "https://www.linkedin.com/jobs/view/4446902442",
+        "employer": "BIZ",
+        "salary": null,
+        "posted": "2026-07-29",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4446442169",
+        "site": "linkedin",
+        "title": "Chofer distribuidor",
+        "url": "https://www.linkedin.com/jobs/view/4446442169",
+        "employer": "Pega Forte",
+        "salary": null,
+        "posted": "2026-07-29",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4443896711",
+        "site": "linkedin",
+        "title": "Chofer Catg.3 y 4",
+        "url": "https://www.linkedin.com/jobs/view/4443896711",
+        "employer": "Confidencial",
+        "salary": null,
+        "posted": "2026-07-23",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4444383770",
+        "site": "linkedin",
+        "title": "Chofer de camión categoría 3",
+        "url": "https://www.linkedin.com/jobs/view/4444383770",
+        "employer": "Conex, S.A.S.",
+        "salary": null,
+        "posted": "2026-07-23",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4444013599",
+        "site": "linkedin",
+        "title": "Mensajero",
+        "url": "https://www.linkedin.com/jobs/view/4444013599",
+        "employer": "Farmacias VIP Mendo.",
+        "salary": null,
+        "posted": "2026-07-22",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4441740483",
+        "site": "linkedin",
+        "title": "Chofer vehiculo mecanico",
+        "url": "https://www.linkedin.com/jobs/view/4441740483",
+        "employer": "Camusat",
+        "salary": null,
+        "posted": "2026-07-17",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4435256125",
+        "site": "linkedin",
+        "title": "Chofer La vega ( Casa Dominicana )",
+        "url": "https://www.linkedin.com/jobs/view/4435256125",
+        "employer": "Grupo L&R Comercial S.R.L",
+        "salary": null,
+        "posted": "2026-07-02",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4444744742",
+        "site": "linkedin",
+        "title": "Chofer Vacacionista",
+        "url": "https://www.linkedin.com/jobs/view/4444744742",
+        "employer": "Max Grupo Empresarial",
+        "salary": null,
+        "posted": "2026-06-28",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4443749098",
+        "site": "linkedin",
+        "title": "Chofer Rígido Zona Bávaro",
+        "url": "https://www.linkedin.com/jobs/view/4443749098",
+        "employer": "MOVITI RD",
+        "salary": null,
+        "posted": "2026-06-27",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4433878149",
+        "site": "linkedin",
+        "title": "Chofer de Camión-Externa",
+        "url": "https://www.linkedin.com/jobs/view/4433878149",
+        "employer": "Parque Industrial Duarte RD",
+        "salary": null,
+        "posted": "2026-06-26",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4424921843",
+        "site": "linkedin",
+        "title": "Chofer Vacacionista",
+        "url": "https://www.linkedin.com/jobs/view/4424921843",
+        "employer": "Max Grupo Empresarial",
+        "salary": null,
+        "posted": "2026-05-11",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4391107296",
+        "site": "linkedin",
+        "title": "CHOFER - SANTIAGO",
+        "url": "https://www.linkedin.com/jobs/view/4391107296",
+        "employer": "Dominican Watchman",
+        "salary": null,
+        "posted": "2026-03-26",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4224202996",
+        "site": "linkedin",
+        "title": "Chofer Ejecutivo",
+        "url": "https://www.linkedin.com/jobs/view/4224202996",
+        "employer": "MARTÍ",
+        "salary": null,
+        "posted": "2025-05-09",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4197999743",
+        "site": "linkedin",
+        "title": "Chofer Rígido Zona Bávaro",
+        "url": "https://www.linkedin.com/jobs/view/4197999743",
+        "employer": "MARTÍ",
+        "salary": null,
+        "posted": "2025-04-02",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4462964004",
+        "site": "linkedin",
+        "title": "Coordinador de nuevos productos e innovación alimentaria",
+        "url": "https://www.linkedin.com/jobs/view/4462964004",
+        "employer": "Sigma",
+        "salary": null,
+        "posted": "2026-09-07",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4460610294",
+        "site": "linkedin",
+        "title": "Manager Payments Value Proposition",
+        "url": "https://www.linkedin.com/jobs/view/4460610294",
+        "employer": "Scotiabank",
+        "salary": null,
+        "posted": "2026-09-01",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4458517847",
+        "site": "linkedin",
+        "title": "Dir, Regional Commercial ONC / Dir, Future Portfolio & Strategic Partnerships, Oncology LATAM",
+        "url": "https://www.linkedin.com/jobs/view/4458517847",
+        "employer": "MSD",
+        "salary": null,
+        "posted": "2026-08-24",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4450191306",
+        "site": "linkedin",
+        "title": "Product Manager Software",
+        "url": "https://www.linkedin.com/jobs/view/4450191306",
+        "employer": "Licencias OnLine",
+        "salary": null,
+        "posted": "2026-08-20",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4456170820",
+        "site": "linkedin",
+        "title": "Product Owner",
+        "url": "https://www.linkedin.com/jobs/view/4456170820",
+        "employer": "Pentasia",
+        "salary": null,
+        "posted": "2026-08-19",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454912324",
+        "site": "linkedin",
+        "title": "Product Manager Microcredit",
+        "url": "https://www.linkedin.com/jobs/view/4454912324",
+        "employer": "MIO",
+        "salary": null,
+        "posted": "2026-08-18",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4447512447",
+        "site": "linkedin",
+        "title": "ENCARGADO INNOVACION Y DESARROLLO",
+        "url": "https://www.linkedin.com/jobs/view/4447512447",
+        "employer": "Industrias Banilejas, SAS (INDUBAN)",
+        "salary": null,
+        "posted": "2026-07-31",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4447523282",
+        "site": "linkedin",
+        "title": "ENCARGADO DE PROYECTOS Y DESARROLLO INSTITUCIONAL",
+        "url": "https://www.linkedin.com/jobs/view/4447523282",
+        "employer": "Evaluar",
+        "salary": null,
+        "posted": "2026-07-31",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4433557328",
+        "site": "linkedin",
+        "title": "Senior Catalog Manager & PIM - Travel & Hospitality Tech",
+        "url": "https://www.linkedin.com/jobs/view/4433557328",
+        "employer": "Truelogic",
+        "salary": null,
+        "posted": "2026-06-26",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4400652603",
+        "site": "linkedin",
+        "title": "Corporativo - Product Owner",
+        "url": "https://www.linkedin.com/jobs/view/4400652603",
+        "employer": "Centro Cuesta Nacional",
+        "salary": null,
+        "posted": "2026-04-11",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4319443576",
+        "site": "linkedin",
+        "title": "Product Manager",
+        "url": "https://www.linkedin.com/jobs/view/4319443576",
+        "employer": "LunaJoy Health",
+        "salary": null,
+        "posted": "2025-10-29",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4465056138",
+        "site": "linkedin",
+        "title": "AI Product Manager",
+        "url": "https://www.linkedin.com/jobs/view/4465056138",
+        "employer": "Authority Partners",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4460761662",
+        "site": "linkedin",
+        "title": "Logistics Coordinator",
+        "url": "https://www.linkedin.com/jobs/view/4460761662",
+        "employer": "Ultimate Jet Vacations",
+        "salary": null,
+        "posted": "2026-09-03",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4460600521",
+        "site": "linkedin",
+        "title": "JEFE/A ANIMACIÓN",
+        "url": "https://www.linkedin.com/jobs/view/4460600521",
+        "employer": "Majestic Resorts",
+        "salary": null,
+        "posted": "2026-09-01",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4461004485",
+        "site": "linkedin",
+        "title": "Coordinador de Viajes y Eventos",
+        "url": "https://www.linkedin.com/jobs/view/4461004485",
+        "employer": "Spring Viajes y Eventos",
+        "salary": null,
+        "posted": "2026-08-30",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454192733",
+        "site": "linkedin",
+        "title": "Coordinador(a) de Grupos",
+        "url": "https://www.linkedin.com/jobs/view/4454192733",
+        "employer": "Hyatt Vivid Punta Cana",
+        "salary": null,
+        "posted": "2026-08-21",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4428700552",
+        "site": "linkedin",
+        "title": "COORDINADOR/A DE GRUPOS",
+        "url": "https://www.linkedin.com/jobs/view/4428700552",
+        "employer": "Majestic Resorts",
+        "salary": null,
+        "posted": "2026-06-17",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4428701590",
+        "site": "linkedin",
+        "title": "COORDINADOR/A DE BODAS",
+        "url": "https://www.linkedin.com/jobs/view/4428701590",
+        "employer": "Majestic Resorts",
+        "salary": null,
+        "posted": "2026-06-17",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4461993036",
+        "site": "linkedin",
+        "title": "Gerente de Gestión de Riesgos y Seguros",
+        "url": "https://www.linkedin.com/jobs/view/4461993036",
+        "employer": "Santo Domingo Motors",
+        "salary": null,
+        "posted": "2026-09-04",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4455454397",
+        "site": "linkedin",
+        "title": "Commercial Finance Manager",
+        "url": "https://www.linkedin.com/jobs/view/4455454397",
+        "employer": "Jabil",
+        "salary": null,
+        "posted": "2026-08-24",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4390140103",
+        "site": "linkedin",
+        "title": "Technical Superintendent",
+        "url": "https://www.linkedin.com/jobs/view/4390140103",
+        "employer": "Svitzer",
+        "salary": null,
+        "posted": "2026-08-22",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454479076",
+        "site": "linkedin",
+        "title": "Gerente de Contabilidad",
+        "url": "https://www.linkedin.com/jobs/view/4454479076",
+        "employer": "Linuo Group",
+        "salary": null,
+        "posted": "2026-08-18",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454342715",
+        "site": "linkedin",
+        "title": "Healthcare Operations Manager (SDQ)",
+        "url": "https://www.linkedin.com/jobs/view/4454342715",
+        "employer": "Horatio",
+        "salary": null,
+        "posted": "2026-08-14",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4454092668",
+        "site": "linkedin",
+        "title": "Gerente Business Tax - República Dominicana",
+        "url": "https://www.linkedin.com/jobs/view/4454092668",
+        "employer": "Deloitte",
+        "salary": null,
+        "posted": "2026-08-13",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4453144933",
+        "site": "linkedin",
+        "title": "Asset Manager (HYBRID) | DOMINICAN REPUBLIC",
+        "url": "https://www.linkedin.com/jobs/view/4453144933",
+        "employer": "Phoenix Tower International",
+        "salary": null,
+        "posted": "2026-08-12",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4449400911",
+        "site": "linkedin",
+        "title": "Corporativo - Gerente Comercial Mascotas",
+        "url": "https://www.linkedin.com/jobs/view/4449400911",
+        "employer": "Centro Cuesta Nacional",
+        "salary": null,
+        "posted": "2026-08-05",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4448248233",
+        "site": "linkedin",
+        "title": "Quality Systems Lead",
+        "url": "https://www.linkedin.com/jobs/view/4448248233",
+        "employer": "Jabil",
+        "salary": null,
+        "posted": "2026-08-05",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4446009179",
+        "site": "linkedin",
+        "title": "Application Engineer & Bid Manager",
+        "url": "https://www.linkedin.com/jobs/view/4446009179",
+        "employer": "Saft",
+        "salary": null,
+        "posted": "2026-07-29",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4446820695",
+        "site": "linkedin",
+        "title": "Electrical and Automation Manager",
+        "url": "https://www.linkedin.com/jobs/view/4446820695",
+        "employer": "Nestlé",
+        "salary": null,
+        "posted": "2026-07-29",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      },
+      {
+        "id": "4280736661",
+        "site": "linkedin",
+        "title": "运营商关系经理(J13589)",
+        "url": "https://www.linkedin.com/jobs/view/4280736661",
+        "employer": "视联动力信息技术股份有限公司",
+        "salary": null,
+        "posted": "2025-08-06",
+        "found_at": "2026-09-09T20:10:56.525226+00:00"
+      }
+    ],
+    "counts": {
+      "jobscz": {
+        "total_found": 60,
+        "new": 0
+      },
+      "pracecz": {
+        "total_found": 57,
+        "new": 0
+      },
+      "linkedin": {
+        "total_found": 158,
+        "new": 158
+      }
+    },
+    "warnings": []
   }
 ]
