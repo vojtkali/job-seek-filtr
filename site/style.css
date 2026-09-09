@@ -141,6 +141,39 @@ main, #warnings { max-width: 860px; margin: 0 auto; }
 
 .add-keyword-status { min-height: 1.2em; margin-top: 6px; }
 
+.blacklist-toggle {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.blacklist-toggle:hover { color: var(--text); border-color: var(--accent); }
+
+.blacklist-list {
+  margin-top: 10px;
+  max-width: 480px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.blacklist-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.blacklist-row:last-child { border-bottom: none; }
+
 .badge {
   display: inline-block;
   font-size: 0.72rem;

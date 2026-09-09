@@ -17,6 +17,7 @@ async function main() {
 
   if (payload.repo) REPO_INFO = payload.repo;
   setupAddKeywordForm();
+  setupBlacklistList(payload.blacklist || []);
 
   const runs = payload.runs || [];
   metaEl.textContent = runs.length
@@ -84,19 +85,84 @@ function blacklistEditUrl() {
   return `https://github.com/${REPO_INFO.full_name}/edit/${encodeURIComponent(REPO_INFO.branch)}/config/blacklist.txt`;
 }
 
-async function blockTerm(term, statusEl) {
-  let copied = false;
+async function copyToClipboard(text) {
   try {
-    await navigator.clipboard.writeText(term);
-    copied = true;
+    await navigator.clipboard.writeText(text);
+    return true;
   } catch (err) {
-    copied = false;
+    return false;
   }
+}
+
+async function blockTerm(term, statusEl) {
+  const copied = await copyToClipboard(term);
   window.open(blacklistEditUrl(), "_blank", "noopener,noreferrer");
   if (statusEl) {
     statusEl.textContent = copied
       ? `Zkopírováno: "${term}" — vlož ho na nový řádek do blacklist.txt, který se právě otevřel na GitHubu, a commitni.`
       : `Otevřel se blacklist.txt na GitHubu — přidej na nový řádek: "${term}" a commitni (kopírování do schránky se nepovedlo).`;
+  }
+}
+
+async function unblockTerm(term, statusEl) {
+  const copied = await copyToClipboard(term);
+  window.open(blacklistEditUrl(), "_blank", "noopener,noreferrer");
+  if (statusEl) {
+    statusEl.textContent = copied
+      ? `Zkopírováno: "${term}" — najdi a smaž tenhle řádek v blacklist.txt, který se právě otevřel na GitHubu, a commitni.`
+      : `Otevřel se blacklist.txt na GitHubu — najdi a smaž řádek: "${term}" a commitni (kopírování do schránky se nepovedlo).`;
+  }
+}
+
+function setupBlacklistList(blacklist) {
+  const toggle = document.getElementById("blacklist-toggle");
+  const list = document.getElementById("blacklist-list");
+  if (!toggle || !list) return;
+
+  toggle.textContent = `Zobrazit blacklist (${blacklist.length})`;
+
+  toggle.addEventListener("click", () => {
+    const willShow = list.hidden;
+    list.hidden = !willShow;
+    toggle.textContent = willShow
+      ? `Skrýt blacklist (${blacklist.length})`
+      : `Zobrazit blacklist (${blacklist.length})`;
+    if (willShow && !list.dataset.rendered) {
+      renderBlacklistList(list, blacklist);
+      list.dataset.rendered = "1";
+    }
+  });
+}
+
+function renderBlacklistList(container, blacklist) {
+  if (!blacklist.length) {
+    const p = document.createElement("p");
+    p.className = "empty";
+    p.textContent = "Blacklist je zatím prázdný.";
+    container.appendChild(p);
+    return;
+  }
+  for (const term of blacklist) {
+    const row = document.createElement("div");
+    row.className = "blacklist-row";
+
+    const span = document.createElement("span");
+    span.textContent = term;
+    row.appendChild(span);
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "block-btn";
+    btn.textContent = "🗑 Odebrat";
+    btn.addEventListener("click", () => {
+      const status = document.getElementById("add-keyword-status");
+      btn.textContent = "Zkopírováno ✓";
+      unblockTerm(term, status);
+      setTimeout(() => { btn.textContent = "🗑 Odebrat"; }, 3000);
+    });
+    row.appendChild(btn);
+
+    container.appendChild(row);
   }
 }
 

@@ -19,13 +19,17 @@ jobscz:
   # Web stránkuje přes ?page=N - scraper si tenhle parametr sám dosazuje a
   # postupně zvyšuje, dokud nedojde na konec výsledků nebo na max_pages.
   pagination_param: "page"
+  # CSS selektor jedné karty nabídky ve výsledcích - ověřeno na skutečném
+  # HTML (SCRAPER_DEBUG_HTML). Jméno firmy/plat/čas přidání se z karty
+  # vytahují napevno ve scraper/site_scraper.py (_extract_jobscz), protože
+  # jsou navázané na konkrétní strukturu webu, ne na obecné hinty.
+  card_selector: "article.SearchResultCard"
   # Vzor v URL nabídky, podle kterého scraper pozná odkaz na detail nabídky
-  # (a ne třeba na navigaci webu). Uprav, pokud scraper nic nenajde.
+  # (a ne třeba na navigaci webu).
   detail_url_pattern: "/rpd/"
-  # Nápovědy pro hledání jména zaměstnavatele / platu v HTML (class/data-testid
-  # obsahující libovolné z těchto slov, case-insensitive). Uprav podle skutečné
-  # struktury stránky, když scraper firmu/plat nenajde (v digestu se pak
-  # u nabídky ukáže "Neznámý zaměstnavatel").
+  # Záložní hinty pro případ, že by se firma/plat nenašly primární extrakcí
+  # (web mezitím trochu změnil markup) - hledá se class/data-testid
+  # obsahující některé z těchto slov.
   employer_hints: ["company", "employer", "firma", "zamestnavatel"]
   salary_hints: ["salary", "plat", "wage", "mzda"]
   max_pages: 8
@@ -41,10 +45,16 @@ pracecz:
     - "https://www.prace.cz/hledat/?workAreaIds[]=200900005;200900019&workAreaIds[]=200900025;200900029&workAreaIds[]=200900001&workAreaIds[]=200900011;200900012;200900013&workAreaIds[]=200900014&workAreaIds[]=200900017;200900018&workAreaIds[]=200900042&workAreaIds[]=200900038;200900039&workAreaIds[]=200900026&workLocationIds[]=R200000;0&jobTypes[]=FULL_TIME&salaryMin=50000&salaryCurrency=CZK"
   # Stránkuje stejně jako jobs.cz, přes ?page=N.
   pagination_param: "page"
+  # Karta nabídky má id="advert-<uuid>" - spolehlivější než hádat class
+  # (prace.cz používá CSS modules s hashovanými názvy tříd).
+  card_selector: 'article[id^="advert-"]'
   # Detail nabídky je pod UUID, ne číslem (např.
   # /nabidka/a59791c8-7b9d-43db-b01a-7abadf50277e/) - scraper jako ID bere
   # celý tenhle segment cesty, ne jen čísla v něm.
   detail_url_pattern: "/nabidka/"
+  # Jméno firmy/plat se vytahují přes accessibility popisky ve
+  # scraper/site_scraper.py (_extract_pracecz) - "posted" web na výpisu
+  # neukazuje vůbec, takže u prace.cz zůstane vždy prázdné.
   employer_hints: ["company", "employer", "firma", "zamestnavatel"]
   salary_hints: ["salary", "plat", "wage", "mzda"]
   max_pages: 8

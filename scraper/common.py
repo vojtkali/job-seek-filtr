@@ -47,6 +47,9 @@ def save_state(state: dict) -> None:
 
 
 def load_blacklist() -> list[str]:
+    """Vrací položky blacklistu v původním tvaru (bez #komentářů/prázdných
+    řádků), zachovává velikost písmen - kvůli zobrazení na stránce.
+    Porovnávání proti nabídkám dělá is_blacklisted case-insensitive samo."""
     if not BLACKLIST_PATH.exists():
         return []
     entries = []
@@ -54,7 +57,7 @@ def load_blacklist() -> list[str]:
         line = line.strip()
         if not line or line.startswith("#"):
             continue
-        entries.append(line.lower())
+        entries.append(line)
     return entries
 
 
@@ -63,7 +66,7 @@ def is_blacklisted(offer: Offer, blacklist: list[str]) -> bool:
     i ve jméně zaměstnavatele - jeden seznam pokrývá obojí (firmy i klíčová
     slova jako "stavbyvedoucí")."""
     haystack = f"{offer.title} {offer.employer or ''}".lower()
-    return any(term in haystack for term in blacklist)
+    return any(term.lower() in haystack for term in blacklist)
 
 
 _WS_RE = re.compile(r"\s+")

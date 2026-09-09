@@ -1,12 +1,28 @@
-"""Obecný scraper výsledkové stránky (jobs.cz i prace.cz mají podobnou stavbu).
+"""Scraper výsledkové stránky jobs.cz a prace.cz.
 
 Filtrování (lokalita, plat, obor...) dělá web sám - my mu jen předáme URL,
 kterou si uživatel sám nastavil a zkopíroval z prohlížeče. Tady jen sbíráme
-odkazy na jednotlivé nabídky a co nejlíp k nim dohledáme jméno firmy a plat.
+karty jednotlivých nabídek a z jejich HTML vytahujeme jméno firmy, plat a
+(pokud to web ukazuje) čas přidání.
+
+Struktura karet byla zjištěná ze skutečného HTML obou webů (viz
+SCRAPER_DEBUG_HTML v README), ne odhadem:
+
+- jobs.cz: karta je `article.SearchResultCard`. Zaměstnavatel je v patičce
+  v `li.SearchResultCard__footerItem`, který jako jediný z položek patičky
+  nemá atribut `data-test` (ostatní mají `data-test="serp-locality"` nebo
+  `"serp-atmoskop"`). Plat je `span` se třídou `Tag--success` v těle karty
+  (nemusí být vždy vyplněný - ne každý inzerát plat uvádí). Čas přidání je
+  v elementu s `data-test-ad-status="default"` (u `"jobsTip"` je tam místo
+  toho promo text jako "Příležitost dne").
+- prace.cz: karta je `article[id^="advert-"]`. Hodnoty (firma, plat,
+  lokalita) jsou navázané na skryté accessibility popisky - třeba
+  `<span class="accessibility-hidden">Název firmy:</span>` následovaný buď
+  sourozencem s hodnotou, nebo (u platu) hodnotou rovnou za popiskem ve
+  stejném elementu. Datum přidání prace.cz na výpisu vůbec neukazuje.
 """
 from __future__ import annotations
 
-import json
 import logging
 import re
 from pathlib import Path
@@ -14,6 +30,7 @@ from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 
 import requests
 from bs4 import BeautifulSoup
+from bs4.element import Tag
 
 from .common import USER_AGENT, Offer, clean_text
 
@@ -66,86 +83,88 @@ def _url_with_page(url: str, page_param: str, page_num: int) -> str:
     return urlunparse(parts._replace(query=urlencode(query)))
 
 
-def _find_next_data_offers(soup: BeautifulSoup) -> list[dict]:
-    """Next.js aplikace často embedují data stránky jako JSON - pokud ano,
-    je to spolehlivější zdroj jména firmy/platu než hádání podle CSS."""
-    tag = soup.find("script", id="__NEXT_DATA__")
-    if not tag or not tag.string:
-        return []
-    try:
-        data = json.loads(tag.string)
-    except (json.JSONDecodeError, TypeError):
-        return []
-
-    found: list[dict] = []
-
-    def walk(node):
-        if isinstance(node, dict):
-            keys_lower = {k.lower() for k in node.keys()}
-            has_title = any(k in keys_lower for k in ("title", "name", "positionname"))
-            has_company = any(
-                k in keys_lower for k in ("companyname", "employer", "company")
+def _guess_from_card(card: Tag, hints: list[str]) -> str | None:
+    """Poslední záchrana: element, jehož class/data-testid obsahuje jedno
+    z hint slov (např. 'company', 'salary'). Použije se jen když site-specific
+    extrakce nic nenajde (např. web mezitím trochu změnil markup)."""
+    for hint in hints:
+        el = card.find(
+            lambda tag: (
+                tag.has_attr("class") and any(hint in c.lower() for c in tag.get("class", []))
             )
-            if has_title and has_company:
-                found.append(node)
-            for v in node.values():
-                walk(v)
-        elif isinstance(node, list):
-            for v in node:
-                walk(v)
-
-    walk(data)
-    return found
-
-
-def _match_next_data_offer(records: list[dict], offer_id: str, url: str) -> dict | None:
-    for rec in records:
-        rec_id = str(rec.get("id") or rec.get("hashId") or "")
-        if rec_id and rec_id == offer_id:
-            return rec
-        rec_url = rec.get("url") or rec.get("link")
-        if rec_url and offer_id in str(rec_url):
-            return rec
+            or (tag.has_attr("data-testid") and hint in tag["data-testid"].lower())
+        )
+        if el:
+            text = clean_text(el.get_text(" "))
+            if text:
+                return text
     return None
 
 
-def _pick(d: dict, keys: list[str]) -> str | None:
-    for k in d.keys():
-        if k.lower() in keys:
-            v = d[k]
-            if isinstance(v, str):
-                return v
-            if isinstance(v, dict):
-                for sub_key in ("name", "value", "text"):
-                    if sub_key in v and isinstance(v[sub_key], str):
-                        return v[sub_key]
+def _extract_jobscz(card: Tag) -> tuple[str | None, str | None, str | None]:
+    employer = None
+    footer_item = card.select_one("li.SearchResultCard__footerItem:not([data-test])")
+    if footer_item:
+        span = footer_item.find("span")
+        if span:
+            employer = clean_text(span.get_text(" "))
+
+    salary_el = card.select_one(".SearchResultCard__body .Tag--success")
+    salary = clean_text(salary_el.get_text(" ")) if salary_el else None
+
+    posted_el = card.select_one('[data-test-ad-status="default"]')
+    posted = clean_text(posted_el.get_text(" ")) if posted_el else None
+
+    return employer, salary, posted
+
+
+def _find_by_accessibility_label(card: Tag, label_prefix: str) -> str | None:
+    """prace.cz páruje hodnotu se skrytým popiskem pro čtečky obrazovky
+    (`<span class="accessibility-hidden">Název firmy:</span>`). Hodnota je
+    buď sourozenec popisku (firma, lokalita), nebo text hned za popiskem ve
+    stejném elementu (plat)."""
+    label_el = card.find(
+        lambda tag: tag.name == "span"
+        and "accessibility-hidden" in tag.get("class", [])
+        and tag.get_text(strip=True).rstrip(":").strip() == label_prefix
+    )
+    if not label_el:
+        return None
+
+    sibling = label_el.find_next_sibling()
+    if sibling:
+        text = clean_text(sibling.get_text(" "))
+        if text:
+            return text
+
+    parent = label_el.parent
+    if parent:
+        full = clean_text(parent.get_text(" "))
+        label_text = clean_text(label_el.get_text(" "))
+        if full and label_text and full.startswith(label_text):
+            remainder = full[len(label_text):].strip()
+            if remainder:
+                return remainder
     return None
 
 
-def _guess_from_card(anchor, hints: list[str]) -> str | None:
-    """Fallback: podívá se do okolí odkazu na nabídku po elementu, jehož
-    class/data-testid obsahuje jedno z hint slov (např. 'company', 'salary')."""
-    card = anchor
-    for _ in range(5):
-        if card.parent is None:
-            break
-        card = card.parent
-        for hint in hints:
-            el = card.find(
-                lambda tag: tag.has_attr("class")
-                and any(hint in c.lower() for c in tag.get("class", []))
-                or (tag.has_attr("data-testid") and hint in tag["data-testid"].lower())
-            )
-            if el:
-                text = clean_text(el.get_text(" "))
-                if text:
-                    return text
-    return None
+def _extract_pracecz(card: Tag) -> tuple[str | None, str | None, str | None]:
+    employer = _find_by_accessibility_label(card, "Název firmy")
+    salary = _find_by_accessibility_label(card, "Plat")
+    # prace.cz na výpisu nabídek datum/čas přidání neukazuje.
+    return employer, salary, None
+
+
+_SITE_EXTRACTORS = {
+    "jobscz": _extract_jobscz,
+    "pracecz": _extract_pracecz,
+}
 
 
 def scrape_site(
     site_key: str,
     search_urls: list[str],
+    card_selector: str,
     detail_url_pattern: str,
     employer_hints: list[str],
     salary_hints: list[str],
@@ -160,12 +179,13 @@ def scrape_site(
     funguje to, protože výsledky jsou (typicky) řazené od nejnovějších.
 
     debug_dir: pokud je zadaný, uloží se do něj syrové HTML první stažené
-    stránky (pro ladění employer_hints/salary_hints/detail_url_pattern podle
-    skutečné struktury webu)."""
+    stránky (pro ladění card_selector/detail_url_pattern podle skutečné
+    struktury webu)."""
     session = requests.Session()
     offers: dict[str, Offer] = {}
     already_seen = already_seen or set()
     debug_saved = False
+    extractor = _SITE_EXTRACTORS.get(site_key)
 
     for start_url in search_urls:
         consecutive_fully_seen_pages = 0
@@ -182,36 +202,39 @@ def scrape_site(
                 (debug_dir / f"{site_key}.html").write_text(str(soup), encoding="utf-8")
                 debug_saved = True
 
-            next_data_records = _find_next_data_offers(soup)
+            if card_selector:
+                card_anchor_pairs = []
+                for card in soup.select(card_selector):
+                    anchor = card.find("a", href=lambda h: h and detail_url_pattern in h)
+                    if anchor:
+                        card_anchor_pairs.append((card, anchor))
+            else:
+                # bez card_selector nejde karty rozlišit - každý odpovídající
+                # odkaz je vlastní "karta" (nápovědy pak hledají jen v jeho
+                # bezprostředním okolí, ne v celé kartě).
+                card_anchor_pairs = [
+                    (a.parent or a, a)
+                    for a in soup.find_all("a", href=lambda h: h and detail_url_pattern in h)
+                ]
 
-            anchors = [
-                a
-                for a in soup.find_all("a", href=True)
-                if detail_url_pattern in a["href"]
-            ]
             page_offer_ids: list[str] = []
-            for a in anchors:
-                href = urljoin(url, a["href"])
+            for card, anchor in card_anchor_pairs:
+                href = urljoin(url, anchor["href"])
                 offer_id = _offer_id_from_url(href, detail_url_pattern)
                 if not offer_id or offer_id in offers:
                     continue
-                title = clean_text(a.get_text(" "))
+                title = clean_text(anchor.get_text(" "))
                 if not title:
                     continue
                 page_offer_ids.append(offer_id)
 
-                employer = None
-                salary = None
-                nd_match = _match_next_data_offer(next_data_records, offer_id, href)
-                if nd_match:
-                    employer = _pick(
-                        nd_match, ["companyname", "employer", "company"]
-                    )
-                    salary = _pick(nd_match, ["salary", "wage", "salaryrange"])
-                if employer is None:
-                    employer = _guess_from_card(a, employer_hints)
-                if salary is None:
-                    salary = _guess_from_card(a, salary_hints)
+                employer = salary = posted = None
+                if extractor:
+                    employer, salary, posted = extractor(card)
+                if not employer:
+                    employer = _guess_from_card(card, employer_hints)
+                if not salary:
+                    salary = _guess_from_card(card, salary_hints)
 
                 offers[offer_id] = Offer(
                     id=offer_id,
@@ -220,6 +243,7 @@ def scrape_site(
                     url=href,
                     employer=clean_text(employer),
                     salary=clean_text(salary),
+                    posted=clean_text(posted),
                 )
 
             if not page_offer_ids and page_num > 1:

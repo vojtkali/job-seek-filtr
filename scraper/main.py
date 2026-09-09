@@ -85,6 +85,7 @@ def run() -> int:
         offers = scrape_site(
             site_key=site_key,
             search_urls=site_cfg.get("search_urls", []),
+            card_selector=site_cfg.get("card_selector", ""),
             detail_url_pattern=site_cfg.get("detail_url_pattern", ""),
             employer_hints=site_cfg.get("employer_hints", []),
             salary_hints=site_cfg.get("salary_hints", []),
@@ -148,6 +149,7 @@ def run() -> int:
     site_payload = {
         "generated_at": now_iso,
         "runs": history[-SITE_SHOW_RUNS:],
+        "blacklist": blacklist,
         "repo": {
             # GITHUB_REPOSITORY/GITHUB_REF_NAME jsou v Actions nastavené automaticky -
             # díky tomu odkaz "přidat do blacklistu" na stránce vždy míří na aktuálně
