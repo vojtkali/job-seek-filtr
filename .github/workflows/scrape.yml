@@ -44,9 +44,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run scraper
+        if: github.event_name != 'push'
         run: python -m scraper.main
         env:
           SCRAPER_DEBUG_HTML: ${{ inputs.debug_html && '1' || '' }}
+
+      - name: Rebuild digest only (blacklist changed - no new scrape needed)
+        if: github.event_name == 'push'
+        run: python -m scraper.rebuild_digest
 
       - name: Commit updated data
         run: |
@@ -56,7 +61,12 @@ jobs:
           if [ "${{ inputs.debug_html }}" = "true" ]; then
             git add -f debug_html
           fi
-          git diff --cached --quiet || git commit -m "Aktualizace nabídek $(date -u +%Y-%m-%d)"
+          if [ "${{ github.event_name }}" = "push" ]; then
+            MSG="Přefiltrování digestu podle blacklistu $(date -u +%Y-%m-%d)"
+          else
+            MSG="Aktualizace nabídek $(date -u +%Y-%m-%d)"
+          fi
+          git diff --cached --quiet || git commit -m "$MSG"
           git push
 
       - name: Upload site artifact
