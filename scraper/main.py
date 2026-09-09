@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -35,6 +36,9 @@ HISTORY_PATH = DATA_DIR / "history.json"
 SITE_DATA_PATH = REPO_ROOT / "site" / "data.json"
 HISTORY_KEEP_RUNS = 30
 SITE_SHOW_RUNS = 14
+# Nastav env SCRAPER_DEBUG_HTML=1 pro uložení syrového HTML první stažené
+# stránky každého webu do debug_html/ (pro ladění selektorů).
+DEBUG_HTML_DIR = REPO_ROOT / "debug_html" if os.environ.get("SCRAPER_DEBUG_HTML") else None
 
 
 def load_config() -> dict:
@@ -87,6 +91,7 @@ def run() -> int:
             max_pages=site_cfg.get("max_pages", 5),
             already_seen=seen_ids,
             pagination_param=site_cfg.get("pagination_param"),
+            debug_dir=DEBUG_HTML_DIR,
         )
 
         total_found = len(offers)

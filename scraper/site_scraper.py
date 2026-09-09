@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 
 import requests
@@ -151,14 +152,20 @@ def scrape_site(
     max_pages: int,
     already_seen: set[str] | None = None,
     pagination_param: str | None = None,
+    debug_dir: Path | None = None,
 ) -> list[Offer]:
     """already_seen: ID nabídek z minulých běhů (state.json). Pokud je zadáno
     (tj. nejde o úplně první běh) a dvě stránky po sobě obsahují jen už dřív
     viděné nabídky, scraper přestane dál stránkovat - šetří to požadavky a
-    funguje to, protože výsledky jsou (typicky) řazené od nejnovějších."""
+    funguje to, protože výsledky jsou (typicky) řazené od nejnovějších.
+
+    debug_dir: pokud je zadaný, uloží se do něj syrové HTML první stažené
+    stránky (pro ladění employer_hints/salary_hints/detail_url_pattern podle
+    skutečné struktury webu)."""
     session = requests.Session()
     offers: dict[str, Offer] = {}
     already_seen = already_seen or set()
+    debug_saved = False
 
     for start_url in search_urls:
         consecutive_fully_seen_pages = 0
@@ -169,6 +176,11 @@ def scrape_site(
             soup = fetch(url, session)
             if soup is None:
                 break
+
+            if debug_dir and not debug_saved:
+                debug_dir.mkdir(parents=True, exist_ok=True)
+                (debug_dir / f"{site_key}.html").write_text(str(soup), encoding="utf-8")
+                debug_saved = True
 
             next_data_records = _find_next_data_offers(soup)
 

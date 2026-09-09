@@ -6,7 +6,12 @@ name: Scrape job offers
     # Pondělí (den 1) tak přirozeně zachytí i vše nové z víkendu, protože
     # scraper si pamatuje ID naposledy viděných nabídek, ne přesné datum.
     - cron: "0 8 * * 1-5"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      debug_html:
+        description: "Uložit syrové HTML výsledkových stránek jako artefakt (ladění selektorů)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,6 +39,16 @@ jobs:
 
       - name: Run scraper
         run: python -m scraper.main
+        env:
+          SCRAPER_DEBUG_HTML: ${{ inputs.debug_html && '1' || '' }}
+
+      - name: Upload debug HTML
+        if: ${{ inputs.debug_html }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-html
+          path: debug_html
+          retention-days: 3
 
       - name: Commit updated data
         run: |
