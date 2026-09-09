@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:56:42.378124+00:00",
+  "generated_at": "2026-09-09T11:59:29.981170+00:00",
   "runs": [
     {
       "run_at": "2026-09-09T09:54:22.416586+00:00",
@@ -4806,6 +4806,23 @@
         }
       },
       "warnings": []
+    },
+    {
+      "run_at": "2026-09-09T11:59:29.981170+00:00",
+      "offers": [],
+      "counts": {
+        "jobscz": {
+          "total_found": 60,
+          "new": 0,
+          "blacklisted": 0
+        },
+        "pracecz": {
+          "total_found": 52,
+          "new": 0,
+          "blacklisted": 0
+        }
+      },
+      "warnings": []
     }
   ],
   "blacklist": [
@@ -4814,7 +4831,9 @@
     "SalesDesk Czech Republic",
     "psychiatr",
     "accountant",
-    "účetní"
+    "účetní",
+    "mobil pohotovost",
+    "elektromontér"
   ],
   "repo": {
     "full_name": "vojtkali/job-seek-filtr",

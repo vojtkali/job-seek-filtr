@@ -4804,5 +4804,22 @@
       }
     },
     "warnings": []
+  },
+  {
+    "run_at": "2026-09-09T11:59:29.981170+00:00",
+    "offers": [],
+    "counts": {
+      "jobscz": {
+        "total_found": 60,
+        "new": 0,
+        "blacklisted": 0
+      },
+      "pracecz": {
+        "total_found": 52,
+        "new": 0,
+        "blacklisted": 0
+      }
+    },
+    "warnings": []
   }
 ]
