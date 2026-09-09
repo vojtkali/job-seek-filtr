@@ -69,7 +69,6 @@ obchodník o2 czech republic
 data engineer
 property manager
 bim manažer
-poradce pro podnikatelskou klientelu
 stavební projekty
 projektant
 developer
@@ -77,7 +76,7 @@ advokát
 linux
 german
 hr controlling
-hr partner
+hr business partner
 statistic
 ai engineer
 programátor
@@ -90,4 +89,10 @@ normfest
 technik
 právní
 tester
-
+erp konzultant
+provozovatel čerpací stanice
+hr generalist
+technický dozor
+správce integrací
+bozp
+inženýring
