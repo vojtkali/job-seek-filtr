@@ -8,3 +8,4 @@
 # Grafton Recruitment
 # Randstad
 # stavbyvedoucí
+koncipient
