@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:01:04.852726+00:00",
+  "generated_at": "2026-09-09T10:04:10.083412+00:00",
   "runs": [
     {
       "run_at": "2026-09-09T09:54:22.416586+00:00",
@@ -4131,6 +4131,58 @@
         }
       },
       "warnings": []
+    },
+    {
+      "run_at": "2026-09-09T10:04:10.083412+00:00",
+      "offers": [
+        {
+          "id": "2001417097",
+          "site": "jobscz",
+          "title": "Linux/Network Senior 🐧",
+          "url": "https://www.jobs.cz/rpd/2001417097/?searchId=637b8467-4218-47f4-95a4-f34142eb01ce&rps=233",
+          "employer": null,
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-09T10:04:10.083412+00:00"
+        },
+        {
+          "id": "2001405632",
+          "site": "jobscz",
+          "title": "Regionální Manager - RETAIL pobočková síť",
+          "url": "https://www.jobs.cz/rpd/2001405632/?searchId=637b8467-4218-47f4-95a4-f34142eb01ce&rps=233",
+          "employer": null,
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-09T10:04:10.083412+00:00"
+        },
+        {
+          "id": "2001382888",
+          "site": "jobscz",
+          "title": "GV Manager with German",
+          "url": "https://www.jobs.cz/rpd/2001382888/?searchId=637b8467-4218-47f4-95a4-f34142eb01ce&rps=233",
+          "employer": null,
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-09T10:04:10.083412+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 90,
+          "new": 3,
+          "blacklisted": 0
+        },
+        "pracecz": {
+          "total_found": 50,
+          "new": 0,
+          "blacklisted": 0
+        }
+      },
+      "warnings": []
     }
-  ]
+  ],
+  "repo": {
+    "full_name": "vojtkali/job-seek-filtr",
+    "branch": "claude/job-offers-filtering-hfug64"
+  }
 }
