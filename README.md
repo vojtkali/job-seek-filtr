@@ -30,29 +30,33 @@ kdy scraper běžel.
 
 ## Než to poprvé spustíš – nastavení
 
-### 1. Vlož skutečné vyhledávací URL
+### 1. Vyhledávací URL
 
-`config/settings.yaml` obsahuje pro jobs.cz a prace.cz placeholder URL.
-Nejsou to URL, které bych si vymyslel obecně – jde o to, abys **na webu ve
-filtru sám nastavil** požadovanou lokalitu/plat/obor (jobs.cz: Praha, plat
-od 69 000 Kč; prace.cz: Praha, plný úvazek, vybrané obory, plat od částky,
-kterou chceš) a **zkopíroval výslednou URL z adresního řádku prohlížeče**
-do `search_urls`. Filtrování tak dělá přímo web (spolehlivě), scraper jen
-čte výsledky.
+`config/settings.yaml` už obsahuje skutečné URL zkopírované z prohlížeče:
+jobs.cz (Praha, plat od 69 000 Kč) a prace.cz (vybrané obory, Praha, plný
+úvazek, plat od 50 000 Kč). Filtrování tak dělá přímo web, scraper jen čte
+výsledky – když si někdy budeš chtít filtr upravit (jiná lokalita, jiný
+plat, jiné obory), stačí si to znovu nastavit na webu a novou URL vložit
+místo staré do `search_urls`.
 
-Pokud web pro víc oborů/kritérií negeneruje jednu společnou URL, přidej do
-seznamu URL pro každou kombinaci zvlášť – scraper všechny stáhne a spojí.
+Schválně je z URL vynechaný parametr `date` (jobs.cz jinak nabízí např.
+"posledních 24 hodin") – scraper si sám pamatuje, co už viděl, takže tenhle
+filtr na webu není potřeba a navíc by o víkendu způsobil ztrátu nabídek
+(viz vysvětlení nahoře).
 
-> Poznámka: URL v souboru teď jsou jen odhad tvaru parametrů (skládal jsem
-> je bez přístupu na živý web z tohoto prostředí). Nahraď je před prvním
-> ostrým během.
-
-### 2. Zkontroluj/uprav `detail_url_pattern` a hints
+### 2. Zkontroluj/uprav `detail_url_pattern`, `pagination_param` a hints
 
 - `detail_url_pattern` – kus URL, podle kterého scraper pozná odkaz na
-  detail nabídky (např. `/rpd/`). Pokud po prvním běhu vidíš na stránce
-  0 nabídek (nebo varování), zkontroluj v prohlížeči přes "Zobrazit zdrojový
-  kód"/DevTools, jak vypadají odkazy na nabídky, a hodnotu uprav.
+  detail nabídky (jobs.cz `/rpd/` je dlouhodobě stabilní vzor; u prace.cz
+  `/nabidka/` je odhad). Pokud po prvním běhu vidíš na stránce 0 nabídek
+  (nebo varování), zkontroluj v prohlížeči přes "Zobrazit zdrojový kód"/
+  DevTools, jak vypadají odkazy na nabídky, a hodnotu uprav.
+- `pagination_param` – jobs.cz stránkuje přes `?page=2`, `?page=3`... a
+  scraper tenhle parametr sám dosazuje. U prace.cz je to zatím odhad
+  (stránkování jsem neměl jak ověřit) – pokud scraper najde nabídky jen
+  z první stránky, zkontroluj v prohlížeči skutečný název parametru na
+  druhé stránce výsledků, nebo nastav `pagination_param: null` a scraper
+  zkusí najít odkaz "Další" v HTML.
 - `employer_hints` / `salary_hints` – slova, která scraper hledá v
   `class`/`data-testid` elementů kolem odkazu na nabídku, aby našel jméno
   firmy a plat. Pokud se u nabídek často objevuje "Neznámý zaměstnavatel",
@@ -60,7 +64,9 @@ seznamu URL pro každou kombinaci zvlášť – scraper všechny stáhne a spoj�
 
 Scraper navíc zkouší jako první zdroj dat JSON vložený na stránce (typicky
 `__NEXT_DATA__` u moderních webů) – pokud ho web má, jméno firmy a plat
-najde spolehlivě i bez CSS hintů.
+najde spolehlivě i bez CSS hintů. Jakmile scraper narazí na dvě stránky po
+sobě, kde jsou všechny nabídky už dřív viděné, přestane dál stránkovat –
+šetří to požadavky a v běžném provozu stačí projít jen pár prvních stránek.
 
 ### 3. Zapni GitHub Pages (jednorázově, ručně)
 

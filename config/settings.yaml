@@ -1,58 +1,53 @@
 # Nastavení hlídače nabídek práce.
 #
-# DŮLEŽITÉ pro search_urls: nejde o URL, které vymyslel scraper, ale o URL,
-# které dostaneš TY, když si na jobs.cz / prace.cz ve webovém filtru ručně
-# nastavíš lokalitu, plat, obor atd. a zkopíruješ výslednou adresu z prohlížeče.
-# Tím odpadá riziko, že si scraper spočítá špatné parametry filtru - filtrování
-# dělá přímo web, scraper jen čte výsledky a hlídá, co je nové.
+# search_urls jsou reálné URL zkopírované z prohlížeče po ručním nastavení
+# filtru na jobs.cz / prace.cz (lokalita, plat, obor...). Filtrování tak dělá
+# přímo web - scraper jen čte výsledky a hlídá, co je nové.
 #
-# Pokud web pro víc oborů/kritérií vygeneruje víc URL (např. každý obor zvlášť),
-# přidej je všechny do seznamu - scraper je projde všechny a spojí výsledky.
-#
-# POZOR: URL níže jsou jen ILUSTRATIVNÍ ODHAD parametrů (salary-min, locality,
-# field, employment...), skládal jsem je bez přístupu na živý web. Než scraper
-# poprvé spustíš doopravdy, nastav si filtr v prohlížeči a těmito hodnotami
-# nahraď - jinak filtr nemusí sedět nebo se stránka nenačte podle očekávání.
+# Pozor: parametr "date" (např. date=24h na jobs.cz, "jen za posledních
+# 24 hodin") je ze search_urls schválně VYNECHANÝ. Kdyby tam zůstal, tak by
+# se po víkendu (kdy scraper neběží) ztratily nabídky ze soboty a neděle -
+# pondělní běh by viděl jen posledních 24 hodin, ne celý víkend. Scraper si
+# místo toho pamatuje ID naposledy viděných nabídek (data/state.json) a sám
+# pozná, co je nové od posledního běhu, ať uplynul den nebo tři.
 
 jobscz:
   enabled: true
   name: "Jobs.cz"
-  # Vlož sem URL z adresního řádku po nastavení: Praha, plat od 69 000 Kč.
   search_urls:
-    - "https://www.jobs.cz/prace/praha/?salary-min=69000"
+    - "https://www.jobs.cz/prace/praha/?salary=69000&locality[code]=R200000&locality[label]=Praha&locality[coords]=50.08455,14.41778&locality[radius]=0"
+  # Web stránkuje přes ?page=N - scraper si tenhle parametr sám dosazuje a
+  # postupně zvyšuje, dokud nedojde na konec výsledků nebo na max_pages.
+  pagination_param: "page"
   # Vzor v URL nabídky, podle kterého scraper pozná odkaz na detail nabídky
-  # (a ne třeba na navigaci webu). Uprav, pokud web nic nenajde.
+  # (a ne třeba na navigaci webu). Uprav, pokud scraper nic nenajde.
   detail_url_pattern: "/rpd/"
   # Nápovědy pro hledání jména zaměstnavatele / platu v HTML (class/data-testid
   # obsahující libovolné z těchto slov, case-insensitive). Uprav podle skutečné
-  # struktury stránky, když scraper firmu/plat nenajde.
+  # struktury stránky, když scraper firmu/plat nenajde (v digestu se pak
+  # u nabídky ukáže "Neznámý zaměstnavatel").
   employer_hints: ["company", "employer", "firma", "zamestnavatel"]
   salary_hints: ["salary", "plat", "wage", "mzda"]
-  max_pages: 5
+  max_pages: 8
 
 pracecz:
   enabled: true
   name: "Prace.cz"
-  # Vlož sem URL po nastavení: Praha, plný úvazek, obory (Doprava a zásobování,
-  # Služby, Administrativa, Informatika, Kultura umění a tvůrčí práce,
-  # Marketing média a reklama, Zákaznický servis, Ostatní, Prodej a obchod),
-  # plat od 49 000 Kč (uprav si podle skutečné hranice, kterou chceš).
-  # Pokud web nedovolí zvolit všechny obory najednou v jedné URL, vlož sem
-  # URL pro každý obor zvlášť - scraper výsledky spojí a duplicity odstraní.
+  # Obory (Doprava a zásobování, Služby, Administrativa, Informatika, Kultura
+  # umění a tvůrčí práce, Marketing média a reklama, Zákaznický servis,
+  # Ostatní, Prodej a obchod), Praha, plný úvazek, plat od 50 000 Kč - všechno
+  # v jedné URL přes opakované workAreaIds[].
   search_urls:
-    - "https://www.prace.cz/nabidky/?field=doprava-a-zasobovani&locality=praha&employment=plny-uvazek&salary-min=49000"
-    - "https://www.prace.cz/nabidky/?field=sluzby&locality=praha&employment=plny-uvazek&salary-min=49000"
-    - "https://www.prace.cz/nabidky/?field=administrativa&locality=praha&employment=plny-uvazek&salary-min=49000"
-    - "https://www.prace.cz/nabidky/?field=informatika&locality=praha&employment=plny-uvazek&salary-min=49000"
-    - "https://www.prace.cz/nabidky/?field=kultura-umeni-a-tvurci-prace&locality=praha&employment=plny-uvazek&salary-min=49000"
-    - "https://www.prace.cz/nabidky/?field=marketing-media-a-reklama&locality=praha&employment=plny-uvazek&salary-min=49000"
-    - "https://www.prace.cz/nabidky/?field=zakaznicky-servis&locality=praha&employment=plny-uvazek&salary-min=49000"
-    - "https://www.prace.cz/nabidky/?field=ostatni&locality=praha&employment=plny-uvazek&salary-min=49000"
-    - "https://www.prace.cz/nabidky/?field=prodej-a-obchod&locality=praha&employment=plny-uvazek&salary-min=49000"
+    - "https://www.prace.cz/hledat/?workAreaIds[]=200900005;200900019&workAreaIds[]=200900025;200900029&workAreaIds[]=200900001&workAreaIds[]=200900011;200900012;200900013&workAreaIds[]=200900014&workAreaIds[]=200900017;200900018&workAreaIds[]=200900042&workAreaIds[]=200900038;200900039&workAreaIds[]=200900026&workLocationIds[]=R200000;0&jobTypes[]=FULL_TIME&salaryMin=50000&salaryCurrency=CZK"
+  # Odhad - na prace.cz jsem stránkování přes URL neověřil. Pokud scraper
+  # najde jen nabídky z první stránky, zkontroluj v prohlížeči, jak vypadá
+  # URL druhé stránky výsledků, a uprav (nebo nastav na null a scraper zkusí
+  # najít odkaz "Další").
+  pagination_param: "page"
   detail_url_pattern: "/nabidka/"
   employer_hints: ["company", "employer", "firma", "zamestnavatel"]
   salary_hints: ["salary", "plat", "wage", "mzda"]
-  max_pages: 5
+  max_pages: 8
 
 # Kolik posledních ID nabídek na jeden web si scraper pamatuje, aby stejnou
 # nabídku znovu nenahlásil jako novou. Klidně nech, jen ať to nikdy neklesne

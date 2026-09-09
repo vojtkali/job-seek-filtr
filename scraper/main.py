@@ -85,6 +85,8 @@ def run() -> int:
             employer_hints=site_cfg.get("employer_hints", []),
             salary_hints=site_cfg.get("salary_hints", []),
             max_pages=site_cfg.get("max_pages", 5),
+            already_seen=seen_ids,
+            pagination_param=site_cfg.get("pagination_param"),
         )
 
         total_found = len(offers)

@@ -9,7 +9,7 @@ from __future__ import annotations
 import json
 import logging
 import re
-from urllib.parse import urljoin, urlparse
+from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -42,6 +42,20 @@ def _offer_id_from_url(url: str) -> str:
     path = urlparse(url).path.strip("/")
     digits = re.findall(r"\d+", path)
     return digits[-1] if digits else path
+
+
+def _url_with_page(url: str, page_param: str, page_num: int) -> str:
+    """page_num je 1-based, aby seděl na typický '?page=1,2,3...' vzor.
+
+    Zachovává opakované query klíče (např. prace.cz posílá "workAreaIds[]"
+    vícekrát) - proto se query parsuje jako seznam dvojic, ne jako dict."""
+    parts = urlparse(url)
+    query = [
+        (k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+        if k != page_param
+    ]
+    query.append((page_param, str(page_num)))
+    return urlunparse(parts._replace(query=urlencode(query)))
 
 
 def _find_next_data_offers(soup: BeautifulSoup) -> list[dict]:
@@ -128,14 +142,22 @@ def scrape_site(
     employer_hints: list[str],
     salary_hints: list[str],
     max_pages: int,
+    already_seen: set[str] | None = None,
+    pagination_param: str | None = None,
 ) -> list[Offer]:
+    """already_seen: ID nabídek z minulých běhů (state.json). Pokud je zadáno
+    (tj. nejde o úplně první běh) a dvě stránky po sobě obsahují jen už dřív
+    viděné nabídky, scraper přestane dál stránkovat - šetří to požadavky a
+    funguje to, protože výsledky jsou (typicky) řazené od nejnovějších."""
     session = requests.Session()
     offers: dict[str, Offer] = {}
+    already_seen = already_seen or set()
 
     for start_url in search_urls:
+        consecutive_fully_seen_pages = 0
         url: str | None = start_url
-        for page_num in range(max_pages):
-            if not url:
+        for page_num in range(1, max_pages + 1):
+            if url is None:
                 break
             soup = fetch(url, session)
             if soup is None:
@@ -148,7 +170,7 @@ def scrape_site(
                 for a in soup.find_all("a", href=True)
                 if detail_url_pattern in a["href"]
             ]
-            page_had_offer = False
+            page_offer_ids: list[str] = []
             for a in anchors:
                 href = urljoin(url, a["href"])
                 offer_id = _offer_id_from_url(href)
@@ -157,7 +179,7 @@ def scrape_site(
                 title = clean_text(a.get_text(" "))
                 if not title:
                     continue
-                page_had_offer = True
+                page_offer_ids.append(offer_id)
 
                 employer = None
                 salary = None
@@ -181,12 +203,22 @@ def scrape_site(
                     salary=clean_text(salary),
                 )
 
-            if not page_had_offer and page_num > 0:
-                break
+            if not page_offer_ids and page_num > 1:
+                break  # stránka bez nabídek = konec výsledků
 
-            next_link = soup.find("a", attrs={"rel": "next"}) or soup.find(
-                "a", string=re.compile(r"^(Další|Další|Next)$", re.I)
-            )
-            url = urljoin(url, next_link["href"]) if next_link and next_link.get("href") else None
+            if already_seen and page_offer_ids and all(oid in already_seen for oid in page_offer_ids):
+                consecutive_fully_seen_pages += 1
+                if consecutive_fully_seen_pages >= 2:
+                    break
+            else:
+                consecutive_fully_seen_pages = 0
+
+            if pagination_param:
+                url = _url_with_page(start_url, pagination_param, page_num + 1)
+            else:
+                next_link = soup.find("a", attrs={"rel": "next"}) or soup.find(
+                    "a", string=re.compile(r"^(Další|Next)$", re.I)
+                )
+                url = urljoin(url, next_link["href"]) if next_link and next_link.get("href") else None
 
     return list(offers.values())
