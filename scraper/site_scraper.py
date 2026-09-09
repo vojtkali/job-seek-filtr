@@ -19,7 +19,12 @@ SCRAPER_DEBUG_HTML v README), ne odhadem:
   lokalita) jsou navázané na skryté accessibility popisky - třeba
   `<span class="accessibility-hidden">Název firmy:</span>` následovaný buď
   sourozencem s hodnotou, nebo (u platu) hodnotou rovnou za popiskem ve
-  stejném elementu. Datum přidání prace.cz na výpisu vůbec neukazuje.
+  stejném elementu. Datum přidání není samostatné pole, ale jeden z
+  "highlight" odznaků (`span.typography-body-medium-regular.text-primary`
+  v druhém seznamu highlightů karty) - ve stejném seznamu jsou ale i jiné
+  odznaky nesouvisející s datem (např. "Nutně vás potřebují", "Vhodné pro
+  uprchlíky z Ukrajiny"), takže se pozná podle klíčových slov
+  (_PRACECZ_AGE_HINTS), ne podle třídy/pozice.
 """
 from __future__ import annotations
 
@@ -148,11 +153,36 @@ def _find_by_accessibility_label(card: Tag, label_prefix: str) -> str | None:
     return None
 
 
+_PRACECZ_AGE_HINTS = (
+    "nová nabídka",
+    "jen pár hodin",
+    "dnešní",
+    "včerejší",
+    "méně než týden",
+    "před chvílí",
+    " dny",
+    " dní",
+    " týden",
+    " týdny",
+)
+
+
+def _extract_pracecz_posted(card: Tag) -> str | None:
+    """Datum přidání není samostatné pole - je to jeden z "highlight" odznaků
+    karty (spolu s jinými, nesouvisejícími odznaky jako "Nutně vás
+    potřebují"), pozná se podle klíčových slov."""
+    for span in card.select("span.typography-body-medium-regular.text-primary"):
+        text = clean_text(span.get_text(" "))
+        if text and any(hint in text.lower() for hint in _PRACECZ_AGE_HINTS):
+            return text
+    return None
+
+
 def _extract_pracecz(card: Tag) -> tuple[str | None, str | None, str | None]:
     employer = _find_by_accessibility_label(card, "Název firmy")
     salary = _find_by_accessibility_label(card, "Plat")
-    # prace.cz na výpisu nabídek datum/čas přidání neukazuje.
-    return employer, salary, None
+    posted = _extract_pracecz_posted(card)
+    return employer, salary, posted
 
 
 _SITE_EXTRACTORS = {

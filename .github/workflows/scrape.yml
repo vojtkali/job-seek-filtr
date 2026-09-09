@@ -12,6 +12,12 @@ name: Scrape job offers
         description: "Uložit syrové HTML výsledkových stránek jako artefakt (ladění selektorů)"
         type: boolean
         default: false
+  push:
+    # Když upravíš blacklist.txt (třeba přes tlačítko na stránce, které
+    # otevře GitHub editor), tenhle běh hned přefiltruje digest a nahraje
+    # novou stránku - nemusíš čekat na další naplánovaný běh.
+    paths:
+      - "config/blacklist.txt"
 
 permissions:
   contents: write
