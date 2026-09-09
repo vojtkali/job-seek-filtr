@@ -1,7 +1,7 @@
 # job-seek-filtr
 
-Hlídač nabídek práce na [jobs.cz](https://www.jobs.cz) a [prace.cz](https://www.prace.cz).
-Řeší dvě věci:
+Hlídač nabídek práce na [jobs.cz](https://www.jobs.cz), [prace.cz](https://www.prace.cz)
+a LinkedIn. Řeší dvě věci:
 
 1. **Nemusíš procházet nabídky ručně každý den a nic ti neuteče přes víkend.**
    Scraper si po každém běhu pamatuje ID nabídek, které už viděl. Při dalším
@@ -21,12 +21,16 @@ kdy scraper běžel.
   automaticky každý všední den (cron `0 8 * * 1-5`, tj. cca 9–10h ráno v
   Praze podle letního/zimního času) a taky ručně přes tlačítko *Run workflow*.
 - Scraper (`scraper/`) stáhne výsledkové stránky z URL, které si nastavíš
-  v `config/settings.yaml`, posbírá odkazy na jednotlivé nabídky, zkusí
-  dohledat jméno firmy a plat, porovná s tím, co je uložené v `data/state.json`,
-  odfiltruje blacklistované firmy a nové nabídky zapíše do `data/history.json`
-  a `site/data.json`.
+  v `config/settings.yaml` (jobs.cz, prace.cz), případně zavolá knihovnu
+  JobSpy pro LinkedIn, posbírá jméno firmy/plat/datum přidání, porovná s
+  tím, co je uložené v `data/state.json`, a nové nabídky zapíše (VŠECHNY,
+  i ty odpovídající blacklistu - viz níže) do `data/history.json`.
+  Blacklist se z historie odfiltruje až při skládání `site/data.json`.
 - Workflow změněná data commitne zpátky do repa a nasadí obsah `site/` na
   GitHub Pages.
+- Úprava `config/blacklist.txt` navíc sama spustí rychlé přefiltrování
+  digestu (`scraper/rebuild_digest.py`) - bez nového stahování z webů, viz
+  sekce o blokování níže.
 
 ## Než to poprvé spustíš – nastavení
 
@@ -68,13 +72,37 @@ najde spolehlivě i bez CSS hintů. Jakmile scraper narazí na dvě stránky po
 sobě, kde jsou všechny nabídky už dřív viděné, přestane dál stránkovat –
 šetří to požadavky a v běžném provozu stačí projít jen pár prvních stránek.
 
-### 3. Zapni GitHub Pages (jednorázově, ručně)
+### 3. LinkedIn (přes JobSpy) - nastavení a omezení
+
+LinkedIn na rozdíl od jobs.cz/prace.cz aktivně blokuje běžný scraping,
+takže se místo vlastního HTML scraperu používá knihovna
+[JobSpy](https://github.com/speedyapply/JobSpy) (`scraper/linkedin_source.py`).
+V `config/settings.yaml` v sekci `linkedin`:
+
+- `search_terms` - seznam klíčových slov/pozic. LinkedIn nespojuje víc
+  pozic "OR" spolehlivě v jednom vyhledávání, takže se pro každé volá
+  hledání zvlášť a výsledky se spojí a odduplikují podle URL nabídky.
+- `location` - lokalita ve tvaru, jaký LinkedIn/JobSpy čeká (např.
+  `"Prague, Czech Republic"`).
+- `job_type`, `results_wanted` - typ úvazku a kolik nabídek na jedno
+  klíčové slovo stahovat.
+
+**Důležité omezení:** JobSpy sám upozorňuje, že LinkedIn bez proxy
+"usually rate limits around the 10th page with one ip" - GitHub Actions
+runner je jedna IP, takže při větším počtu klíčových slov nebo běžném
+provozu se časem může začít blokovat/omezovat. `results_wanted` je proto
+nastavené nízko (kolem jedné stránky na klíčové slovo). Pokud LinkedIn
+nabídky přestanou chodit úplně, je to spíš dočasná/trvalá blokace než
+chyba v kódu - nejde to spravit jinak než přidáním proxy (`proxies`
+parametr JobSpy) nebo omezením frekvence/počtu klíčových slov.
+
+### 4. Zapni GitHub Pages (jednorázově, ručně)
 
 V nastavení repozitáře: **Settings → Pages → Build and deployment → Source:
 GitHub Actions.** Tohle musí nastavit člověk s admin přístupem k repu přes
 webové rozhraní, jde to udělat jen jednou.
 
-### 4. Cron běží jen z výchozí (default) větve
+### 5. Cron běží jen z výchozí (default) větve
 
 GitHub spouští naplánované (`schedule`) workflow jen z výchozí větve repa.
 Dokud tuhle větev nesloučíš/nenastavíš jako výchozí, spouštěj scraper ručně
@@ -82,20 +110,36 @@ přes záložku *Actions → Scrape job offers → Run workflow*.
 
 ## Blokování klíčových slov (firmy i typy pozic)
 
-Přidej výraz (stačí část, hledá se jako podřetězec, nezáleží na velikosti
-písmen) na nový řádek do `config/blacklist.txt`. Kontroluje se jak jméno
-zaměstnavatele, tak název pozice, takže jedním seznamem jde blokovat obojí:
+Přidej výraz na nový řádek do `config/blacklist.txt`. Kontroluje se jak
+jméno zaměstnavatele, tak název pozice (case-insensitive), takže jedním
+seznamem jde blokovat obojí:
 
 ```
 Grafton Recruitment
 Randstad
 stavbyvedoucí
+prodejce po telefonu
 ```
 
-Nabídky odpovídající blacklistu se od dalšího běhu přestanou zobrazovat
-(ale scraper si je dál interně eviduje jako "viděné", takže se po odebrání
-z blacklistu znovu nevynoří jako "nové", pokud mezitím nepřibyla nová
-nabídka se stejným zaměstnavatelem/slovem v názvu).
+Víceslovný výraz se hledá slovo po slovu v daném pořadí, ne jako jeden
+pevný řetězec - "prodejce po telefonu" tak chytí i "Prodejce/-kyně po
+telefonu" (české názvy pozic mají často mezi slovy vloženou genderovou
+příponu). Každé slovo navíc matchuje jako podřetězec, takže "psychiatr"
+chytí i "psychiatra", "pečovatel služeb" chytí i "pečovatelských služeb"
+apod. - do blacklistu tak stačí psát kratší základ slova.
+
+Push do `config/blacklist.txt` (ať už ruční commit, nebo přes tlačítka
+na stránce - viz níže) automaticky spustí rychlé přefiltrování digestu
+bez nového stahování z webů. Blacklist se navíc počítá vždy znovu z
+celé historie nalezených nabídek, takže odebrání výrazu z blacklistu
+okamžitě vrátí zpět dřív skryté nabídky - žádná nabídka se kvůli
+blacklistu nikdy nezahazuje natrvalo.
+
+Na stránce jde blacklist i rozkliknout (tlačítko "Zobrazit blacklist") a
+u každé nabídky/výrazu je tlačítko na přidání/odebrání - zkopíruje text
+do schránky a otevře `blacklist.txt` v editoru na GitHubu, kam ho vložíš/
+smažeš a commitneš (stránka je statická, takže tohle je nejbližší možné
+"jedno kliknutí" bez vlastního backendu).
 
 ## Lokální spuštění / test
 
@@ -111,11 +155,15 @@ ve složce `site/`.
 ## Struktura repozitáře
 
 ```
-config/settings.yaml   # vyhledávací URL, limity stránkování, hinty pro extrakci
-config/blacklist.txt    # blokovaní zaměstnavatelé
-scraper/                # samotný scraper (common/site_scraper/main)
+config/settings.yaml    # vyhledávací URL/klíčová slova, limity stránkování, hinty
+config/blacklist.txt    # blokovaní zaměstnavatelé a klíčová slova v pozicích
+scraper/common.py        # Offer, state/blacklist I/O, blacklist matching
+scraper/site_scraper.py  # scraper pro jobs.cz a prace.cz (vlastní HTML parsování)
+scraper/linkedin_source.py  # LinkedIn přes knihovnu JobSpy
+scraper/main.py           # orchestrátor - scrapuje, dedupuje, zapisuje historii
+scraper/rebuild_digest.py # rychlé přefiltrování digestu bez scrapování (blacklist)
 data/state.json         # ID už viděných nabídek + čas posledního běhu
-data/history.json       # historie běhů a nových nabídek (posledních 30 běhů)
+data/history.json       # historie běhů a VŠECH nových nabídek (posledních 30 běhů)
 site/                   # statická stránka nasazovaná na GitHub Pages
 .github/workflows/      # GitHub Actions cron
 ```

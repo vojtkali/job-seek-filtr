@@ -23,6 +23,7 @@ from pathlib import Path
 import yaml
 
 from .common import DATA_DIR, REPO_ROOT, Offer, is_blacklisted, load_blacklist, load_state, save_state
+from .linkedin_source import scrape_linkedin
 from .site_scraper import scrape_site
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -106,7 +107,7 @@ def run() -> int:
     warnings: list[str] = []
     counts: dict[str, dict] = {}
 
-    for site_key in ("jobscz", "pracecz"):
+    for site_key in ("jobscz", "pracecz", "linkedin"):
         site_cfg = config.get(site_key, {})
         if not site_cfg.get("enabled", True):
             continue
@@ -115,18 +116,28 @@ def run() -> int:
         seen_ids = set(site_state.get("seen_ids", []))
 
         log.info("Stahuji %s...", site_cfg.get("name", site_key))
-        offers = scrape_site(
-            site_key=site_key,
-            search_urls=site_cfg.get("search_urls", []),
-            card_selector=site_cfg.get("card_selector", ""),
-            detail_url_pattern=site_cfg.get("detail_url_pattern", ""),
-            employer_hints=site_cfg.get("employer_hints", []),
-            salary_hints=site_cfg.get("salary_hints", []),
-            max_pages=site_cfg.get("max_pages", 5),
-            already_seen=seen_ids,
-            pagination_param=site_cfg.get("pagination_param"),
-            debug_dir=DEBUG_HTML_DIR,
-        )
+        if site_key == "linkedin":
+            # LinkedIn nejde přes vlastní HTML scraper jako jobs.cz/prace.cz,
+            # ale přes knihovnu JobSpy - viz scraper/linkedin_source.py.
+            offers = scrape_linkedin(
+                search_terms=site_cfg.get("search_terms", []),
+                location=site_cfg.get("location", ""),
+                job_type=site_cfg.get("job_type"),
+                results_wanted=site_cfg.get("results_wanted", 25),
+            )
+        else:
+            offers = scrape_site(
+                site_key=site_key,
+                search_urls=site_cfg.get("search_urls", []),
+                card_selector=site_cfg.get("card_selector", ""),
+                detail_url_pattern=site_cfg.get("detail_url_pattern", ""),
+                employer_hints=site_cfg.get("employer_hints", []),
+                salary_hints=site_cfg.get("salary_hints", []),
+                max_pages=site_cfg.get("max_pages", 5),
+                already_seen=seen_ids,
+                pagination_param=site_cfg.get("pagination_param"),
+                debug_dir=DEBUG_HTML_DIR,
+            )
 
         total_found = len(offers)
         new_count = 0

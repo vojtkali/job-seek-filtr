@@ -176,8 +176,14 @@ function renderOffer(offer) {
   a.target = "_blank";
   a.rel = "noopener noreferrer";
 
-  const badgeClass = offer.site === "jobscz" ? "badge-jobscz" : "badge-pracecz";
-  const siteLabel = offer.site === "jobscz" ? "Jobs.cz" : "Prace.cz";
+  const SITE_META = {
+    jobscz: { badge: "badge-jobscz", label: "Jobs.cz" },
+    pracecz: { badge: "badge-pracecz", label: "Prace.cz" },
+    linkedin: { badge: "badge-linkedin", label: "LinkedIn" },
+  };
+  const meta_ = SITE_META[offer.site] || { badge: "badge-jobscz", label: offer.site };
+  const badgeClass = meta_.badge;
+  const siteLabel = meta_.label;
 
   const title = document.createElement("div");
   title.className = "offer-title";

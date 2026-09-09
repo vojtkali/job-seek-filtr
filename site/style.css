@@ -7,6 +7,7 @@
   --accent: #b45309;
   --badge-jobscz: #1d4ed8;
   --badge-pracecz: #0f766e;
+  --badge-linkedin: #0a66c2;
   --warn-bg: #fef3c7;
   --warn-text: #92400e;
 }
@@ -21,6 +22,7 @@
     --accent: #f59e0b;
     --badge-jobscz: #60a5fa;
     --badge-pracecz: #2dd4bf;
+    --badge-linkedin: #4098d7;
     --warn-bg: #3f2d05;
     --warn-text: #fcd34d;
   }
@@ -187,6 +189,7 @@ main, #warnings { max-width: 860px; margin: 0 auto; }
 
 .badge-jobscz { background: var(--badge-jobscz); }
 .badge-pracecz { background: var(--badge-pracecz); }
+.badge-linkedin { background: var(--badge-linkedin); }
 
 .empty {
   color: var(--muted);
