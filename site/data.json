@@ -45,16 +45,6 @@
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
         {
-          "id": "2001369306",
-          "site": "jobscz",
-          "title": "SENIOR INVESTIČNÍ OBCHODNÍK",
-          "url": "https://www.jobs.cz/rpd/2001369306/?searchId=2eacf9bc-7357-4ee8-83fe-4da3ff0e9aba&rps=228",
-          "employer": "DIPOX s.r.o.",
-          "salary": "100 000 ‍–‍ 200 000 Kč",
-          "posted": null,
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
           "id": "2001406358",
           "site": "jobscz",
           "title": "Project Manager v energetice",
@@ -75,16 +65,6 @@
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
         {
-          "id": "2001254295",
-          "site": "jobscz",
-          "title": "Správce systémů a databází",
-          "url": "https://www.jobs.cz/rpd/2001254295/?searchId=2eacf9bc-7357-4ee8-83fe-4da3ff0e9aba&rps=233",
-          "employer": "Národní rozvojová banka, a.s.",
-          "salary": null,
-          "posted": "Aktualizováno před 11 minutami",
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
           "id": "2001383135",
           "site": "jobscz",
           "title": "OBCHODNÍ ZÁSTUPCE PRO PRACOVNÍ ODĚVY HELLY HANSEN WORKWEAR",
@@ -92,16 +72,6 @@
           "employer": "AZ FLEX, a.s.",
           "salary": "60 000 ‍–‍ 80 000 Kč",
           "posted": "Aktualizováno před 27 minutami",
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
-          "id": "2001405913",
-          "site": "jobscz",
-          "title": "Obchodní zástupce – praxe není nutná",
-          "url": "https://www.jobs.cz/rpd/2001405913/?searchId=2eacf9bc-7357-4ee8-83fe-4da3ff0e9aba&rps=233",
-          "employer": "Benefit investment a.s.",
-          "salary": "70 000 ‍–‍ 100 000 Kč",
-          "posted": "Aktualizováno před 30 minutami",
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
         {
@@ -142,16 +112,6 @@
           "employer": "Carvago s.r.o.",
           "salary": null,
           "posted": "Aktualizováno před 44 minutami",
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
-          "id": "2001412019",
-          "site": "jobscz",
-          "title": "Vedoucí projektového týmu (ž/m) -Praha, Střední Čechy",
-          "url": "https://www.jobs.cz/rpd/2001412019/?searchId=58c63dc0-ae9b-4e49-85d8-702014faa227&rps=233",
-          "employer": "GEOSAN GROUP a.s.",
-          "salary": null,
-          "posted": "Přidáno před 44 minutami",
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
         {
@@ -2076,7 +2036,12 @@
     "kurýr tesco",
     "ulovdomov",
     "rezidenční projekty",
-    "barista"
+    "barista",
+    "investiční obchodník",
+    "správce systémů",
+    "správce databází",
+    "benefit investment",
+    "geosan group"
   ],
   "repo": {
     "full_name": "vojtkali/job-seek-filtr",
