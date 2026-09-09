@@ -39,11 +39,11 @@ pracecz:
   # v jedné URL přes opakované workAreaIds[].
   search_urls:
     - "https://www.prace.cz/hledat/?workAreaIds[]=200900005;200900019&workAreaIds[]=200900025;200900029&workAreaIds[]=200900001&workAreaIds[]=200900011;200900012;200900013&workAreaIds[]=200900014&workAreaIds[]=200900017;200900018&workAreaIds[]=200900042&workAreaIds[]=200900038;200900039&workAreaIds[]=200900026&workLocationIds[]=R200000;0&jobTypes[]=FULL_TIME&salaryMin=50000&salaryCurrency=CZK"
-  # Odhad - na prace.cz jsem stránkování přes URL neověřil. Pokud scraper
-  # najde jen nabídky z první stránky, zkontroluj v prohlížeči, jak vypadá
-  # URL druhé stránky výsledků, a uprav (nebo nastav na null a scraper zkusí
-  # najít odkaz "Další").
+  # Stránkuje stejně jako jobs.cz, přes ?page=N.
   pagination_param: "page"
+  # Detail nabídky je pod UUID, ne číslem (např.
+  # /nabidka/a59791c8-7b9d-43db-b01a-7abadf50277e/) - scraper jako ID bere
+  # celý tenhle segment cesty, ne jen čísla v něm.
   detail_url_pattern: "/nabidka/"
   employer_hints: ["company", "employer", "firma", "zamestnavatel"]
   salary_hints: ["salary", "plat", "wage", "mzda"]

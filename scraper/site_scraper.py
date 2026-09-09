@@ -38,10 +38,17 @@ def fetch(url: str, session: requests.Session) -> BeautifulSoup | None:
     return BeautifulSoup(resp.text, "lxml")
 
 
-def _offer_id_from_url(url: str) -> str:
-    path = urlparse(url).path.strip("/")
-    digits = re.findall(r"\d+", path)
-    return digits[-1] if digits else path
+def _offer_id_from_url(url: str, detail_url_pattern: str) -> str:
+    """ID nabídky = část cesty hned za detail_url_pattern. Nejde spoléhat na
+    čísla v URL - prace.cz má detail nabídky pod UUID (např.
+    /nabidka/a59791c8-7b9d-43db-b01a-7abadf50277e/), zatímco jobs.cz pod
+    čistě číselným ID (/rpd/1234567/)."""
+    path = urlparse(url).path
+    idx = path.find(detail_url_pattern)
+    if idx == -1:
+        return path.strip("/")
+    remainder = path[idx + len(detail_url_pattern):].strip("/")
+    return remainder.split("/")[0] if remainder else path.strip("/")
 
 
 def _url_with_page(url: str, page_param: str, page_num: int) -> str:
@@ -173,7 +180,7 @@ def scrape_site(
             page_offer_ids: list[str] = []
             for a in anchors:
                 href = urljoin(url, a["href"])
-                offer_id = _offer_id_from_url(href)
+                offer_id = _offer_id_from_url(href, detail_url_pattern)
                 if not offer_id or offer_id in offers:
                     continue
                 title = clean_text(a.get_text(" "))
