@@ -4671,5 +4671,83 @@
       }
     },
     "warnings": []
+  },
+  {
+    "run_at": "2026-09-09T11:51:41.204921+00:00",
+    "offers": [
+      {
+        "id": "2001405926",
+        "site": "jobscz",
+        "title": "Provozovatel čerpací stanice MOL Praha – podnikejte pod silnou značkou",
+        "url": "https://www.jobs.cz/rpd/2001405926/?searchId=2226c197-3416-41e7-a1bd-9876bf6b1f2e&rps=233",
+        "employer": "MOL čerpací stanice – provozovatelé",
+        "salary": null,
+        "posted": "Aktualizováno před 7 minutami",
+        "found_at": "2026-09-09T11:51:41.204921+00:00"
+      },
+      {
+        "id": "2001417356",
+        "site": "jobscz",
+        "title": "ERP Konzultant | finance a účetnictví",
+        "url": "https://www.jobs.cz/rpd/2001417356/?searchId=2226c197-3416-41e7-a1bd-9876bf6b1f2e&rps=233",
+        "employer": "ARBES Technologies, a.s.",
+        "salary": null,
+        "posted": "Přidáno před 7 minutami",
+        "found_at": "2026-09-09T11:51:41.204921+00:00"
+      },
+      {
+        "id": "2001373777",
+        "site": "jobscz",
+        "title": "Nemáš praxi? Nevadí - naučíme tě, jak se stát skvělým obchodníkem!",
+        "url": "https://www.jobs.cz/rpd/2001373777/?searchId=2226c197-3416-41e7-a1bd-9876bf6b1f2e&rps=233",
+        "employer": "Ušetřeno.cz s.r.o.",
+        "salary": "40 000 ‍–‍ 80 000 Kč",
+        "posted": "Aktualizováno před 8 minutami",
+        "found_at": "2026-09-09T11:51:41.204921+00:00"
+      },
+      {
+        "id": "2001224472",
+        "site": "jobscz",
+        "title": "Projektový manažer - Technický dozor investora senior",
+        "url": "https://www.jobs.cz/rpd/2001224472/?searchId=2226c197-3416-41e7-a1bd-9876bf6b1f2e&rps=233",
+        "employer": "FINEP HOLDING, SE",
+        "salary": null,
+        "posted": "Přidáno před 10 minutami",
+        "found_at": "2026-09-09T11:51:41.204921+00:00"
+      },
+      {
+        "id": "2001405932",
+        "site": "jobscz",
+        "title": "Treasury Expert",
+        "url": "https://www.jobs.cz/rpd/2001405932/?searchId=2226c197-3416-41e7-a1bd-9876bf6b1f2e&rps=233",
+        "employer": "SATPO management, s.r.o.",
+        "salary": null,
+        "posted": "Aktualizováno před 13 minutami",
+        "found_at": "2026-09-09T11:51:41.204921+00:00"
+      },
+      {
+        "id": "2001383135",
+        "site": "jobscz",
+        "title": "OBCHODNÍ ZÁSTUPCE PRO PRACOVNÍ ODĚVY HELLY HANSEN WORKWEAR",
+        "url": "https://www.jobs.cz/rpd/2001383135/?searchId=2226c197-3416-41e7-a1bd-9876bf6b1f2e&rps=233",
+        "employer": "AZ FLEX, a.s.",
+        "salary": "60 000 ‍–‍ 80 000 Kč",
+        "posted": "Aktualizováno před 14 minutami",
+        "found_at": "2026-09-09T11:51:41.204921+00:00"
+      }
+    ],
+    "counts": {
+      "jobscz": {
+        "total_found": 90,
+        "new": 6,
+        "blacklisted": 0
+      },
+      "pracecz": {
+        "total_found": 52,
+        "new": 0,
+        "blacklisted": 0
+      }
+    },
+    "warnings": []
   }
 ]
