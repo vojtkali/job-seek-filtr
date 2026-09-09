@@ -16,3 +16,4 @@ accountant
 účetní
 mobil pohotovost
 elektromontér
+firemní bankéř
