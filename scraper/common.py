@@ -61,12 +61,22 @@ def load_blacklist() -> list[str]:
     return entries
 
 
+def _term_pattern(term: str) -> re.Pattern:
+    """Víceslovný termín se hledá po jednotlivých slovech v daném pořadí,
+    ne jako jeden pevný řetězec - české názvy pozic mají často mezi slovy
+    vloženou genderovou příponu (např. "Prodejce/-kyně po telefonu" pro
+    termín "prodejce po telefonu"), takže přesná shoda by je minula."""
+    words = term.split()
+    pattern = r".*?".join(re.escape(w) for w in words)
+    return re.compile(pattern, re.IGNORECASE)
+
+
 def is_blacklisted(offer: Offer, blacklist: list[str]) -> bool:
-    """Blacklist se hledá jako podřetězec (case-insensitive) v názvu pozice
-    i ve jméně zaměstnavatele - jeden seznam pokrývá obojí (firmy i klíčová
-    slova jako "stavbyvedoucí")."""
-    haystack = f"{offer.title} {offer.employer or ''}".lower()
-    return any(term.lower() in haystack for term in blacklist)
+    """Blacklist se hledá (case-insensitive, přes libovolné znaky mezi
+    slovy) v názvu pozice i ve jméně zaměstnavatele - jeden seznam pokrývá
+    obojí (firmy i klíčová slova jako "stavbyvedoucí")."""
+    haystack = f"{offer.title} {offer.employer or ''}"
+    return any(_term_pattern(term).search(haystack) for term in blacklist)
 
 
 _WS_RE = re.compile(r"\s+")
