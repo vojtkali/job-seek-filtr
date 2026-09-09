@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:04:10.083412+00:00",
+  "generated_at": "2026-09-09T10:16:57.420741+00:00",
   "runs": [
     {
       "run_at": "2026-09-09T09:54:22.416586+00:00",
@@ -4179,8 +4179,77 @@
         }
       },
       "warnings": []
+    },
+    {
+      "run_at": "2026-09-09T10:16:57.420741+00:00",
+      "offers": [
+        {
+          "id": "2001264025",
+          "site": "jobscz",
+          "title": "Advokátní koncipient/ka",
+          "url": "https://www.jobs.cz/rpd/2001264025/?searchId=b82dbfec-f359-4e26-8c2a-6e4296aa750f&rps=233",
+          "employer": "Advokátní kancelář Brož, Sedlatý s.r.o.",
+          "salary": "45 000 ‍–‍ 80 000 Kč",
+          "posted": "Přidáno před 6 minutami",
+          "found_at": "2026-09-09T10:16:57.420741+00:00"
+        },
+        {
+          "id": "2001416890",
+          "site": "jobscz",
+          "title": "HW specialista | rezervační software | Praha 5",
+          "url": "https://www.jobs.cz/rpd/2001416890/?searchId=b82dbfec-f359-4e26-8c2a-6e4296aa750f&rps=233",
+          "employer": "Perfect System, s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 7 minutami",
+          "found_at": "2026-09-09T10:16:57.420741+00:00"
+        },
+        {
+          "id": "2001371558",
+          "site": "jobscz",
+          "title": "STAVEBNÍ PROJECT MANAGER",
+          "url": "https://www.jobs.cz/rpd/2001371558/?searchId=b82dbfec-f359-4e26-8c2a-6e4296aa750f&rps=233",
+          "employer": "TKC ARTA s.r.o.",
+          "salary": null,
+          "posted": "Končí za 3 dny",
+          "found_at": "2026-09-09T10:16:57.420741+00:00"
+        },
+        {
+          "id": "2001382924",
+          "site": "jobscz",
+          "title": "Senior Personnel Administration Specialist / Payroll Accountant",
+          "url": "https://www.jobs.cz/rpd/2001382924/?searchId=b82dbfec-f359-4e26-8c2a-6e4296aa750f&rps=233",
+          "employer": "ADASTRA, s.r.o.",
+          "salary": null,
+          "posted": "Aktualizováno před 14 minutami",
+          "found_at": "2026-09-09T10:16:57.420741+00:00"
+        },
+        {
+          "id": "73c19e6d-7f56-45c9-87e0-ee7b5e2812b4",
+          "site": "pracecz",
+          "title": "Junior Sales Representative - divize OFFICE",
+          "url": "https://www.prace.cz/firma/b3sa6g-europapier-bohemia-spol-s-r-o/nabidka/73c19e6d-7f56-45c9-87e0-ee7b5e2812b4/?rps=2077",
+          "employer": "EUROPAPIER - BOHEMIA, spol. s r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-09T10:16:57.420741+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 90,
+          "new": 4,
+          "blacklisted": 0
+        },
+        "pracecz": {
+          "total_found": 82,
+          "new": 1,
+          "blacklisted": 0
+        }
+      },
+      "warnings": []
     }
   ],
+  "blacklist": [],
   "repo": {
     "full_name": "vojtkali/job-seek-filtr",
     "branch": "claude/job-offers-filtering-hfug64"
