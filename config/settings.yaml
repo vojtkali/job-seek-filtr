@@ -1,0 +1,63 @@
+# Nastavení hlídače nabídek práce.
+#
+# DŮLEŽITÉ pro search_urls: nejde o URL, které vymyslel scraper, ale o URL,
+# které dostaneš TY, když si na jobs.cz / prace.cz ve webovém filtru ručně
+# nastavíš lokalitu, plat, obor atd. a zkopíruješ výslednou adresu z prohlížeče.
+# Tím odpadá riziko, že si scraper spočítá špatné parametry filtru - filtrování
+# dělá přímo web, scraper jen čte výsledky a hlídá, co je nové.
+#
+# Pokud web pro víc oborů/kritérií vygeneruje víc URL (např. každý obor zvlášť),
+# přidej je všechny do seznamu - scraper je projde všechny a spojí výsledky.
+#
+# POZOR: URL níže jsou jen ILUSTRATIVNÍ ODHAD parametrů (salary-min, locality,
+# field, employment...), skládal jsem je bez přístupu na živý web. Než scraper
+# poprvé spustíš doopravdy, nastav si filtr v prohlížeči a těmito hodnotami
+# nahraď - jinak filtr nemusí sedět nebo se stránka nenačte podle očekávání.
+
+jobscz:
+  enabled: true
+  name: "Jobs.cz"
+  # Vlož sem URL z adresního řádku po nastavení: Praha, plat od 69 000 Kč.
+  search_urls:
+    - "https://www.jobs.cz/prace/praha/?salary-min=69000"
+  # Vzor v URL nabídky, podle kterého scraper pozná odkaz na detail nabídky
+  # (a ne třeba na navigaci webu). Uprav, pokud web nic nenajde.
+  detail_url_pattern: "/rpd/"
+  # Nápovědy pro hledání jména zaměstnavatele / platu v HTML (class/data-testid
+  # obsahující libovolné z těchto slov, case-insensitive). Uprav podle skutečné
+  # struktury stránky, když scraper firmu/plat nenajde.
+  employer_hints: ["company", "employer", "firma", "zamestnavatel"]
+  salary_hints: ["salary", "plat", "wage", "mzda"]
+  max_pages: 5
+
+pracecz:
+  enabled: true
+  name: "Prace.cz"
+  # Vlož sem URL po nastavení: Praha, plný úvazek, obory (Doprava a zásobování,
+  # Služby, Administrativa, Informatika, Kultura umění a tvůrčí práce,
+  # Marketing média a reklama, Zákaznický servis, Ostatní, Prodej a obchod),
+  # plat od 49 000 Kč (uprav si podle skutečné hranice, kterou chceš).
+  # Pokud web nedovolí zvolit všechny obory najednou v jedné URL, vlož sem
+  # URL pro každý obor zvlášť - scraper výsledky spojí a duplicity odstraní.
+  search_urls:
+    - "https://www.prace.cz/nabidky/?field=doprava-a-zasobovani&locality=praha&employment=plny-uvazek&salary-min=49000"
+    - "https://www.prace.cz/nabidky/?field=sluzby&locality=praha&employment=plny-uvazek&salary-min=49000"
+    - "https://www.prace.cz/nabidky/?field=administrativa&locality=praha&employment=plny-uvazek&salary-min=49000"
+    - "https://www.prace.cz/nabidky/?field=informatika&locality=praha&employment=plny-uvazek&salary-min=49000"
+    - "https://www.prace.cz/nabidky/?field=kultura-umeni-a-tvurci-prace&locality=praha&employment=plny-uvazek&salary-min=49000"
+    - "https://www.prace.cz/nabidky/?field=marketing-media-a-reklama&locality=praha&employment=plny-uvazek&salary-min=49000"
+    - "https://www.prace.cz/nabidky/?field=zakaznicky-servis&locality=praha&employment=plny-uvazek&salary-min=49000"
+    - "https://www.prace.cz/nabidky/?field=ostatni&locality=praha&employment=plny-uvazek&salary-min=49000"
+    - "https://www.prace.cz/nabidky/?field=prodej-a-obchod&locality=praha&employment=plny-uvazek&salary-min=49000"
+  detail_url_pattern: "/nabidka/"
+  employer_hints: ["company", "employer", "firma", "zamestnavatel"]
+  salary_hints: ["salary", "plat", "wage", "mzda"]
+  max_pages: 5
+
+# Kolik posledních ID nabídek na jeden web si scraper pamatuje, aby stejnou
+# nabídku znovu nenahlásil jako novou. Klidně nech, jen ať to nikdy neklesne
+# pod pár tisíc.
+seen_ids_limit: 5000
+
+# Kolik nabídek maximálně zobrazit na stránce (nejnovější první).
+max_digest_items: 300

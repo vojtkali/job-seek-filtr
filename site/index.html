@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nabídky práce</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Nabídky práce</h1>
+  <p id="meta" class="muted">Načítám...</p>
+</header>
+
+<div id="warnings"></div>
+
+<main id="runs"></main>
+
+<footer class="muted">
+  <p>
+    Zdroj: jobs.cz a prace.cz podle filtrů v <code>config/settings.yaml</code>.
+    Firmu, kterou nechceš vidět, přidej do <code>config/blacklist.txt</code>.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

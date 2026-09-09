@@ -1,0 +1,8 @@
+# Zaměstnavatelé, jejichž nabídky nechceš vidět.
+# Jeden název (nebo jeho část) na řádek, řádky začínající # se ignorují.
+# Porovnání je case-insensitive a hledá se jako podřetězec ve jméně firmy,
+# takže stačí napsat kus názvu, např. "Grafton" chytí i "Grafton Recruitment s.r.o.".
+#
+# Příklad:
+# Grafton Recruitment
+# Randstad
