@@ -1,6 +1,6 @@
 name: Scrape job offers
 
-on:
+"on":
   schedule:
     # 8:00 UTC = cca 9-10h ráno v Praze (podle letního/zimního času).
     # Pondělí (den 1) tak přirozeně zachytí i vše nové z víkendu, protože
