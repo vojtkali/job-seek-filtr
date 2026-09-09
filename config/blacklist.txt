@@ -12,3 +12,5 @@ koncipient
 stavební project manager
 SalesDesk Czech Republic
 psychiatr
+accountant
+účetní
