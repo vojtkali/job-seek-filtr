@@ -35,16 +35,6 @@
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
         {
-          "id": "2001149131",
-          "site": "jobscz",
-          "title": "Firemní bankéř*ka - Praha, Národní třída",
-          "url": "https://www.jobs.cz/rpd/2001149131/?searchId=2eacf9bc-7357-4ee8-83fe-4da3ff0e9aba&rps=228",
-          "employer": "Raiffeisenbank a.s.",
-          "salary": "45 000 ‍–‍ 70 000 Kč",
-          "posted": null,
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
           "id": "2001378660",
           "site": "jobscz",
           "title": "Sales Lead – Small Enterprises",
@@ -4328,7 +4318,8 @@
     "accountant",
     "účetní",
     "mobil pohotovost",
-    "elektromontér"
+    "elektromontér",
+    "firemní bankéř"
   ],
   "repo": {
     "full_name": "vojtkali/job-seek-filtr",
