@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:51:41.204921+00:00",
+  "generated_at": "2026-09-09T11:56:11.585227+00:00",
   "runs": [
     {
       "run_at": "2026-09-09T09:54:22.416586+00:00",
@@ -4751,12 +4751,51 @@
         }
       },
       "warnings": []
+    },
+    {
+      "run_at": "2026-09-09T11:56:11.585227+00:00",
+      "offers": [
+        {
+          "id": "2000978899",
+          "site": "jobscz",
+          "title": "Senior IT Auditor (m/f)",
+          "url": "https://www.jobs.cz/rpd/2000978899/?searchId=bd82114f-4d7c-45aa-bac6-0124c5091b5e&rps=233",
+          "employer": "Komerční banka, a.s.",
+          "salary": null,
+          "posted": "Přidáno před 2 minutami",
+          "found_at": "2026-09-09T11:56:11.585227+00:00"
+        },
+        {
+          "id": "2001328661",
+          "site": "jobscz",
+          "title": "Financial Controller - developerská společnost",
+          "url": "https://www.jobs.cz/rpd/2001328661/?searchId=bd82114f-4d7c-45aa-bac6-0124c5091b5e&rps=233",
+          "employer": "Heat & Lark s.r.o.",
+          "salary": "65 000 ‍–‍ 75 000 Kč",
+          "posted": "Aktualizováno před 7 minutami",
+          "found_at": "2026-09-09T11:56:11.585227+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 90,
+          "new": 2,
+          "blacklisted": 0
+        },
+        "pracecz": {
+          "total_found": 53,
+          "new": 0,
+          "blacklisted": 0
+        }
+      },
+      "warnings": []
     }
   ],
   "blacklist": [
     "koncipient",
     "stavební project manager",
-    "SalesDesk Czech Republic"
+    "SalesDesk Czech Republic",
+    "psychiatr"
   ],
   "repo": {
     "full_name": "vojtkali/job-seek-filtr",
