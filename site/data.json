@@ -615,16 +615,6 @@
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
         {
-          "id": "2001405550",
-          "site": "jobscz",
-          "title": "Produktový manažer",
-          "url": "https://www.jobs.cz/rpd/2001405550/?searchId=abc3a1cd-53ee-46e0-9e0c-c7f97f2269c3&rps=233",
-          "employer": "Magistra a.s.",
-          "salary": "50 000 ‍–‍ 80 000 Kč",
-          "posted": "Aktualizováno před 2 hodinami",
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
           "id": "2001364601",
           "site": "jobscz",
           "title": "BUSINESS DEVELOPMENT MANAGER",
@@ -645,31 +635,11 @@
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
         {
-          "id": "2001416987",
-          "site": "jobscz",
-          "title": "Software Developer for LLM Pretraining Data Compliance, OpenEuroLLM",
-          "url": "https://www.jobs.cz/rpd/2001416987/?searchId=abc3a1cd-53ee-46e0-9e0c-c7f97f2269c3&rps=233",
-          "employer": "Univerzita Karlova – Matematicko-fyzikální fakulta",
-          "salary": "60 000 ‍–‍ 120 000 Kč",
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
           "id": "2001405538",
           "site": "jobscz",
           "title": "Projektový manažer (inženýring)",
           "url": "https://www.jobs.cz/rpd/2001405538/?searchId=abc3a1cd-53ee-46e0-9e0c-c7f97f2269c3&rps=233",
           "employer": "CENTRAL GROUP a.s.",
-          "salary": null,
-          "posted": "Aktualizováno před 2 hodinami",
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
-          "id": "2001405537",
-          "site": "jobscz",
-          "title": "KAM Magistra lékárny - Východní Morava",
-          "url": "https://www.jobs.cz/rpd/2001405537/?searchId=abc3a1cd-53ee-46e0-9e0c-c7f97f2269c3&rps=233",
-          "employer": "Magistra a.s.",
           "salary": null,
           "posted": "Aktualizováno před 2 hodinami",
           "found_at": "2026-09-09T12:05:17.985357+00:00"
@@ -681,16 +651,6 @@
           "url": "https://www.jobs.cz/rpd/2001405512/?searchId=abc3a1cd-53ee-46e0-9e0c-c7f97f2269c3&rps=233",
           "employer": "W.A.G. payment solutions, a.s.",
           "salary": null,
-          "posted": "Aktualizováno před 2 hodinami",
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
-          "id": "2001391604",
-          "site": "jobscz",
-          "title": "Akviziční specialista pro Prahu",
-          "url": "https://www.jobs.cz/rpd/2001391604/?searchId=abc3a1cd-53ee-46e0-9e0c-c7f97f2269c3&rps=233",
-          "employer": "IP Polná s.r.o.",
-          "salary": "60 000 ‍–‍ 90 000 Kč",
           "posted": "Aktualizováno před 2 hodinami",
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
@@ -732,16 +692,6 @@
           "employer": "MILES dental care s.r.o.",
           "salary": "60 000 ‍–‍ 120 000 Kč",
           "posted": "Aktualizováno před 2 hodinami",
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
-          "id": "2001416980",
-          "site": "jobscz",
-          "title": "Cloud Platform Automation Engineer | Klíčová role při budování automatizace",
-          "url": "https://www.jobs.cz/rpd/2001416980/?searchId=abc3a1cd-53ee-46e0-9e0c-c7f97f2269c3&rps=233",
-          "employer": "Manpower IT",
-          "salary": null,
-          "posted": "Přidáno před 2 hodinami",
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
         {
@@ -1231,16 +1181,6 @@
           "url": "https://www.jobs.cz/rpd/2001416708/?searchId=1c877efc-08af-4d25-acff-d9a6ec9d8652&rps=233",
           "employer": "Škola Investorů s.r.o.",
           "salary": "55 000 ‍–‍ 80 000 Kč",
-          "posted": "Přidáno dnes",
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
-          "id": "2001198873",
-          "site": "jobscz",
-          "title": "Automation Engineer",
-          "url": "https://www.jobs.cz/rpd/2001198873/?searchId=1c877efc-08af-4d25-acff-d9a6ec9d8652&rps=233",
-          "employer": "MONETA Money Bank, a.s.",
-          "salary": null,
           "posted": "Přidáno dnes",
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
@@ -4319,7 +4259,11 @@
     "účetní",
     "mobil pohotovost",
     "elektromontér",
-    "firemní bankéř"
+    "firemní bankéř",
+    "software developer",
+    "magistr",
+    "IP polná",
+    "automation engineer"
   ],
   "repo": {
     "full_name": "vojtkali/job-seek-filtr",
