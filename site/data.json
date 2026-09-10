@@ -1565,16 +1565,6 @@
           "found_at": "2026-09-09T12:05:17.985357+00:00"
         },
         {
-          "id": "7425ed8a-220c-487e-96f7-dbb384524f47",
-          "site": "pracecz",
-          "title": "F&B supervisor/ka pro ABF Catering",
-          "url": "https://www.prace.cz/nabidka/7425ed8a-220c-487e-96f7-dbb384524f47/?rps=2077",
-          "employer": "ABF, a.s.",
-          "salary": "45 000 – 50 000 Kč/měsíc",
-          "posted": null,
-          "found_at": "2026-09-09T12:05:17.985357+00:00"
-        },
-        {
           "id": "084323f6-82f0-4d34-b7bb-84e54872ac03",
           "site": "pracecz",
           "title": "Manažer/ka pobočky GRANDOPTICAL - DBK Praha 4",
@@ -2140,16 +2130,6 @@
           "found_at": "2026-09-10T08:10:21.541270+00:00"
         },
         {
-          "id": "2001407676",
-          "site": "jobscz",
-          "title": "F&B Manager pro Boutique Pytloun Hotel",
-          "url": "https://www.jobs.cz/rpd/2001407676/?searchId=9bbcb2c4-163b-4664-bc36-7e77fa82839c&rps=233",
-          "employer": "Pytloun Hotels Management s.r.o.",
-          "salary": null,
-          "posted": "Aktualizováno před 11 minutami",
-          "found_at": "2026-09-10T08:10:21.541270+00:00"
-        },
-        {
           "id": "2001364477",
           "site": "jobscz",
           "title": "Analytik/analytička pro komoditní produkty",
@@ -2177,16 +2157,6 @@
           "employer": "UNIQA",
           "salary": null,
           "posted": "Přidáno před 36 minutami",
-          "found_at": "2026-09-10T08:10:21.541270+00:00"
-        },
-        {
-          "id": "2000997381",
-          "site": "jobscz",
-          "title": "⋙Senior nákupčí elektro produktů⋘",
-          "url": "https://www.jobs.cz/rpd/2000997381/?searchId=c13f544f-8bc4-4475-8a10-7b7ce5df87f1&rps=233",
-          "employer": "mBlue Czech, s.r.o.",
-          "salary": "55 000 ‍–‍ 75 000 Kč",
-          "posted": "Přidáno před 42 minutami",
           "found_at": "2026-09-10T08:10:21.541270+00:00"
         },
         {
@@ -2226,16 +2196,6 @@
           "url": "https://www.prace.cz/firma/r5p21a-lagardere-travel-retail-a-s/nabidka/6b8e7d0f-8f5b-4129-ad2d-ea992471bdf5/?rps=2077",
           "employer": "Lagardere Travel Retail, a.s.",
           "salary": "43 000 – 53 000 Kč/měsíc",
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-10T08:10:21.541270+00:00"
-        },
-        {
-          "id": "c32006ad-7746-4e01-b38a-f2c373e261b3",
-          "site": "pracecz",
-          "title": "⋙Senior nákupčí elektro produktů⋘",
-          "url": "https://www.prace.cz/nabidka/c32006ad-7746-4e01-b38a-f2c373e261b3/?rps=2077",
-          "employer": "mBlue Czech, s.r.o.",
-          "salary": "55 000 – 75 000 Kč/měsíc",
           "posted": "Nová nabídka",
           "found_at": "2026-09-10T08:10:21.541270+00:00"
         }
@@ -2504,7 +2464,9 @@
     "zedník",
     "leadmotion",
     "vedoucí skladu",
-    "vybuduj svůj tým"
+    "vybuduj svůj tým",
+    "f&b",
+    "senior nákupčí elektro"
   ],
   "repo": {
     "full_name": "vojtkali/job-seek-filtr",
