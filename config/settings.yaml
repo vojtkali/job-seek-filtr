@@ -59,48 +59,6 @@ pracecz:
   salary_hints: ["salary", "plat", "wage", "mzda"]
   max_pages: 8
 
-linkedin:
-  # Vypnuto - bez přihlášení LinkedIn (přes veřejné "guest" API, které
-  # JobSpy používá) spolehlivě nefiltruje podle lokality ani přes
-  # klíčová slova v textu. Dva ostré testy (samotná klíčová slova, pak
-  # klíčová slova + "Prague") skončily tak, že drtivá většina nabídek
-  # byla mimo ČR/Evropu (Dominikánská republika, Čína, Latinská
-  # Amerika...). Kód zůstává funkční (viz scraper/linkedin_source.py),
-  # kdyby se to chtělo někdy zkusit jinak (např. přes placené proxy).
-  enabled: false
-  name: "LinkedIn"
-  # LinkedIn (přes knihovnu JobSpy, ne vlastní scraper - viz
-  # scraper/linkedin_source.py) neumí spolehlivě "OR" mezi víc pozicemi
-  # v jednom vyhledávání, takže se pro každý řádek volá hledání zvlášť a
-  # výsledky se spojí a odduplikují.
-  #
-  # "Prague" je součástí každého klíčového slova schválně - samotný
-  # parametr location/distance u nepřihlášeného vyhledávání (JobSpy
-  # používá veřejné, "guest" rozhraní LinkedIn) spolehlivě nefiltruje a
-  # bez toho chodily hlavně nabídky z celého světa (první test: 158
-  # nabídek, drtivá většina mimo ČR/Evropu - Dominikánská republika,
-  # Čína, Latinská Amerika...). Přidání "Prague" do textu hledání donutí
-  # LinkedIn hledat doslova tohle slovo, což relevanci výrazně zlepší,
-  # i když to není 100% totéž jako striktní geografický filtr.
-  search_terms:
-    - "Project Manager Prague"
-    - "Management Prague"
-    - "Marketing Manager Prague"
-    - "Brand Manager Prague"
-    - "Onsite Manager Prague"
-    - "Driver Prague"
-    - "product launch manager Prague"
-    - "event manager Prague"
-    - "manager Prague"
-  location: "Prague, Czech Republic"
-  job_type: "fulltime"
-  # LinkedIn bez proxy začíná blokovat kolem 10. stránky výsledků z jedné
-  # IP (a GitHub Actions runner je jedna IP) - výsledků na klíčové slovo
-  # se držíme nízko (~1 stránka), aby běh nespotřeboval celou rezervu.
-  # Pokud LinkedIn nabídky vůbec nepřijdou nebo přestanou chodit, jde
-  # nejspíš o dočasnou/trvalou blokaci, ne o chybu v kódu.
-  results_wanted: 25
-
 # Kolik posledních ID nabídek na jeden web si scraper pamatuje, aby stejnou
 # nabídku znovu nenahlásil jako novou. Klidně nech, jen ať to nikdy neklesne
 # pod pár tisíc.
