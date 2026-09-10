@@ -2211,46 +2211,6 @@
       "run_at": "2026-09-10T09:11:38.851343+00:00",
       "offers": [
         {
-          "id": "2001396079",
-          "site": "jobscz",
-          "title": "Country Sales Manager",
-          "url": "https://www.jobs.cz/rpd/2001396079/?searchId=b29ab5e2-dde2-41ea-b62a-1095abc2f050&rps=233",
-          "employer": "SARA J. PIEŚCIŃSKI H. PIEŚCIŃSKA SPÓŁKA KOMANDYTOWA",
-          "salary": "2 500 ‍–‍ 3 500 EUR",
-          "posted": "Aktualizováno před 10 minutami",
-          "found_at": "2026-09-10T09:11:38.851343+00:00"
-        },
-        {
-          "id": "2001107013",
-          "site": "jobscz",
-          "title": "SAP BI/BW konzultant M/Ž",
-          "url": "https://www.jobs.cz/rpd/2001107013/?searchId=b29ab5e2-dde2-41ea-b62a-1095abc2f050&rps=233",
-          "employer": "Pražská plynárenská, a.s.",
-          "salary": null,
-          "posted": "Přidáno před 27 minutami",
-          "found_at": "2026-09-10T09:11:38.851343+00:00"
-        },
-        {
-          "id": "597a3153-be7d-432c-abbd-eb63213baaf3",
-          "site": "pracecz",
-          "title": "Analytik se zaměřením na strategickou komunikaci a advocacy",
-          "url": "https://www.prace.cz/nabidka/597a3153-be7d-432c-abbd-eb63213baaf3/?rps=2077",
-          "employer": "STEM Ústav empirických výzkumů, z.ú.",
-          "salary": "55 000 – 65 000 Kč/měsíc",
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-10T09:11:38.851343+00:00"
-        },
-        {
-          "id": "56f753be-e544-49d1-a064-8eda70326326",
-          "site": "pracecz",
-          "title": "Specialista zákaznického centra",
-          "url": "https://www.prace.cz/nabidka/56f753be-e544-49d1-a064-8eda70326326/?rps=2077",
-          "employer": "Colonnade Insurance S.A., organizační složka",
-          "salary": "32 000 – 50 000 Kč/měsíc",
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-10T09:11:38.851343+00:00"
-        },
-        {
           "id": "1467c2ef-bf21-4983-b86b-6bd32424f2a9",
           "site": "pracecz",
           "title": "Řidič/Závozník",
@@ -2356,6 +2316,10 @@
     "head of hr",
     "head of labour",
     "daňový poradce",
+    "SARA J. PIEŚCIŃSKI H. PIEŚCIŃSKA SPÓŁKA KOMANDYTOWA",
+    "sap konzultant",
+    "STEM Ústav empirických",
+    "insurance",
     "daňový konzultant",
     "Workforce Experience Specialist",
     "Obchodní zástupce ERP",
