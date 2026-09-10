@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:10:21.541270+00:00",
+  "generated_at": "2026-09-10T08:10:54.918403+00:00",
   "runs": [
     {
       "run_at": "2026-09-09T12:05:17.985357+00:00",
@@ -2928,6 +2928,21 @@
         "pracecz": {
           "total_found": 82,
           "new": 6
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-09-10T08:10:54.918403+00:00",
+      "offers": [],
+      "counts": {
+        "jobscz": {
+          "total_found": 60,
+          "new": 0
+        },
+        "pracecz": {
+          "total_found": 54,
+          "new": 0
         }
       },
       "warnings": []
