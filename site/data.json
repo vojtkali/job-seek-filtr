@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T20:10:56.525226+00:00",
+  "generated_at": "2026-09-10T07:28:04.315531+00:00",
   "runs": [
     {
       "run_at": "2026-09-09T12:05:17.985357+00:00",
@@ -3967,6 +3967,896 @@
         "linkedin": {
           "total_found": 158,
           "new": 158
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-09-10T07:28:04.315531+00:00",
+      "offers": [
+        {
+          "id": "2001384570",
+          "site": "jobscz",
+          "title": "Projektový manager",
+          "url": "https://www.jobs.cz/rpd/2001384570/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "Open Apps Development, a.s.",
+          "salary": "60 000 ‍–‍ 100 000 Kč",
+          "posted": "Aktualizováno před 11 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2000929309",
+          "site": "jobscz",
+          "title": "Gastroenterolog (M/Ž)",
+          "url": "https://www.jobs.cz/rpd/2000929309/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "ISCARE a.s.",
+          "salary": null,
+          "posted": "Aktualizováno před 11 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001418634",
+          "site": "jobscz",
+          "title": "Group System Administrator",
+          "url": "https://www.jobs.cz/rpd/2001418634/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "Dr.Max",
+          "salary": null,
+          "posted": "Přidáno před 11 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001418615",
+          "site": "jobscz",
+          "title": "Obchodník pro velkoobchodní prodej pohonných hmot & cenový specialista",
+          "url": "https://www.jobs.cz/rpd/2001418615/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "TOP TANK s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 16 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001048038",
+          "site": "jobscz",
+          "title": "Obchodně - technický manažer/manažerka v oblasti TZB",
+          "url": "https://www.jobs.cz/rpd/2001048038/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "Skupina ČEZ",
+          "salary": null,
+          "posted": "Přidáno před 18 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001418612",
+          "site": "jobscz",
+          "title": "Nákupčí / Key Account Manager – Drogerie & Beauty",
+          "url": "https://www.jobs.cz/rpd/2001418612/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "NBB Trade Connection s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 18 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001418607",
+          "site": "jobscz",
+          "title": "Specialista letecké přepravy",
+          "url": "https://www.jobs.cz/rpd/2001418607/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "HOFMANN WIZARD s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 20 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001384533",
+          "site": "jobscz",
+          "title": "Vedoucí oddělení Merchandisignu",
+          "url": "https://www.jobs.cz/rpd/2001384533/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "Footballmania, a.s.",
+          "salary": null,
+          "posted": "Aktualizováno před 24 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001395793",
+          "site": "jobscz",
+          "title": "Head of Acquisition/Head of Business Development (Nemovitosti)",
+          "url": "https://www.jobs.cz/rpd/2001395793/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "Liberty Real Estate s.r.o.",
+          "salary": "100 000 ‍–‍ 200 000 Kč",
+          "posted": "Aktualizováno před 26 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001365765",
+          "site": "jobscz",
+          "title": "Business development manažer – senior pro segment komerční development",
+          "url": "https://www.jobs.cz/rpd/2001365765/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "Skupina ČEZ",
+          "salary": null,
+          "posted": "Přidáno před 28 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001316647",
+          "site": "jobscz",
+          "title": "Specialista/ka BRRD - Praha",
+          "url": "https://www.jobs.cz/rpd/2001316647/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "Banka CREDITAS a.s.",
+          "salary": null,
+          "posted": "Přidáno před 33 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2000625252",
+          "site": "jobscz",
+          "title": "Statik / statička železobetonových prvků",
+          "url": "https://www.jobs.cz/rpd/2000625252/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "GRITEC s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 39 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001150826",
+          "site": "jobscz",
+          "title": "Mergers & Acquisitions – Senior/Associate Manager",
+          "url": "https://www.jobs.cz/rpd/2001150826/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "KPMG Česká republika, s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 43 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001373181",
+          "site": "jobscz",
+          "title": "Business Development Representative (BDR)",
+          "url": "https://www.jobs.cz/rpd/2001373181/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "Onlio, a.s.",
+          "salary": null,
+          "posted": "Končí za 3 dny",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001360031",
+          "site": "jobscz",
+          "title": "Manager týmu Transakčního poradenství",
+          "url": "https://www.jobs.cz/rpd/2001360031/?searchId=b8f804cb-21c8-432f-ad82-a27f8ac5cb55&rps=233",
+          "employer": "KPMG Česká republika, s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 45 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001418552",
+          "site": "jobscz",
+          "title": "Specialista péče o klienty v ČSOB Pojišťovně",
+          "url": "https://www.jobs.cz/rpd/2001418552/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "ČSOB Pojišťovna, a. s., člen holdingu ČSOB",
+          "salary": "45 000 ‍–‍ 75 000 Kč",
+          "posted": "Přidáno před 46 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001418558",
+          "site": "jobscz",
+          "title": "Obchodní zástupce/zástupkyně 39.000 Kč fix + neomezené bonusy a provize PRAHA",
+          "url": "https://www.jobs.cz/rpd/2001418558/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "Czech Invest Solutions, s.r.o.",
+          "salary": "47 000 ‍–‍ 69 000 Kč",
+          "posted": "Přidáno před 46 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001409436",
+          "site": "jobscz",
+          "title": "SENIOR SALES MANAGER MICE - OREA HOTELS (PRAHA/BRNO)",
+          "url": "https://www.jobs.cz/rpd/2001409436/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "Centrála OREA",
+          "salary": null,
+          "posted": "Aktualizováno před 50 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2000537955",
+          "site": "jobscz",
+          "title": "Cybersecurity architekt/architektka",
+          "url": "https://www.jobs.cz/rpd/2000537955/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "NAKIT, s. p.",
+          "salary": null,
+          "posted": "Přidáno před 52 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001384477",
+          "site": "jobscz",
+          "title": "Business Development Representative – CRM Pipedrive",
+          "url": "https://www.jobs.cz/rpd/2001384477/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "Onlio, a.s.",
+          "salary": null,
+          "posted": "Aktualizováno před 54 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001407460",
+          "site": "jobscz",
+          "title": "Obchodní zástupce pro oblast IT – oblast ČR (m/ž)",
+          "url": "https://www.jobs.cz/rpd/2001407460/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "Rittal s.r.o.",
+          "salary": null,
+          "posted": "Aktualizováno před 58 minutami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001366886",
+          "site": "jobscz",
+          "title": "Purchasing Specialist",
+          "url": "https://www.jobs.cz/rpd/2001366886/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "KONE, a.s.",
+          "salary": null,
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001407429",
+          "site": "jobscz",
+          "title": "Obchodní manažer (m/ž) - Praha a okolí",
+          "url": "https://www.jobs.cz/rpd/2001407429/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "Aseta Support s.r.o.",
+          "salary": null,
+          "posted": "Aktualizováno před hodinou",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001384437",
+          "site": "jobscz",
+          "title": "Experienced Product Designer - Design System (m/f/n)",
+          "url": "https://www.jobs.cz/rpd/2001384437/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "ESET Research Czech Republic s.r.o.",
+          "salary": null,
+          "posted": "Aktualizováno před hodinou",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001373069",
+          "site": "jobscz",
+          "title": "Manažer/ka Nové Generace",
+          "url": "https://www.jobs.cz/rpd/2001373069/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "21 Consult Group s.r.o.",
+          "salary": "150 000 ‍–‍ 300 000 Kč",
+          "posted": "Končí za 3 dny",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001373045",
+          "site": "jobscz",
+          "title": "Koordinátor/ka infrastruktury",
+          "url": "https://www.jobs.cz/rpd/2001373045/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "Univerzita Karlova – Matematicko-fyzikální fakulta",
+          "salary": "65 000 ‍–‍ 70 000 Kč",
+          "posted": "Končí za 3 dny",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001418500",
+          "site": "jobscz",
+          "title": "Brand Manager (m/f)",
+          "url": "https://www.jobs.cz/rpd/2001418500/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "Trigema a.s.",
+          "salary": null,
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001297227",
+          "site": "jobscz",
+          "title": "Projektový manažer elektroinstalací - Praha",
+          "url": "https://www.jobs.cz/rpd/2001297227/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "myHeRoes",
+          "salary": "60 000 ‍–‍ 120 000 Kč",
+          "posted": "Aktualizováno před hodinou",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001395667",
+          "site": "jobscz",
+          "title": "Ředitel / Ředitelka divize AVIATION",
+          "url": "https://www.jobs.cz/rpd/2001395667/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "VZLU AEROSPACE, a.s.",
+          "salary": null,
+          "posted": "Aktualizováno před 2 hodinami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "1625249025",
+          "site": "jobscz",
+          "title": "Projektový manažer s němčinou ZLÍN, PRAHA",
+          "url": "https://www.jobs.cz/rpd/1625249025/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "CROSS Zlín, a.s.",
+          "salary": null,
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "2001406987",
+          "site": "jobscz",
+          "title": "IT Director – Infrastruktura, systémy & IT Security",
+          "url": "https://www.jobs.cz/rpd/2001406987/?searchId=de83099d-0e7b-40bd-bbb3-7228ab37d0ca&rps=233",
+          "employer": "21 Consult Group s.r.o.",
+          "salary": "130 000 ‍–‍ 150 000 Kč",
+          "posted": "Aktualizováno včera",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "86c2303b-677a-4525-aea3-a4773e6fe00c",
+          "site": "pracecz",
+          "title": "💰 Obchodník s výdělkem až 150 000 Kč měsíčně (žádné studené kontakty) - Praha",
+          "url": "https://www.prace.cz/nabidka/86c2303b-677a-4525-aea3-a4773e6fe00c/?rps=2077",
+          "employer": "Business Aggregator, s.r.o.",
+          "salary": "80 000 – 150 000 Kč/měsíc",
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "0cf635e8-8054-4db1-859b-b5726b9944ea",
+          "site": "pracecz",
+          "title": "🎧 Telefonní akvizice – připravené kontakty (ne „naslepo“) (PRAHA)",
+          "url": "https://www.prace.cz/nabidka/0cf635e8-8054-4db1-859b-b5726b9944ea/?rps=2077",
+          "employer": "B2M.CZ s.r.o.",
+          "salary": "50 000 – 100 000 Kč/měsíc",
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "bbe2a8b5-dc0f-4535-a146-08862809b80b",
+          "site": "pracecz",
+          "title": "Obchodní zástupce/zástupkyně 39.000 Kč fix + neomezené bonusy a provize PRAHA",
+          "url": "https://www.prace.cz/nabidka/bbe2a8b5-dc0f-4535-a146-08862809b80b/?rps=2077",
+          "employer": "Czech Invest Solutions, s.r.o.",
+          "salary": "47 000 – 69 000 Kč/měsíc",
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "9264ed82-ccbd-4bce-9bbe-3650ae7e674f",
+          "site": "pracecz",
+          "title": "Manažer/ka Nové Generace",
+          "url": "https://www.prace.cz/nabidka/9264ed82-ccbd-4bce-9bbe-3650ae7e674f/?rps=2077",
+          "employer": "21 Consult Group s.r.o.",
+          "salary": "150 000 – 300 000 Kč/měsíc",
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "7119cd18-eaba-46a5-8ff9-ea66421933bc",
+          "site": "pracecz",
+          "title": "Řidič - rozvoz květin",
+          "url": "https://www.prace.cz/nabidka/7119cd18-eaba-46a5-8ff9-ea66421933bc/?rps=2077",
+          "employer": "STORGE s.r.o.",
+          "salary": "40 000 – 50 000 Kč/měsíc",
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "911069a0-6a41-4432-8901-a7a9dad8395e",
+          "site": "pracecz",
+          "title": "Ředitel / Ředitelka divize AVIATION",
+          "url": "https://www.prace.cz/nabidka/911069a0-6a41-4432-8901-a7a9dad8395e/?rps=2077",
+          "employer": "VZLU AEROSPACE, a.s.",
+          "salary": null,
+          "posted": "Jen pár hodin",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4463507337",
+          "site": "linkedin",
+          "title": "Subgerente Proyectos Especializados",
+          "url": "https://www.linkedin.com/jobs/view/4463507337",
+          "employer": "Supermercados Bravo",
+          "salary": null,
+          "posted": "2026-09-08",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4462086572",
+          "site": "linkedin",
+          "title": "Director de proyecto",
+          "url": "https://www.linkedin.com/jobs/view/4462086572",
+          "employer": "World Vision República Dominicana",
+          "salary": null,
+          "posted": "2026-09-02",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4460214068",
+          "site": "linkedin",
+          "title": "Jefe/a de Proyectos Regulatorios – FDA & EMA / EU GMP",
+          "url": "https://www.linkedin.com/jobs/view/4460214068",
+          "employer": "Linuo Group",
+          "salary": null,
+          "posted": "2026-09-01",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4447588455",
+          "site": "linkedin",
+          "title": "Ingeniero de Planificación y Presupuesto",
+          "url": "https://www.linkedin.com/jobs/view/4447588455",
+          "employer": "Parque Industrial Duarte RD",
+          "salary": null,
+          "posted": "2026-07-31",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4263345571",
+          "site": "linkedin",
+          "title": "矿建项目经理",
+          "url": "https://www.linkedin.com/jobs/view/4263345571",
+          "employer": "特变电工国际工程有限公司",
+          "salary": null,
+          "posted": "2025-07-09",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4464130060",
+          "site": "linkedin",
+          "title": "Project Manager - Remote Work",
+          "url": "https://www.linkedin.com/jobs/view/4464130060",
+          "employer": "BairesDev",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4464146298",
+          "site": "linkedin",
+          "title": "Project Specialist, Global Properties",
+          "url": "https://www.linkedin.com/jobs/view/4464146298",
+          "employer": "World Vision",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4461936654",
+          "site": "linkedin",
+          "title": "311043 - GERENTE DE COMPRAS",
+          "url": "https://www.linkedin.com/jobs/view/4461936654",
+          "employer": "VÜO Partners",
+          "salary": null,
+          "posted": "2026-09-03",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4418789892",
+          "site": "linkedin",
+          "title": "Gerente de Excelencia Operativa",
+          "url": "https://www.linkedin.com/jobs/view/4418789892",
+          "employer": "Cardinal Health",
+          "salary": null,
+          "posted": "2026-08-28",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4457495191",
+          "site": "linkedin",
+          "title": "Gerente de Negocios IT",
+          "url": "https://www.linkedin.com/jobs/view/4457495191",
+          "employer": "Babel",
+          "salary": null,
+          "posted": "2026-08-26",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4458193643",
+          "site": "linkedin",
+          "title": "Ředitel/ka Investic a Treasury (CIO)",
+          "url": "https://www.linkedin.com/jobs/view/4458193643",
+          "employer": "Ministry of the Interior of the Czech Republic",
+          "salary": null,
+          "posted": "2026-08-24",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4457513185",
+          "site": "linkedin",
+          "title": "Operations Manager (Sales)",
+          "url": "https://www.linkedin.com/jobs/view/4457513185",
+          "employer": "One Park Financial",
+          "salary": null,
+          "posted": "2026-08-21",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4445766221",
+          "site": "linkedin",
+          "title": "Gerente de Ventas",
+          "url": "https://www.linkedin.com/jobs/view/4445766221",
+          "employer": "Portátil Shop",
+          "salary": null,
+          "posted": "2026-07-28",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4464177264",
+          "site": "linkedin",
+          "title": "Gerente de Showroom",
+          "url": "https://www.linkedin.com/jobs/view/4464177264",
+          "employer": "MARTÍ",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4461375723",
+          "site": "linkedin",
+          "title": "Ecommerce Paid Media Manager",
+          "url": "https://www.linkedin.com/jobs/view/4461375723",
+          "employer": "Veta Virtual",
+          "salary": null,
+          "posted": "2026-09-03",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4460178742",
+          "site": "linkedin",
+          "title": "Gerente retail",
+          "url": "https://www.linkedin.com/jobs/view/4460178742",
+          "employer": "Confidencial",
+          "salary": null,
+          "posted": "2026-08-28",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4453943435",
+          "site": "linkedin",
+          "title": "Líder de Lifecycle Marketing",
+          "url": "https://www.linkedin.com/jobs/view/4453943435",
+          "employer": "Atlántica Seguros, S.A",
+          "salary": null,
+          "posted": "2026-08-14",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4447322090",
+          "site": "linkedin",
+          "title": "海外营销经理",
+          "url": "https://www.linkedin.com/jobs/view/4447322090",
+          "employer": "HangXiao Steel Structure Co., Ltd.",
+          "salary": null,
+          "posted": "2026-07-11",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4378274162",
+          "site": "linkedin",
+          "title": "国内市场部市场经理",
+          "url": "https://www.linkedin.com/jobs/view/4378274162",
+          "employer": "特变电工国际工程有限公司",
+          "salary": null,
+          "posted": "2026-02-28",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4371300813",
+          "site": "linkedin",
+          "title": "电力营销大区副经理",
+          "url": "https://www.linkedin.com/jobs/view/4371300813",
+          "employer": "特变电工国际工程有限公司",
+          "salary": null,
+          "posted": "2026-02-11",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4363397252",
+          "site": "linkedin",
+          "title": "Marketing Lead",
+          "url": "https://www.linkedin.com/jobs/view/4363397252",
+          "employer": "LunaJoy Health",
+          "salary": null,
+          "posted": "2026-01-24",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4448755182",
+          "site": "linkedin",
+          "title": "Key Account Manager",
+          "url": "https://www.linkedin.com/jobs/view/4448755182",
+          "employer": "AXA Partners",
+          "salary": null,
+          "posted": "2026-08-28",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4460580220",
+          "site": "linkedin",
+          "title": "Cost Accounting, Finance Manager",
+          "url": "https://www.linkedin.com/jobs/view/4460580220",
+          "employer": "Jostens",
+          "salary": null,
+          "posted": "2026-08-28",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4453551028",
+          "site": "linkedin",
+          "title": "Retention Manager - Regulated FX - Prague",
+          "url": "https://www.linkedin.com/jobs/view/4453551028",
+          "employer": "RMG Recruitment Agency",
+          "salary": null,
+          "posted": "2026-08-14",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4453955175",
+          "site": "linkedin",
+          "title": "Gerente Comercial Sector Seguros",
+          "url": "https://www.linkedin.com/jobs/view/4453955175",
+          "employer": "Atlántica Seguros, S.A",
+          "salary": null,
+          "posted": "2026-08-14",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4450152514",
+          "site": "linkedin",
+          "title": "Head of Production",
+          "url": "https://www.linkedin.com/jobs/view/4450152514",
+          "employer": "Pepper-Decor s.r.o.",
+          "salary": null,
+          "posted": "2026-08-12",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4452405605",
+          "site": "linkedin",
+          "title": "Head of Quality Assurance (m/f/d) MedDev - CZ Site",
+          "url": "https://www.linkedin.com/jobs/view/4452405605",
+          "employer": "Real",
+          "salary": null,
+          "posted": "2026-08-11",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4459607976",
+          "site": "linkedin",
+          "title": "Gerente de Ventas",
+          "url": "https://www.linkedin.com/jobs/view/4459607976",
+          "employer": "Multimedios del Caribe",
+          "salary": null,
+          "posted": "2026-08-01",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4421211867",
+          "site": "linkedin",
+          "title": "Merchant Experience Manager",
+          "url": "https://www.linkedin.com/jobs/view/4421211867",
+          "employer": "One Park Financial",
+          "salary": null,
+          "posted": "2026-05-29",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4465393948",
+          "site": "linkedin",
+          "title": "Gerente de Recursos Humanos para la Zona Norte.",
+          "url": "https://www.linkedin.com/jobs/view/4465393948",
+          "employer": "Tu Empleo RD",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4417529548",
+          "site": "linkedin",
+          "title": "Package Driver",
+          "url": "https://www.linkedin.com/jobs/view/4417529548",
+          "employer": "UPS",
+          "salary": null,
+          "posted": "2026-09-04",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4463373305",
+          "site": "linkedin",
+          "title": "Chófer",
+          "url": "https://www.linkedin.com/jobs/view/4463373305",
+          "employer": "Nicadom",
+          "salary": null,
+          "posted": "2026-09-04",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4461693609",
+          "site": "linkedin",
+          "title": "Chofer La vega",
+          "url": "https://www.linkedin.com/jobs/view/4461693609",
+          "employer": "Grupo L&R Comercial S.R.L",
+          "salary": null,
+          "posted": "2026-09-02",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4460630648",
+          "site": "linkedin",
+          "title": "Chofer - Punta Cana",
+          "url": "https://www.linkedin.com/jobs/view/4460630648",
+          "employer": "BDO Dominicana",
+          "salary": null,
+          "posted": "2026-08-31",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4460053404",
+          "site": "linkedin",
+          "title": "CHOFER ADMINISTRATIVO PARA DIRECTOR",
+          "url": "https://www.linkedin.com/jobs/view/4460053404",
+          "employer": "Confidential Careers",
+          "salary": null,
+          "posted": "2026-08-31",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4459885907",
+          "site": "linkedin",
+          "title": "Conductor",
+          "url": "https://www.linkedin.com/jobs/view/4459885907",
+          "employer": "Empaca",
+          "salary": null,
+          "posted": "2026-08-27",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4457624048",
+          "site": "linkedin",
+          "title": "Chofer Categoría 3 (Santiago)",
+          "url": "https://www.linkedin.com/jobs/view/4457624048",
+          "employer": "Aviat",
+          "salary": null,
+          "posted": "2026-08-24",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4455440798",
+          "site": "linkedin",
+          "title": "Chofer",
+          "url": "https://www.linkedin.com/jobs/view/4455440798",
+          "employer": "Kaizen Hogar SRL",
+          "salary": null,
+          "posted": "2026-08-19",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4451915729",
+          "site": "linkedin",
+          "title": "Chofer",
+          "url": "https://www.linkedin.com/jobs/view/4451915729",
+          "employer": "Caribbean Cinemas",
+          "salary": null,
+          "posted": "2026-08-11",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4436034740",
+          "site": "linkedin",
+          "title": "Driver",
+          "url": "https://www.linkedin.com/jobs/view/4436034740",
+          "employer": "GET LEGAL WORK",
+          "salary": null,
+          "posted": "2026-07-05",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4428696513",
+          "site": "linkedin",
+          "title": "Drive & Get Paid – Data Collection Driver in Czech Republic",
+          "url": "https://www.linkedin.com/jobs/view/4428696513",
+          "employer": "TSMG Holding",
+          "salary": null,
+          "posted": "2026-06-15",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4390897540",
+          "site": "linkedin",
+          "title": "CHOFER - LA ROMANA",
+          "url": "https://www.linkedin.com/jobs/view/4390897540",
+          "employer": "Dominican Watchman",
+          "salary": null,
+          "posted": "2026-03-26",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4435836213",
+          "site": "linkedin",
+          "title": "Vigilante Chofer",
+          "url": "https://www.linkedin.com/jobs/view/4435836213",
+          "employer": "Brink’s Inc",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4465601475",
+          "site": "linkedin",
+          "title": "Chofer Camion Pequeño Santo Domingo Oeste",
+          "url": "https://www.linkedin.com/jobs/view/4465601475",
+          "employer": "Tu Empleo RD",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4446838154",
+          "site": "linkedin",
+          "title": "Senior Manager Program Launch Operations",
+          "url": "https://www.linkedin.com/jobs/view/4446838154",
+          "employer": "Cooper Standard",
+          "salary": null,
+          "posted": "2026-08-10",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4445466014",
+          "site": "linkedin",
+          "title": "Gerente de Grupos y Convenciones",
+          "url": "https://www.linkedin.com/jobs/view/4445466014",
+          "employer": "Hyatt",
+          "salary": null,
+          "posted": "2026-09-08",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4460521474",
+          "site": "linkedin",
+          "title": "Jefe de Planificación y Gestión Cuenca Tiempo completo",
+          "url": "https://www.linkedin.com/jobs/view/4460521474",
+          "employer": "Hospital Santa Inés",
+          "salary": null,
+          "posted": "2026-08-28",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4462357195",
+          "site": "linkedin",
+          "title": "Manager Personal Banking",
+          "url": "https://www.linkedin.com/jobs/view/4462357195",
+          "employer": "Scotiabank",
+          "salary": null,
+          "posted": "2026-09-05",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4463115509",
+          "site": "linkedin",
+          "title": "Gerente de Gestión Humana",
+          "url": "https://www.linkedin.com/jobs/view/4463115509",
+          "employer": "BMA Group Global",
+          "salary": null,
+          "posted": "2026-09-03",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        },
+        {
+          "id": "4444291600",
+          "site": "linkedin",
+          "title": "Regional Manager Czech Republic",
+          "url": "https://www.linkedin.com/jobs/view/4444291600",
+          "employer": "SATI GROUP S.P.A.",
+          "salary": null,
+          "posted": "2026-07-23",
+          "found_at": "2026-09-10T07:28:04.315531+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 120,
+          "new": 39
+        },
+        "pracecz": {
+          "total_found": 83,
+          "new": 10
+        },
+        "linkedin": {
+          "total_found": 127,
+          "new": 51
         }
       },
       "warnings": []
