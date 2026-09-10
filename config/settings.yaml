@@ -60,7 +60,14 @@ pracecz:
   max_pages: 8
 
 linkedin:
-  enabled: true
+  # Vypnuto - bez přihlášení LinkedIn (přes veřejné "guest" API, které
+  # JobSpy používá) spolehlivě nefiltruje podle lokality ani přes
+  # klíčová slova v textu. Dva ostré testy (samotná klíčová slova, pak
+  # klíčová slova + "Prague") skončily tak, že drtivá většina nabídek
+  # byla mimo ČR/Evropu (Dominikánská republika, Čína, Latinská
+  # Amerika...). Kód zůstává funkční (viz scraper/linkedin_source.py),
+  # kdyby se to chtělo někdy zkusit jinak (např. přes placené proxy).
+  enabled: false
   name: "LinkedIn"
   # LinkedIn (přes knihovnu JobSpy, ne vlastní scraper - viz
   # scraper/linkedin_source.py) neumí spolehlivě "OR" mezi víc pozicemi
