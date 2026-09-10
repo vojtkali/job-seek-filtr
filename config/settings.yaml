@@ -66,16 +66,25 @@ linkedin:
   # scraper/linkedin_source.py) neumí spolehlivě "OR" mezi víc pozicemi
   # v jednom vyhledávání, takže se pro každý řádek volá hledání zvlášť a
   # výsledky se spojí a odduplikují.
+  #
+  # "Prague" je součástí každého klíčového slova schválně - samotný
+  # parametr location/distance u nepřihlášeného vyhledávání (JobSpy
+  # používá veřejné, "guest" rozhraní LinkedIn) spolehlivě nefiltruje a
+  # bez toho chodily hlavně nabídky z celého světa (první test: 158
+  # nabídek, drtivá většina mimo ČR/Evropu - Dominikánská republika,
+  # Čína, Latinská Amerika...). Přidání "Prague" do textu hledání donutí
+  # LinkedIn hledat doslova tohle slovo, což relevanci výrazně zlepší,
+  # i když to není 100% totéž jako striktní geografický filtr.
   search_terms:
-    - "Project Manager"
-    - "Management"
-    - "Marketing Manager"
-    - "Brand Manager"
-    - "Onsite Manager"
-    - "Driver"
-    - "product launch manager"
-    - "event manager"
-    - "manager"
+    - "Project Manager Prague"
+    - "Management Prague"
+    - "Marketing Manager Prague"
+    - "Brand Manager Prague"
+    - "Onsite Manager Prague"
+    - "Driver Prague"
+    - "product launch manager Prague"
+    - "event manager Prague"
+    - "manager Prague"
   location: "Prague, Czech Republic"
   job_type: "fulltime"
   # LinkedIn bez proxy začíná blokovat kolem 10. stránky výsledků z jedné
