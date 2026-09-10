@@ -2235,68 +2235,7 @@
     },
     {
       "run_at": "2026-09-10T09:28:04.882130+00:00",
-      "offers": [
-        {
-          "id": "2001343334",
-          "site": "jobscz",
-          "title": "Aplikační inženýr – Kubernetes Platform Services (M/Ž)",
-          "url": "https://www.jobs.cz/rpd/2001343334/?searchId=dca8e31d-64ad-491f-8e88-1a29532fcffd&rps=233",
-          "employer": "Státní pokladna Centrum sdílených služeb, s. p.",
-          "salary": null,
-          "posted": "Přidáno před 3 minutami",
-          "found_at": "2026-09-10T09:28:04.882130+00:00"
-        },
-        {
-          "id": "2001396128",
-          "site": "jobscz",
-          "title": "Secondary and High School Biology Teacher",
-          "url": "https://www.jobs.cz/rpd/2001396128/?searchId=dca8e31d-64ad-491f-8e88-1a29532fcffd&rps=233",
-          "employer": "Perrott Hill British School Prague",
-          "salary": "50 000 ‍–‍ 70 000 Kč",
-          "posted": "Aktualizováno před 7 minutami",
-          "found_at": "2026-09-10T09:28:04.882130+00:00"
-        },
-        {
-          "id": "2001412621",
-          "site": "jobscz",
-          "title": "Business Development Hunter | Corporate Merch |",
-          "url": "https://www.jobs.cz/rpd/2001412621/?searchId=dca8e31d-64ad-491f-8e88-1a29532fcffd&rps=233",
-          "employer": "Bontonfilm Promotions s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 9 minutami",
-          "found_at": "2026-09-10T09:28:04.882130+00:00"
-        },
-        {
-          "id": "2001396116",
-          "site": "jobscz",
-          "title": "Učitel/ka biologie – gymnázium (Biology Teacher) - výuka v AJ",
-          "url": "https://www.jobs.cz/rpd/2001396116/?searchId=dca8e31d-64ad-491f-8e88-1a29532fcffd&rps=233",
-          "employer": "Perrott Hill British School Prague",
-          "salary": "50 000 ‍–‍ 70 000 Kč",
-          "posted": "Aktualizováno před 12 minutami",
-          "found_at": "2026-09-10T09:28:04.882130+00:00"
-        },
-        {
-          "id": "2001373359",
-          "site": "jobscz",
-          "title": "Senior | Tax Specialist",
-          "url": "https://www.jobs.cz/rpd/2001373359/?searchId=f8c7f162-0237-40ff-9754-0a952c6da5fe&rps=233",
-          "employer": "Atlas Copco s.r.o.",
-          "salary": null,
-          "posted": "Končí za 3 dny",
-          "found_at": "2026-09-10T09:28:04.882130+00:00"
-        },
-        {
-          "id": "ca8c2a59-e4c1-4ab2-aab8-3a525f83b46e",
-          "site": "pracecz",
-          "title": "Obchodně technický zástupce pro Východní Čechy",
-          "url": "https://www.prace.cz/nabidka/ca8c2a59-e4c1-4ab2-aab8-3a525f83b46e/?rps=2077",
-          "employer": "Cromwell Czech Republic s.r.o.",
-          "salary": null,
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-10T09:28:04.882130+00:00"
-        }
-      ],
+      "offers": [],
       "counts": {
         "jobscz": {
           "total_found": 120,
@@ -2320,6 +2259,11 @@
     "sap konzultant",
     "STEM Ústav empirických",
     "insurance",
+    "kubernetes",
+    "teacher",
+    "Hunter bontonfilm",
+    "tax specialist",
+    "Obchodně technický zástupce cromwell",
     "daňový konzultant",
     "Workforce Experience Specialist",
     "Obchodní zástupce ERP",
