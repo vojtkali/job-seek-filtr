@@ -9,6 +9,77 @@
 # Randstad
 # stavbyvedoucí
 diabetolog
+finance controll
+financ kontrol
+potravinářství
+PR manager
+expert ICT
+náborář
+obranném průmysl
+obranný průmysl
+nákupčí surovin boulevard
+oracle
+obchodník everbot
+klinika eset
+marketing gth
+finanční konzultant
+realitní konzultant
+acema
+cenový analytik
+crm konzultant
+střihač
+vema
+personální
+mzdová účetní
+wia
+data scientist
+hr specialista
+svět rovnátek
+obchodní zástupce vodafone
+lead poradců
+security consultant
+security konzultant
+energetik
+security analyst
+třídní učitel
+učitel
+učitelka
+salutem group
+hypoteční poradce
+ředitel logistické
+risk analyst
+síť restaurací
+partners
+risk manager
+psycholog
+čez nákupčí
+interní auditor
+datové modelování
+medical advisor
+servis strojů
+obchodník everbot
+autor dokumentace
+bo!
+industriální stavby
+manager stavebnictví
+renturi
+makléř bydlení
+obchodník junior
+rozúčtovalt
+rozúčtování
+klenota
+přípravy staveb
+payroll specialist
+2jcp
+ppc specialist
+financ analytik
+vedoucí přípravy
+manažer realitních
+erp helios
+systémový administrátor
+subterra
+apex capital
+data analytik
 osobní bankovnictví
 elektrikář
 portfolio investorů
@@ -54,7 +125,16 @@ okna
 facility specialist
 kuryr globus
 e-commerce specialist
-
+cost manager
+bankopojištění
+terapeut
+arete property
+vedoucí přístavů
+specialist kamer
+veřejné zakázky
+ruční mytí
+moderátor
+politický
 financial accounting
 motocykly
 dipox
