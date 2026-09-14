@@ -10,6 +10,24 @@
 # stavbyvedoucí
 diabetolog
 finance controll
+account actum
+likvidátor
+makléř nemovitost
+prodej lesů
+prodej půdy
+prodej objektů
+obchod doprava
+obchod logistika
+obchod spedice
+business controller
+montáž rozvoden
+nuákupčí aramark
+činžovní domy
+oceňování
+noaverage
+noční rozvoz
+manikér
+pedikér
 financ kontrol
 potravinářství
 PR manager
