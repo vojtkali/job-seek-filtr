@@ -9,6 +9,36 @@
 # Randstad
 # stavbyvedoucí
 diabetolog
+telemat
+požární ochran
+kolej vozid
+energetické trhy
+kvalit stav
+stavební manažer
+rozvoj sítě
+controll
+scrum master
+regulatory
+komerč budov
+sodial ads
+staveb harmonogram
+invoicing
+technický ředitel
+hotel
+redaktor
+hygienist
+čsob obchodní zastoupení
+polštin
+příprav stav
+public affairs
+rekonstrukce
+ředitel retail
+dukovany
+ppc
+prodej vodafone
+kosmet
+supply chain
+
 hr advisory
 ai specialista
 benefits specialist
@@ -40,7 +70,6 @@ finanční ředitel
 firemní bankovnictví
 horeca
 specialist pojiš
-kosmetika
 čepro specialista
 manager restaurace
 sales manager hotel
