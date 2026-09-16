@@ -1,152 +1,6 @@
 {
-  "generated_at": "2026-09-16T08:10:40.202536+00:00",
+  "generated_at": "2026-09-16T09:11:39.925180+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-09T19:59:11.257632+00:00",
-      "offers": [
-        {
-          "id": "2001372403",
-          "site": "jobscz",
-          "title": "KAM pro Tesla Lighting",
-          "url": "https://www.jobs.cz/rpd/2001372403/?searchId=69b1b5bf-b77c-404d-88b6-2f408564e92b&rps=233",
-          "employer": "FWG atlantiso",
-          "salary": null,
-          "posted": "Končí za 3 dny",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001351946",
-          "site": "jobscz",
-          "title": "Sales Manager / Business Development Manager – Wolt",
-          "url": "https://www.jobs.cz/rpd/2001351946/?searchId=69b1b5bf-b77c-404d-88b6-2f408564e92b&rps=233",
-          "employer": "Wolt Česko s.r.o.",
-          "salary": null,
-          "posted": "Aktualizováno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001417866",
-          "site": "jobscz",
-          "title": "Account manager (Praha + HO)",
-          "url": "https://www.jobs.cz/rpd/2001417866/?searchId=69b1b5bf-b77c-404d-88b6-2f408564e92b&rps=233",
-          "employer": "myTimi s.r.o.",
-          "salary": "60 000 ‍–‍ 100 000 Kč",
-          "posted": "Přidáno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001417750",
-          "site": "jobscz",
-          "title": "Sales/Account Manager: FIX 30 000 Kč + provize | Pátky do 15:00 🚀",
-          "url": "https://www.jobs.cz/rpd/2001417750/?searchId=83d18b01-0f2e-439b-8530-d213ac1973d8&rps=233",
-          "employer": "#digitalnimarketing s.r.o.",
-          "salary": "40 000 ‍–‍ 70 000 Kč",
-          "posted": "Přidáno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001417721",
-          "site": "jobscz",
-          "title": "Vedení ScioART - Hledáme člena vedení do tandemu k Honzovi",
-          "url": "https://www.jobs.cz/rpd/2001417721/?searchId=83d18b01-0f2e-439b-8530-d213ac1973d8&rps=233",
-          "employer": "Scio",
-          "salary": "80 000 ‍–‍ 90 000 Kč",
-          "posted": "Přidáno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001417606",
-          "site": "jobscz",
-          "title": "Account Manager pro kreativní a marketingovou agenturu Proboston",
-          "url": "https://www.jobs.cz/rpd/2001417606/?searchId=dd8b17d1-7da0-4791-b312-bef94752d783&rps=233",
-          "employer": "ADASTRA, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001356194",
-          "site": "jobscz",
-          "title": "Projektový manažer IT projektů (Medior/Senior)",
-          "url": "https://www.jobs.cz/rpd/2001356194/?searchId=dd8b17d1-7da0-4791-b312-bef94752d783&rps=233",
-          "employer": "acantha, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001394537",
-          "site": "jobscz",
-          "title": "KEY ACCOUNT MANAGER",
-          "url": "https://www.jobs.cz/rpd/2001394537/?searchId=dd8b17d1-7da0-4791-b312-bef94752d783&rps=233",
-          "employer": "ALIMPEX FOOD a.s.",
-          "salary": null,
-          "posted": "Aktualizováno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001383290",
-          "site": "jobscz",
-          "title": "Obchodní manager",
-          "url": "https://www.jobs.cz/rpd/2001383290/?searchId=dd8b17d1-7da0-4791-b312-bef94752d783&rps=233",
-          "employer": "SAFINA, a.s.",
-          "salary": null,
-          "posted": "Aktualizováno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001394579",
-          "site": "jobscz",
-          "title": "Výrobně - obchodní ředitel (NJ+AJ) - Praha",
-          "url": "https://www.jobs.cz/rpd/2001394579/?searchId=dd8b17d1-7da0-4791-b312-bef94752d783&rps=233",
-          "employer": "Employment Express, s.r.o.",
-          "salary": null,
-          "posted": "Aktualizováno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "2001417418",
-          "site": "jobscz",
-          "title": "Segment Manager for Devices & Hardware in Household (f/m)",
-          "url": "https://www.jobs.cz/rpd/2001417418/?searchId=e707f774-b5a5-40db-9585-63a497091a40&rps=233",
-          "employer": "T-Mobile Czech Republic a.s.",
-          "salary": null,
-          "posted": "Přidáno dnes",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "f5c90eb5-e200-4db1-8565-fbe29dba8625",
-          "site": "pracecz",
-          "title": "Sales/Account Manager: FIX 30 000 Kč + provize | Pátky do 15:00 🚀",
-          "url": "https://www.prace.cz/nabidka/f5c90eb5-e200-4db1-8565-fbe29dba8625/?rps=2077",
-          "employer": "#digitalnimarketing s.r.o.",
-          "salary": "40 000 – 70 000 Kč/měsíc",
-          "posted": "Jen pár hodin",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        },
-        {
-          "id": "28f30ed1-369a-418d-9f1b-babc7fdc6689",
-          "site": "pracecz",
-          "title": "MODEL / MODELKA",
-          "url": "https://www.prace.cz/nabidka/28f30ed1-369a-418d-9f1b-babc7fdc6689/?rps=2077",
-          "employer": "models4media s.r.o.",
-          "salary": "40 000 – 80 000 Kč/měsíc",
-          "posted": "Jen pár hodin",
-          "found_at": "2026-09-09T19:59:11.257632+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 180,
-          "new": 84
-        },
-        "pracecz": {
-          "total_found": 115,
-          "new": 28
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-09T20:10:56.525226+00:00",
       "offers": [],
@@ -2818,6 +2672,62 @@
         "pracecz": {
           "total_found": 150,
           "new": 26
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-09-16T09:11:39.925180+00:00",
+      "offers": [
+        {
+          "id": "2001428967",
+          "site": "jobscz",
+          "title": "Sr. Specialist Visibility Excellence",
+          "url": "https://www.jobs.cz/rpd/2001428967/?searchId=97308ce9-5c52-430f-ba79-b7dc45bf5fc6&rps=233",
+          "employer": "Philip Morris ČR",
+          "salary": "69 000 ‍–‍ 81 000 Kč",
+          "posted": "Přidáno před 10 minutami",
+          "found_at": "2026-09-16T09:11:39.925180+00:00"
+        },
+        {
+          "id": "2001428940",
+          "site": "jobscz",
+          "title": "POS Deployment Sr Specialist",
+          "url": "https://www.jobs.cz/rpd/2001428940/?searchId=97308ce9-5c52-430f-ba79-b7dc45bf5fc6&rps=233",
+          "employer": "Philip Morris ČR",
+          "salary": null,
+          "posted": "Přidáno před 17 minutami",
+          "found_at": "2026-09-16T09:11:39.925180+00:00"
+        },
+        {
+          "id": "2001428937",
+          "site": "jobscz",
+          "title": "PROPERTY VALUER 🏢📈",
+          "url": "https://www.jobs.cz/rpd/2001428937/?searchId=97308ce9-5c52-430f-ba79-b7dc45bf5fc6&rps=233",
+          "employer": "YTS s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 18 minutami",
+          "found_at": "2026-09-16T09:11:39.925180+00:00"
+        },
+        {
+          "id": "2001360407",
+          "site": "jobscz",
+          "title": "Account Manager",
+          "url": "https://www.jobs.cz/rpd/2001360407/?searchId=97308ce9-5c52-430f-ba79-b7dc45bf5fc6&rps=233",
+          "employer": "Arleon s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 21 minutami",
+          "found_at": "2026-09-16T09:11:39.925180+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 120,
+          "new": 13
+        },
+        "pracecz": {
+          "total_found": 44,
+          "new": 0
         }
       },
       "warnings": []
