@@ -2700,16 +2700,6 @@
           "found_at": "2026-09-16T09:11:39.925180+00:00"
         },
         {
-          "id": "2001428937",
-          "site": "jobscz",
-          "title": "PROPERTY VALUER 🏢📈",
-          "url": "https://www.jobs.cz/rpd/2001428937/?searchId=97308ce9-5c52-430f-ba79-b7dc45bf5fc6&rps=233",
-          "employer": "YTS s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 18 minutami",
-          "found_at": "2026-09-16T09:11:39.925180+00:00"
-        },
-        {
           "id": "2001360407",
           "site": "jobscz",
           "title": "Account Manager",
@@ -2738,6 +2728,7 @@
     "telemat",
     "požární ochran",
     "kolej vozid",
+    "property valuer",
     "bezpečnost potravin",
     "satpo",
     "manažer výstavby",
