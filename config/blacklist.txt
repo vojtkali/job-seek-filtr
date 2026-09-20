@@ -15,6 +15,36 @@ rezident develop
 konzultant financ
 secops
 lead finance
+zdravotnictví
+supply analyst
+san specialist
+obchodník tiskárna
+příprav provoz
+bezpeč analyt
+nordin obchod
+silverline fund
+brand crocodile
+meico systems provoz
+chirurgie
+payroll
+logistic manazer
+e-commerce lead
+finance manager
+devops
+facilit manager
+real estate manager
+erp admin
+product owner comap
+analytik provoz
+manažer kliniky
+manager kliniky
+end user support
+zentiva
+účtárny
+catastrop model
+němčina
+broker consult
+stylista
 
 it analyst
 ekospol
