@@ -10,6 +10,12 @@
 # stavbyvedoucí
 diabetolog
 geodet
+programmer
+rezident develop
+konzultant financ
+secops
+lead finance
+
 it analyst
 ekospol
 datový analytik
