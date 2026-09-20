@@ -2761,16 +2761,6 @@
           "found_at": "2026-09-20T15:05:03.478159+00:00"
         },
         {
-          "id": "2001385296",
-          "site": "jobscz",
-          "title": "Engine Tools Programmer v herním studiu 🐎",
-          "url": "https://www.jobs.cz/rpd/2001385296/?searchId=9065accd-77ab-4924-9558-373394cba5d6&rps=233",
-          "employer": "Warhorse Studios s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
           "id": "2001435577",
           "site": "jobscz",
           "title": "Projektový manažer – rezidenční development",
@@ -2786,26 +2776,6 @@
           "title": "Senior konzultant/ka – Finanční instituce",
           "url": "https://www.jobs.cz/rpd/2001336058/?searchId=97e6e099-93f2-47bd-b08a-67f28c2cee1a&rps=233",
           "employer": "EY",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "2001383058",
-          "site": "jobscz",
-          "title": "CYBER SECURITY / SecOps SPECIALIST M/Ž",
-          "url": "https://www.jobs.cz/rpd/2001383058/?searchId=97e6e099-93f2-47bd-b08a-67f28c2cee1a&rps=233",
-          "employer": "Pražská plynárenská, a.s.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "2001382914",
-          "site": "jobscz",
-          "title": "Lead Finance Business Partner",
-          "url": "https://www.jobs.cz/rpd/2001382914/?searchId=97e6e099-93f2-47bd-b08a-67f28c2cee1a&rps=233",
-          "employer": "Tesco Stores ČR a.s. - Centrála",
           "salary": null,
           "posted": "Přidáno včera",
           "found_at": "2026-09-20T15:05:03.478159+00:00"
@@ -3197,6 +3167,11 @@
   "blacklist": [
     "diabetolog",
     "geodet",
+    "programmer",
+    "rezident develop",
+    "konzultant financ",
+    "secops",
+    "lead finance",
     "it analyst",
     "ekospol",
     "datový analytik",
