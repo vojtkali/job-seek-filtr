@@ -2870,18 +2870,7 @@
     },
     {
       "run_at": "2026-09-20T16:46:12.648590+00:00",
-      "offers": [
-        {
-          "id": "87919d16-a3d9-45fb-832b-bc49c58e657e",
-          "site": "pracecz",
-          "title": "Sales manager/ka pro Foodway Catering",
-          "url": "https://www.prace.cz/nabidka/87919d16-a3d9-45fb-832b-bc49c58e657e/?rps=2077",
-          "employer": "Foodway Catering s.r.o.",
-          "salary": "57 500 – 60 300 Kč/měsíc",
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-20T16:46:12.648590+00:00"
-        }
-      ],
+      "offers": [],
       "counts": {
         "jobscz": {
           "total_found": 60,
@@ -2905,6 +2894,7 @@
     "lead finance",
     "zdravotnictví",
     "supply analyst",
+    "sales foodway",
     "san specialist",
     "obchodník tiskárna",
     "příprav provoz",
