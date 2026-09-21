@@ -1790,16 +1790,6 @@
           "found_at": "2026-09-15T08:11:46.161316+00:00"
         },
         {
-          "id": "2001425361",
-          "site": "jobscz",
-          "title": "⭕Logistics Manager - Praha západ",
-          "url": "https://www.jobs.cz/rpd/2001425361/?searchId=f522f9ea-d744-46ea-860e-da7c56834c37&rps=233",
-          "employer": "ProfesKontakt, s.r.o.",
-          "salary": "90 000 ‍–‍ 130 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-15T08:11:46.161316+00:00"
-        },
-        {
           "id": "2001390182",
           "site": "jobscz",
           "title": "Obchodně-technický zástupce pro region Střední a Severní Čechy",
@@ -2861,36 +2851,6 @@
       "run_at": "2026-09-21T08:10:59.977967+00:00",
       "offers": [
         {
-          "id": "2001316141",
-          "site": "jobscz",
-          "title": "Specialista pronájmů a komerčních projektů",
-          "url": "https://www.jobs.cz/rpd/2001316141/?searchId=8a5cf976-144b-470a-9b60-b6b44234ea91&rps=233",
-          "employer": "Letiště Praha, a. s.",
-          "salary": null,
-          "posted": "Přidáno před 7 minutami",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
-          "id": "2001379370",
-          "site": "jobscz",
-          "title": "UX DESIGNER/KA",
-          "url": "https://www.jobs.cz/rpd/2001379370/?searchId=8a5cf976-144b-470a-9b60-b6b44234ea91&rps=233",
-          "employer": "J&T BANKA",
-          "salary": null,
-          "posted": "Přidáno před 25 minutami",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
-          "id": "2001433897",
-          "site": "jobscz",
-          "title": "IT Release Manager (f/m)",
-          "url": "https://www.jobs.cz/rpd/2001433897/?searchId=8a5cf976-144b-470a-9b60-b6b44234ea91&rps=233",
-          "employer": "Raiffeisenbank a.s.",
-          "salary": null,
-          "posted": "Přidáno před 31 minutami",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
           "id": "2001437840",
           "site": "jobscz",
           "title": "Výkonný manažer / Výkonná manažerka asociace",
@@ -2898,46 +2858,6 @@
           "employer": "ManpowerGroup s.r.o.",
           "salary": null,
           "posted": "Přidáno před 44 minutami",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
-          "id": "2001437930",
-          "site": "jobscz",
-          "title": "KEY ACCOUNT MANAGER",
-          "url": "https://www.jobs.cz/rpd/2001437930/?searchId=1321d2f7-067f-48da-ba18-0b3b52c8c307&rps=233",
-          "employer": "Artesa, spořitelní družstvo",
-          "salary": "60 000 ‍–‍ 80 000 Kč",
-          "posted": "Přidáno před 45 minutami",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
-          "id": "2001137983",
-          "site": "jobscz",
-          "title": "Junior Analytik /analytička systémových nástrojů",
-          "url": "https://www.jobs.cz/rpd/2001137983/?searchId=d9c536f7-3fb0-4af0-961f-ade7cd39809e&rps=233",
-          "employer": "ČEPS, a.s.",
-          "salary": null,
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
-          "id": "2001437799",
-          "site": "jobscz",
-          "title": "Logistics Manager",
-          "url": "https://www.jobs.cz/rpd/2001437799/?searchId=d9c536f7-3fb0-4af0-961f-ade7cd39809e&rps=233",
-          "employer": "Arleon s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
-          "id": "2001411687",
-          "site": "jobscz",
-          "title": "Partner pro řízení firem | Výkonný ředitel/ka",
-          "url": "https://www.jobs.cz/rpd/2001411687/?searchId=d9c536f7-3fb0-4af0-961f-ade7cd39809e&rps=233",
-          "employer": "JPF Czech s.r.o.",
-          "salary": "100 000 ‍–‍ 200 000 Kč",
-          "posted": "Aktualizováno před hodinou",
           "found_at": "2026-09-21T08:10:59.977967+00:00"
         },
         {
@@ -3038,6 +2958,13 @@
     "diabetolog",
     "geodet",
     "programmer",
+    "specialista pronájmů",
+    "ux design",
+    "it release manager",
+    "artesa",
+    "analytik nástrojů",
+    "logistic manager",
+    "výkonný ředitel",
     "rezident develop",
     "konzultant financ",
     "secops",
