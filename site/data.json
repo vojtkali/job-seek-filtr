@@ -2861,26 +2861,6 @@
           "found_at": "2026-09-21T08:10:59.977967+00:00"
         },
         {
-          "id": "2001385552",
-          "site": "jobscz",
-          "title": "Senior Analyst Finance Planning & Analysis",
-          "url": "https://www.jobs.cz/rpd/2001385552/?searchId=d9c536f7-3fb0-4af0-961f-ade7cd39809e&rps=233",
-          "employer": "rohlik.cz",
-          "salary": null,
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
-          "id": "2001221611",
-          "site": "jobscz",
-          "title": "Senior Trader – Energy Origination (Power, Gas & Energy Commodities)",
-          "url": "https://www.jobs.cz/rpd/2001221611/?searchId=3649a2db-94fe-4722-8688-1a4d526ffdcb&rps=233",
-          "employer": "ČEZ Trading",
-          "salary": null,
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
           "id": "2001436898",
           "site": "jobscz",
           "title": "Obchodní zástupce | QAPI | 60–120 000 Kč+ | Praha a středočeský kraj",
@@ -2919,26 +2899,6 @@
           "salary": "51 000 – 60 000 Kč/měsíc",
           "posted": "Nová nabídka",
           "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
-          "id": "8a4df9a6-9b21-4b07-9b84-9b0a5c43c791",
-          "site": "pracecz",
-          "title": "Produktový specialista ZFISH – proměň svou vášeň pro rybaření v práci",
-          "url": "https://www.prace.cz/nabidka/8a4df9a6-9b21-4b07-9b84-9b0a5c43c791/?rps=2077",
-          "employer": "Zfishing Sport Wholesale s.r.o.",
-          "salary": "50 000 – 70 000 Kč/měsíc",
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
-        },
-        {
-          "id": "65e260ab-e55b-4185-a6b6-955f01cba414",
-          "site": "pracecz",
-          "title": "IT Applications Support Specialist",
-          "url": "https://www.prace.cz/nabidka/65e260ab-e55b-4185-a6b6-955f01cba414/?rps=2077",
-          "employer": "Toyota Tsusho Europe SA Czech Republic Branch",
-          "salary": null,
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-21T08:10:59.977967+00:00"
         }
       ],
       "counts": {
@@ -2958,6 +2918,11 @@
     "diabetolog",
     "geodet",
     "programmer",
+    "analyst finance",
+    "trader energy",
+    "vecoucí pekárny",
+    "fishing sport",
+    "it applications",
     "specialista pronájmů",
     "ux design",
     "it release manager",
