@@ -11,6 +11,14 @@
 diabetolog
 geodet
 programmer
+specialista pronájmů
+ux design
+it release manager
+artesa
+analytik nástrojů
+logistic manager
+výkonný ředitel
+
 rezident develop
 konzultant financ
 secops
