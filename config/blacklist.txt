@@ -11,6 +11,11 @@
 diabetolog
 geodet
 programmer
+analyst finance
+trader energy
+vecoucí pekárny
+fishing sport
+it applications
 specialista pronájmů
 ux design
 it release manager
@@ -18,7 +23,6 @@ artesa
 analytik nástrojů
 logistic manager
 výkonný ředitel
-
 rezident develop
 konzultant financ
 secops
