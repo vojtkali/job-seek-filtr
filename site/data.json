@@ -1,21 +1,6 @@
 {
-  "generated_at": "2026-09-21T08:10:59.977967+00:00",
+  "generated_at": "2026-09-21T11:37:49.306309+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-10T09:28:04.882130+00:00",
-      "offers": [],
-      "counts": {
-        "jobscz": {
-          "total_found": 120,
-          "new": 14
-        },
-        "pracecz": {
-          "total_found": 83,
-          "new": 2
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-11T08:10:46.535979+00:00",
       "offers": [
@@ -2909,6 +2894,292 @@
         "pracecz": {
           "total_found": 106,
           "new": 12
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-09-21T11:37:49.306309+00:00",
+      "offers": [
+        {
+          "id": "2001438712",
+          "site": "jobscz",
+          "title": "Account Manager – Digitalization & Enterprise IT Solutions",
+          "url": "https://www.jobs.cz/rpd/2001438712/?searchId=eee779b3-4682-41a0-ba2c-a74819bd1112&rps=233",
+          "employer": "IXTENT s.r.o.",
+          "salary": "50 000 ‍–‍ 80 000 Kč",
+          "posted": "Přidáno před 8 minutami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001438107",
+          "site": "jobscz",
+          "title": "Business Monitoring Specialist_Energo ESG",
+          "url": "https://www.jobs.cz/rpd/2001438107/?searchId=eee779b3-4682-41a0-ba2c-a74819bd1112&rps=233",
+          "employer": "Česká spořitelna, a.s.",
+          "salary": null,
+          "posted": "Přidáno před 12 minutami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001331376",
+          "site": "jobscz",
+          "title": "Technical Sales Specialist",
+          "url": "https://www.jobs.cz/rpd/2001331376/?searchId=eee779b3-4682-41a0-ba2c-a74819bd1112&rps=233",
+          "employer": "Greenbuddies, s.r.o.",
+          "salary": "60 000 ‍–‍ 100 000 Kč",
+          "posted": "Přidáno před 16 minutami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001331668",
+          "site": "jobscz",
+          "title": "SAP Business Expert – SAP Project Systems",
+          "url": "https://www.jobs.cz/rpd/2001331668/?searchId=eee779b3-4682-41a0-ba2c-a74819bd1112&rps=233",
+          "employer": "COMMERZBANK Aktiengesellschaft, pobočka Praha",
+          "salary": null,
+          "posted": "Přidáno před 22 minutami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001293561",
+          "site": "jobscz",
+          "title": "Marketing Mobile Performance & Strategist (m/ž)",
+          "url": "https://www.jobs.cz/rpd/2001293561/?searchId=b5474110-1f77-49c3-9cba-22beced4fe9d&rps=233",
+          "employer": "O2 Czech Republic a.s.",
+          "salary": null,
+          "posted": "Přidáno před 52 minutami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001438568",
+          "site": "jobscz",
+          "title": "Application Security & Quality Specialist",
+          "url": "https://www.jobs.cz/rpd/2001438568/?searchId=b5474110-1f77-49c3-9cba-22beced4fe9d&rps=233",
+          "employer": "Elanor a.s.",
+          "salary": null,
+          "posted": "Přidáno před 52 minutami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001438555",
+          "site": "jobscz",
+          "title": "Finance Business Partner",
+          "url": "https://www.jobs.cz/rpd/2001438555/?searchId=b5474110-1f77-49c3-9cba-22beced4fe9d&rps=233",
+          "employer": "Notino s.r.o.",
+          "salary": "75 000 ‍–‍ 92 000 Kč",
+          "posted": "Přidáno před 54 minutami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001438557",
+          "site": "jobscz",
+          "title": "Specialista/Specialistka nákupu pro projekty",
+          "url": "https://www.jobs.cz/rpd/2001438557/?searchId=b5474110-1f77-49c3-9cba-22beced4fe9d&rps=233",
+          "employer": "Skupina ČEZ",
+          "salary": null,
+          "posted": "Přidáno před 56 minutami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001236560",
+          "site": "jobscz",
+          "title": "Senior Media Strategy Planner",
+          "url": "https://www.jobs.cz/rpd/2001236560/?searchId=b5474110-1f77-49c3-9cba-22beced4fe9d&rps=233",
+          "employer": "Publicis Groupe",
+          "salary": null,
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001438504",
+          "site": "jobscz",
+          "title": "Product Safety Specialist",
+          "url": "https://www.jobs.cz/rpd/2001438504/?searchId=b5474110-1f77-49c3-9cba-22beced4fe9d&rps=233",
+          "employer": "SAINT-GOBAIN",
+          "salary": null,
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001338296",
+          "site": "jobscz",
+          "title": "Produktový manažer (M/Ž)",
+          "url": "https://www.jobs.cz/rpd/2001338296/?searchId=464cb626-b297-48a7-8520-bf2bc8951fc9&rps=233",
+          "employer": "MARIMEX CZ, s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001437911",
+          "site": "jobscz",
+          "title": "Vedoucí zdravotnické divize m/ž",
+          "url": "https://www.jobs.cz/rpd/2001437911/?searchId=464cb626-b297-48a7-8520-bf2bc8951fc9&rps=233",
+          "employer": "Antal International s.r.o.",
+          "salary": "80 000 ‍–‍ 90 000 Kč",
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001438352",
+          "site": "jobscz",
+          "title": "Trade Marketing Specialist",
+          "url": "https://www.jobs.cz/rpd/2001438352/?searchId=464cb626-b297-48a7-8520-bf2bc8951fc9&rps=233",
+          "employer": "Savencia Fromage & Dairy Czech Republic, a.s.",
+          "salary": null,
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001438377",
+          "site": "jobscz",
+          "title": "Strategický nákupčí pro ZOOT",
+          "url": "https://www.jobs.cz/rpd/2001438377/?searchId=464cb626-b297-48a7-8520-bf2bc8951fc9&rps=233",
+          "employer": "Trenýrkárna.cz",
+          "salary": "100 000 ‍–‍ 130 000 Kč",
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001437826",
+          "site": "jobscz",
+          "title": "Senior Sales Executive m/ž",
+          "url": "https://www.jobs.cz/rpd/2001437826/?searchId=464cb626-b297-48a7-8520-bf2bc8951fc9&rps=233",
+          "employer": "Antal International s.r.o.",
+          "salary": "100 000 ‍–‍ 120 000 Kč",
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001438271",
+          "site": "jobscz",
+          "title": "Projektový manažer/Projektová manažerka do ICT",
+          "url": "https://www.jobs.cz/rpd/2001438271/?searchId=4d0a938c-cbf6-4619-b75a-132dac0b487f&rps=233",
+          "employer": "Skupina ČEZ",
+          "salary": null,
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001412413",
+          "site": "jobscz",
+          "title": "Obchodní manažer / Business Development Manager",
+          "url": "https://www.jobs.cz/rpd/2001412413/?searchId=c4e855c2-ae98-429e-8e34-0f13615fe18a&rps=233",
+          "employer": "CentralWork s.r.o.",
+          "salary": "50 000 ‍–‍ 100 000 Kč",
+          "posted": "Aktualizováno před 3 hodinami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001438101",
+          "site": "jobscz",
+          "title": "Portfolio manažer | Portfolio manažerka IT projektů",
+          "url": "https://www.jobs.cz/rpd/2001438101/?searchId=c4e855c2-ae98-429e-8e34-0f13615fe18a&rps=233",
+          "employer": "Skupina ČEZ",
+          "salary": null,
+          "posted": "Přidáno před 3 hodinami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001348824",
+          "site": "jobscz",
+          "title": "Procurement and Logistics Specialist",
+          "url": "https://www.jobs.cz/rpd/2001348824/?searchId=c4e855c2-ae98-429e-8e34-0f13615fe18a&rps=233",
+          "employer": "W.A.G. payment solutions, a.s.",
+          "salary": null,
+          "posted": "Přidáno před 3 hodinami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "2001412334",
+          "site": "jobscz",
+          "title": "Obchodně technický zástupce – region Čechy (m/ž)",
+          "url": "https://www.jobs.cz/rpd/2001412334/?searchId=c4e855c2-ae98-429e-8e34-0f13615fe18a&rps=233",
+          "employer": "Horton International Czech s.r.o.",
+          "salary": null,
+          "posted": "Aktualizováno před 3 hodinami",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "0f324c0f-c755-4524-a095-fd41ff5f94e5",
+          "site": "pracecz",
+          "title": "Senior Media Strategy Planner",
+          "url": "https://www.prace.cz/firma/tapccn-publicis-groupe/nabidka/0f324c0f-c755-4524-a095-fd41ff5f94e5/?rps=2077",
+          "employer": "Publicis Groupe",
+          "salary": null,
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "1292cd92-b357-4beb-9e3f-cf0c71e7974b",
+          "site": "pracecz",
+          "title": "Projektový manažer/ka pro výzkumné projekty",
+          "url": "https://www.prace.cz/nabidka/1292cd92-b357-4beb-9e3f-cf0c71e7974b/?rps=2077",
+          "employer": "PŘEDVÝBĚR.CZ a.s.",
+          "salary": "50 000 – 58 000 Kč/měsíc",
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "d2b7f09e-7fb2-4528-abad-53190573d9a5",
+          "site": "pracecz",
+          "title": "Obchodník s jistým platem a provizemi PRAHA",
+          "url": "https://www.prace.cz/nabidka/d2b7f09e-7fb2-4528-abad-53190573d9a5/?rps=2077",
+          "employer": "SOLID SECURITY s.r.o.",
+          "salary": "45 000 – 61 000 Kč/měsíc",
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "ab97024c-ada9-4a87-9bdd-126dbab7c526",
+          "site": "pracecz",
+          "title": "OBCHODNÍ ZÁSTUPCE PRO PRAHA A STŘEDNÍ ČECHY – ELEKTRO/PRŮMYSLOVÁ AUTOMATIZACE",
+          "url": "https://www.prace.cz/nabidka/ab97024c-ada9-4a87-9bdd-126dbab7c526/?rps=2077",
+          "employer": "JORK, spol. s r.o.",
+          "salary": "40 000 – 50 000 Kč/měsíc",
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "c43a84e5-c47b-4110-9f81-9d8d109ce4fe",
+          "site": "pracecz",
+          "title": "Junior Media Consultant",
+          "url": "https://www.prace.cz/firma/tapccn-publicis-groupe/nabidka/c43a84e5-c47b-4110-9f81-9d8d109ce4fe/?rps=2077",
+          "employer": "Publicis Groupe",
+          "salary": null,
+          "posted": "Nová nabídka",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "3de0e475-0088-4b95-981e-4786f92bf6bd",
+          "site": "pracecz",
+          "title": "Obchodní zástupce/kyně | STAV-INVEST Uhříněves",
+          "url": "https://www.prace.cz/nabidka/3de0e475-0088-4b95-981e-4786f92bf6bd/?rps=2077",
+          "employer": "STAV-INVEST střešní systémy s.r.o.",
+          "salary": "41 000 – 74 000 Kč/měsíc",
+          "posted": "Jen pár hodin",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        },
+        {
+          "id": "d48d3340-603b-47af-b7e6-bbdb64c6db41",
+          "site": "pracecz",
+          "title": "Technický manažer do the italians na Smíchově",
+          "url": "https://www.prace.cz/nabidka/d48d3340-603b-47af-b7e6-bbdb64c6db41/?rps=2077",
+          "employer": "the italians wine food a.s.",
+          "salary": "80 000 – 100 000 Kč/měsíc",
+          "posted": "Jen pár hodin",
+          "found_at": "2026-09-21T11:37:49.306309+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 210,
+          "new": 45
+        },
+        "pracecz": {
+          "total_found": 100,
+          "new": 16
         }
       },
       "warnings": []
