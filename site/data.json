@@ -125,16 +125,6 @@
           "found_at": "2026-09-14T11:51:03.967275+00:00"
         },
         {
-          "id": "2001241462",
-          "site": "jobscz",
-          "title": "Installation Supervisor | Global Food Production Projects",
-          "url": "https://www.jobs.cz/rpd/2001241462/?searchId=dbf0b79d-6dca-4130-9354-c339fa9607f3&rps=233",
-          "employer": "Bühler Praha s.r.o.",
-          "salary": null,
-          "posted": "Aktualizováno před 2 hodinami",
-          "found_at": "2026-09-14T11:51:03.967275+00:00"
-        },
-        {
           "id": "2001412708",
           "site": "jobscz",
           "title": "Employee Relations Partner pro Rex Concepts",
@@ -1816,16 +1806,6 @@
       "run_at": "2026-09-23T08:10:37.567187+00:00",
       "offers": [
         {
-          "id": "1631966409",
-          "site": "jobscz",
-          "title": "SAP Specialista (m/ž)",
-          "url": "https://www.jobs.cz/rpd/1631966409/?searchId=0515c85f-fc1b-43f9-9f65-d4c69816be2a&rps=233",
-          "employer": "Škoda Auto a.s.",
-          "salary": null,
-          "posted": "Přidáno před 36 minutami",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
           "id": "2001408716",
           "site": "jobscz",
           "title": "Area manager Central Czech (f/m)",
@@ -1833,16 +1813,6 @@
           "employer": "Randstad HR Solutions s.r.o.",
           "salary": null,
           "posted": "Přidáno před 40 minutami",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
-          "id": "2001442240",
-          "site": "jobscz",
-          "title": "Installation Supervisor | Mezinárodní projekty potravinářských provozů po celém světě",
-          "url": "https://www.jobs.cz/rpd/2001442240/?searchId=f5674d31-631c-490b-b583-37d8fa0482cf&rps=233",
-          "employer": "ManpowerGroup s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před hodinou",
           "found_at": "2026-09-23T08:10:37.567187+00:00"
         },
         {
@@ -2000,6 +1970,8 @@
     "franc",
     "iga special",
     "network consultant",
+    "sap specialist",
+    "installation supervisor",
     "aaa auto obchod",
     "expert dat anal",
     "expert tradintu čez",
