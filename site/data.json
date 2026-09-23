@@ -1872,16 +1872,6 @@
       "run_at": "2026-09-23T08:10:37.567187+00:00",
       "offers": [
         {
-          "id": "2001356048",
-          "site": "jobscz",
-          "title": "Oblastní manažer firemních restaurací (M/Ž)",
-          "url": "https://www.jobs.cz/rpd/2001356048/?searchId=0515c85f-fc1b-43f9-9f65-d4c69816be2a&rps=233",
-          "employer": "ARAMARK, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 13 minutami",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
           "id": "1631966409",
           "site": "jobscz",
           "title": "SAP Specialista (m/ž)",
@@ -1952,71 +1942,11 @@
           "found_at": "2026-09-23T08:10:37.567187+00:00"
         },
         {
-          "id": "2001441437",
-          "site": "jobscz",
-          "title": "Fiber Roll-out Senior Analyst",
-          "url": "https://www.jobs.cz/rpd/2001441437/?searchId=86a26aa1-4a4e-41ac-8cde-d70dc1c71d46&rps=233",
-          "employer": "CETIN a.s.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
-          "id": "2000328744",
-          "site": "jobscz",
-          "title": "SENIOR ACCOUNT MANAGER - MEZINÁRODNÍ ODDĚLENÍ",
-          "url": "https://www.jobs.cz/rpd/2000328744/?searchId=86a26aa1-4a4e-41ac-8cde-d70dc1c71d46&rps=233",
-          "employer": "RENOMIA, a. s.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
           "id": "2001441414",
           "site": "jobscz",
           "title": "⋙ Výrobní příprava - služební automobil a skvělé projekty⋘",
           "url": "https://www.jobs.cz/rpd/2001441414/?searchId=86a26aa1-4a4e-41ac-8cde-d70dc1c71d46&rps=233",
           "employer": "mBlue Czech, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
-          "id": "2001441372",
-          "site": "jobscz",
-          "title": "Head of Retail & Commercial Operations | Footwear",
-          "url": "https://www.jobs.cz/rpd/2001441372/?searchId=86a26aa1-4a4e-41ac-8cde-d70dc1c71d46&rps=233",
-          "employer": "ManpowerGroup s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
-          "id": "2001137982",
-          "site": "jobscz",
-          "title": "Sourcing Manager",
-          "url": "https://www.jobs.cz/rpd/2001137982/?searchId=86a26aa1-4a4e-41ac-8cde-d70dc1c71d46&rps=233",
-          "employer": "Albert Česká republika, s.r.o.",
-          "salary": null,
-          "posted": "Aktualizováno včera",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
-          "id": "2001441273",
-          "site": "jobscz",
-          "title": "Vedení obchodního domu v zácviku",
-          "url": "https://www.jobs.cz/rpd/2001441273/?searchId=c3e4d0b8-d6ad-47da-9394-78be36d15ae3&rps=233",
-          "employer": "XLCZ Nábytek s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
-          "id": "2001441179",
-          "site": "jobscz",
-          "title": "AI Platform Owner",
-          "url": "https://www.jobs.cz/rpd/2001441179/?searchId=486e6fda-172b-47ac-91ef-a9032b5d0e8d&rps=233",
-          "employer": "UNIQA",
           "salary": null,
           "posted": "Přidáno včera",
           "found_at": "2026-09-23T08:10:37.567187+00:00"
@@ -2032,16 +1962,6 @@
           "found_at": "2026-09-23T08:10:37.567187+00:00"
         },
         {
-          "id": "a764bcb2-e7bf-4c59-84d0-73ce7777bdbf",
-          "site": "pracecz",
-          "title": "Fundraiser / fundraiserka pro firemní agendu",
-          "url": "https://www.prace.cz/nabidka/a764bcb2-e7bf-4c59-84d0-73ce7777bdbf/?rps=2077",
-          "employer": "Nadační fond Eduzměna",
-          "salary": "53 000 – 57 000 Kč/měsíc",
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
           "id": "15497f1b-41b2-4208-a921-eebd53770676",
           "site": "pracecz",
           "title": "SALES COORDINATOR/SUPPORT|PHA-ZÁPAD Mezinárodní společnost | Excel + projekty-60.000CZK",
@@ -2049,26 +1969,6 @@
           "employer": "Jitka Poláková",
           "salary": "55 000 – 65 000 Kč/měsíc",
           "posted": "Nová nabídka",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
-          "id": "194d78c6-d224-4772-8ec8-8b0ce6aa0283",
-          "site": "pracecz",
-          "title": "Manažer/ka prémiového butiku HALADA 💎",
-          "url": "https://www.prace.cz/nabidka/194d78c6-d224-4772-8ec8-8b0ce6aa0283/?rps=2077",
-          "employer": "Halada spol. s.r.o.",
-          "salary": null,
-          "posted": "Dnešní",
-          "found_at": "2026-09-23T08:10:37.567187+00:00"
-        },
-        {
-          "id": "585e395c-911d-4549-afea-7f84d25350a6",
-          "site": "pracecz",
-          "title": "Specialista finančních operací",
-          "url": "https://www.prace.cz/nabidka/585e395c-911d-4549-afea-7f84d25350a6/?rps=2077",
-          "employer": "Pineal s.r.o.",
-          "salary": "36 000 – 65 000 Kč/měsíc",
-          "posted": "Dnešní",
           "found_at": "2026-09-23T08:10:37.567187+00:00"
         }
       ],
@@ -2088,6 +1988,17 @@
   "blacklist": [
     "diabetolog",
     "geodet",
+    "renomia",
+    "manažer restaur",
+    "fiber analyst",
+    "spravce ict",
+    "head retail",
+    "sourcing manager albert",
+    "vedení obchodního domu",
+    "ai owner",
+    "fundraiser",
+    "manažer butiku",
+    "specialista finan",
     "ai govern",
     "fashion retail",
     "specialist elekt zaříz",
