@@ -26364,5 +26364,631 @@
       }
     },
     "warnings": []
+  },
+  {
+    "run_at": "2026-09-24T08:11:00.678286+00:00",
+    "offers": [
+      {
+        "id": "2001443436",
+        "site": "jobscz",
+        "title": "Senior Talent Partner | Recruiter | HR (AI) Ambassador",
+        "url": "https://www.jobs.cz/rpd/2001443436/?searchId=ee03e9cd-6d05-4dab-add8-e64b87fff788&rps=228",
+        "employer": "mBank",
+        "salary": null,
+        "posted": null,
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001444349",
+        "site": "jobscz",
+        "title": "Realitní makléř / makléřka",
+        "url": "https://www.jobs.cz/rpd/2001444349/?searchId=ee03e9cd-6d05-4dab-add8-e64b87fff788&rps=233",
+        "employer": "REMAX AXIS",
+        "salary": "60 000 ‍–‍ 120 000 Kč",
+        "posted": "Přidáno před 8 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001444359",
+        "site": "jobscz",
+        "title": "Senior Accountant",
+        "url": "https://www.jobs.cz/rpd/2001444359/?searchId=ee03e9cd-6d05-4dab-add8-e64b87fff788&rps=233",
+        "employer": "PEG Services s.r.o.",
+        "salary": null,
+        "posted": "Přidáno před 9 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001246708",
+        "site": "jobscz",
+        "title": "Linux Specialista | Specialistka",
+        "url": "https://www.jobs.cz/rpd/2001246708/?searchId=ee03e9cd-6d05-4dab-add8-e64b87fff788&rps=233",
+        "employer": "NAKIT, s. p.",
+        "salary": null,
+        "posted": "Přidáno před 10 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001019364",
+        "site": "jobscz",
+        "title": "PROJEKTOVÝ MANAŽER POZEMNÍCH STAVEB | Až 140K | Jedno CV, více pracovních nabídek na míru",
+        "url": "https://www.jobs.cz/rpd/2001019364/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "Prušák Group s.r.o.",
+        "salary": "70 000 ‍–‍ 140 000 Kč",
+        "posted": "Přidáno před 27 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001389296",
+        "site": "jobscz",
+        "title": "SERVISNÍ TECHNIK-ELEKTRO (M/Ž)",
+        "url": "https://www.jobs.cz/rpd/2001389296/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "JISTU recruitment s.r.o.",
+        "salary": "50 000 ‍–‍ 70 000 Kč",
+        "posted": "Přidáno před 29 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001232965",
+        "site": "jobscz",
+        "title": "Sourcing specialista | Nábor expertů i pro mezinárodní projekty mzda až 810 tis. Kč/ročně",
+        "url": "https://www.jobs.cz/rpd/2001232965/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "GQsystems Czech s.r.o.",
+        "salary": "60 000 ‍–‍ 80 000 Kč",
+        "posted": "Přidáno před 33 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001444289",
+        "site": "jobscz",
+        "title": "Marketing Procurement Senior Specialist",
+        "url": "https://www.jobs.cz/rpd/2001444289/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "NonStop Consulting s.r.o.",
+        "salary": "80 000 ‍–‍ 95 000 Kč",
+        "posted": "Přidáno před 38 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001444291",
+        "site": "jobscz",
+        "title": "B2B Sales Manager",
+        "url": "https://www.jobs.cz/rpd/2001444291/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "SKY SELECT INT., s.r.o.",
+        "salary": null,
+        "posted": "Přidáno před 40 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001375872",
+        "site": "jobscz",
+        "title": "Manažer/ka stavebního odd. - Praha-Vysočany",
+        "url": "https://www.jobs.cz/rpd/2001375872/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "Ptáček - velkoobchod, a.s.",
+        "salary": null,
+        "posted": "Přidáno před 54 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001444253",
+        "site": "jobscz",
+        "title": "obchodní manažer",
+        "url": "https://www.jobs.cz/rpd/2001444253/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "ENBRA, a.s.",
+        "salary": null,
+        "posted": "Přidáno před 54 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001353618",
+        "site": "jobscz",
+        "title": "Specialista/ka metodiky pojištění",
+        "url": "https://www.jobs.cz/rpd/2001353618/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "Česká spořitelna, a.s.",
+        "salary": null,
+        "posted": "Přidáno před 55 minutami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001444222",
+        "site": "jobscz",
+        "title": "Chyť příležitost za pačesy. Tvoje budoucnost začíná u nás - Praha",
+        "url": "https://www.jobs.cz/rpd/2001444222/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "Czech Invest Solutions, s.r.o.",
+        "salary": "47 000 ‍–‍ 69 000 Kč",
+        "posted": "Přidáno před hodinou",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001389194",
+        "site": "jobscz",
+        "title": "Senior DevOps Engineer in Open Banking Services",
+        "url": "https://www.jobs.cz/rpd/2001389194/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "COMMERZBANK Aktiengesellschaft, pobočka Praha",
+        "salary": null,
+        "posted": "Přidáno před hodinou",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001175188",
+        "site": "jobscz",
+        "title": "Finanční účetní - Supervisor - Praha",
+        "url": "https://www.jobs.cz/rpd/2001175188/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "KPMG Česká republika, s.r.o.",
+        "salary": null,
+        "posted": "Přidáno před hodinou",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001444175",
+        "site": "jobscz",
+        "title": "Nová pobočka hledá obchodníky/ce | Fix 55 000 Kč + atraktivní bonusy",
+        "url": "https://www.jobs.cz/rpd/2001444175/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
+        "employer": "Škola Investorů s.r.o.",
+        "salary": "55 000 ‍–‍ 80 000 Kč",
+        "posted": "Přidáno před hodinou",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001444159",
+        "site": "jobscz",
+        "title": "Vedoucí projektu - zabezpečovací systémy pro retail projekty až 85.000 Kč",
+        "url": "https://www.jobs.cz/rpd/2001444159/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "Jobs Contact Personal, s.r.o.",
+        "salary": "70 000 ‍–‍ 85 000 Kč",
+        "posted": "Přidáno před hodinou",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001442518",
+        "site": "jobscz",
+        "title": "B2B Obchodník pro Vodafone ( M/ž ) - neomezené provize, home office",
+        "url": "https://www.jobs.cz/rpd/2001442518/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "Vodafone Czech Republic a.s. - partneři",
+        "salary": "60 000 ‍–‍ 120 000 Kč",
+        "posted": "Přidáno před hodinou",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001382897",
+        "site": "jobscz",
+        "title": "Formulation Scientist - Farmacie",
+        "url": "https://www.jobs.cz/rpd/2001382897/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "PRO.MED.CS Praha a.s.",
+        "salary": null,
+        "posted": "Přidáno před hodinou",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001377956",
+        "site": "jobscz",
+        "title": "Project Manager - R&D ve farmacii",
+        "url": "https://www.jobs.cz/rpd/2001377956/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "PRO.MED.CS Praha a.s.",
+        "salary": null,
+        "posted": "Přidáno před hodinou",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001430699",
+        "site": "jobscz",
+        "title": "Identity & Cloud Engineer (Microsoft Entra ID / Azure)",
+        "url": "https://www.jobs.cz/rpd/2001430699/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "Etnetera Core a.s.",
+        "salary": null,
+        "posted": "Aktualizováno před 2 hodinami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443250",
+        "site": "jobscz",
+        "title": "Solution Architect / Senior Software Engineer - (m/w/n)",
+        "url": "https://www.jobs.cz/rpd/2001443250/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "JABLOTRON a.s.",
+        "salary": null,
+        "posted": "Přidáno před 2 hodinami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001444038",
+        "site": "jobscz",
+        "title": "Zdr. sestra v domácí péči",
+        "url": "https://www.jobs.cz/rpd/2001444038/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "Agentura domácí péče LUSI s.r.o.",
+        "salary": "60 000 ‍–‍ 80 000 Kč",
+        "posted": "Přidáno před 2 hodinami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443865",
+        "site": "jobscz",
+        "title": "Rozpočtář/ka stavební výroby",
+        "url": "https://www.jobs.cz/rpd/2001443865/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "Čech & syn Stavební společnost, a.s.",
+        "salary": "60 000 ‍–‍ 90 000 Kč",
+        "posted": "Přidáno před 3 hodinami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443864",
+        "site": "jobscz",
+        "title": "Přípravář/ka stavební výroby",
+        "url": "https://www.jobs.cz/rpd/2001443864/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "Čech & syn Stavební společnost, a.s.",
+        "salary": "60 000 ‍–‍ 90 000 Kč",
+        "posted": "Přidáno před 3 hodinami",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443564",
+        "site": "jobscz",
+        "title": "Stavbyvedoucí/ MITR TZB (m/ž)",
+        "url": "https://www.jobs.cz/rpd/2001443564/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "HOFMANN WIZARD s.r.o.",
+        "salary": "70 000 ‍–‍ 80 000 Kč",
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443562",
+        "site": "jobscz",
+        "title": "Obchodní zástupce – stavebnictví fix 70 000–80 000 Kč | bonusy | auto",
+        "url": "https://www.jobs.cz/rpd/2001443562/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "HOFMANN WIZARD s.r.o.",
+        "salary": "70 000 ‍–‍ 90 000 Kč",
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443540",
+        "site": "jobscz",
+        "title": "Specialista/ka automatizovaného testování",
+        "url": "https://www.jobs.cz/rpd/2001443540/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "Air Bank a.s.",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443480",
+        "site": "jobscz",
+        "title": "SENIOR ACCOUNTANT / TEAM LEADER (RTR)",
+        "url": "https://www.jobs.cz/rpd/2001443480/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "OPENN s.r.o.",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443400",
+        "site": "jobscz",
+        "title": "RGM Business Partner",
+        "url": "https://www.jobs.cz/rpd/2001443400/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
+        "employer": "STOCK Plzeň-Božkov s.r.o.",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443375",
+        "site": "jobscz",
+        "title": "Retail Media Activation Manager",
+        "url": "https://www.jobs.cz/rpd/2001443375/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "Publicis Groupe",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443367",
+        "site": "jobscz",
+        "title": "Junior Security Expert",
+        "url": "https://www.jobs.cz/rpd/2001443367/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "Vodafone Czech Republic a.s.",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443361",
+        "site": "jobscz",
+        "title": "Security Expert",
+        "url": "https://www.jobs.cz/rpd/2001443361/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "Vodafone Czech Republic a.s.",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443353",
+        "site": "jobscz",
+        "title": "Electrical Quality Assurance Technician – Space Systems",
+        "url": "https://www.jobs.cz/rpd/2001443353/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "Terma Technologies Czech Republic s.r.o.",
+        "salary": "70 000 ‍–‍ 95 000 Kč",
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443337",
+        "site": "jobscz",
+        "title": "Motion Designer (3D)",
+        "url": "https://www.jobs.cz/rpd/2001443337/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "Publicis Groupe",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443330",
+        "site": "jobscz",
+        "title": "PROJEKTANT JUNIOR/SENIOR PRO MODERNÍ ARCHITEKTONICKOU SPOLEČNOST V PRAZE",
+        "url": "https://www.jobs.cz/rpd/2001443330/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "Prušák Group s.r.o.",
+        "salary": "50 000 ‍–‍ 80 000 Kč",
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443231",
+        "site": "jobscz",
+        "title": "🚀Product Manager – tvoř produkty, které se opravdu dostanou na trh",
+        "url": "https://www.jobs.cz/rpd/2001443231/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "elem6 s.r.o.",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443301",
+        "site": "jobscz",
+        "title": "IT Business Analyst (COPS cluster / Cyber Risk cell)",
+        "url": "https://www.jobs.cz/rpd/2001443301/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "COMMERZBANK Aktiengesellschaft, pobočka Praha",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443286",
+        "site": "jobscz",
+        "title": "Geodet do střediska 3D technologií",
+        "url": "https://www.jobs.cz/rpd/2001443286/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "PŘEDVÝBĚR.CZ a.s.",
+        "salary": "45 000 ‍–‍ 70 000 Kč",
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443268",
+        "site": "jobscz",
+        "title": "Senior Java Engineer (Angular experience is a plus) HPP/ICO",
+        "url": "https://www.jobs.cz/rpd/2001443268/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "IDC Central Europe, the Middle East & Africa",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443258",
+        "site": "jobscz",
+        "title": "Senior Software Developer (Public Facing applications) HPP/ICO",
+        "url": "https://www.jobs.cz/rpd/2001443258/?searchId=4c2c2178-7280-4cf6-85f9-b9ad58e3dd88&rps=233",
+        "employer": "IDC Central Europe, the Middle East & Africa",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443224",
+        "site": "jobscz",
+        "title": "Account Manager & Media Planner | POS / In-Store Marketing - mezinárodní agentura",
+        "url": "https://www.jobs.cz/rpd/2001443224/?searchId=2411fc9d-9d84-4b7a-943a-47dfdf0c59b9&rps=233",
+        "employer": "REED SPECIALIST RECRUITMENT",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2000973579",
+        "site": "jobscz",
+        "title": "Finanční BC konzultant pro Microsoft Dynamics 365",
+        "url": "https://www.jobs.cz/rpd/2000973579/?searchId=2411fc9d-9d84-4b7a-943a-47dfdf0c59b9&rps=233",
+        "employer": "ARTEX informační systémy spol. s r.o.",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443081",
+        "site": "jobscz",
+        "title": "Expert oddělení Category Management - nákupčí (m/ž)",
+        "url": "https://www.jobs.cz/rpd/2001443081/?searchId=2411fc9d-9d84-4b7a-943a-47dfdf0c59b9&rps=233",
+        "employer": "OBI Česká republika s.r.o.",
+        "salary": null,
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2001443030",
+        "site": "jobscz",
+        "title": "Obchodní manažer – potravinářství",
+        "url": "https://www.jobs.cz/rpd/2001443030/?searchId=2411fc9d-9d84-4b7a-943a-47dfdf0c59b9&rps=233",
+        "employer": "Grafton Recruitment s.r.o.",
+        "salary": "60 000 ‍–‍ 70 000 Kč",
+        "posted": "Přidáno včera",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "fad9ddc4-08b8-4f67-9671-7f1116a07e2f",
+        "site": "pracecz",
+        "title": "Chceš si určovat výplatu svým vlastním výkonem? Jsi na správném místě. Florenc",
+        "url": "https://www.prace.cz/nabidka/fad9ddc4-08b8-4f67-9671-7f1116a07e2f/?rps=2078",
+        "employer": "Traditional Stocks Marketing s.r.o.",
+        "salary": "49 000 – 77 000 Kč/měsíc",
+        "posted": null,
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "bd886f92-bb17-413b-a63b-0525394c8720",
+        "site": "pracecz",
+        "title": "Plánovač dopravy",
+        "url": "https://www.prace.cz/nabidka/bd886f92-bb17-413b-a63b-0525394c8720/?rps=2077",
+        "employer": "BOELS Česká republika s.r.o.",
+        "salary": null,
+        "posted": "Nová nabídka",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "a1645b9a-9d90-4fcf-9188-2fd8a52efa84",
+        "site": "pracecz",
+        "title": "Realitní makléř / makléřka",
+        "url": "https://www.prace.cz/nabidka/a1645b9a-9d90-4fcf-9188-2fd8a52efa84/?rps=2077",
+        "employer": "REMAX AXIS",
+        "salary": "60 000 – 120 000 Kč/měsíc",
+        "posted": "Nová nabídka",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "68c57f9a-2003-43b3-8c6f-51195d146f50",
+        "site": "pracecz",
+        "title": "Rozvoz TESCO nákupů - až 3 500 Kč/den + dýška. Auto i benzín jde taky za námi 🚀",
+        "url": "https://www.prace.cz/nabidka/68c57f9a-2003-43b3-8c6f-51195d146f50/?rps=2077",
+        "employer": "21 Consult Group s.r.o.",
+        "salary": "40 000 – 75 000 Kč/měsíc",
+        "posted": "Nová nabídka",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "5ee71885-32f7-4685-8069-5f7ee2fabc37",
+        "site": "pracecz",
+        "title": "Hledáme kolegu/kolegyni do našeho call centra v Praze! :) FIX 31 000,-",
+        "url": "https://www.prace.cz/nabidka/5ee71885-32f7-4685-8069-5f7ee2fabc37/?rps=2077",
+        "employer": "4Life Direct Insurance Services s.r.o., odštěpný závod",
+        "salary": "31 000 – 52 000 Kč/měsíc",
+        "posted": "Nová nabídka",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "6995cf66-ca4a-4ba5-9555-b6577b4c632c",
+        "site": "pracecz",
+        "title": "Chyť příležitost za pačesy. Tvoje budoucnost začíná u nás - Praha",
+        "url": "https://www.prace.cz/nabidka/6995cf66-ca4a-4ba5-9555-b6577b4c632c/?rps=2077",
+        "employer": "Czech Invest Solutions, s.r.o.",
+        "salary": "47 000 – 69 000 Kč/měsíc",
+        "posted": "Nová nabídka",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "c0716292-5243-403f-a20e-60c21e46e492",
+        "site": "pracecz",
+        "title": "🚀Real Estate & Expansion Specialist v Alza.cz (JPO10966)",
+        "url": "https://www.prace.cz/firma/2fecjy-alza-cz-a-s/nabidka/c0716292-5243-403f-a20e-60c21e46e492/?rps=2077",
+        "employer": "Alza.cz a.s.",
+        "salary": null,
+        "posted": "Nová nabídka",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "4a25514d-8484-4d0c-bec4-83bcbcf27018",
+        "site": "pracecz",
+        "title": "🚀Sales representative bez cold callů | Laba Czech 💛",
+        "url": "https://www.prace.cz/nabidka/4a25514d-8484-4d0c-bec4-83bcbcf27018/?rps=2077",
+        "employer": "Laba Czech vzdělávání s.r.o.",
+        "salary": "50 000 – 100 000 Kč/měsíc",
+        "posted": "Dnešní",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "dc9bd120-50fd-4896-9c73-242c800f801b",
+        "site": "pracecz",
+        "title": "Technik – Specializovaný prodavač (Praha 9)",
+        "url": "https://www.prace.cz/nabidka/dc9bd120-50fd-4896-9c73-242c800f801b/?rps=2077",
+        "employer": "Střešní nosiče BöHM s.r.o.",
+        "salary": "35 000 – 50 000 Kč/měsíc",
+        "posted": "Dnešní",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "445dc756-6e00-4239-9242-1af785846d8c",
+        "site": "pracecz",
+        "title": "Retail Media Activation Manager",
+        "url": "https://www.prace.cz/firma/tapccn-publicis-groupe/nabidka/445dc756-6e00-4239-9242-1af785846d8c/?rps=2077",
+        "employer": "Publicis Groupe",
+        "salary": null,
+        "posted": "Dnešní",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "c88bd9dc-ee4d-4838-906f-349c7d3f62f1",
+        "site": "pracecz",
+        "title": "Motion Designer (3D)",
+        "url": "https://www.prace.cz/firma/tapccn-publicis-groupe/nabidka/c88bd9dc-ee4d-4838-906f-349c7d3f62f1/?rps=2077",
+        "employer": "Publicis Groupe",
+        "salary": null,
+        "posted": "Dnešní",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "3b755077-08a0-4634-9069-f897beea142f",
+        "site": "pracecz",
+        "title": "Mechanik mobilního nákladního pneuservisu Praha",
+        "url": "https://www.prace.cz/nabidka/3b755077-08a0-4634-9069-f897beea142f/?rps=2077",
+        "employer": "TASY s.r.o.",
+        "salary": "40 000 – 60 000 Kč/měsíc",
+        "posted": "Dnešní",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "df0e6c98-b83d-4a35-bdb4-e146c1acf4fa",
+        "site": "pracecz",
+        "title": "Realitní makléř",
+        "url": "https://www.prace.cz/nabidka/df0e6c98-b83d-4a35-bdb4-e146c1acf4fa/?rps=2077",
+        "employer": "Stability solutions, s.r.o.",
+        "salary": null,
+        "posted": "Dnešní",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "5dad9931-55fa-4f22-8d19-aad57d8629ff",
+        "site": "pracecz",
+        "title": "Přípravář/ka dřevostaveb",
+        "url": "https://www.prace.cz/nabidka/5dad9931-55fa-4f22-8d19-aad57d8629ff/?rps=2077",
+        "employer": "Domesi, s.r.o.",
+        "salary": null,
+        "posted": "Dnešní",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "5a374fc3-b63f-478b-857d-72f83d9aab22",
+        "site": "pracecz",
+        "title": "Řidič sk. C: Každý den doma. Až 50 500 Kč + firemní telefon a skvělé benefity.",
+        "url": "https://www.prace.cz/nabidka/5a374fc3-b63f-478b-857d-72f83d9aab22/?rps=2077",
+        "employer": "INDEX NOSLUŠ s.r.o.",
+        "salary": "50 500 Kč/měsíc",
+        "posted": "Dnešní",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      },
+      {
+        "id": "2ae28914-7db3-4437-adb1-b64d7e7081b0",
+        "site": "pracecz",
+        "title": "Customer Care Associate with German or Italian - Sensitech",
+        "url": "https://www.prace.cz/nabidka/2ae28914-7db3-4437-adb1-b64d7e7081b0/?rps=2077",
+        "employer": "Carrier Refrigeration Operation Czech Republic s.r.o./dříve Linde Frigera spol. s r.o.",
+        "salary": null,
+        "posted": "Dnešní",
+        "found_at": "2026-09-24T08:11:00.678286+00:00"
+      }
+    ],
+    "counts": {
+      "jobscz": {
+        "total_found": 210,
+        "new": 45
+      },
+      "pracecz": {
+        "total_found": 99,
+        "new": 16
+      }
+    },
+    "warnings": []
   }
 ]
