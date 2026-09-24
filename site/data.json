@@ -1452,16 +1452,6 @@
           "found_at": "2026-09-24T11:20:09.857581+00:00"
         },
         {
-          "id": "2001444580",
-          "site": "jobscz",
-          "title": "Last Mile Operations Manager – FSD",
-          "url": "https://www.jobs.cz/rpd/2001444580/?searchId=13e5d504-a71e-401e-8870-e0ef43c51aca&rps=233",
-          "employer": "Košík.cz s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-24T11:20:09.857581+00:00"
-        },
-        {
           "id": "2001444462",
           "site": "jobscz",
           "title": "International Technical Solution Manager - 90 000 - 110 000 CZK fix",
@@ -1469,26 +1459,6 @@
           "employer": "HOFMANN WIZARD s.r.o.",
           "salary": "90 000 ‍–‍ 110 000 Kč",
           "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-09-24T11:20:09.857581+00:00"
-        },
-        {
-          "id": "2001444374",
-          "site": "jobscz",
-          "title": "Corporate Governance Specialist",
-          "url": "https://www.jobs.cz/rpd/2001444374/?searchId=59a9c64f-bef2-4d76-b512-3200cd55b5c1&rps=233",
-          "employer": "PEG Services s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 3 hodinami",
-          "found_at": "2026-09-24T11:20:09.857581+00:00"
-        },
-        {
-          "id": "38029fcd-2f49-492a-b936-3129cbbc5cc3",
-          "site": "pracecz",
-          "title": "Last Mile Operations Manager – FSD",
-          "url": "https://www.prace.cz/firma/96q5ew-kosik-cz-s-r-o/nabidka/38029fcd-2f49-492a-b936-3129cbbc5cc3/?rps=2077",
-          "employer": "Košík.cz s.r.o.",
-          "salary": null,
-          "posted": "Nová nabídka",
           "found_at": "2026-09-24T11:20:09.857581+00:00"
         },
         {
@@ -1508,16 +1478,6 @@
           "url": "https://www.prace.cz/nabidka/9f339df1-0a61-435c-986d-da594f626485/?rps=2077",
           "employer": "PŘEDVÝBĚR.CZ a.s.",
           "salary": null,
-          "posted": "Jen pár hodin",
-          "found_at": "2026-09-24T11:20:09.857581+00:00"
-        },
-        {
-          "id": "cca4fcdc-1c94-4c5a-a28a-8db2c78e81d8",
-          "site": "pracecz",
-          "title": "Email & Content Specialist",
-          "url": "https://www.prace.cz/nabidka/cca4fcdc-1c94-4c5a-a28a-8db2c78e81d8/?rps=2077",
-          "employer": "ABF, a.s.",
-          "salary": "46 000 – 50 600 Kč/měsíc",
           "posted": "Jen pár hodin",
           "found_at": "2026-09-24T11:20:09.857581+00:00"
         }
@@ -1547,6 +1507,9 @@
     "nákupčí obi",
     "stocks marketing",
     "plánovač dopravy",
+    "corporate govern",
+    "last mile operation",
+    "content specialist",
     "franc",
     "iga special",
     "network consultant",
