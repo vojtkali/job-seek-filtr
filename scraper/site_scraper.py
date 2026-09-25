@@ -255,6 +255,32 @@ def _debug_startupjobs_api_hints(
     except Exception as exc:  # noqa: BLE001 - jen diagnostika, nesmí shodit scraper
         (debug_dir / "startupjobs_api_hints.txt").write_text(f"Diagnostika selhala: {exc}\n", encoding="utf-8")
 
+    # Backend vypadá jako Symfony/API Platform (viz "/api/contexts/Field" v
+    # __NUXT_DATA__) - ten obvykle vystavuje veřejnou OpenAPI specifikaci,
+    # což by dalo přesné schéma /api/search-offers bez další archeologie
+    # v minifikovaném JS.
+    try:
+        candidates = ["/api/docs.json", "/api/docs.jsonopenapi", "/api/docs.jsonld", "/api/docs"]
+        results = []
+        for path in candidates:
+            doc_url = urljoin(page_url, path)
+            try:
+                resp = session.get(
+                    doc_url,
+                    headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+                    timeout=REQUEST_TIMEOUT,
+                )
+                results.append(f"{path}: HTTP {resp.status_code}, {len(resp.text)} chars, content-type={resp.headers.get('content-type')}")
+                if resp.status_code == 200 and "json" in (resp.headers.get("content-type") or ""):
+                    (debug_dir / f"startupjobs_openapi_{path.strip('/').replace('/', '_')}.json").write_text(
+                        resp.text, encoding="utf-8"
+                    )
+            except requests.RequestException as exc:
+                results.append(f"{path}: chyba {exc}")
+        (debug_dir / "startupjobs_openapi_probe.txt").write_text("\n".join(results), encoding="utf-8")
+    except Exception as exc:  # noqa: BLE001
+        (debug_dir / "startupjobs_openapi_probe.txt").write_text(f"Diagnostika selhala: {exc}\n", encoding="utf-8")
+
 
 def scrape_site(
     site_key: str,
