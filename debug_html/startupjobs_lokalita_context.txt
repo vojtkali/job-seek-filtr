@@ -1,0 +1,5 @@
+--- https://www.startupjobs.cz/_nuxt/3PhmWn1q.js @ 39888 ---
+alue===0){let e=B(t.path);return`${a.value}${e}`}if(!E.value||c.value>=4)return`${a.value}${i({name:`jobs`})}`;let e=z(t.fullPath),r=new Set([n.value===`cs`?`technologie`:`technology`,n.value===`cs`?`lokalita`:`location`,n.value===`cs`?`seniorita`:`seniority`,n.value===`cs`?`pracovni-rezim`:`work-mode`,n.value===`cs`?`uvazek`:`employment-type`,n.value===`cs`?`typ-spoluprace`:`type-of-contract`]),o
+
+--- https://www.startupjobs.cz/_nuxt/BfL8hIxH.js @ 1815 ---
+sh({name:o.name??void 0,params:{...o.params,...r},query:{...o.query,...i}})}})}function m(){let{locale:t}=e(),r=p({route:{fields:{name:`fields`,schema:a()}},query:{locations:{name:()=>t.value===`cs`?`lokalita`:`location`,schema:a()},locationPreference:{name:()=>t.value===`cs`?`pracovni-rezim`:`work-mode`,schema:a()},salary:{name:()=>t.value===`cs`?`odmena`:`pay-rate`,schema:a()},employmentType:{na

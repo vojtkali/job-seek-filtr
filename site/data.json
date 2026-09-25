@@ -1,92 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:31:36.904301+00:00",
+  "generated_at": "2026-09-25T08:35:14.334581+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-21T11:37:49.306309+00:00",
-      "offers": [
-        {
-          "id": "2001331376",
-          "site": "jobscz",
-          "title": "Technical Sales Specialist",
-          "url": "https://www.jobs.cz/rpd/2001331376/?searchId=eee779b3-4682-41a0-ba2c-a74819bd1112&rps=233",
-          "employer": "Greenbuddies, s.r.o.",
-          "salary": "60 000 ‍–‍ 100 000 Kč",
-          "posted": "Přidáno před 16 minutami",
-          "found_at": "2026-09-21T11:37:49.306309+00:00"
-        },
-        {
-          "id": "2001338296",
-          "site": "jobscz",
-          "title": "Produktový manažer (M/Ž)",
-          "url": "https://www.jobs.cz/rpd/2001338296/?searchId=464cb626-b297-48a7-8520-bf2bc8951fc9&rps=233",
-          "employer": "MARIMEX CZ, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-21T11:37:49.306309+00:00"
-        },
-        {
-          "id": "2001412413",
-          "site": "jobscz",
-          "title": "Obchodní manažer / Business Development Manager",
-          "url": "https://www.jobs.cz/rpd/2001412413/?searchId=c4e855c2-ae98-429e-8e34-0f13615fe18a&rps=233",
-          "employer": "CentralWork s.r.o.",
-          "salary": "50 000 ‍–‍ 100 000 Kč",
-          "posted": "Aktualizováno před 3 hodinami",
-          "found_at": "2026-09-21T11:37:49.306309+00:00"
-        },
-        {
-          "id": "2001412334",
-          "site": "jobscz",
-          "title": "Obchodně technický zástupce – region Čechy (m/ž)",
-          "url": "https://www.jobs.cz/rpd/2001412334/?searchId=c4e855c2-ae98-429e-8e34-0f13615fe18a&rps=233",
-          "employer": "Horton International Czech s.r.o.",
-          "salary": null,
-          "posted": "Aktualizováno před 3 hodinami",
-          "found_at": "2026-09-21T11:37:49.306309+00:00"
-        },
-        {
-          "id": "d2b7f09e-7fb2-4528-abad-53190573d9a5",
-          "site": "pracecz",
-          "title": "Obchodník s jistým platem a provizemi PRAHA",
-          "url": "https://www.prace.cz/nabidka/d2b7f09e-7fb2-4528-abad-53190573d9a5/?rps=2077",
-          "employer": "SOLID SECURITY s.r.o.",
-          "salary": "45 000 – 61 000 Kč/měsíc",
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-21T11:37:49.306309+00:00"
-        },
-        {
-          "id": "ab97024c-ada9-4a87-9bdd-126dbab7c526",
-          "site": "pracecz",
-          "title": "OBCHODNÍ ZÁSTUPCE PRO PRAHA A STŘEDNÍ ČECHY – ELEKTRO/PRŮMYSLOVÁ AUTOMATIZACE",
-          "url": "https://www.prace.cz/nabidka/ab97024c-ada9-4a87-9bdd-126dbab7c526/?rps=2077",
-          "employer": "JORK, spol. s r.o.",
-          "salary": "40 000 – 50 000 Kč/měsíc",
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-21T11:37:49.306309+00:00"
-        },
-        {
-          "id": "d48d3340-603b-47af-b7e6-bbdb64c6db41",
-          "site": "pracecz",
-          "title": "Technický manažer do the italians na Smíchově",
-          "url": "https://www.prace.cz/nabidka/d48d3340-603b-47af-b7e6-bbdb64c6db41/?rps=2077",
-          "employer": "the italians wine food a.s.",
-          "salary": "80 000 – 100 000 Kč/měsíc",
-          "posted": "Jen pár hodin",
-          "found_at": "2026-09-21T11:37:49.306309+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 210,
-          "new": 45
-        },
-        "pracecz": {
-          "total_found": 100,
-          "new": 16
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-22T08:10:39.408400+00:00",
       "offers": [
@@ -863,6 +777,27 @@
     },
     {
       "run_at": "2026-09-25T08:31:36.904301+00:00",
+      "offers": [],
+      "counts": {
+        "jobscz": {
+          "total_found": 60,
+          "new": 0
+        },
+        "pracecz": {
+          "total_found": 53,
+          "new": 0
+        },
+        "startupjobs": {
+          "total_found": 0,
+          "new": 0
+        }
+      },
+      "warnings": [
+        "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
+      ]
+    },
+    {
+      "run_at": "2026-09-25T08:35:14.334581+00:00",
       "offers": [],
       "counts": {
         "jobscz": {

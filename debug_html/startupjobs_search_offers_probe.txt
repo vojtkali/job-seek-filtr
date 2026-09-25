@@ -1,0 +1,14 @@
+body={}: HTTP 404
+{"url":"/api/search-offers","status":404,"statusCode":404,"statusText":"Page not found: /api/search-offers","statusMessage":"Page not found: /api/search-offers","message":"Page not found: /api/search-offers","error":true,"data":{"path":"/api/search-offers"}}
+
+body={'location': 'Praha'}: HTTP 404
+{"url":"/api/search-offers","status":404,"statusCode":404,"statusText":"Page not found: /api/search-offers","statusMessage":"Page not found: /api/search-offers","message":"Page not found: /api/search-offers","error":true,"data":{"path":"/api/search-offers"}}
+
+body={'locations': ['Praha']}: HTTP 404
+{"url":"/api/search-offers","status":404,"statusCode":404,"statusText":"Page not found: /api/search-offers","statusMessage":"Page not found: /api/search-offers","message":"Page not found: /api/search-offers","error":true,"data":{"path":"/api/search-offers"}}
+
+body={'locationSlugs': ['praha']}: HTTP 404
+{"url":"/api/search-offers","status":404,"statusCode":404,"statusText":"Page not found: /api/search-offers","statusMessage":"Page not found: /api/search-offers","message":"Page not found: /api/search-offers","error":true,"data":{"path":"/api/search-offers"}}
+
+body={'page': 1}: HTTP 404
+{"url":"/api/search-offers","status":404,"statusCode":404,"statusText":"Page not found: /api/search-offers","statusMessage":"Page not found: /api/search-offers","message":"Page not found: /api/search-offers","error":true,"data":{"path":"/api/search-offers"}}
