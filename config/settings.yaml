@@ -71,8 +71,12 @@ startupjobs:
   name: "StartupJobs.cz"
   search_urls:
     - "https://www.startupjobs.cz/nabidky?lokalita=Praha"
-  max_pages: 8
-  max_pages: 8
+  # Vyšší limit než u jobs.cz/prace.cz - první běh musí stáhnout celou
+  # aktuální nabídku webu (u téhle SPA nejde poznat konec výsledků jinak
+  # než dokliknutím "Načíst další stránku" až do konce), další běhy se
+  # díky early-stop logice zastaví mnohem dřív, jakmile narazí na už
+  # viděné nabídky.
+  max_pages: 25
 
 # Kolik posledních ID nabídek na jeden web si scraper pamatuje, aby stejnou
 # nabídku znovu nenahlásil jako novou. Klidně nech, jen ať to nikdy neklesne
