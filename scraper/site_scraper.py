@@ -191,6 +191,54 @@ _SITE_EXTRACTORS = {
 }
 
 
+def _debug_startupjobs_api_hints(
+    soup: BeautifulSoup, page_url: str, session: requests.Session, debug_dir: Path
+) -> None:
+    """Dočasná diagnostika: startupjobs.cz je Nuxt SPA a nabídky se do HTML
+    nerenderují na serveru (na rozdíl od jobs.cz/prace.cz) - stažená stránka
+    obsahuje jen prázdnou kostru + JS bundle, který si data teprve po načtení
+    stránky natáhne z API. Tahle funkce sáhne po tom JS bundlu (odkazovaném
+    v importmapě jako "#entry") a vytáhne z něj řetězce vypadající jako
+    cesty k API, aby šel najít skutečný endpoint pro výpis nabídek bez nutnosti
+    spouštět prohlížeč. Smazat, jakmile se najde skutečné API a napíše se
+    finální extraktor."""
+    try:
+        importmap = soup.find("script", type="importmap")
+        entry_src = None
+        if importmap and importmap.string:
+            import json as _json
+            entry_src = _json.loads(importmap.string).get("imports", {}).get("#entry")
+        if not entry_src:
+            entry_src = next(
+                (s.get("src") for s in soup.find_all("script", src=True)
+                 if "_nuxt" in (s.get("src") or "")),
+                None,
+            )
+        if not entry_src:
+            (debug_dir / "startupjobs_api_hints.txt").write_text(
+                "Nenašel se žádný _nuxt entry script.\n", encoding="utf-8"
+            )
+            return
+
+        bundle_url = urljoin(page_url, entry_src)
+        resp = session.get(bundle_url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        js = resp.text
+
+        paths = sorted(set(re.findall(r"/api/[a-zA-Z0-9_\-{}]+(?:/[a-zA-Z0-9_\-{}]+)*", js)))
+        offer_paths = [p for p in paths if any(w in p.lower() for w in ("offer", "job", "advert", "position", "vacanc"))]
+
+        lines = [f"bundle: {bundle_url}", f"bundle size: {len(js)} chars", ""]
+        lines.append(f"=== cesty obsahující offer/job/advert/position/vacanc ({len(offer_paths)}) ===")
+        lines.extend(offer_paths)
+        lines.append("")
+        lines.append(f"=== všechny nalezené /api/... cesty ({len(paths)}) ===")
+        lines.extend(paths)
+        (debug_dir / "startupjobs_api_hints.txt").write_text("\n".join(lines), encoding="utf-8")
+    except Exception as exc:  # noqa: BLE001 - jen diagnostika, nesmí shodit scraper
+        (debug_dir / "startupjobs_api_hints.txt").write_text(f"Diagnostika selhala: {exc}\n", encoding="utf-8")
+
+
 def scrape_site(
     site_key: str,
     search_urls: list[str],
@@ -231,6 +279,8 @@ def scrape_site(
                 debug_dir.mkdir(parents=True, exist_ok=True)
                 (debug_dir / f"{site_key}.html").write_text(str(soup), encoding="utf-8")
                 debug_saved = True
+                if site_key == "startupjobs":
+                    _debug_startupjobs_api_hints(soup, url, session, debug_dir)
 
             if card_selector:
                 card_anchor_pairs = []
