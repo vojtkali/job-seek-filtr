@@ -217,6 +217,7 @@ def _debug_startupjobs_api_hints(
 
         offer_hits: dict[str, list[str]] = {}
         all_paths: set[str] = set()
+        lokalita_ctx: list[str] = []
         fetched = 0
         for chunk_url in chunk_urls:
             try:
@@ -243,6 +244,16 @@ def _debug_startupjobs_api_hints(
                     (debug_dir / "startupjobs_search_offers_context.txt").write_text(
                         "\n".join(ctx_lines), encoding="utf-8"
                     )
+            # "lokalita" je vidět v URL (/nabidky?lokalita=Praha) - hledáme
+            # kód, co tenhle query param mapuje na tělo POST /api/search-offers.
+            if "lokalita" in js and len(lokalita_ctx) < 40:
+                for m in re.finditer(re.escape("lokalita"), js):
+                    i = m.start()
+                    lokalita_ctx.append(f"--- {chunk_url} @ {i} ---")
+                    lokalita_ctx.append(js[max(0, i - 200):i + 200])
+                    lokalita_ctx.append("")
+                    if len(lokalita_ctx) >= 40:
+                        break
 
         lines = [f"chunks nalezené v HTML: {len(chunk_urls)}", f"úspěšně stažené: {fetched}", ""]
         lines.append(f"=== chunky, které zmiňují offer/job/advert/position/vacanc ({len(offer_hits)}) ===")
@@ -252,8 +263,42 @@ def _debug_startupjobs_api_hints(
         lines.append(f"=== všechny nalezené /api/... cesty napříč všemi chunky ({len(all_paths)}) ===")
         lines.extend(sorted(all_paths))
         (debug_dir / "startupjobs_api_hints.txt").write_text("\n".join(lines), encoding="utf-8")
+        (debug_dir / "startupjobs_lokalita_context.txt").write_text("\n".join(lokalita_ctx), encoding="utf-8")
     except Exception as exc:  # noqa: BLE001 - jen diagnostika, nesmí shodit scraper
         (debug_dir / "startupjobs_api_hints.txt").write_text(f"Diagnostika selhala: {exc}\n", encoding="utf-8")
+
+    # Naslepo vyzkoušej pár rozumných těl požadavku přímo proti API - i bez
+    # znalosti přesného schématu může search endpoint vrátit rozumný default
+    # (třeba všechny nabídky) na prázdné/minimální tělo.
+    try:
+        probe_url = urljoin(page_url, "/api/search-offers")
+        probe_bodies = [
+            {},
+            {"location": "Praha"},
+            {"locations": ["Praha"]},
+            {"locationSlugs": ["praha"]},
+            {"page": 1},
+        ]
+        lines = []
+        for body in probe_bodies:
+            try:
+                resp = session.post(
+                    probe_url,
+                    json=body,
+                    headers={
+                        "User-Agent": USER_AGENT,
+                        "Content-Type": "application/ld+json",
+                        "Accept": "application/ld+json, application/json",
+                    },
+                    timeout=REQUEST_TIMEOUT,
+                )
+                snippet = resp.text[:1500]
+                lines.append(f"body={body!r}: HTTP {resp.status_code}\n{snippet}\n")
+            except requests.RequestException as exc:
+                lines.append(f"body={body!r}: chyba {exc}\n")
+        (debug_dir / "startupjobs_search_offers_probe.txt").write_text("\n".join(lines), encoding="utf-8")
+    except Exception as exc:  # noqa: BLE001
+        (debug_dir / "startupjobs_search_offers_probe.txt").write_text(f"Diagnostika selhala: {exc}\n", encoding="utf-8")
 
     # Backend vypadá jako Symfony/API Platform (viz "/api/contexts/Field" v
     # __NUXT_DATA__) - ten obvykle vystavuje veřejnou OpenAPI specifikaci,
