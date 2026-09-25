@@ -1,72 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:51:20.487173+00:00",
+  "generated_at": "2026-09-25T08:59:07.226935+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-23T12:35:17.118714+00:00",
-      "offers": [
-        {
-          "id": "2001442906",
-          "site": "jobscz",
-          "title": "Junior Business Development Representative – Marché français",
-          "url": "https://www.jobs.cz/rpd/2001442906/?searchId=2880515b-f299-464d-960c-786ffd938099&rps=233",
-          "employer": "Fine Pack SE",
-          "salary": "45 000 ‍–‍ 70 000 Kč",
-          "posted": "Přidáno před 3 minutami",
-          "found_at": "2026-09-23T12:35:17.118714+00:00"
-        },
-        {
-          "id": "2001442982",
-          "site": "jobscz",
-          "title": "TOP obchodník | fix 50 000 Kč + provize | až 120 000 Kč (m/ž)",
-          "url": "https://www.jobs.cz/rpd/2001442982/?searchId=bc211db0-af1c-4dda-9321-f67ec3ef59a0&rps=233",
-          "employer": "AAA Auto (AURES Holdings a.s.)",
-          "salary": "80 000 ‍–‍ 120 000 Kč",
-          "posted": "Přidáno před 41 minutami",
-          "found_at": "2026-09-23T12:35:17.118714+00:00"
-        },
-        {
-          "id": "2001442520",
-          "site": "jobscz",
-          "title": "Expert/ka analýz a tradingu komodit",
-          "url": "https://www.jobs.cz/rpd/2001442520/?searchId=bc211db0-af1c-4dda-9321-f67ec3ef59a0&rps=233",
-          "employer": "Skupina ČEZ",
-          "salary": null,
-          "posted": "Přidáno před 57 minutami",
-          "found_at": "2026-09-23T12:35:17.118714+00:00"
-        },
-        {
-          "id": "2001442680",
-          "site": "jobscz",
-          "title": "Account Manager (fixní plat 70.000 + nezastropované bonusy)",
-          "url": "https://www.jobs.cz/rpd/2001442680/?searchId=95832e7a-104c-4617-bb82-a3e4fcc92506&rps=233",
-          "employer": "ManpowerGroup s.r.o.",
-          "salary": "70 000 Kč",
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-09-23T12:35:17.118714+00:00"
-        },
-        {
-          "id": "3a91c861-0a3a-4a16-b0a1-412f59c6aaeb",
-          "site": "pracecz",
-          "title": "Řidič – auto s hydraulickou rukou",
-          "url": "https://www.prace.cz/firma/am38nq-stavebniny-dek-a-s/nabidka/3a91c861-0a3a-4a16-b0a1-412f59c6aaeb/?rps=2077",
-          "employer": "Stavebniny DEK a.s.",
-          "salary": "50 000 – 51 000 Kč/měsíc",
-          "posted": "Jen pár hodin",
-          "found_at": "2026-09-23T12:35:17.118714+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 240,
-          "new": 44
-        },
-        "pracecz": {
-          "total_found": 105,
-          "new": 8
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-24T08:11:00.678286+00:00",
       "offers": [
@@ -627,6 +561,1756 @@
         "pracecz": {
           "total_found": 52,
           "new": 0
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-09-25T08:59:07.226935+00:00",
+      "offers": [
+        {
+          "id": "2001361240",
+          "site": "jobscz",
+          "title": "BRAND MANAGER - Božkov, Republika a Clan Campbell🥃",
+          "url": "https://www.jobs.cz/rpd/2001361240/?searchId=d8046336-277a-4d34-8965-5dfbf8c6c9e3&rps=233",
+          "employer": "STOCK Plzeň-Božkov s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 6 minutami",
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107555",
+          "site": "startupjobs",
+          "title": "Founder’s Associate / Junior Business Builder",
+          "url": "https://www.startupjobs.cz/nabidka/107555/founder-s-associate-junior-business-builder",
+          "employer": "ROBOSALES.AI",
+          "salary": "35 - 70 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "103979",
+          "site": "startupjobs",
+          "title": "Energický akviziční obchodník pro softwarová řešení (vč. AI a produktů) | full-time | Praha",
+          "url": "https://www.startupjobs.cz/nabidka/103979/energicky-akvizicni-obchodnik-pro-softwarova-reseni-vc-ai-a-produktu-full-time-praha",
+          "employer": "Juicymo s.r.o.",
+          "salary": "60 - 80 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107967",
+          "site": "startupjobs",
+          "title": "Obchodní konzultant pro CFO služby a AI finanční nástroj 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/107967/obchodni-konzultant-pro-cfo-sluzby-a-ai-financni-nastroj",
+          "employer": "My Value Officer",
+          "salary": "30 - 70 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106655",
+          "site": "startupjobs",
+          "title": "Sales Manager | Firemní software a digitalizace",
+          "url": "https://www.startupjobs.cz/nabidka/106655/sales-manager-firemni-software-a-digitalizace",
+          "employer": "MULTIMA AI s.r.o.",
+          "salary": "50 - 80 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107507",
+          "site": "startupjobs",
+          "title": "Marketér pro prop trading (paid ads, creators, AI) – ForTraders.com",
+          "url": "https://www.startupjobs.cz/nabidka/107507/marketer-pro-prop-trading-paid-ads-creators-ai-fortraders-com",
+          "employer": "For Traders",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107869",
+          "site": "startupjobs",
+          "title": "Senior Marketing Director",
+          "url": "https://www.startupjobs.cz/nabidka/107869/senior-marketing-director",
+          "employer": "Shoptet",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107381",
+          "site": "startupjobs",
+          "title": "Customer Care | 2Bminer",
+          "url": "https://www.startupjobs.cz/nabidka/107381/customer-care-2bminer",
+          "employer": "2Bminer.com",
+          "salary": "35 - 80 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107379",
+          "site": "startupjobs",
+          "title": "Obchodní konzultant | 2Bminer",
+          "url": "https://www.startupjobs.cz/nabidka/107379/obchodni-konzultant-2bminer",
+          "employer": "2Bminer.com",
+          "salary": "50 - 120 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107847",
+          "site": "startupjobs",
+          "title": "Digital Marketing & Content Manager",
+          "url": "https://www.startupjobs.cz/nabidka/107847/digital-marketing-and-content-manager",
+          "employer": "Alaskan Fisherman",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107811",
+          "site": "startupjobs",
+          "title": "Product Builder / Vibe Coder 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/107811/product-builder-vibe-coder",
+          "employer": "Foxino",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107669",
+          "site": "startupjobs",
+          "title": "Team Lead Data Analytics",
+          "url": "https://www.startupjobs.cz/nabidka/107669/team-lead-data-analytics",
+          "employer": "Datamole",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106075",
+          "site": "startupjobs",
+          "title": "Nákupčí pro B2B Merchandising 🦖",
+          "url": "https://www.startupjobs.cz/nabidka/106075/nakupci-pro-b2b-merchandising",
+          "employer": "Valxon",
+          "salary": "40 - 50 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106559",
+          "site": "startupjobs",
+          "title": "Ambiciózní kolega do kanceláře 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/106559/ambiciozni-kolega-do-kancelare",
+          "employer": "Futuro Invest",
+          "salary": "30 - 240 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106545",
+          "site": "startupjobs",
+          "title": "Sales Team Leader",
+          "url": "https://www.startupjobs.cz/nabidka/106545/sales-team-leader",
+          "employer": "Futuro Invest",
+          "salary": "34 - 240 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107285",
+          "site": "startupjobs",
+          "title": "Hledáme šikovného editora pro web Energozrouti.cz (přes 200 tisíc návštěv denně)",
+          "url": "https://www.startupjobs.cz/nabidka/107285/hledame-sikovneho-editora-pro-web-energozrouti-cz-pres-200-tisic-navstev-denne",
+          "employer": "GOOD PEOPLE media, s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107243",
+          "site": "startupjobs",
+          "title": "B2B Sales Trader – European IT & Electronics",
+          "url": "https://www.startupjobs.cz/nabidka/107243/b2b-sales-trader-european-it-and-electronics",
+          "employer": "Mobility Vision s.r.o.",
+          "salary": "50 - 100 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107617",
+          "site": "startupjobs",
+          "title": "SW konzultant I no-code I Praha I 40-60 tis.",
+          "url": "https://www.startupjobs.cz/nabidka/107617/sw-konzultant-i-no-code-i-praha-i-40-60-tis",
+          "employer": "INFOMATIC",
+          "salary": "40 - 60 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108103",
+          "site": "startupjobs",
+          "title": "B2B Obchodník/ce v energetice",
+          "url": "https://www.startupjobs.cz/nabidka/108103/b2b-obchodnik-ce-v-energetice",
+          "employer": "PKV Build",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108101",
+          "site": "startupjobs",
+          "title": "Performance Marketing Lead",
+          "url": "https://www.startupjobs.cz/nabidka/108101/performance-marketing-lead",
+          "employer": "Apify",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108099",
+          "site": "startupjobs",
+          "title": "Social Performance & Creative Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/108099/social-performance-creative-specialist",
+          "employer": "Direct",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108095",
+          "site": "startupjobs",
+          "title": "Customer Support Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/108095/customer-support-specialist",
+          "employer": "Oddin.gg",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108017",
+          "site": "startupjobs",
+          "title": "Hledáme polsky mluvícího parťáka do zákaznické péče a poradenství v psí výživě 🐾",
+          "url": "https://www.startupjobs.cz/nabidka/108017/hledame-polsky-mluviciho-partaka-do-zakaznicke-pece-a-poradenstvi-v-psi-vyzive",
+          "employer": "Rufruf s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108085",
+          "site": "startupjobs",
+          "title": "Performance & Growth Specialist — Tipli & Kaufino",
+          "url": "https://www.startupjobs.cz/nabidka/108085/performance-growth-specialist-tipli-kaufino",
+          "employer": "Tipli",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "100363",
+          "site": "startupjobs",
+          "title": "Marketingový ředitel pro B2B SaaS",
+          "url": "https://www.startupjobs.cz/nabidka/100363/marketingovy-reditel-pro-b2b-saas",
+          "employer": "Dativery s.r.o.",
+          "salary": "60 - 95 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108083",
+          "site": "startupjobs",
+          "title": "Prodávej a konzultuj AI, ERP a automatizaci - remote 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/108083/prodavej-a-konzultuj-ai-erp-a-automatizaci-remote",
+          "employer": "Apertia Tech s.r.o.",
+          "salary": "35 - 180 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107217",
+          "site": "startupjobs",
+          "title": "Sales Manager pro Slovensko",
+          "url": "https://www.startupjobs.cz/nabidka/107217/sales-manager-pro-slovensko",
+          "employer": "XDENT",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108055",
+          "site": "startupjobs",
+          "title": "Staň se součástí AI transformace českých firem 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/108055/stan-se-soucasti-ai-transformace-ceskych-firem",
+          "employer": "Poradenské a edukační centrum, z.ú.",
+          "salary": "0 - 120 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108071",
+          "site": "startupjobs",
+          "title": "🚀 Koordinátor/ka Autentického studia | Marketing, obchod & administrativa",
+          "url": "https://www.startupjobs.cz/nabidka/108071/koordinator-ka-autentickeho-studia-marketing-obchod-administrativa",
+          "employer": "Autentická média s. r. o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108069",
+          "site": "startupjobs",
+          "title": "Customer Care Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/108069/customer-care-specialist",
+          "employer": "Smartsupp",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108051",
+          "site": "startupjobs",
+          "title": "Finanční a administrativní asistent/ka (angličtina B2/C1) – částečný úvazek",
+          "url": "https://www.startupjobs.cz/nabidka/108051/financni-a-administrativni-asistent-ka-anglictina-b2-c1-castecny-uvazek",
+          "employer": "Nextedy Systems s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108039",
+          "site": "startupjobs",
+          "title": "Správce uživatelské dokumentace",
+          "url": "https://www.startupjobs.cz/nabidka/108039/spravce-uzivatelske-dokumentace",
+          "employer": "ALVAO s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108027",
+          "site": "startupjobs",
+          "title": "Data Delivery Manager",
+          "url": "https://www.startupjobs.cz/nabidka/108027/data-delivery-manager",
+          "employer": "Dateio",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108019",
+          "site": "startupjobs",
+          "title": "Business Development Representative | Fast-Growing Fintech Startup CZ/SK",
+          "url": "https://www.startupjobs.cz/nabidka/108019/business-development-representative-fast-growing-fintech-startup-cz-sk",
+          "employer": "Malcom Finance",
+          "salary": "50 - 120 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "108009",
+          "site": "startupjobs",
+          "title": "Produktový manažer/ka - účty a platby",
+          "url": "https://www.startupjobs.cz/nabidka/108009/produktovy-manazer-ka-ucty-a-platby",
+          "employer": "Air Bank a.s.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "101167",
+          "site": "startupjobs",
+          "title": "SaaS Business Development Manager or Executive",
+          "url": "https://www.startupjobs.cz/nabidka/101167/saas-business-development-manager-or-executive",
+          "employer": "Sustainova",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107997",
+          "site": "startupjobs",
+          "title": "Konzultant/ka pro tvůrce a tvůrkyně",
+          "url": "https://www.startupjobs.cz/nabidka/107997/konzultant-ka-pro-tvurce-a-tvurkyne",
+          "employer": "Herohero",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107995",
+          "site": "startupjobs",
+          "title": "BackOffice Specialista (zástup za MD/RD, part-time)",
+          "url": "https://www.startupjobs.cz/nabidka/107995/backoffice-specialista-zastup-za-md-rd-part-time",
+          "employer": "ROUVY",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107993",
+          "site": "startupjobs",
+          "title": "Graphic Designer pro NICEBOY 💛",
+          "url": "https://www.startupjobs.cz/nabidka/107993/graphic-designer-pro-niceboy",
+          "employer": "NICEBOY s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107985",
+          "site": "startupjobs",
+          "title": "Síťový specialista",
+          "url": "https://www.startupjobs.cz/nabidka/107985/sitovy-specialista",
+          "employer": "EASYCON Solution s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "104329",
+          "site": "startupjobs",
+          "title": "Senior B2B Sales Consultant pro Česko a Slovensko",
+          "url": "https://www.startupjobs.cz/nabidka/104329/senior-b2b-sales-consultant-pro-cesko-a-slovensko",
+          "employer": "Hedepy, online therapy",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107975",
+          "site": "startupjobs",
+          "title": "Account Manager - CDP & Customer Data | On-site or Hybrid",
+          "url": "https://www.startupjobs.cz/nabidka/107975/account-manager-cdp-and-customer-data-on-site-or-hybrid",
+          "employer": "Meiro.io",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107519",
+          "site": "startupjobs",
+          "title": "Sales Consultant",
+          "url": "https://www.startupjobs.cz/nabidka/107519/sales-consultant",
+          "employer": "GRiT s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107513",
+          "site": "startupjobs",
+          "title": "Senior Creative Strategist",
+          "url": "https://www.startupjobs.cz/nabidka/107513/senior-creative-strategist",
+          "employer": "Big Time",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107511",
+          "site": "startupjobs",
+          "title": "Senior QA analytik | Platby | Bankovní prostředí | Praha",
+          "url": "https://www.startupjobs.cz/nabidka/107511/senior-qa-analytik-platby-bankovni-prostredi-praha",
+          "employer": "Tesena | Praha",
+          "salary": "55 - 85 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "104481",
+          "site": "startupjobs",
+          "title": "Customer Care v MAGU🌱",
+          "url": "https://www.startupjobs.cz/nabidka/104481/customer-care-v-magu",
+          "employer": "MAGU s.r.o.",
+          "salary": "36 - 46 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107501",
+          "site": "startupjobs",
+          "title": "Investment Associate (HealthTech)",
+          "url": "https://www.startupjobs.cz/nabidka/107501/investment-associate-healthtech",
+          "employer": "PurposeTech",
+          "salary": "60 - 90 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107971",
+          "site": "startupjobs",
+          "title": "Sales Manager pro gastro segment",
+          "url": "https://www.startupjobs.cz/nabidka/107971/sales-manager-pro-gastro-segment",
+          "employer": "Piano",
+          "salary": "50 - 70 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107487",
+          "site": "startupjobs",
+          "title": "IT Projektový manažer",
+          "url": "https://www.startupjobs.cz/nabidka/107487/it-projektovy-manazer",
+          "employer": "CEDA Maps a.s.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107489",
+          "site": "startupjobs",
+          "title": "Produktový manažer",
+          "url": "https://www.startupjobs.cz/nabidka/107489/produktovy-manazer",
+          "employer": "CEDA Maps a.s.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106601",
+          "site": "startupjobs",
+          "title": "Zkušený obchodník - Fintech & Acquiring",
+          "url": "https://www.startupjobs.cz/nabidka/106601/zkuseny-obchodnik-fintech-and-acquiring",
+          "employer": "InspiPay, s.r.o.",
+          "salary": "80 - 120 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107497",
+          "site": "startupjobs",
+          "title": "MIXIT hledá Senior grafického designéra/designérku!",
+          "url": "https://www.startupjobs.cz/nabidka/107497/mixit-hleda-senior-grafickeho-designera-designerku",
+          "employer": "Mixit s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107537",
+          "site": "startupjobs",
+          "title": "Specialista/ka podpory bezpečnostních řešení",
+          "url": "https://www.startupjobs.cz/nabidka/107537/specialista-ka-podpory-bezpecnostnich-reseni",
+          "employer": "ISECO.CZ s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107953",
+          "site": "startupjobs",
+          "title": "Senior Manager - Business Development & Delivery | Česká republika",
+          "url": "https://www.startupjobs.cz/nabidka/107953/senior-manager-business-development-and-delivery-ceska-republika",
+          "employer": "Greyson Consulting",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106855",
+          "site": "startupjobs",
+          "title": "HW Designer – Junior+",
+          "url": "https://www.startupjobs.cz/nabidka/106855/hw-designer-junior",
+          "employer": "Zuri.com SE",
+          "salary": "55 - 70 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "105261",
+          "site": "startupjobs",
+          "title": "Junior Esims Trader",
+          "url": "https://www.startupjobs.cz/nabidka/105261/junior-esims-trader",
+          "employer": "Oddin.gg",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "100993",
+          "site": "startupjobs",
+          "title": "Obchod a komunikace s jednateli a šéfy firem",
+          "url": "https://www.startupjobs.cz/nabidka/100993/obchod-a-komunikace-s-jednateli-a-sefy-firem",
+          "employer": "Porto MMXVII s.r.o.",
+          "salary": "40 - 120 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106649",
+          "site": "startupjobs",
+          "title": "FullFullstack (just Fullstack is not enough) DEV+ops Platfor",
+          "url": "https://www.startupjobs.cz/nabidka/106649/fullfullstack-just-fullstack-is-not-enough-dev-ops-platfor",
+          "employer": "Knihobot & Bookbot",
+          "salary": "136 - 180 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107929",
+          "site": "startupjobs",
+          "title": "Sales Representative Poland with Polish",
+          "url": "https://www.startupjobs.cz/nabidka/107929/sales-representative-poland-with-polish",
+          "employer": "Greenometer",
+          "salary": "40 - 80 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "21242",
+          "site": "startupjobs",
+          "title": "Customer Care (chat & mail) EN/CZ – se zájmem o IT a síť",
+          "url": "https://www.startupjobs.cz/nabidka/21242/customer-care-chat-and-mail-en-cz-se-zajmem-o-it-a-sit",
+          "employer": "CDN77",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107479",
+          "site": "startupjobs",
+          "title": "RevOps and Sales Transformation Lead",
+          "url": "https://www.startupjobs.cz/nabidka/107479/revops-and-sales-transformation-lead",
+          "employer": "Dateio",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107477",
+          "site": "startupjobs",
+          "title": "HR & Office Administrator (Czech Expansion)",
+          "url": "https://www.startupjobs.cz/nabidka/107477/hr-and-office-administrator-czech-expansion",
+          "employer": null,
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "104853",
+          "site": "startupjobs",
+          "title": "Customer Care Specialist - Apple Accessories",
+          "url": "https://www.startupjobs.cz/nabidka/104853/customer-care-specialist-apple-accessories",
+          "employer": "Epico International .s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107463",
+          "site": "startupjobs",
+          "title": "B2B Sales & Business Development Manager | Decor by Glassor",
+          "url": "https://www.startupjobs.cz/nabidka/107463/b2b-sales-and-business-development-manager-decor-by-glassor",
+          "employer": "Glassor Decorations s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107915",
+          "site": "startupjobs",
+          "title": "👉Account Manager/ka v digitální agentuře🎯",
+          "url": "https://www.startupjobs.cz/nabidka/107915/account-manager-ka-v-digitalni-agenture",
+          "employer": "Q2 Interactive s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106293",
+          "site": "startupjobs",
+          "title": "Obchodník v Digitoo.ai (80.000 - 150.000 Kč)",
+          "url": "https://www.startupjobs.cz/nabidka/106293/obchodnik-v-digitoo-ai-80-000-150-000-kc",
+          "employer": "Digitoo",
+          "salary": "80 - 150 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107917",
+          "site": "startupjobs",
+          "title": "Sales Support – se zájmem o IT",
+          "url": "https://www.startupjobs.cz/nabidka/107917/sales-support-se-zajmem-o-it",
+          "employer": "CDN77",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107171",
+          "site": "startupjobs",
+          "title": "IT Support Specialist L2",
+          "url": "https://www.startupjobs.cz/nabidka/107171/it-support-specialist-l2",
+          "employer": "Elasticr",
+          "salary": "42 - 52 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107357",
+          "site": "startupjobs",
+          "title": "Sales Partner – Vodafone | Telco",
+          "url": "https://www.startupjobs.cz/nabidka/107357/sales-partner-vodafone-telco",
+          "employer": "Telenext s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107459",
+          "site": "startupjobs",
+          "title": "Web Care Specialist v ARGO22",
+          "url": "https://www.startupjobs.cz/nabidka/107459/web-care-specialist-v-argo22",
+          "employer": "ARGO22 s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107913",
+          "site": "startupjobs",
+          "title": "Talent Acquisition Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/107913/talent-acquisition-specialist",
+          "employer": "Wultra",
+          "salary": "45 - 55 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107825",
+          "site": "startupjobs",
+          "title": "Akviziční obchodník - nový business pro softwarové produkty a služby (B2B)",
+          "url": "https://www.startupjobs.cz/nabidka/107825/akvizicni-obchodnik-novy-business-pro-softwarove-produkty-a-sluzby-b2b",
+          "employer": "Designeo Creative",
+          "salary": "60 - 80 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107451",
+          "site": "startupjobs",
+          "title": "AI Content Producer pro Filipa Dřímalku",
+          "url": "https://www.startupjobs.cz/nabidka/107451/ai-content-producer-pro-filipa-drimalku",
+          "employer": "Nowork.ai (Budoucnost nepráce)",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "103899",
+          "site": "startupjobs",
+          "title": "B2B Business Sales Development Manager",
+          "url": "https://www.startupjobs.cz/nabidka/103899/b2b-business-sales-development-manager",
+          "employer": "Bolt",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107903",
+          "site": "startupjobs",
+          "title": "Analytik/analytička integrací klinického IS FONS Enterprise",
+          "url": "https://www.startupjobs.cz/nabidka/107903/analytik-analyticka-integraci-klinickeho-is-fons-enterprise",
+          "employer": "STAPRO s. r. o.",
+          "salary": "50 - 80 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107445",
+          "site": "startupjobs",
+          "title": "Account manažer/ka na part-time - přední české designové studio",
+          "url": "https://www.startupjobs.cz/nabidka/107445/account-manazer-ka-na-part-time-predni-ceske-designove-studio",
+          "employer": "2FRESH",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107737",
+          "site": "startupjobs",
+          "title": "Junior B2B Sales Representative (HW + SaaS)",
+          "url": "https://www.startupjobs.cz/nabidka/107737/junior-b2b-sales-representative-hw-saas",
+          "employer": "Výdejní-Automaty.com",
+          "salary": "50 - 65 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107899",
+          "site": "startupjobs",
+          "title": "Obchodník/obchodnice pro Edugym - digitální učební pomůcka (Slovensko)",
+          "url": "https://www.startupjobs.cz/nabidka/107899/obchodnik-obchodnice-pro-edugym-digitalni-ucebni-pomucka-slovensko",
+          "employer": "Edugym s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107443",
+          "site": "startupjobs",
+          "title": "Marketingový specialista/ka, support parťák a aktivní investor/ka",
+          "url": "https://www.startupjobs.cz/nabidka/107443/marketingovy-specialista-ka-support-partak-a-aktivni-investor-ka",
+          "employer": "Taxomat.cz",
+          "salary": "50 - 70 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107709",
+          "site": "startupjobs",
+          "title": "Social Media Specialista/ka – Práce s AI výhodou",
+          "url": "https://www.startupjobs.cz/nabidka/107709/social-media-specialista-ka-prace-s-ai-vyhodou",
+          "employer": "YDEAL s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "104795",
+          "site": "startupjobs",
+          "title": "Hledáme brigádníky na kulturní akce",
+          "url": "https://www.startupjobs.cz/nabidka/104795/hledame-brigadniky-na-kulturni-akce",
+          "employer": "PLG Group: GoOut & Ticketportal",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107429",
+          "site": "startupjobs",
+          "title": "Zručný Java učeň",
+          "url": "https://www.startupjobs.cz/nabidka/107429/zrucny-java-ucen",
+          "employer": "Trixi",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107877",
+          "site": "startupjobs",
+          "title": "Growth manager pro NICEBOY 💛",
+          "url": "https://www.startupjobs.cz/nabidka/107877/growth-manager-pro-niceboy",
+          "employer": "NICEBOY s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107423",
+          "site": "startupjobs",
+          "title": "Pricing Expert (F/M)",
+          "url": "https://www.startupjobs.cz/nabidka/107423/pricing-expert-f-m",
+          "employer": "T-Mobile Czech Republic a.s.; Slovak Telekom a.s.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "105573",
+          "site": "startupjobs",
+          "title": "Senior Project Lead",
+          "url": "https://www.startupjobs.cz/nabidka/105573/senior-project-lead",
+          "employer": "Datamole",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107867",
+          "site": "startupjobs",
+          "title": "User Acquisition Manager | AI & Subscription Apps at GAMEE",
+          "url": "https://www.startupjobs.cz/nabidka/107867/user-acquisition-manager-ai-and-subscription-apps-at-gamee",
+          "employer": "GAMEE",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "104277",
+          "site": "startupjobs",
+          "title": "Digital Marketing Strategist pro mobilní aplikace",
+          "url": "https://www.startupjobs.cz/nabidka/104277/digital-marketing-strategist-pro-mobilni-aplikace",
+          "employer": "Seznam.cz, a.s.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107861",
+          "site": "startupjobs",
+          "title": "Creative Designer / Multifunkční kreativec",
+          "url": "https://www.startupjobs.cz/nabidka/107861/creative-designer-multifunkcni-kreativec",
+          "employer": "BTL Medical",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107857",
+          "site": "startupjobs",
+          "title": "Chief Revenue Officer (CRO)",
+          "url": "https://www.startupjobs.cz/nabidka/107857/chief-revenue-officer-cro",
+          "employer": "FINGRLIX",
+          "salary": "60 - 100 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "101761",
+          "site": "startupjobs",
+          "title": "Junior Sales Specialist – výdělek až 70 000 Kč",
+          "url": "https://www.startupjobs.cz/nabidka/101761/junior-sales-specialist-vydelek-az-70-000-kc",
+          "employer": "MAGU s.r.o.",
+          "salary": "40 - 70 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107399",
+          "site": "startupjobs",
+          "title": "L2 Support Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/107399/l2-support-specialist",
+          "employer": "CreativeDock Czech s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107391",
+          "site": "startupjobs",
+          "title": "IT Operations Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/107391/it-operations-specialist",
+          "employer": "Diribet",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "50703",
+          "site": "startupjobs",
+          "title": "Graphic Designer at Henceforth.",
+          "url": "https://www.startupjobs.cz/nabidka/50703/graphic-designer-at-henceforth",
+          "employer": "Henceforth.",
+          "salary": "30 - 99 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107855",
+          "site": "startupjobs",
+          "title": "Video Content Creator / Videomaker – Social Media & Performance Ads",
+          "url": "https://www.startupjobs.cz/nabidka/107855/video-content-creator-videomaker-social-media-and-performance-ads",
+          "employer": "MITO LIGHT Česko s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "103703",
+          "site": "startupjobs",
+          "title": "Obchodní konzultant (junior / expert) pro optický internet",
+          "url": "https://www.startupjobs.cz/nabidka/103703/obchodni-konzultant-junior-expert-pro-opticky-internet",
+          "employer": "T-Mobile Czech Republic a.s. - Partner",
+          "salary": "80 - 130 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107773",
+          "site": "startupjobs",
+          "title": "Account Executive/Manager",
+          "url": "https://www.startupjobs.cz/nabidka/107773/account-executive-manager",
+          "employer": null,
+          "salary": "20 - 80 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107377",
+          "site": "startupjobs",
+          "title": "Senior Game Producer (RNG & Instant-Win Games)",
+          "url": "https://www.startupjobs.cz/nabidka/107377/senior-game-producer-rng-and-instant-win-games",
+          "employer": "Oddin.gg",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107853",
+          "site": "startupjobs",
+          "title": "Online Marketing Specialist pro FAVI.cz",
+          "url": "https://www.startupjobs.cz/nabidka/107853/online-marketing-specialist-pro-favi-cz",
+          "employer": "FAVI",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107297",
+          "site": "startupjobs",
+          "title": "Programmatic Consultant (Campaign Execution & Optimization)",
+          "url": "https://www.startupjobs.cz/nabidka/107297/programmatic-consultant-campaign-execution-and-optimization",
+          "employer": "Zircon Tree",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107363",
+          "site": "startupjobs",
+          "title": "Junior Product Packaging Coordinator - Apple Accessories",
+          "url": "https://www.startupjobs.cz/nabidka/107363/junior-product-packaging-coordinator-apple-accessories",
+          "employer": "Epico International .s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107365",
+          "site": "startupjobs",
+          "title": "Testovací pilot dronů (PX4 / ArduPilot)",
+          "url": "https://www.startupjobs.cz/nabidka/107365/testovaci-pilot-dronu-px4-ardupilot",
+          "employer": "Fly4Future s.r.o",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107843",
+          "site": "startupjobs",
+          "title": "Pohřební průvodce: Pojď s námi dělat pohřby jinak.",
+          "url": "https://www.startupjobs.cz/nabidka/107843/pohrebni-pruvodce-pojd-s-nami-delat-pohrby-jinak",
+          "employer": "Pohřební průvodci",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107837",
+          "site": "startupjobs",
+          "title": "Designer / Grafik",
+          "url": "https://www.startupjobs.cz/nabidka/107837/designer-grafik",
+          "employer": "Addict Agency",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107841",
+          "site": "startupjobs",
+          "title": "Hledá se Office Manager/ka",
+          "url": "https://www.startupjobs.cz/nabidka/107841/hleda-se-office-manager-ka",
+          "employer": "Proficio",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107355",
+          "site": "startupjobs",
+          "title": "Junior Account Manager",
+          "url": "https://www.startupjobs.cz/nabidka/107355/junior-account-manager",
+          "employer": "Reas.cz",
+          "salary": "38 - 60 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107353",
+          "site": "startupjobs",
+          "title": "Business Development Manager pro realitní partnery",
+          "url": "https://www.startupjobs.cz/nabidka/107353/business-development-manager-pro-realitni-partnery",
+          "employer": "Reas.cz",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107351",
+          "site": "startupjobs",
+          "title": "Account Manager pro Reas.cz",
+          "url": "https://www.startupjobs.cz/nabidka/107351/account-manager-pro-reas-cz",
+          "employer": "Reas.cz",
+          "salary": "50 - 80 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106373",
+          "site": "startupjobs",
+          "title": "HelpDesk Specialista",
+          "url": "https://www.startupjobs.cz/nabidka/106373/helpdesk-specialista",
+          "employer": "ANETE spol. s r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "85117",
+          "site": "startupjobs",
+          "title": "Hledáme parťáka do Postprodukce i do terénu!",
+          "url": "https://www.startupjobs.cz/nabidka/85117/hledame-partaka-do-postprodukce-i-do-terenu",
+          "employer": "IMPRESA FILMS s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107833",
+          "site": "startupjobs",
+          "title": "Video & Content Creator",
+          "url": "https://www.startupjobs.cz/nabidka/107833/video-and-content-creator",
+          "employer": "Fabini",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107823",
+          "site": "startupjobs",
+          "title": "Technical Support Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/107823/technical-support-specialist",
+          "employer": "Trezor",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107821",
+          "site": "startupjobs",
+          "title": "Business Development Officer for DACH region",
+          "url": "https://www.startupjobs.cz/nabidka/107821/business-development-officer-for-dach-region",
+          "employer": "Dateio",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107327",
+          "site": "startupjobs",
+          "title": "Head of Data",
+          "url": "https://www.startupjobs.cz/nabidka/107327/head-of-data",
+          "employer": "Direct",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "80397",
+          "site": "startupjobs",
+          "title": "Kurýři jezdí, ty držíš systém. Hledáme parťáka na administrativu a support.",
+          "url": "https://www.startupjobs.cz/nabidka/80397/kuryri-jezdi-ty-drzis-system-hledame-partaka-na-administrativu-a-support",
+          "employer": "rozvazej.cz",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "100921",
+          "site": "startupjobs",
+          "title": "People Operations Partner",
+          "url": "https://www.startupjobs.cz/nabidka/100921/people-operations-partner",
+          "employer": "Mediaboard s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107809",
+          "site": "startupjobs",
+          "title": "Business Development & Account Manager – CZ & SK",
+          "url": "https://www.startupjobs.cz/nabidka/107809/business-development-and-account-manager-cz-and-sk",
+          "employer": "Billigence",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107771",
+          "site": "startupjobs",
+          "title": "Specialista / specialistka datově-inovačních projektů",
+          "url": "https://www.startupjobs.cz/nabidka/107771/specialista-specialistka-datove-inovacnich-projektu",
+          "employer": "Digital First Marketing Group s.r.o.",
+          "salary": "35 - 45 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106443",
+          "site": "startupjobs",
+          "title": "Data Governance Consultant pro rostoucí scale-up 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/106443/data-governance-consultant-pro-rostouci-scale-up",
+          "employer": "Dawiso",
+          "salary": "50 - 90 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "105625",
+          "site": "startupjobs",
+          "title": "Project Lead",
+          "url": "https://www.startupjobs.cz/nabidka/105625/project-lead",
+          "employer": "Datamole",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106435",
+          "site": "startupjobs",
+          "title": "Marketing generalist v tech startupu",
+          "url": "https://www.startupjobs.cz/nabidka/106435/marketing-generalist-v-tech-startupu",
+          "employer": "CDN77",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "100475",
+          "site": "startupjobs",
+          "title": "Marketing Consultant - stratég, co propojí byznys, digitál i lidi",
+          "url": "https://www.startupjobs.cz/nabidka/100475/marketing-consultant-strateg-co-propoji-byznys-digital-i-lidi",
+          "employer": "ACOMWARE s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107073",
+          "site": "startupjobs",
+          "title": "Strategic Insights Consultant",
+          "url": "https://www.startupjobs.cz/nabidka/107073/strategic-insights-consultant",
+          "employer": "Zircon Tree",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107757",
+          "site": "startupjobs",
+          "title": "Máš přehled o české tvůrčí scéně a baví tě oslovovat nové lidi?",
+          "url": "https://www.startupjobs.cz/nabidka/107757/mas-prehled-o-ceske-tvurci-scene-a-bavi-te-oslovovat-nove-lidi",
+          "employer": "Forendors.cz",
+          "salary": "50 - 100 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107319",
+          "site": "startupjobs",
+          "title": "Social media manager",
+          "url": "https://www.startupjobs.cz/nabidka/107319/social-media-manager",
+          "employer": "PKFD Management s.r.o.",
+          "salary": "16 - 20 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "103033",
+          "site": "startupjobs",
+          "title": "🖤💛 Customer Success & Delivery Manager | Key Global Clients, Real Ownership 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/103033/customer-success-and-delivery-manager-key-global-clients-real-ownership",
+          "employer": "signageOS",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106861",
+          "site": "startupjobs",
+          "title": "Specialista/ka spolupráce s tvůrci",
+          "url": "https://www.startupjobs.cz/nabidka/106861/specialista-ka-spoluprace-s-tvurci",
+          "employer": "Herohero",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107307",
+          "site": "startupjobs",
+          "title": "Hledáme zkušeného grafického designéra / designérku",
+          "url": "https://www.startupjobs.cz/nabidka/107307/hledame-zkuseneho-grafickeho-designera-designerku",
+          "employer": "KOTELNA 55 s. r. o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107303",
+          "site": "startupjobs",
+          "title": "Head of Brand",
+          "url": "https://www.startupjobs.cz/nabidka/107303/head-of-brand",
+          "employer": "Apify",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106257",
+          "site": "startupjobs",
+          "title": "Key Account Manager 🚀 Fix až 60 000 Kč měsíčně",
+          "url": "https://www.startupjobs.cz/nabidka/106257/key-account-manager-fix-az-60-000-kc-mesicne",
+          "employer": "Valxon",
+          "salary": "40 - 120 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107299",
+          "site": "startupjobs",
+          "title": "Account Manager",
+          "url": "https://www.startupjobs.cz/nabidka/107299/account-manager",
+          "employer": "Direct",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107289",
+          "site": "startupjobs",
+          "title": "Grafik - Performance & Web",
+          "url": "https://www.startupjobs.cz/nabidka/107289/grafik-performance-and-web",
+          "employer": "FLOW",
+          "salary": "45 - 75 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "105973",
+          "site": "startupjobs",
+          "title": "Studio Operations Manager / COO (Gaming Studio, IČO)",
+          "url": "https://www.startupjobs.cz/nabidka/105973/studio-operations-manager-coo-gaming-studio-ico",
+          "employer": "Oddin.gg",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "74515",
+          "site": "startupjobs",
+          "title": "Konzultant pro E-mail marketing",
+          "url": "https://www.startupjobs.cz/nabidka/74515/konzultant-pro-e-mail-marketing",
+          "employer": "PromoGEN",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107727",
+          "site": "startupjobs",
+          "title": "TV Special Operations Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/107727/tv-special-operations-specialist",
+          "employer": "Dentsu Czech Republic s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107725",
+          "site": "startupjobs",
+          "title": "Senior Digital Account manager",
+          "url": "https://www.startupjobs.cz/nabidka/107725/senior-digital-account-manager",
+          "employer": "Dentsu Czech Republic s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "89827",
+          "site": "startupjobs",
+          "title": "Specialista/ka péče o zákazníky pro Polsko 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/89827/specialista-ka-pece-o-zakazniky-pro-polsko",
+          "employer": "Ecomail.cz",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107275",
+          "site": "startupjobs",
+          "title": "Medior Koordinátor/ka kanceláře, sales a marketingu v realitním fondu",
+          "url": "https://www.startupjobs.cz/nabidka/107275/medior-koordinator-ka-kancelare-sales-a-marketingu-v-realitnim-fondu",
+          "employer": "MARLO FUND",
+          "salary": "45 - 60 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "37818",
+          "site": "startupjobs",
+          "title": "Senior travel konsultant pro outgoingové oddělení – Praha",
+          "url": "https://www.startupjobs.cz/nabidka/37818/senior-travel-konsultant-pro-outgoingove-oddeleni-praha",
+          "employer": "Asiana - Letuska.cz",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107271",
+          "site": "startupjobs",
+          "title": "Key Account Manager",
+          "url": "https://www.startupjobs.cz/nabidka/107271/key-account-manager",
+          "employer": "Dateio",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107721",
+          "site": "startupjobs",
+          "title": "Senior Network Administrator (Fortinet)",
+          "url": "https://www.startupjobs.cz/nabidka/107721/senior-network-administrator-fortinet",
+          "employer": "Alinet cz s.r.o.",
+          "salary": "70 - 100 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "83153",
+          "site": "startupjobs",
+          "title": "Trainee Marketing Specialist | Staň se hlasem naší značky na LinkedInu 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/83153/trainee-marketing-specialist-stan-se-hlasem-nasi-znacky-na-linkedinu",
+          "employer": "Blue Dynamic",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107259",
+          "site": "startupjobs",
+          "title": "Business Development Manager Siesta AI",
+          "url": "https://www.startupjobs.cz/nabidka/107259/business-development-manager-siesta-ai",
+          "employer": "SIESTA LABS",
+          "salary": "350 - 500 Kč / hodina",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107689",
+          "site": "startupjobs",
+          "title": "B2B Sales Manager – Fintech / SaaS",
+          "url": "https://www.startupjobs.cz/nabidka/107689/b2b-sales-manager-fintech-saas",
+          "employer": "Symfio",
+          "salary": "80 - 120 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107239",
+          "site": "startupjobs",
+          "title": "Digital designer (UX/UI)",
+          "url": "https://www.startupjobs.cz/nabidka/107239/digital-designer-ux-ui",
+          "employer": "Yolk Studio",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107673",
+          "site": "startupjobs",
+          "title": "Marketing & Brand Manager",
+          "url": "https://www.startupjobs.cz/nabidka/107673/marketing-and-brand-manager",
+          "employer": "OKTAGON MMA",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107685",
+          "site": "startupjobs",
+          "title": "Vývoj doplňků stravy / Manažer produktového portfolia Junior",
+          "url": "https://www.startupjobs.cz/nabidka/107685/vyvoj-doplnku-stravy-manazer-produktoveho-portfolia-junior",
+          "employer": "MOVit Energy s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107663",
+          "site": "startupjobs",
+          "title": "Account Manager pro kreativní a marketingovou agenturu Proboston",
+          "url": "https://www.startupjobs.cz/nabidka/107663/account-manager-pro-kreativni-a-marketingovou-agenturu-proboston",
+          "employer": "PROBOSTON",
+          "salary": "55 - 75 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107659",
+          "site": "startupjobs",
+          "title": "Account manager – Hlavní úvazek – Praha",
+          "url": "https://www.startupjobs.cz/nabidka/107659/account-manager-hlavni-uvazek-praha",
+          "employer": "REkrabička a REkelímek",
+          "salary": "50 - 60 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "104721",
+          "site": "startupjobs",
+          "title": "Marketing & Project Lead - vyprávěj příběh našich značek!",
+          "url": "https://www.startupjobs.cz/nabidka/104721/marketing-project-lead-vypravej-pribeh-nasich-znacek",
+          "employer": "ACOMWARE s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106715",
+          "site": "startupjobs",
+          "title": "🎥 Route Filming & Production Specialist 🚴",
+          "url": "https://www.startupjobs.cz/nabidka/106715/route-filming-production-specialist",
+          "employer": "ROUVY",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107449",
+          "site": "startupjobs",
+          "title": "PRista pro spotřební elektroniku a domácí spotřebiče",
+          "url": "https://www.startupjobs.cz/nabidka/107449/prista-pro-spotrebni-elektroniku-a-domaci-spotrebice",
+          "employer": "Adison",
+          "salary": "50 - 60 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107635",
+          "site": "startupjobs",
+          "title": "Senior Account Manager",
+          "url": "https://www.startupjobs.cz/nabidka/107635/senior-account-manager",
+          "employer": "CITY DIGITAL MEDIA s.r.o.",
+          "salary": "30 - 200 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107625",
+          "site": "startupjobs",
+          "title": "Video Producer",
+          "url": "https://www.startupjobs.cz/nabidka/107625/video-producer",
+          "employer": "Trezor",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107547",
+          "site": "startupjobs",
+          "title": "E-commerce Product owner",
+          "url": "https://www.startupjobs.cz/nabidka/107547/e-commerce-product-owner",
+          "employer": "MageXo s.r.o.",
+          "salary": "100 - 142 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107619",
+          "site": "startupjobs",
+          "title": "AI Strategist Lead",
+          "url": "https://www.startupjobs.cz/nabidka/107619/ai-strategist-lead",
+          "employer": "Greyson Consulting",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107597",
+          "site": "startupjobs",
+          "title": "Energetický poradce / obchodník | i bez praxe | spolupráce s E.ON | Budějovice a Brno",
+          "url": "https://www.startupjobs.cz/nabidka/107597/energeticky-poradce-obchodnik-i-bez-praxe-spoluprace-s-e-on-budejovice-a-brno",
+          "employer": "Everest Services",
+          "salary": "70 - 100 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107609",
+          "site": "startupjobs",
+          "title": "Senior Sales Account Manager – e-commerce | CZ/SK | SaaS",
+          "url": "https://www.startupjobs.cz/nabidka/107609/senior-sales-account-manager-e-commerce-cz-sk-saas",
+          "employer": "base.com",
+          "salary": "60 - 120 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107607",
+          "site": "startupjobs",
+          "title": "Business Development Representative",
+          "url": "https://www.startupjobs.cz/nabidka/107607/business-development-representative",
+          "employer": "Teya",
+          "salary": "60 - 100 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107593",
+          "site": "startupjobs",
+          "title": "Social Media Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/107593/social-media-specialist",
+          "employer": "Lafluence Agency",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107595",
+          "site": "startupjobs",
+          "title": "Social Media Specialist / Content Creator",
+          "url": "https://www.startupjobs.cz/nabidka/107595/social-media-specialist-content-creator",
+          "employer": "LCG New Media",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107589",
+          "site": "startupjobs",
+          "title": "Account Manager",
+          "url": "https://www.startupjobs.cz/nabidka/107589/account-manager",
+          "employer": "Revolgy Business Solutions a.s.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "86761",
+          "site": "startupjobs",
+          "title": "Performance marketing manažer/ka (Senior) pro Mixit",
+          "url": "https://www.startupjobs.cz/nabidka/86761/performance-marketing-manazer-ka-senior-pro-mixit",
+          "employer": "Mixit s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106547",
+          "site": "startupjobs",
+          "title": "Customer Success Manager",
+          "url": "https://www.startupjobs.cz/nabidka/106547/customer-success-manager",
+          "employer": "ROIVENUE",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "88279",
+          "site": "startupjobs",
+          "title": "Trainee Account Manager | Staň se součástí světa IT obchodu 🚀",
+          "url": "https://www.startupjobs.cz/nabidka/88279/trainee-account-manager-stan-se-soucasti-sveta-it-obchodu",
+          "employer": "Blue Dynamic",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107579",
+          "site": "startupjobs",
+          "title": "Produktový manažer – Food Data Platform pro Kalorické Tabulky",
+          "url": "https://www.startupjobs.cz/nabidka/107579/produktovy-manazer-food-data-platform-pro-kaloricke-tabulky",
+          "employer": "Dine4Fit, a.s.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107573",
+          "site": "startupjobs",
+          "title": "Regionální zástupce/kyně kurzů digitálních dovedností s příspěvkem Úřadu práce — provize",
+          "url": "https://www.startupjobs.cz/nabidka/107573/regionalni-zastupce-kyne-kurzu-digitalnich-dovednosti-s-prispevkem-uradu-prace-provize",
+          "employer": "Vykrocim s.r.o.",
+          "salary": "1 000 - 25 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "102637",
+          "site": "startupjobs",
+          "title": "Marketing Specialist",
+          "url": "https://www.startupjobs.cz/nabidka/102637/marketing-specialist",
+          "employer": "MAGU s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "107559",
+          "site": "startupjobs",
+          "title": "Administrátor/ka IT infrastruktury",
+          "url": "https://www.startupjobs.cz/nabidka/107559/administrator-ka-it-infrastruktury",
+          "employer": "Sprinx Systems, a.s.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "105969",
+          "site": "startupjobs",
+          "title": "Growth & Marketing Lead",
+          "url": "https://www.startupjobs.cz/nabidka/105969/growth-and-marketing-lead",
+          "employer": "Pale Fire Capital",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "106773",
+          "site": "startupjobs",
+          "title": "People & Workplace Director",
+          "url": "https://www.startupjobs.cz/nabidka/106773/people-and-workplace-director",
+          "employer": "Shoptet",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "100339",
+          "site": "startupjobs",
+          "title": "BDR SK – Obchodný špecialista na telefóne | 100% Remote, 60 000+ Kč",
+          "url": "https://www.startupjobs.cz/nabidka/100339/bdr-sk-obchodny-specialista-na-telefone-100-remote-60-000-kc",
+          "employer": "Medevio s.r.o.",
+          "salary": "35 - 70 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "105005",
+          "site": "startupjobs",
+          "title": "🚀 Junior start-up projekťák",
+          "url": "https://www.startupjobs.cz/nabidka/105005/junior-start-up-projektak",
+          "employer": "nula s.r.o.",
+          "salary": "48 - 52 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        },
+        {
+          "id": "77879",
+          "site": "startupjobs",
+          "title": "BDR - Obchodní specialista na telefonu | CZ/SK, 100% REMOTE, 60.000+ Kč",
+          "url": "https://www.startupjobs.cz/nabidka/77879/bdr-obchodni-specialista-na-telefonu-cz-sk-100-remote-60-000-kc",
+          "employer": "Medevio s.r.o.",
+          "salary": "35 - 70 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-25T08:59:07.226935+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 90,
+          "new": 2
+        },
+        "pracecz": {
+          "total_found": 52,
+          "new": 0
+        },
+        "startupjobs": {
+          "total_found": 417,
+          "new": 417
         }
       },
       "warnings": []
