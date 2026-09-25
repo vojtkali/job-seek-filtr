@@ -1,52 +1,6 @@
 {
-  "generated_at": "2026-09-24T13:20:32.317604+00:00",
+  "generated_at": "2026-09-25T08:10:21.443335+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-16T09:11:39.925180+00:00",
-      "offers": [
-        {
-          "id": "2001428967",
-          "site": "jobscz",
-          "title": "Sr. Specialist Visibility Excellence",
-          "url": "https://www.jobs.cz/rpd/2001428967/?searchId=97308ce9-5c52-430f-ba79-b7dc45bf5fc6&rps=233",
-          "employer": "Philip Morris ČR",
-          "salary": "69 000 ‍–‍ 81 000 Kč",
-          "posted": "Přidáno před 10 minutami",
-          "found_at": "2026-09-16T09:11:39.925180+00:00"
-        },
-        {
-          "id": "2001428940",
-          "site": "jobscz",
-          "title": "POS Deployment Sr Specialist",
-          "url": "https://www.jobs.cz/rpd/2001428940/?searchId=97308ce9-5c52-430f-ba79-b7dc45bf5fc6&rps=233",
-          "employer": "Philip Morris ČR",
-          "salary": null,
-          "posted": "Přidáno před 17 minutami",
-          "found_at": "2026-09-16T09:11:39.925180+00:00"
-        },
-        {
-          "id": "2001360407",
-          "site": "jobscz",
-          "title": "Account Manager",
-          "url": "https://www.jobs.cz/rpd/2001360407/?searchId=97308ce9-5c52-430f-ba79-b7dc45bf5fc6&rps=233",
-          "employer": "Arleon s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 21 minutami",
-          "found_at": "2026-09-16T09:11:39.925180+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 120,
-          "new": 13
-        },
-        "pracecz": {
-          "total_found": 44,
-          "new": 0
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-17T08:11:07.935692+00:00",
       "offers": [
@@ -1210,6 +1164,162 @@
         "pracecz": {
           "total_found": 73,
           "new": 9
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-09-25T08:10:21.443335+00:00",
+      "offers": [
+        {
+          "id": "2000647385",
+          "site": "jobscz",
+          "title": "Incident Manažer/ka",
+          "url": "https://www.jobs.cz/rpd/2000647385/?searchId=0c983629-d807-431e-9503-178d8293e4bc&rps=233",
+          "employer": "Generali Operation Service Platform",
+          "salary": null,
+          "posted": "Přidáno před 14 minutami",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001446078",
+          "site": "jobscz",
+          "title": "Business Development Manager",
+          "url": "https://www.jobs.cz/rpd/2001446078/?searchId=56f596a5-690b-424a-9247-8f97b2c3eb4d&rps=233",
+          "employer": "EnergoStation s.r.o.",
+          "salary": "60 000 ‍–‍ 90 000 Kč",
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001065077",
+          "site": "jobscz",
+          "title": "Finanční analytik/čka - Praha",
+          "url": "https://www.jobs.cz/rpd/2001065077/?searchId=c6e64aa4-9269-47f9-a6ee-71cd77571f18&rps=233",
+          "employer": "MONETA Money Bank, a.s.",
+          "salary": null,
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001445961",
+          "site": "jobscz",
+          "title": "Technický vedoucí projektu – pozemní stavitelství Praha (m/ž)",
+          "url": "https://www.jobs.cz/rpd/2001445961/?searchId=c6e64aa4-9269-47f9-a6ee-71cd77571f18&rps=233",
+          "employer": "STRABAG a.s.",
+          "salary": null,
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001325636",
+          "site": "jobscz",
+          "title": "Digitální zákaznická zkušenost: pojď ji posouvat s námi (m/ž)",
+          "url": "https://www.jobs.cz/rpd/2001325636/?searchId=c6e64aa4-9269-47f9-a6ee-71cd77571f18&rps=233",
+          "employer": "O2 Czech Republic a.s.",
+          "salary": null,
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001445206",
+          "site": "jobscz",
+          "title": "PRODUKTOVÝ MANAŽER pro odbornou komunikaci v lékárnách",
+          "url": "https://www.jobs.cz/rpd/2001445206/?searchId=ec57d680-51c3-49d7-9121-fc3fec4db51e&rps=233",
+          "employer": "BENU Česká republika s.r.o.",
+          "salary": null,
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2000710876",
+          "site": "jobscz",
+          "title": "Senior Consultant - Strategy & Execution",
+          "url": "https://www.jobs.cz/rpd/2000710876/?searchId=ec57d680-51c3-49d7-9121-fc3fec4db51e&rps=233",
+          "employer": "EY",
+          "salary": null,
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001424375",
+          "site": "jobscz",
+          "title": "IT PROJEKTOVÝ/Á MANAŽER/KA",
+          "url": "https://www.jobs.cz/rpd/2001424375/?searchId=ec57d680-51c3-49d7-9121-fc3fec4db51e&rps=233",
+          "employer": "VŠEOBECNÁ ZDRAVOTNÍ POJIŠŤOVNA ČESKÉ REPUBLIKY",
+          "salary": null,
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001321152",
+          "site": "jobscz",
+          "title": "Obchodní zástupce pro Prahu",
+          "url": "https://www.jobs.cz/rpd/2001321152/?searchId=ec57d680-51c3-49d7-9121-fc3fec4db51e&rps=233",
+          "employer": "ULMA Construcción CZ, s.r.o",
+          "salary": null,
+          "posted": "Aktualizováno včera",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001445145",
+          "site": "jobscz",
+          "title": "Chief Asset Management Officer",
+          "url": "https://www.jobs.cz/rpd/2001445145/?searchId=ec57d680-51c3-49d7-9121-fc3fec4db51e&rps=233",
+          "employer": "Kooperativa pojišťovna, a.s., VIG",
+          "salary": null,
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001445125",
+          "site": "jobscz",
+          "title": "Vedoucí technického týmu | Mezinárodní prostředí | 5 týdnů dovolené + roční bonus",
+          "url": "https://www.jobs.cz/rpd/2001445125/?searchId=d3a61081-f47d-47f0-9892-2b753816dd0b&rps=233",
+          "employer": "Talentica s.r.o.",
+          "salary": "70 000 ‍–‍ 75 000 Kč",
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "2001445123",
+          "site": "jobscz",
+          "title": "Prodejce nových bytů",
+          "url": "https://www.jobs.cz/rpd/2001445123/?searchId=d3a61081-f47d-47f0-9892-2b753816dd0b&rps=233",
+          "employer": "CENTRAL GROUP a.s.",
+          "salary": null,
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "bc607bf9-f4ff-4132-afe7-6ee76c510729",
+          "site": "pracecz",
+          "title": "🚗 Junior Fleet Manager v Birne!",
+          "url": "https://www.prace.cz/firma/7eb5w9-direct/nabidka/bc607bf9-f4ff-4132-afe7-6ee76c510729/?rps=2077",
+          "employer": "Direct",
+          "salary": null,
+          "posted": "Dnešní",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        },
+        {
+          "id": "d071d89a-4f9d-453b-8af0-24fc662ed5ff",
+          "site": "pracecz",
+          "title": "Asistent/ka obchodu a vedení firmy",
+          "url": "https://www.prace.cz/nabidka/d071d89a-4f9d-453b-8af0-24fc662ed5ff/?rps=2077",
+          "employer": "PŘEDVÝBĚR.CZ a.s.",
+          "salary": "40 000 – 55 000 Kč/měsíc",
+          "posted": "Dnešní",
+          "found_at": "2026-09-25T08:10:21.443335+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 210,
+          "new": 37
+        },
+        "pracecz": {
+          "total_found": 101,
+          "new": 4
         }
       },
       "warnings": []
