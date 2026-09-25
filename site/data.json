@@ -1,122 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:35:14.334581+00:00",
+  "generated_at": "2026-09-25T08:40:24.077899+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-22T08:10:39.408400+00:00",
-      "offers": [
-        {
-          "id": "2001313015",
-          "site": "jobscz",
-          "title": "Web & Digital Analytics Specialist (m/ž)",
-          "url": "https://www.jobs.cz/rpd/2001313015/?searchId=f9e439bc-2293-4e75-aa4b-14e7bb35d273&rps=228",
-          "employer": "O2 Czech Republic a.s.",
-          "salary": null,
-          "posted": null,
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        },
-        {
-          "id": "2001440408",
-          "site": "jobscz",
-          "title": "Production Implementation specialist - spojka mezi vývojem a výrobou",
-          "url": "https://www.jobs.cz/rpd/2001440408/?searchId=f9e439bc-2293-4e75-aa4b-14e7bb35d273&rps=233",
-          "employer": "BTL Medical Development a.s.",
-          "salary": null,
-          "posted": "Přidáno před 16 minutami",
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        },
-        {
-          "id": "2001440124",
-          "site": "jobscz",
-          "title": "Manažer investičního růstu a klientských cest (m/ž)",
-          "url": "https://www.jobs.cz/rpd/2001440124/?searchId=513e8eab-f1cf-4ba2-99f1-6444f87ebd08&rps=233",
-          "employer": "ČSOB Československá obchodní banka, a. s.",
-          "salary": null,
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        },
-        {
-          "id": "2001440118",
-          "site": "jobscz",
-          "title": "Senior Project Administrator, IČO, dlouhodobá spolupráce, velký projekt, Home Office",
-          "url": "https://www.jobs.cz/rpd/2001440118/?searchId=513e8eab-f1cf-4ba2-99f1-6444f87ebd08&rps=233",
-          "employer": "teamIT s.r.o.",
-          "salary": "80 000 ‍–‍ 120 000 Kč",
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        },
-        {
-          "id": "2001439215",
-          "site": "jobscz",
-          "title": "Business Owner/Business Manager Czechia",
-          "url": "https://www.jobs.cz/rpd/2001439215/?searchId=5c73bb00-569c-4ea7-b27b-7508dcf53155&rps=233",
-          "employer": "SYNERGIE, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        },
-        {
-          "id": "2001433690",
-          "site": "jobscz",
-          "title": "IT Administrátor",
-          "url": "https://www.jobs.cz/rpd/2001433690/?searchId=1f1315c3-9c77-460e-9776-060b7a5fdc66&rps=233",
-          "employer": "VOKSYS, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        },
-        {
-          "id": "2001438895",
-          "site": "jobscz",
-          "title": "Account Manager pro technická řešení – region Čechy",
-          "url": "https://www.jobs.cz/rpd/2001438895/?searchId=1f1315c3-9c77-460e-9776-060b7a5fdc66&rps=233",
-          "employer": "HOFMANN WIZARD s.r.o.",
-          "salary": "80 000 ‍–‍ 125 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        },
-        {
-          "id": "2001438682",
-          "site": "jobscz",
-          "title": "Obchodní zástupce pro elektroniku - B2B",
-          "url": "https://www.jobs.cz/rpd/2001438682/?searchId=98b0231d-cd33-4291-96fc-1b5ac70f2523&rps=233",
-          "employer": "ManpowerGroup s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        },
-        {
-          "id": "76ff08d4-a87a-487b-8224-885012c38c6b",
-          "site": "pracecz",
-          "title": "🚀 Přijď si vydělat do Alza.cz - Showroom Holešovice (JPO02181)",
-          "url": "https://www.prace.cz/firma/2fecjy-alza-cz-a-s/nabidka/76ff08d4-a87a-487b-8224-885012c38c6b/?rps=2077",
-          "employer": "Alza.cz a.s.",
-          "salary": null,
-          "posted": "Dnešní",
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        },
-        {
-          "id": "fa43b36b-1d7d-4429-adc6-9ddee047ae41",
-          "site": "pracecz",
-          "title": "Řidič/ka dopravy po Praze a okolí🚛- mzda od 51 000 Kč + bonusy a prémie 💰",
-          "url": "https://www.prace.cz/nabidka/fa43b36b-1d7d-4429-adc6-9ddee047ae41/?rps=2077",
-          "employer": "Slemr Spedition s.r.o.",
-          "salary": "51 000 – 55 000 Kč/měsíc",
-          "posted": "Dnešní",
-          "found_at": "2026-09-22T08:10:39.408400+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 240,
-          "new": 102
-        },
-        "pracecz": {
-          "total_found": 191,
-          "new": 19
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-22T12:22:49.186812+00:00",
       "offers": [
@@ -816,6 +700,21 @@
       "warnings": [
         "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
       ]
+    },
+    {
+      "run_at": "2026-09-25T08:40:24.077899+00:00",
+      "offers": [],
+      "counts": {
+        "jobscz": {
+          "total_found": 60,
+          "new": 0
+        },
+        "pracecz": {
+          "total_found": 53,
+          "new": 0
+        }
+      },
+      "warnings": []
     }
   ],
   "blacklist": [
