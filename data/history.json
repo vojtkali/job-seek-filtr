@@ -1,20 +1,5 @@
 [
   {
-    "run_at": "2026-09-09T20:10:56.525226+00:00",
-    "offers": [],
-    "counts": {
-      "jobscz": {
-        "total_found": 60,
-        "new": 0
-      },
-      "pracecz": {
-        "total_found": 57,
-        "new": 0
-      }
-    },
-    "warnings": []
-  },
-  {
     "run_at": "2026-09-10T07:28:04.315531+00:00",
     "offers": [
       {
@@ -22665,6 +22650,27 @@
       "jobscz": {
         "total_found": 90,
         "new": 2
+      },
+      "pracecz": {
+        "total_found": 52,
+        "new": 0
+      },
+      "startupjobs": {
+        "total_found": 0,
+        "new": 0
+      }
+    },
+    "warnings": [
+      "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
+    ]
+  },
+  {
+    "run_at": "2026-09-25T08:25:27.897493+00:00",
+    "offers": [],
+    "counts": {
+      "jobscz": {
+        "total_found": 60,
+        "new": 0
       },
       "pracecz": {
         "total_found": 52,

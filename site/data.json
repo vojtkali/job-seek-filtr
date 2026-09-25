@@ -1,152 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:22:16.429335+00:00",
+  "generated_at": "2026-09-25T08:25:27.897493+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-20T15:05:03.478159+00:00",
-      "offers": [
-        {
-          "id": "2001357841",
-          "site": "jobscz",
-          "title": "Portfolio Manager - Power",
-          "url": "https://www.jobs.cz/rpd/2001357841/?searchId=9065accd-77ab-4924-9558-373394cba5d6&rps=228",
-          "employer": "MVM CEEnergy CZ s.r.o.",
-          "salary": null,
-          "posted": null,
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "2001435577",
-          "site": "jobscz",
-          "title": "Projektový manažer – rezidenční development",
-          "url": "https://www.jobs.cz/rpd/2001435577/?searchId=97e6e099-93f2-47bd-b08a-67f28c2cee1a&rps=233",
-          "employer": "Pretty Good Company s.r.o.",
-          "salary": "80 000 ‍–‍ 130 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "2001336058",
-          "site": "jobscz",
-          "title": "Senior konzultant/ka – Finanční instituce",
-          "url": "https://www.jobs.cz/rpd/2001336058/?searchId=97e6e099-93f2-47bd-b08a-67f28c2cee1a&rps=233",
-          "employer": "EY",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "2001319208",
-          "site": "jobscz",
-          "title": "Finanční analytik/analytička",
-          "url": "https://www.jobs.cz/rpd/2001319208/?searchId=349da6df-e0f5-4859-b694-9fe9692acd9e&rps=233",
-          "employer": "KKIG Services s.r.o.",
-          "salary": "80 000 ‍–‍ 85 000 Kč",
-          "posted": "18. září",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "2001433694",
-          "site": "jobscz",
-          "title": "Obchodní zástupce – Česká republika",
-          "url": "https://www.jobs.cz/rpd/2001433694/?searchId=349da6df-e0f5-4859-b694-9fe9692acd9e&rps=233",
-          "employer": "UAB Nordin group",
-          "salary": "40 000 ‍–‍ 75 000 Kč",
-          "posted": "18. září",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "2001433679",
-          "site": "jobscz",
-          "title": "Brand manažer/ka pro značku Café Snack",
-          "url": "https://www.jobs.cz/rpd/2001433679/?searchId=349da6df-e0f5-4859-b694-9fe9692acd9e&rps=233",
-          "employer": "Crocodille ČR, spol. s r.o.",
-          "salary": null,
-          "posted": "18. září",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "2001331471",
-          "site": "jobscz",
-          "title": "Provozní manažer | Záchytné systémy a OOPP",
-          "url": "https://www.jobs.cz/rpd/2001331471/?searchId=349da6df-e0f5-4859-b694-9fe9692acd9e&rps=233",
-          "employer": "MEICO SYSTEMS s.r.o.",
-          "salary": "70 000 ‍–‍ 90 000 Kč",
-          "posted": "18. září",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "2001433478",
-          "site": "jobscz",
-          "title": "LOGISTICKÝ MANAŽER/MANAŽERKA",
-          "url": "https://www.jobs.cz/rpd/2001433478/?searchId=3e12a452-358b-491b-85b3-ef4886e6900b&rps=233",
-          "employer": "Chára Sport, a.s.",
-          "salary": null,
-          "posted": "18. září",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "70614795-d639-4cb6-ad59-5d6abe06221f",
-          "site": "pracecz",
-          "title": "Administrativní pracovnice - personalistka (M/Ž) I zkrácený pracovní úvazek",
-          "url": "https://www.prace.cz/nabidka/70614795-d639-4cb6-ad59-5d6abe06221f/?rps=2077",
-          "employer": "futurel s.r.o.",
-          "salary": "25 000 – 50 000 Kč/měsíc",
-          "posted": "Dnešní",
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "e4078dd4-7b14-4971-a713-45746ee905ba",
-          "site": "pracecz",
-          "title": "Obchodní zástupce – auto i k soukromým účelům, atraktivní roční bonus (m/ž)",
-          "url": "https://www.prace.cz/nabidka/e4078dd4-7b14-4971-a713-45746ee905ba/?rps=2077",
-          "employer": "JOB LEADER EUROPE s.r.o.",
-          "salary": "56 000 – 70 000 Kč/měsíc",
-          "posted": null,
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "bec0bcc6-1469-40f7-b031-77d71a19d072",
-          "site": "pracecz",
-          "title": "Brand manažer/ka pro značku Café Snack",
-          "url": "https://www.prace.cz/firma/g4ps2f-crocodille-cr-spol-s-r-o/nabidka/bec0bcc6-1469-40f7-b031-77d71a19d072/?rps=2077",
-          "employer": "Crocodille ČR, spol. s r.o.",
-          "salary": null,
-          "posted": null,
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "a4cf7226-2e65-4eb0-bcf0-471ae89f920a",
-          "site": "pracecz",
-          "title": "Asistent/ka manažera/vedoucího odboru",
-          "url": "https://www.prace.cz/nabidka/a4cf7226-2e65-4eb0-bcf0-471ae89f920a/?rps=2077",
-          "employer": "Ředitelství silnic a dálnic s. p.",
-          "salary": null,
-          "posted": null,
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        },
-        {
-          "id": "e9636ed6-a9df-41a4-9e39-5ddeed403586",
-          "site": "pracecz",
-          "title": "LOGISTICKÝ MANAŽER/MANAŽERKA",
-          "url": "https://www.prace.cz/nabidka/e9636ed6-a9df-41a4-9e39-5ddeed403586/?rps=2077",
-          "employer": "Chára Sport, a.s.",
-          "salary": null,
-          "posted": null,
-          "found_at": "2026-09-20T15:05:03.478159+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 240,
-          "new": 99
-        },
-        "pracecz": {
-          "total_found": 168,
-          "new": 19
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-20T16:46:12.648590+00:00",
       "offers": [],
@@ -1032,6 +886,27 @@
         "jobscz": {
           "total_found": 90,
           "new": 2
+        },
+        "pracecz": {
+          "total_found": 52,
+          "new": 0
+        },
+        "startupjobs": {
+          "total_found": 0,
+          "new": 0
+        }
+      },
+      "warnings": [
+        "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
+      ]
+    },
+    {
+      "run_at": "2026-09-25T08:25:27.897493+00:00",
+      "offers": [],
+      "counts": {
+        "jobscz": {
+          "total_found": 60,
+          "new": 0
         },
         "pracecz": {
           "total_found": 52,
