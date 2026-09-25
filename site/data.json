@@ -1,82 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:59:07.226935+00:00",
+  "generated_at": "2026-09-25T09:08:24.379784+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-24T08:11:00.678286+00:00",
-      "offers": [
-        {
-          "id": "2001444289",
-          "site": "jobscz",
-          "title": "Marketing Procurement Senior Specialist",
-          "url": "https://www.jobs.cz/rpd/2001444289/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
-          "employer": "NonStop Consulting s.r.o.",
-          "salary": "80 000 ‍–‍ 95 000 Kč",
-          "posted": "Přidáno před 38 minutami",
-          "found_at": "2026-09-24T08:11:00.678286+00:00"
-        },
-        {
-          "id": "2001444291",
-          "site": "jobscz",
-          "title": "B2B Sales Manager",
-          "url": "https://www.jobs.cz/rpd/2001444291/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
-          "employer": "SKY SELECT INT., s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 40 minutami",
-          "found_at": "2026-09-24T08:11:00.678286+00:00"
-        },
-        {
-          "id": "2001444253",
-          "site": "jobscz",
-          "title": "obchodní manažer",
-          "url": "https://www.jobs.cz/rpd/2001444253/?searchId=44e92554-a40d-45e3-b760-e7da739555ad&rps=233",
-          "employer": "ENBRA, a.s.",
-          "salary": null,
-          "posted": "Přidáno před 54 minutami",
-          "found_at": "2026-09-24T08:11:00.678286+00:00"
-        },
-        {
-          "id": "2001444159",
-          "site": "jobscz",
-          "title": "Vedoucí projektu - zabezpečovací systémy pro retail projekty až 85.000 Kč",
-          "url": "https://www.jobs.cz/rpd/2001444159/?searchId=0b6438d8-43df-41c5-a9a1-83802b54dbf9&rps=233",
-          "employer": "Jobs Contact Personal, s.r.o.",
-          "salary": "70 000 ‍–‍ 85 000 Kč",
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-24T08:11:00.678286+00:00"
-        },
-        {
-          "id": "2001443224",
-          "site": "jobscz",
-          "title": "Account Manager & Media Planner | POS / In-Store Marketing - mezinárodní agentura",
-          "url": "https://www.jobs.cz/rpd/2001443224/?searchId=2411fc9d-9d84-4b7a-943a-47dfdf0c59b9&rps=233",
-          "employer": "REED SPECIALIST RECRUITMENT",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-24T08:11:00.678286+00:00"
-        },
-        {
-          "id": "5a374fc3-b63f-478b-857d-72f83d9aab22",
-          "site": "pracecz",
-          "title": "Řidič sk. C: Každý den doma. Až 50 500 Kč + firemní telefon a skvělé benefity.",
-          "url": "https://www.prace.cz/nabidka/5a374fc3-b63f-478b-857d-72f83d9aab22/?rps=2077",
-          "employer": "INDEX NOSLUŠ s.r.o.",
-          "salary": "50 500 Kč/měsíc",
-          "posted": "Dnešní",
-          "found_at": "2026-09-24T08:11:00.678286+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 210,
-          "new": 45
-        },
-        "pracecz": {
-          "total_found": 99,
-          "new": 16
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-24T11:20:09.857581+00:00",
       "offers": [
@@ -2297,6 +2221,25 @@
         "startupjobs": {
           "total_found": 417,
           "new": 417
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-09-25T09:08:24.379784+00:00",
+      "offers": [],
+      "counts": {
+        "jobscz": {
+          "total_found": 90,
+          "new": 1
+        },
+        "pracecz": {
+          "total_found": 52,
+          "new": 0
+        },
+        "startupjobs": {
+          "total_found": 20,
+          "new": 0
         }
       },
       "warnings": []
