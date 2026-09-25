@@ -1,42 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:40:24.077899+00:00",
+  "generated_at": "2026-09-25T08:44:20.682198+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-22T12:22:49.186812+00:00",
-      "offers": [
-        {
-          "id": "2001440864",
-          "site": "jobscz",
-          "title": "Business Development Manager – Obnovitelné zdroje a bateriová úložiště 💡",
-          "url": "https://www.jobs.cz/rpd/2001440864/?searchId=3cee2644-2c4f-42de-8b14-6788049115d1&rps=233",
-          "employer": "Talentor Advanced Search",
-          "salary": "90 000 ‍–‍ 100 000 Kč",
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-22T12:22:49.186812+00:00"
-        },
-        {
-          "id": "2001440540",
-          "site": "jobscz",
-          "title": "Digital Account Manager (onsite🏢💻)",
-          "url": "https://www.jobs.cz/rpd/2001440540/?searchId=3cee2644-2c4f-42de-8b14-6788049115d1&rps=233",
-          "employer": "Creative Heroes, s.r.o.",
-          "salary": "60 000 ‍–‍ 90 000 Kč",
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-09-22T12:22:49.186812+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 150,
-          "new": 35
-        },
-        "pracecz": {
-          "total_found": 110,
-          "new": 6
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-23T08:10:37.567187+00:00",
       "offers": [
@@ -715,6 +679,27 @@
         }
       },
       "warnings": []
+    },
+    {
+      "run_at": "2026-09-25T08:44:20.682198+00:00",
+      "offers": [],
+      "counts": {
+        "jobscz": {
+          "total_found": 60,
+          "new": 0
+        },
+        "pracecz": {
+          "total_found": 53,
+          "new": 0
+        },
+        "startupjobs": {
+          "total_found": 0,
+          "new": 0
+        }
+      },
+      "warnings": [
+        "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
+      ]
     }
   ],
   "blacklist": [
