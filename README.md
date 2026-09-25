@@ -1,6 +1,7 @@
 # job-seek-filtr
 
-Hlídač nabídek práce na [jobs.cz](https://www.jobs.cz) a [prace.cz](https://www.prace.cz).
+Hlídač nabídek práce na [jobs.cz](https://www.jobs.cz), [prace.cz](https://www.prace.cz)
+a [startupjobs.cz](https://www.startupjobs.cz).
 Řeší dvě věci:
 
 1. **Nemusíš procházet nabídky ručně každý den a nic ti neuteče přes víkend.**
@@ -25,6 +26,13 @@ kdy scraper běžel.
   s tím, co je uložené v `data/state.json`, a nové nabídky zapíše (VŠECHNY,
   i ty odpovídající blacklistu - viz níže) do `data/history.json`.
   Blacklist se z historie odfiltruje až při skládání `site/data.json`.
+- jobs.cz a prace.cz se stahují obyčejným HTTP requestem a parsují jako
+  HTML (`scraper/site_scraper.py`). startupjobs.cz je moderní SPA, které
+  nabídky nerenderuje na serveru - jediná cesta je spustit stránku ve
+  skutečném (headless) prohlížeči přes Playwright
+  (`scraper/startupjobs_scraper.py`), proto je i o dost pomalejší. Web u
+  nabídek v seznamu neukazuje datum přidání, takže se u startupjobs.cz
+  nezobrazuje.
 - Workflow změněná data commitne zpátky do repa a nasadí obsah `site/` na
   GitHub Pages.
 - Úprava `config/blacklist.txt` navíc sama spustí rychlé přefiltrování
@@ -120,6 +128,7 @@ smažeš a commitneš (stránka je statická, takže tohle je nejbližší možn
 
 ```bash
 pip install -r requirements.txt
+playwright install chromium  # jen jednou - prohlížeč pro startupjobs.cz
 python -m scraper.main
 ```
 
@@ -134,6 +143,7 @@ config/settings.yaml    # vyhledávací URL, limity stránkování, hinty pro ex
 config/blacklist.txt    # blokovaní zaměstnavatelé a klíčová slova v pozicích
 scraper/common.py        # Offer, state/blacklist I/O, blacklist matching
 scraper/site_scraper.py  # scraper pro jobs.cz a prace.cz (vlastní HTML parsování)
+scraper/startupjobs_scraper.py # scraper pro startupjobs.cz (Playwright/headless Chromium)
 scraper/main.py           # orchestrátor - scrapuje, dedupuje, zapisuje historii
 scraper/rebuild_digest.py # rychlé přefiltrování digestu bez scrapování (blacklist)
 data/state.json         # ID už viděných nabídek + čas posledního běhu

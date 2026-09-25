@@ -65,8 +65,8 @@ startupjobs:
   # (/api/search-offers, zjištěné z JS bundlu) při přímém volání zvenčí
   # vrací 404 - frontend na něj jde přes interní routování, které nejde bez
   # prohlížeče zjistit. Scrapuje se proto přes Playwright (headless
-  # Chromium) - viz scraper/startupjobs_scraper.py. Extrakce karet je zatím
-  # nedoladěná (bootstrap fáze, stejně jako na začátku u jobs.cz/prace.cz).
+  # Chromium) - viz scraper/startupjobs_scraper.py. Datum přidání web u
+  # nabídek v seznamu vůbec neukazuje, takže "posted" zůstává vždy prázdné.
   enabled: true
   name: "StartupJobs.cz"
   search_urls:
