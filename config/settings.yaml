@@ -60,23 +60,18 @@ pracecz:
   max_pages: 8
 
 startupjobs:
-  # VYPNUTO - startupjobs.cz je Nuxt SPA, nabídky se do HTML nerenderují na
-  # serveru (na rozdíl od jobs.cz/prace.cz), takže obyčejné stažení stránky
-  # (requests + BeautifulSoup) na tenhle web nefunguje. Skutečné API
-  # (/api/search-offers, zjištěné z JS bundlu) při přímém volání vrací 404 -
-  # frontend na něj evidentně útočí přes jinou interní adresu/proxy, kterou
-  # nejde bez spuštění prohlížeče zjistit. Řešení by vyžadovalo headless
-  # prohlížeč (Playwright) v GitHub Actions - výrazně těžkopádnější a
-  # pomalejší než zbytek scraperu, takže se do toho nešlo bez potvrzení.
-  enabled: false
+  # startupjobs.cz je Nuxt SPA, nabídky se do HTML nerenderují na serveru
+  # (na rozdíl od jobs.cz/prace.cz) a jejich skutečné API
+  # (/api/search-offers, zjištěné z JS bundlu) při přímém volání zvenčí
+  # vrací 404 - frontend na něj jde přes interní routování, které nejde bez
+  # prohlížeče zjistit. Scrapuje se proto přes Playwright (headless
+  # Chromium) - viz scraper/startupjobs_scraper.py. Extrakce karet je zatím
+  # nedoladěná (bootstrap fáze, stejně jako na začátku u jobs.cz/prace.cz).
+  enabled: true
   name: "StartupJobs.cz"
   search_urls:
     - "https://www.startupjobs.cz/nabidky?lokalita=Praha"
-  pagination_param: null
-  card_selector: ""
-  detail_url_pattern: "/nabidka/"
-  employer_hints: ["company", "employer", "firma", "zamestnavatel"]
-  salary_hints: ["salary", "plat", "wage", "mzda"]
+  max_pages: 8
   max_pages: 8
 
 # Kolik posledních ID nabídek na jeden web si scraper pamatuje, aby stejnou

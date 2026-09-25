@@ -24,6 +24,7 @@ import yaml
 
 from .common import DATA_DIR, REPO_ROOT, Offer, is_blacklisted, load_blacklist, load_state, save_state
 from .site_scraper import scrape_site
+from .startupjobs_scraper import scrape_startupjobs
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("main")
@@ -115,18 +116,29 @@ def run() -> int:
         seen_ids = set(site_state.get("seen_ids", []))
 
         log.info("Stahuji %s...", site_cfg.get("name", site_key))
-        offers = scrape_site(
-            site_key=site_key,
-            search_urls=site_cfg.get("search_urls", []),
-            card_selector=site_cfg.get("card_selector", ""),
-            detail_url_pattern=site_cfg.get("detail_url_pattern", ""),
-            employer_hints=site_cfg.get("employer_hints", []),
-            salary_hints=site_cfg.get("salary_hints", []),
-            max_pages=site_cfg.get("max_pages", 5),
-            already_seen=seen_ids,
-            pagination_param=site_cfg.get("pagination_param"),
-            debug_dir=DEBUG_HTML_DIR,
-        )
+        if site_key == "startupjobs":
+            # SPA - nabídky se natahují přes JS, nejde je jen stáhnout a
+            # rozparsovat jako u jobs.cz/prace.cz (viz komentář v
+            # scraper/startupjobs_scraper.py).
+            offers = scrape_startupjobs(
+                search_urls=site_cfg.get("search_urls", []),
+                max_pages=site_cfg.get("max_pages", 5),
+                already_seen=seen_ids,
+                debug_dir=DEBUG_HTML_DIR,
+            )
+        else:
+            offers = scrape_site(
+                site_key=site_key,
+                search_urls=site_cfg.get("search_urls", []),
+                card_selector=site_cfg.get("card_selector", ""),
+                detail_url_pattern=site_cfg.get("detail_url_pattern", ""),
+                employer_hints=site_cfg.get("employer_hints", []),
+                salary_hints=site_cfg.get("salary_hints", []),
+                max_pages=site_cfg.get("max_pages", 5),
+                already_seen=seen_ids,
+                pagination_param=site_cfg.get("pagination_param"),
+                debug_dir=DEBUG_HTML_DIR,
+            )
 
         total_found = len(offers)
         new_count = 0

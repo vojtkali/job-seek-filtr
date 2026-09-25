@@ -2,3 +2,8 @@ requests>=2.31
 beautifulsoup4>=4.12
 lxml>=5.0
 PyYAML>=6.0
+# Jen pro startupjobs.cz - je to SPA, nabídky se nerenderují na serveru a
+# jejich API při přímém volání zvenčí vrací 404 (viz komentář v
+# config/settings.yaml), takže tenhle jeden web jde jedině přes skutečný
+# prohlížeč.
+playwright>=1.47
