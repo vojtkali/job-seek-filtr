@@ -2,7 +2,7 @@ chunks nalezené v HTML: 218
 úspěšně stažené: 218
 
 === chunky, které zmiňují offer/job/advert/position/vacanc (1) ===
-https://www.startupjobs.cz/_nuxt/BzOrSUMJ.js: ['/api/search-offers/facets', '/api/offer/{id}/view', '/api/me/seen-offer-ids', '/api/search-offers/personalized/count', '/api/offers', '/api/search-offers/companies-autocomplete', '/api/offers/{offer}/potential-candidate', '/api/offers/{offer}/candidates', '/api/me/applied-offer-ids', '/api/search-offers/personalized', '/api/offers/{offer}/candidates/guest', '/api/positions', '/api/search-offers/locations-autocomplete', '/api/offers/{id}', '/api/search-offers/skills-autocomplete', '/api/search-offers/similar/{id}', '/api/companies/{company}/offers', '/api/offer/{offer}/like', '/api/me/liked-offer-ids', '/api/search-offers', '/api/search-offers/liked']
+https://www.startupjobs.cz/_nuxt/BzOrSUMJ.js: ['/api/search-offers/skills-autocomplete', '/api/offers', '/api/search-offers/personalized/count', '/api/offer/{offer}/like', '/api/offers/{offer}/potential-candidate', '/api/search-offers', '/api/me/seen-offer-ids', '/api/offer/{id}/view', '/api/offers/{offer}/candidates', '/api/search-offers/liked', '/api/search-offers/similar/{id}', '/api/me/applied-offer-ids', '/api/offers/{offer}/candidates/guest', '/api/search-offers/locations-autocomplete', '/api/search-offers/companies-autocomplete', '/api/offers/{id}', '/api/positions', '/api/search-offers/personalized', '/api/companies/{company}/offers', '/api/search-offers/facets', '/api/me/liked-offer-ids']
 
 === všechny nalezené /api/... cesty napříč všemi chunky (90) ===
 /api/_nuxt_icon

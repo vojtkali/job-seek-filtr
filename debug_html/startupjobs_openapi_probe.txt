@@ -1,0 +1,4 @@
+/api/docs.json: HTTP 404, 238 chars, content-type=application/json
+/api/docs.jsonopenapi: HTTP 404, 273 chars, content-type=application/json
+/api/docs.jsonld: HTTP 404, 248 chars, content-type=application/json
+/api/docs: HTTP 404, 213 chars, content-type=application/json
