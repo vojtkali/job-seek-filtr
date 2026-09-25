@@ -231,6 +231,18 @@ def _debug_startupjobs_api_hints(
             offer_paths = [p for p in paths if any(w in p.lower() for w in ("offer", "job", "advert", "position", "vacanc"))]
             if offer_paths or re.search(r"\bsearchOffers\b|\bjobOffers\b|useOffers", js):
                 offer_hits[chunk_url] = offer_paths
+                if "/api/search-offers" in js and (debug_dir / "startupjobs_search_offers_context.txt").exists() is False:
+                    idxs = [m.start() for m in re.finditer(re.escape("/api/search-offers"), js)]
+                    ctx_lines = [f"chunk: {chunk_url}", f"výskytů '/api/search-offers': {len(idxs)}", ""]
+                    for n, i in enumerate(idxs[:8]):
+                        start = max(0, i - 400)
+                        end = min(len(js), i + 400)
+                        ctx_lines.append(f"--- výskyt {n} (pozice {i}) ---")
+                        ctx_lines.append(js[start:end])
+                        ctx_lines.append("")
+                    (debug_dir / "startupjobs_search_offers_context.txt").write_text(
+                        "\n".join(ctx_lines), encoding="utf-8"
+                    )
 
         lines = [f"chunks nalezené v HTML: {len(chunk_urls)}", f"úspěšně stažené: {fetched}", ""]
         lines.append(f"=== chunky, které zmiňují offer/job/advert/position/vacanc ({len(offer_hits)}) ===")
