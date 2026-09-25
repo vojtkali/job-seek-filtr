@@ -17087,9 +17087,7 @@
         "new": 0
       }
     },
-    "warnings": [
-      "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
-    ]
+    "warnings": []
   },
   {
     "run_at": "2026-09-25T08:22:16.429335+00:00",
@@ -17129,9 +17127,7 @@
         "new": 0
       }
     },
-    "warnings": [
-      "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
-    ]
+    "warnings": []
   },
   {
     "run_at": "2026-09-25T08:25:27.897493+00:00",
@@ -17150,9 +17146,7 @@
         "new": 0
       }
     },
-    "warnings": [
-      "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
-    ]
+    "warnings": []
   },
   {
     "run_at": "2026-09-25T08:28:12.032203+00:00",
@@ -17212,9 +17206,7 @@
         "new": 0
       }
     },
-    "warnings": [
-      "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
-    ]
+    "warnings": []
   },
   {
     "run_at": "2026-09-25T08:31:36.904301+00:00",
@@ -17233,9 +17225,7 @@
         "new": 0
       }
     },
-    "warnings": [
-      "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
-    ]
+    "warnings": []
   },
   {
     "run_at": "2026-09-25T08:35:14.334581+00:00",
@@ -17254,9 +17244,7 @@
         "new": 0
       }
     },
-    "warnings": [
-      "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
-    ]
+    "warnings": []
   },
   {
     "run_at": "2026-09-25T08:40:24.077899+00:00",
@@ -17290,9 +17278,7 @@
         "new": 0
       }
     },
-    "warnings": [
-      "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
-    ]
+    "warnings": []
   },
   {
     "run_at": "2026-09-25T08:51:20.487173+00:00",
