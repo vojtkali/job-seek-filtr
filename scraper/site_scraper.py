@@ -203,37 +203,42 @@ def _debug_startupjobs_api_hints(
     spouštět prohlížeč. Smazat, jakmile se najde skutečné API a napíše se
     finální extraktor."""
     try:
-        importmap = soup.find("script", type="importmap")
-        entry_src = None
-        if importmap and importmap.string:
-            import json as _json
-            entry_src = _json.loads(importmap.string).get("imports", {}).get("#entry")
-        if not entry_src:
-            entry_src = next(
-                (s.get("src") for s in soup.find_all("script", src=True)
-                 if "_nuxt" in (s.get("src") or "")),
-                None,
-            )
-        if not entry_src:
-            (debug_dir / "startupjobs_api_hints.txt").write_text(
-                "Nenašel se žádný _nuxt entry script.\n", encoding="utf-8"
-            )
-            return
+        # Entry bundle (importmap "#entry") obsahuje jen Nuxt "shell" - kód
+        # pro konkrétní stránku (/nabidky) je v samostatných chunkách, které
+        # se lazy-loadují až při navigaci. SSR ale dopředu ví, co bude
+        # potřeba, takže je vypíše jako <link rel="modulepreload"/"prefetch">
+        # - stáhneme je všechny a grepneme přes ně.
+        chunk_urls = sorted({
+            urljoin(page_url, link["href"])
+            for link in soup.find_all("link", href=True)
+            if link.get("rel") and any(r in ("modulepreload", "prefetch") for r in link["rel"])
+            and link["href"].endswith(".js")
+        })
 
-        bundle_url = urljoin(page_url, entry_src)
-        resp = session.get(bundle_url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
-        js = resp.text
+        offer_hits: dict[str, list[str]] = {}
+        all_paths: set[str] = set()
+        fetched = 0
+        for chunk_url in chunk_urls:
+            try:
+                resp = session.get(chunk_url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+                resp.raise_for_status()
+            except requests.RequestException:
+                continue
+            fetched += 1
+            js = resp.text
+            paths = set(re.findall(r"/api/[a-zA-Z0-9_\-{}]+(?:/[a-zA-Z0-9_\-{}]+)*", js))
+            all_paths |= paths
+            offer_paths = [p for p in paths if any(w in p.lower() for w in ("offer", "job", "advert", "position", "vacanc"))]
+            if offer_paths or re.search(r"\bsearchOffers\b|\bjobOffers\b|useOffers", js):
+                offer_hits[chunk_url] = offer_paths
 
-        paths = sorted(set(re.findall(r"/api/[a-zA-Z0-9_\-{}]+(?:/[a-zA-Z0-9_\-{}]+)*", js)))
-        offer_paths = [p for p in paths if any(w in p.lower() for w in ("offer", "job", "advert", "position", "vacanc"))]
-
-        lines = [f"bundle: {bundle_url}", f"bundle size: {len(js)} chars", ""]
-        lines.append(f"=== cesty obsahující offer/job/advert/position/vacanc ({len(offer_paths)}) ===")
-        lines.extend(offer_paths)
+        lines = [f"chunks nalezené v HTML: {len(chunk_urls)}", f"úspěšně stažené: {fetched}", ""]
+        lines.append(f"=== chunky, které zmiňují offer/job/advert/position/vacanc ({len(offer_hits)}) ===")
+        for url, paths in offer_hits.items():
+            lines.append(f"{url}: {paths}")
         lines.append("")
-        lines.append(f"=== všechny nalezené /api/... cesty ({len(paths)}) ===")
-        lines.extend(paths)
+        lines.append(f"=== všechny nalezené /api/... cesty napříč všemi chunky ({len(all_paths)}) ===")
+        lines.extend(sorted(all_paths))
         (debug_dir / "startupjobs_api_hints.txt").write_text("\n".join(lines), encoding="utf-8")
     except Exception as exc:  # noqa: BLE001 - jen diagnostika, nesmí shodit scraper
         (debug_dir / "startupjobs_api_hints.txt").write_text(f"Diagnostika selhala: {exc}\n", encoding="utf-8")
