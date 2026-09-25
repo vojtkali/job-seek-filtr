@@ -179,6 +179,7 @@ function renderOffer(offer) {
   const SITE_META = {
     jobscz: { badge: "badge-jobscz", label: "Jobs.cz" },
     pracecz: { badge: "badge-pracecz", label: "Prace.cz" },
+    startupjobs: { badge: "badge-startupjobs", label: "StartupJobs.cz" },
   };
   const meta_ = SITE_META[offer.site] || { badge: "badge-jobscz", label: offer.site };
   const badgeClass = meta_.badge;

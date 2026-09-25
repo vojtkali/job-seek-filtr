@@ -59,6 +59,22 @@ pracecz:
   salary_hints: ["salary", "plat", "wage", "mzda"]
   max_pages: 8
 
+startupjobs:
+  enabled: true
+  name: "StartupJobs.cz"
+  search_urls:
+    - "https://www.startupjobs.cz/nabidky?lokalita=Praha"
+  # Zatím neověřeno na skutečném HTML (web ze sandboxu nejde stáhnout) -
+  # card_selector/detail_url_pattern/pagination_param jsou jen placeholder,
+  # doladí se po prvním běhu se SCRAPER_DEBUG_HTML=1 stejně jako u jobs.cz
+  # a prace.cz na začátku.
+  pagination_param: null
+  card_selector: ""
+  detail_url_pattern: "/nabidka/"
+  employer_hints: ["company", "employer", "firma", "zamestnavatel"]
+  salary_hints: ["salary", "plat", "wage", "mzda"]
+  max_pages: 8
+
 # Kolik posledních ID nabídek na jeden web si scraper pamatuje, aby stejnou
 # nabídku znovu nenahlásil jako novou. Klidně nech, jen ať to nikdy neklesne
 # pod pár tisíc.

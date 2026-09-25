@@ -106,7 +106,7 @@ def run() -> int:
     warnings: list[str] = []
     counts: dict[str, dict] = {}
 
-    for site_key in ("jobscz", "pracecz"):
+    for site_key in ("jobscz", "pracecz", "startupjobs"):
         site_cfg = config.get(site_key, {})
         if not site_cfg.get("enabled", True):
             continue
