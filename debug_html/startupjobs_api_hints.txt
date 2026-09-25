@@ -1,0 +1,7 @@
+bundle: https://www.startupjobs.cz/_nuxt/CwnUF-Mh.js
+bundle size: 251255 chars
+
+=== cesty obsahující offer/job/advert/position/vacanc (0) ===
+
+=== všechny nalezené /api/... cesty (1) ===
+/api/_nuxt_icon

@@ -1,182 +1,6 @@
 {
-  "generated_at": "2026-09-25T08:18:40.836177+00:00",
+  "generated_at": "2026-09-25T08:22:16.429335+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-18T08:10:24.524750+00:00",
-      "offers": [
-        {
-          "id": "2001431610",
-          "site": "jobscz",
-          "title": "Pravá ruka zkušeného foundera (Personal/Executive Asistent/ka)",
-          "url": "https://www.jobs.cz/rpd/2001431610/?searchId=16cc6f09-ab9b-4c00-b028-2b74b88877a9&rps=233",
-          "employer": "Sleepy Bird s.r.o.",
-          "salary": "80 000 ‍–‍ 100 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001431944",
-          "site": "jobscz",
-          "title": "Inside Sales (B2B) s AJ",
-          "url": "https://www.jobs.cz/rpd/2001431944/?searchId=16cc6f09-ab9b-4c00-b028-2b74b88877a9&rps=233",
-          "employer": "DRILL Business Services",
-          "salary": "65 000 ‍–‍ 75 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001431935",
-          "site": "jobscz",
-          "title": "VEDOUCÍ PROJEKTU/HIP - fix až 110 000 Kč",
-          "url": "https://www.jobs.cz/rpd/2001431935/?searchId=16cc6f09-ab9b-4c00-b028-2b74b88877a9&rps=233",
-          "employer": "Prušák Group s.r.o.",
-          "salary": "85 000 ‍–‍ 110 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001224382",
-          "site": "jobscz",
-          "title": "AI Education Lead (m/ž)",
-          "url": "https://www.jobs.cz/rpd/2001224382/?searchId=0bb44620-c84d-4840-961e-065927baed7b&rps=233",
-          "employer": "Kooperativa pojišťovna, a.s., VIG",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001431892",
-          "site": "jobscz",
-          "title": "SENIOR PROJEKTOVÝ MANAŽER | KOMPLEXNÍ ŘÍZENÍ REZIDENČNÍHO DEVELOPMENTU",
-          "url": "https://www.jobs.cz/rpd/2001431892/?searchId=0bb44620-c84d-4840-961e-065927baed7b&rps=233",
-          "employer": "Prušák Group s.r.o.",
-          "salary": "130 000 ‍–‍ 150 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001338643",
-          "site": "jobscz",
-          "title": "IT Manager pro oblast Deposits/Loans",
-          "url": "https://www.jobs.cz/rpd/2001338643/?searchId=c295da72-3018-4653-ad8a-f2e793c4481b&rps=233",
-          "employer": "MONETA Money Bank, a.s.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001333340",
-          "site": "jobscz",
-          "title": "Digital Sales Manager B2B",
-          "url": "https://www.jobs.cz/rpd/2001333340/?searchId=c295da72-3018-4653-ad8a-f2e793c4481b&rps=233",
-          "employer": "Memodo s.r.o.",
-          "salary": "50 000 ‍–‍ 100 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001429653",
-          "site": "jobscz",
-          "title": "🚀 Performance & Growth Marketing Specialist",
-          "url": "https://www.jobs.cz/rpd/2001429653/?searchId=c295da72-3018-4653-ad8a-f2e793c4481b&rps=233",
-          "employer": "Mubite s.r.o.",
-          "salary": "60 000 ‍–‍ 120 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001431438",
-          "site": "jobscz",
-          "title": "⋙ Obchodní ředitel - budování START UPu ⋘",
-          "url": "https://www.jobs.cz/rpd/2001431438/?searchId=fc32c74a-ae76-40d3-8aed-228b826d05c0&rps=233",
-          "employer": "mBlue Czech, s.r.o.",
-          "salary": "100 000 ‍–‍ 200 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001431103",
-          "site": "jobscz",
-          "title": "Retenční specialista/ka pro klienty B2B",
-          "url": "https://www.jobs.cz/rpd/2001431103/?searchId=2c491f90-29b7-4cd5-bc36-1235d7b5e2c0&rps=233",
-          "employer": "ATLAS GROUP",
-          "salary": "50 000 ‍–‍ 85 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "2001162861",
-          "site": "jobscz",
-          "title": "Obchodní zástupce s digitálními nástroji pro restaurace",
-          "url": "https://www.jobs.cz/rpd/2001162861/?searchId=2c491f90-29b7-4cd5-bc36-1235d7b5e2c0&rps=233",
-          "employer": "MAKRO Cash & Carry ČR s.r.o.",
-          "salary": "41 500 ‍–‍ 70 000 Kč",
-          "posted": "Aktualizováno včera",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "0b8c6be9-7eeb-4587-a498-58aab511447d",
-          "site": "pracecz",
-          "title": "KEY ACCOUNT SPECIALIST - Catering pro výstavy a eventy v PVA EXPO",
-          "url": "https://www.prace.cz/nabidka/0b8c6be9-7eeb-4587-a498-58aab511447d/?rps=2077",
-          "employer": "ABF, a.s.",
-          "salary": null,
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "e0210509-771d-4984-b41d-9d9680195438",
-          "site": "pracecz",
-          "title": "Obsluha zákazníků za pultem v Rodinné farmě",
-          "url": "https://www.prace.cz/nabidka/e0210509-771d-4984-b41d-9d9680195438/?rps=2077",
-          "employer": "RODINNÁ FARMA A-04 s.r.o.",
-          "salary": "40 000 – 50 000 Kč/měsíc",
-          "posted": "Nová nabídka",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "c6923dbd-2900-4577-9f9b-42cfe225be59",
-          "site": "pracecz",
-          "title": "Account Manager / B2B Obchodník v oblasti vzdělávání",
-          "url": "https://www.prace.cz/nabidka/c6923dbd-2900-4577-9f9b-42cfe225be59/?rps=2077",
-          "employer": "EDUA Group, s.r.o.",
-          "salary": null,
-          "posted": "Dnešní",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "3a84cead-981a-4816-a1b8-5816e90da619",
-          "site": "pracecz",
-          "title": "SPECIALISTA/-KA CENOVÝCH NABÍDEK",
-          "url": "https://www.prace.cz/firma/6tk2rf-schindler-cz-a-s/nabidka/3a84cead-981a-4816-a1b8-5816e90da619/?rps=2077",
-          "employer": "Schindler CZ, a.s.",
-          "salary": null,
-          "posted": "Dnešní",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        },
-        {
-          "id": "9df28f1f-4c09-4fc5-b445-f00419030da3",
-          "site": "pracecz",
-          "title": "Řidič sk. C",
-          "url": "https://www.prace.cz/nabidka/9df28f1f-4c09-4fc5-b445-f00419030da3/?rps=2077",
-          "employer": "EKOSTAV a.s.",
-          "salary": "45 000 – 55 000 Kč/měsíc",
-          "posted": "Dnešní",
-          "found_at": "2026-09-18T08:10:24.524750+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 240,
-          "new": 93
-        },
-        "pracecz": {
-          "total_found": 131,
-          "new": 20
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-20T15:05:03.478159+00:00",
       "offers": [
@@ -1176,6 +1000,38 @@
         "jobscz": {
           "total_found": 90,
           "new": 3
+        },
+        "pracecz": {
+          "total_found": 52,
+          "new": 0
+        },
+        "startupjobs": {
+          "total_found": 0,
+          "new": 0
+        }
+      },
+      "warnings": [
+        "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
+      ]
+    },
+    {
+      "run_at": "2026-09-25T08:22:16.429335+00:00",
+      "offers": [
+        {
+          "id": "2001109027",
+          "site": "jobscz",
+          "title": "Systém Administrátor/ka - Enterprise systems",
+          "url": "https://www.jobs.cz/rpd/2001109027/?searchId=533386e8-945e-4ae1-ae11-afe80115c898&rps=233",
+          "employer": "MONETA Money Bank, a.s.",
+          "salary": null,
+          "posted": "Přidáno před 3 minutami",
+          "found_at": "2026-09-25T08:22:16.429335+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 90,
+          "new": 2
         },
         "pracecz": {
           "total_found": 52,
