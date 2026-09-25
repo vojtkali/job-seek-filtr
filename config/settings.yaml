@@ -60,14 +60,18 @@ pracecz:
   max_pages: 8
 
 startupjobs:
-  enabled: true
+  # VYPNUTO - startupjobs.cz je Nuxt SPA, nabídky se do HTML nerenderují na
+  # serveru (na rozdíl od jobs.cz/prace.cz), takže obyčejné stažení stránky
+  # (requests + BeautifulSoup) na tenhle web nefunguje. Skutečné API
+  # (/api/search-offers, zjištěné z JS bundlu) při přímém volání vrací 404 -
+  # frontend na něj evidentně útočí přes jinou interní adresu/proxy, kterou
+  # nejde bez spuštění prohlížeče zjistit. Řešení by vyžadovalo headless
+  # prohlížeč (Playwright) v GitHub Actions - výrazně těžkopádnější a
+  # pomalejší než zbytek scraperu, takže se do toho nešlo bez potvrzení.
+  enabled: false
   name: "StartupJobs.cz"
   search_urls:
     - "https://www.startupjobs.cz/nabidky?lokalita=Praha"
-  # Zatím neověřeno na skutečném HTML (web ze sandboxu nejde stáhnout) -
-  # card_selector/detail_url_pattern/pagination_param jsou jen placeholder,
-  # doladí se po prvním běhu se SCRAPER_DEBUG_HTML=1 stejně jako u jobs.cz
-  # a prace.cz na začátku.
   pagination_param: null
   card_selector: ""
   detail_url_pattern: "/nabidka/"

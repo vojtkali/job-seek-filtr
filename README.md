@@ -1,7 +1,6 @@
 # job-seek-filtr
 
-Hlídač nabídek práce na [jobs.cz](https://www.jobs.cz), [prace.cz](https://www.prace.cz)
-a [startupjobs.cz](https://www.startupjobs.cz).
+Hlídač nabídek práce na [jobs.cz](https://www.jobs.cz) a [prace.cz](https://www.prace.cz).
 Řeší dvě věci:
 
 1. **Nemusíš procházet nabídky ručně každý den a nic ti neuteče přes víkend.**
@@ -134,7 +133,7 @@ ve složce `site/`.
 config/settings.yaml    # vyhledávací URL, limity stránkování, hinty pro extrakci
 config/blacklist.txt    # blokovaní zaměstnavatelé a klíčová slova v pozicích
 scraper/common.py        # Offer, state/blacklist I/O, blacklist matching
-scraper/site_scraper.py  # scraper pro jobs.cz, prace.cz a startupjobs.cz (vlastní HTML parsování)
+scraper/site_scraper.py  # scraper pro jobs.cz a prace.cz (vlastní HTML parsování)
 scraper/main.py           # orchestrátor - scrapuje, dedupuje, zapisuje historii
 scraper/rebuild_digest.py # rychlé přefiltrování digestu bez scrapování (blacklist)
 data/state.json         # ID už viděných nabídek + čas posledního běhu
