@@ -1,52 +1,6 @@
 {
-  "generated_at": "2026-09-28T08:13:14.919213+00:00",
+  "generated_at": "2026-09-29T08:13:27.519246+00:00",
   "runs": [
-    {
-      "run_at": "2026-09-24T13:20:32.317604+00:00",
-      "offers": [
-        {
-          "id": "2001444971",
-          "site": "jobscz",
-          "title": "⭕ Fleet Manager - LKW 🚛 Praha - západ",
-          "url": "https://www.jobs.cz/rpd/2001444971/?searchId=9371f772-081e-4c85-8f2c-b9d006a26c7c&rps=233",
-          "employer": "ProfesKontakt, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 24 minutami",
-          "found_at": "2026-09-24T13:20:32.317604+00:00"
-        },
-        {
-          "id": "2001090696",
-          "site": "jobscz",
-          "title": "Manager - Strategy & Execution",
-          "url": "https://www.jobs.cz/rpd/2001090696/?searchId=9371f772-081e-4c85-8f2c-b9d006a26c7c&rps=233",
-          "employer": "EY",
-          "salary": null,
-          "posted": "Přidáno před 59 minutami",
-          "found_at": "2026-09-24T13:20:32.317604+00:00"
-        },
-        {
-          "id": "2001444855",
-          "site": "jobscz",
-          "title": "Obchodní zástupce východní Čechy - Culligan Water Czech",
-          "url": "https://www.jobs.cz/rpd/2001444855/?searchId=24af884f-3814-416c-88dd-ec2a1a0a32fe&rps=233",
-          "employer": "Culligan Water Czech s.r.o.",
-          "salary": "80 000 ‍–‍ 120 000 Kč",
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-09-24T13:20:32.317604+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 150,
-          "new": 21
-        },
-        "pracecz": {
-          "total_found": 73,
-          "new": 9
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-09-25T08:10:21.443335+00:00",
       "offers": [
@@ -1532,6 +1486,216 @@
         "startupjobs": {
           "total_found": 60,
           "new": 11
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-09-29T08:13:27.519246+00:00",
+      "offers": [
+        {
+          "id": "2001396729",
+          "site": "jobscz",
+          "title": "Segmentový marketing – Senior specialista pro O2 Internet (m/ž)",
+          "url": "https://www.jobs.cz/rpd/2001396729/?searchId=df0b3a85-48b3-40bb-a136-32142f2d90f2&rps=233",
+          "employer": "O2 Czech Republic a.s.",
+          "salary": null,
+          "posted": "Přidáno před 11 minutami",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001453249",
+          "site": "jobscz",
+          "title": "Business Development Manager HR služby – Praha & západ ČR",
+          "url": "https://www.jobs.cz/rpd/2001453249/?searchId=df0b3a85-48b3-40bb-a136-32142f2d90f2&rps=233",
+          "employer": "SYNERGIE, s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 31 minutami",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001453215",
+          "site": "jobscz",
+          "title": "E-commerce & Digital Media Manager",
+          "url": "https://www.jobs.cz/rpd/2001453215/?searchId=df0b3a85-48b3-40bb-a136-32142f2d90f2&rps=233",
+          "employer": "Oniverse",
+          "salary": null,
+          "posted": "Přidáno před 41 minutami",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001414450",
+          "site": "jobscz",
+          "title": "Obchodní specialista – technický obor",
+          "url": "https://www.jobs.cz/rpd/2001414450/?searchId=8ed6677e-7ae3-4bce-8b1e-9bfec69329d0&rps=233",
+          "employer": "UJP PRAHA a.s.",
+          "salary": "60 000 ‍–‍ 80 000 Kč",
+          "posted": "Aktualizováno před hodinou",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001372202",
+          "site": "jobscz",
+          "title": "Marketing Specialist – Combustible Products Portfolio",
+          "url": "https://www.jobs.cz/rpd/2001372202/?searchId=8ed6677e-7ae3-4bce-8b1e-9bfec69329d0&rps=233",
+          "employer": "Philip Morris ČR",
+          "salary": null,
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001452435",
+          "site": "jobscz",
+          "title": "RELATIONSHIP MANAGER",
+          "url": "https://www.jobs.cz/rpd/2001452435/?searchId=44e5a281-fdc2-4a81-b2d5-f4ea598913be&rps=233",
+          "employer": "NEEDle, s.r.o.",
+          "salary": null,
+          "posted": "Přidáno dnes",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001319354",
+          "site": "jobscz",
+          "title": "Vedoucí oddělení projekce",
+          "url": "https://www.jobs.cz/rpd/2001319354/?searchId=002bcfcd-1fb9-4736-aadb-c1dadfcce712&rps=233",
+          "employer": "ALTRON, a.s.",
+          "salary": null,
+          "posted": "Končí zítra",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001451508",
+          "site": "jobscz",
+          "title": "Technický Product Owner - cloudová integrační platforma",
+          "url": "https://www.jobs.cz/rpd/2001451508/?searchId=002bcfcd-1fb9-4736-aadb-c1dadfcce712&rps=233",
+          "employer": "Asseco Solutions, a.s.",
+          "salary": null,
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001451507",
+          "site": "jobscz",
+          "title": "Produktový manažer/ka",
+          "url": "https://www.jobs.cz/rpd/2001451507/?searchId=002bcfcd-1fb9-4736-aadb-c1dadfcce712&rps=233",
+          "employer": "Asseco Solutions, a.s.",
+          "salary": null,
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001290130",
+          "site": "jobscz",
+          "title": "Regionální manažer/ka - Severozápadní Čechy",
+          "url": "https://www.jobs.cz/rpd/2001290130/?searchId=df0d6ff4-dfde-44e2-b24b-e266ac1393a4&rps=233",
+          "employer": "Albert Česká republika, s.r.o.",
+          "salary": null,
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001451281",
+          "site": "jobscz",
+          "title": "Místo trainee programu v korporaci: 40–75 000 Kč a práce přímo s majitelem firmy",
+          "url": "https://www.jobs.cz/rpd/2001451281/?searchId=7033575e-34e9-4d11-89cf-a548eeb3f491&rps=233",
+          "employer": "Lepší maso s.r.o.",
+          "salary": "40 000 ‍–‍ 75 000 Kč",
+          "posted": "Přidáno včera",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001398255",
+          "site": "jobscz",
+          "title": "IT Risk & Control Specialist",
+          "url": "https://www.jobs.cz/rpd/2001398255/?searchId=7033575e-34e9-4d11-89cf-a548eeb3f491&rps=233",
+          "employer": "Albert Česká republika, s.r.o.",
+          "salary": null,
+          "posted": "Aktualizováno včera",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "2001203129",
+          "site": "jobscz",
+          "title": "Mistr (pozemní stavitelství)",
+          "url": "https://www.jobs.cz/rpd/2001203129/?searchId=c747ffee-92ca-431d-8717-5c0e1e6671a2&rps=233",
+          "employer": "Skanska",
+          "salary": null,
+          "posted": "Aktualizováno včera",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "5be7775b-ac85-4249-8190-2b4c1c026a92",
+          "site": "pracecz",
+          "title": "Místo trainee programu v korporaci: 40–75 000 Kč a práce přímo s majitelem firmy",
+          "url": "https://www.prace.cz/nabidka/5be7775b-ac85-4249-8190-2b4c1c026a92/?rps=2077",
+          "employer": "Lepší maso s.r.o.",
+          "salary": "40 000 – 75 000 Kč/měsíc",
+          "posted": "Dnešní",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "adc745fd-3714-4b0c-aaab-18bfa3cf2746",
+          "site": "pracecz",
+          "title": "Dotační projektový manažer / manažerka",
+          "url": "https://www.prace.cz/nabidka/adc745fd-3714-4b0c-aaab-18bfa3cf2746/?rps=2077",
+          "employer": "Digitální most z.s.",
+          "salary": "30 000 – 60 000 Kč/měsíc",
+          "posted": "Dnešní",
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "108131",
+          "site": "startupjobs",
+          "title": "B2B Client Support – online podpora pro naše klienty",
+          "url": "https://www.startupjobs.cz/nabidka/108131/b2b-client-support-online-podpora-pro-nase-klienty",
+          "employer": null,
+          "salary": "35 - 45 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "108129",
+          "site": "startupjobs",
+          "title": "CEO (Chief Executive Officer)",
+          "url": "https://www.startupjobs.cz/nabidka/108129/ceo-chief-executive-officer",
+          "employer": "Molecula a.s.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "107229",
+          "site": "startupjobs",
+          "title": "Business Development Representative for Poland | E-commerce agentic SaaS",
+          "url": "https://www.startupjobs.cz/nabidka/107229/business-development-representative-for-poland-e-commerce-agentic-saas",
+          "employer": "Merchantee",
+          "salary": "60 - 200 000 Kč / měsíc",
+          "posted": null,
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        },
+        {
+          "id": "108125",
+          "site": "startupjobs",
+          "title": "Senior Account Manager / Project Lead - rozvoj klientů v 360° agentuře",
+          "url": "https://www.startupjobs.cz/nabidka/108125/senior-account-manager-project-lead-rozvoj-klientu-v-360-agenture",
+          "employer": "ACOMWARE s.r.o.",
+          "salary": null,
+          "posted": null,
+          "found_at": "2026-09-29T08:13:27.519246+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 240,
+          "new": 53
+        },
+        "pracecz": {
+          "total_found": 121,
+          "new": 9
+        },
+        "startupjobs": {
+          "total_found": 60,
+          "new": 6
         }
       },
       "warnings": []
