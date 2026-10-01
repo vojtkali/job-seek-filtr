@@ -10,6 +10,16 @@
 # stavbyvedoucí
 diabetolog
 taxomat
+mezinárod přeprav
+dopravní podnik projekt
+french
+nákup kaufland
+manager financ
+manažer financ
+konzultant daně
+městská část referent
+vedoucí zahradník
+smartjídlo
 social media spec
 marketing o2
 letiště omnichanel
@@ -72,7 +82,6 @@ sales o2
 account o2
 účtování
 referent facility
-
 pricing expert
 btl medical
 graphic design
@@ -332,7 +341,6 @@ catastrop model
 němčina
 broker consult
 stylista
-
 it analyst
 ekospol
 datový analytik
