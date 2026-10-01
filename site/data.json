@@ -1628,16 +1628,6 @@
       "run_at": "2026-10-01T08:12:48.085638+00:00",
       "offers": [
         {
-          "id": "2001457043",
-          "site": "jobscz",
-          "title": "🌍 Team Leader | Mezinárodní přepravy | Prostor pro vlastní vizi",
-          "url": "https://www.jobs.cz/rpd/2001457043/?searchId=9cb83d97-d08a-4ba4-b700-5c192e7a9c57&rps=233",
-          "employer": "Lagermax Logistics Czech s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 56 minutami",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
           "id": "2001266371",
           "site": "jobscz",
           "title": "Projektový manažer IT projektů – Infrastruktura",
@@ -1664,26 +1654,6 @@
           "url": "https://www.jobs.cz/rpd/2001456439/?searchId=f00c36d6-792c-4dc6-a180-906bb492e6d9&rps=233",
           "employer": "Sunnysoft s.r.o.",
           "salary": "70 000 ‍–‍ 90 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001456409",
-          "site": "jobscz",
-          "title": "GV Manager with French",
-          "url": "https://www.jobs.cz/rpd/2001456409/?searchId=fa672d9d-4335-4bc1-a695-e98ff109bae4&rps=233",
-          "employer": "ADP Employer Services Česká republika, a.s.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001456355",
-          "site": "jobscz",
-          "title": "Procesní manažer v oddělení Nákupu (ž/m)",
-          "url": "https://www.jobs.cz/rpd/2001456355/?searchId=fa672d9d-4335-4bc1-a695-e98ff109bae4&rps=233",
-          "employer": "Kaufland Česká republika v.o.s.",
-          "salary": null,
           "posted": "Přidáno včera",
           "found_at": "2026-10-01T08:12:48.085638+00:00"
         },
@@ -1728,16 +1698,6 @@
           "found_at": "2026-10-01T08:12:48.085638+00:00"
         },
         {
-          "id": "2001456059",
-          "site": "jobscz",
-          "title": "Office manager/ka se zaměřením na finance",
-          "url": "https://www.jobs.cz/rpd/2001456059/?searchId=b51968e9-45c3-47ab-b3ca-24865c414bf3&rps=233",
-          "employer": "Clientelo Czech s.r.o.",
-          "salary": "60 000 ‍–‍ 85 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
           "id": "2001455908",
           "site": "jobscz",
           "title": "Aplikační specialista (m/ž)",
@@ -1778,26 +1738,6 @@
           "found_at": "2026-10-01T08:12:48.085638+00:00"
         },
         {
-          "id": "2001455675",
-          "site": "jobscz",
-          "title": "Senior Konzultant | DPH | Nepřímé daně",
-          "url": "https://www.jobs.cz/rpd/2001455675/?searchId=de3411d1-37a8-4807-be96-4408c64dc9b2&rps=233",
-          "employer": "Deloitte",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001455656",
-          "site": "jobscz",
-          "title": "Senior Konzultant – Zdanění fyzických osob",
-          "url": "https://www.jobs.cz/rpd/2001455656/?searchId=de3411d1-37a8-4807-be96-4408c64dc9b2&rps=233",
-          "employer": "Deloitte",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
           "id": "763d255f-ec56-4bf0-ac4e-08efc59b2f6a",
           "site": "pracecz",
           "title": "ŘIDIČ skupiny C (+ 13. a 14. plat)",
@@ -1818,32 +1758,12 @@
           "found_at": "2026-10-01T08:12:48.085638+00:00"
         },
         {
-          "id": "8a23dfbb-a282-4be3-b331-3346db7eaa9d",
-          "site": "pracecz",
-          "title": "🌍 Team Leader | Mezinárodní přepravy | Prostor pro vlastní vizi",
-          "url": "https://www.prace.cz/nabidka/8a23dfbb-a282-4be3-b331-3346db7eaa9d/?rps=2077",
-          "employer": "Lagermax Logistics Czech s.r.o.",
-          "salary": null,
-          "posted": "Nová nabídka",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
           "id": "1c1d32d6-7ed4-4913-b3d7-10086dd94c8a",
           "site": "pracecz",
           "title": "Medicínský reprezentant pro Střední Čechy",
           "url": "https://www.prace.cz/nabidka/1c1d32d6-7ed4-4913-b3d7-10086dd94c8a/?rps=2077",
           "employer": "QUICKSEAL INTERNATIONAL",
           "salary": null,
-          "posted": "Dnešní",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "5f4975f5-3785-41fa-9ff0-710ca418d77e",
-          "site": "pracecz",
-          "title": "VEDOUCÍ ZAHRADNÍK - TEAM LEADER 🪴",
-          "url": "https://www.prace.cz/nabidka/5f4975f5-3785-41fa-9ff0-710ca418d77e/?rps=2077",
-          "employer": "JUNGLE INTERIORS , s.r.o.",
-          "salary": "45 000 – 60 000 Kč/měsíc",
           "posted": "Dnešní",
           "found_at": "2026-10-01T08:12:48.085638+00:00"
         },
@@ -1888,26 +1808,6 @@
           "found_at": "2026-10-01T08:12:48.085638+00:00"
         },
         {
-          "id": "108189",
-          "site": "startupjobs",
-          "title": "Office manager/ka se zaměřením na finance",
-          "url": "https://www.startupjobs.cz/nabidka/108189/office-manager-ka-se-zamerenim-na-finance",
-          "employer": "Clientelo Czech s.r.o.",
-          "salary": "60 - 85 000 Kč / měsíc",
-          "posted": null,
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "108187",
-          "site": "startupjobs",
-          "title": "Sales Development Representative",
-          "url": "https://www.startupjobs.cz/nabidka/108187/sales-development-representative",
-          "employer": "SmartJídlo s.r.o.",
-          "salary": "40 - 50 000 Kč / měsíc",
-          "posted": null,
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
           "id": "108169",
           "site": "startupjobs",
           "title": "🚀 Hledáme CTO 200 - 250tis Kč",
@@ -1938,6 +1838,16 @@
   "blacklist": [
     "diabetolog",
     "taxomat",
+    "mezinárod přeprav",
+    "dopravní podnik projekt",
+    "french",
+    "nákup kaufland",
+    "manager financ",
+    "manažer financ",
+    "konzultant daně",
+    "městská část referent",
+    "vedoucí zahradník",
+    "smartjídlo",
     "social media spec",
     "marketing o2",
     "letiště omnichanel",
