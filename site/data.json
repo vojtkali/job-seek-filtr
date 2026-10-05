@@ -1820,16 +1820,6 @@
           "found_at": "2026-10-02T08:12:22.120773+00:00"
         },
         {
-          "id": "2001458179",
-          "site": "jobscz",
-          "title": "Ředitel oblasti (m/ž/n) - PRAHA",
-          "url": "https://www.jobs.cz/rpd/2001458179/?searchId=25dd92e3-5ca6-4fd6-8d9c-df5078fcaaed&rps=233",
-          "employer": "ČPP Servis, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-02T08:12:22.120773+00:00"
-        },
-        {
           "id": "2001457363",
           "site": "jobscz",
           "title": "Team Leader – Specialisté korporátní klientely (Middle Office)",
@@ -1845,16 +1835,6 @@
           "title": "IT Administrátor",
           "url": "https://www.jobs.cz/rpd/2001457943/?searchId=ce2f0c48-6da9-4acd-828c-887681801f4b&rps=233",
           "employer": "Carvago s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-02T08:12:22.120773+00:00"
-        },
-        {
-          "id": "2001457932",
-          "site": "jobscz",
-          "title": "Specialista*ka na ochranu osobních údajů – GDPR",
-          "url": "https://www.jobs.cz/rpd/2001457932/?searchId=ce2f0c48-6da9-4acd-828c-887681801f4b&rps=233",
-          "employer": "Raiffeisenbank a.s.",
           "salary": null,
           "posted": "Přidáno včera",
           "found_at": "2026-10-02T08:12:22.120773+00:00"
@@ -1886,26 +1866,6 @@
           "url": "https://www.jobs.cz/rpd/2001457807/?searchId=e5e08f72-1981-4c4e-bc11-a9c07a28e780&rps=233",
           "employer": "Popron Systems",
           "salary": "65 000 ‍–‍ 75 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-02T08:12:22.120773+00:00"
-        },
-        {
-          "id": "2001457614",
-          "site": "jobscz",
-          "title": "Ředitel mobilních služeb a konvergentních propozic (m/ž)",
-          "url": "https://www.jobs.cz/rpd/2001457614/?searchId=e5e08f72-1981-4c4e-bc11-a9c07a28e780&rps=233",
-          "employer": "O2 Czech Republic a.s.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-02T08:12:22.120773+00:00"
-        },
-        {
-          "id": "2001398344",
-          "site": "jobscz",
-          "title": "Ředitel/ka vzdělávací společnosti (M/Ž)",
-          "url": "https://www.jobs.cz/rpd/2001398344/?searchId=e5e08f72-1981-4c4e-bc11-a9c07a28e780&rps=233",
-          "employer": "Moore Czech Republic s.r.o.",
-          "salary": null,
           "posted": "Přidáno včera",
           "found_at": "2026-10-02T08:12:22.120773+00:00"
         },
@@ -1950,26 +1910,6 @@
           "found_at": "2026-10-02T08:12:22.120773+00:00"
         },
         {
-          "id": "2001241370",
-          "site": "jobscz",
-          "title": "Jste na kariérní křižovatce? Pojďte do realit!",
-          "url": "https://www.jobs.cz/rpd/2001241370/?searchId=280979ee-7771-44cd-b02b-705b7e44ae36&rps=233",
-          "employer": "REMAX Diamond",
-          "salary": "80 000 ‍–‍ 100 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-02T08:12:22.120773+00:00"
-        },
-        {
-          "id": "2001457488",
-          "site": "jobscz",
-          "title": "Head of Facility (JPO19910)",
-          "url": "https://www.jobs.cz/rpd/2001457488/?searchId=a95f14f7-eea7-44f6-a9a3-41a728d6b154&rps=233",
-          "employer": "Alza.cz a.s.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-02T08:12:22.120773+00:00"
-        },
-        {
           "id": "2001408003",
           "site": "jobscz",
           "title": "Energetický manager",
@@ -1977,16 +1917,6 @@
           "employer": "FINEP HOLDING, SE",
           "salary": null,
           "posted": "Aktualizováno včera",
-          "found_at": "2026-10-02T08:12:22.120773+00:00"
-        },
-        {
-          "id": "2001455463",
-          "site": "jobscz",
-          "title": "Data science v pojišťovně",
-          "url": "https://www.jobs.cz/rpd/2001455463/?searchId=a95f14f7-eea7-44f6-a9a3-41a728d6b154&rps=233",
-          "employer": "Pillow pojišťovna, a.s.",
-          "salary": null,
-          "posted": "Přidáno včera",
           "found_at": "2026-10-02T08:12:22.120773+00:00"
         },
         {
@@ -2150,16 +2080,6 @@
       "run_at": "2026-10-05T08:13:55.200604+00:00",
       "offers": [
         {
-          "id": "2001412555",
-          "site": "jobscz",
-          "title": "Finanční specialista/ka – Konsolidace & IFRS",
-          "url": "https://www.jobs.cz/rpd/2001412555/?searchId=196abfef-f932-480e-bdc0-b024e2137e03&rps=233",
-          "employer": "PŘEDVÝBĚR.CZ a.s.",
-          "salary": null,
-          "posted": "Přidáno před 10 minutami",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
           "id": "2001462830",
           "site": "jobscz",
           "title": "⋙ Site Manager | Služební vůz i pro soukromé účely 🚗⋘",
@@ -2210,26 +2130,6 @@
           "found_at": "2026-10-05T08:13:55.200604+00:00"
         },
         {
-          "id": "2001462486",
-          "site": "jobscz",
-          "title": "Expert/expertka regulace a cenotvorby",
-          "url": "https://www.jobs.cz/rpd/2001462486/?searchId=97ab4c9e-8feb-464d-b4ec-21536690f558&rps=233",
-          "employer": "Skupina ČEZ",
-          "salary": null,
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
-          "id": "2001308162",
-          "site": "jobscz",
-          "title": "DWH specialista/ka",
-          "url": "https://www.jobs.cz/rpd/2001308162/?searchId=97ab4c9e-8feb-464d-b4ec-21536690f558&rps=233",
-          "employer": "PRO.MED.CS Praha a.s.",
-          "salary": null,
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
           "id": "2001462223",
           "site": "jobscz",
           "title": "Account manager pro gaming a zahraniční klienty",
@@ -2260,16 +2160,6 @@
           "found_at": "2026-10-05T08:13:55.200604+00:00"
         },
         {
-          "id": "2001462074",
-          "site": "jobscz",
-          "title": "Vedoucí projekce (m/ž) – dřevostavby",
-          "url": "https://www.jobs.cz/rpd/2001462074/?searchId=9f481331-f474-4d81-a6f1-8561ff867ee1&rps=233",
-          "employer": "HOFMANN WIZARD s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
           "id": "2001462058",
           "site": "jobscz",
           "title": "Obchodník/ce pro Prahu a Středočeský kraj (m/ž)",
@@ -2277,16 +2167,6 @@
           "employer": "HOFMANN WIZARD s.r.o.",
           "salary": null,
           "posted": "Přidáno včera",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
-          "id": "2000754888",
-          "site": "jobscz",
-          "title": "SPECIALISTA PRO OPRAVY STAVEB V ZÁRUCE",
-          "url": "https://www.jobs.cz/rpd/2000754888/?searchId=9f481331-f474-4d81-a6f1-8561ff867ee1&rps=233",
-          "employer": "Metrostav CZ s.r.o.",
-          "salary": null,
-          "posted": "Aktualizováno včera",
           "found_at": "2026-10-05T08:13:55.200604+00:00"
         },
         {
@@ -2350,51 +2230,11 @@
           "found_at": "2026-10-05T08:13:55.200604+00:00"
         },
         {
-          "id": "2001209088",
-          "site": "jobscz",
-          "title": "Vedoucí týmu ve vlacích RegioJet! - Praha",
-          "url": "https://www.jobs.cz/rpd/2001209088/?searchId=40090c49-dcb5-4b81-8019-fd7ccf07fe2e&rps=233",
-          "employer": "RegioJet a.s.",
-          "salary": "50 000 ‍–‍ 72 000 Kč",
-          "posted": "2. října",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
-          "id": "2001189493",
-          "site": "jobscz",
-          "title": "Konzultant/ka ERP systému",
-          "url": "https://www.jobs.cz/rpd/2001189493/?searchId=40090c49-dcb5-4b81-8019-fd7ccf07fe2e&rps=233",
-          "employer": "ARTEX informační systémy spol. s r.o.",
-          "salary": null,
-          "posted": "2. října",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
           "id": "2001460149",
           "site": "jobscz",
           "title": "Specialista/specialistka řízení informačních rizik a ISMS",
           "url": "https://www.jobs.cz/rpd/2001460149/?searchId=40090c49-dcb5-4b81-8019-fd7ccf07fe2e&rps=233",
           "employer": "Skupina ČEZ",
-          "salary": null,
-          "posted": "2. října",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
-          "id": "2001460072",
-          "site": "jobscz",
-          "title": "Ředitel fixních služeb a konektivity (m/ž)",
-          "url": "https://www.jobs.cz/rpd/2001460072/?searchId=40090c49-dcb5-4b81-8019-fd7ccf07fe2e&rps=233",
-          "employer": "O2 Czech Republic a.s.",
-          "salary": null,
-          "posted": "2. října",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
-          "id": "2001460063",
-          "site": "jobscz",
-          "title": "Obchodník/nákupčí ovoce a zeleniny",
-          "url": "https://www.jobs.cz/rpd/2001460063/?searchId=1f7d0243-6dab-473f-ac5b-be14d647ff7d&rps=233",
-          "employer": "ANECOOP Praha, s.r.o.",
           "salary": null,
           "posted": "2. října",
           "found_at": "2026-10-05T08:13:55.200604+00:00"
@@ -2457,16 +2297,6 @@
           "employer": "SPORTZONE, a.s.",
           "salary": "35 000 – 50 000 Kč/měsíc",
           "posted": "Nová nabídka",
-          "found_at": "2026-10-05T08:13:55.200604+00:00"
-        },
-        {
-          "id": "3d0b8a93-882d-4a8d-9f02-b9549a8f9dfa",
-          "site": "pracecz",
-          "title": "HR administrátor/ Personalista",
-          "url": "https://www.prace.cz/nabidka/3d0b8a93-882d-4a8d-9f02-b9549a8f9dfa/?rps=2077",
-          "employer": "BENEPOINTS SOLUTION s.r.o.",
-          "salary": "45 000 – 55 000 Kč/měsíc",
-          "posted": null,
           "found_at": "2026-10-05T08:13:55.200604+00:00"
         },
         {
@@ -2542,6 +2372,24 @@
     "taxomat",
     "mezinárod přeprav",
     "dopravní podnik projekt",
+    "finanční spec",
+    "expert cenotvorby",
+    "dwh specialist",
+    "dřevostavby",
+    "opravy staveb",
+    "ve vlacích",
+    "erp systém",
+    "ředitel o2",
+    "nákupčí ovoce",
+    "nákupčí zeleniny",
+    "hr admin",
+    "personalista",
+    "ředitel oblasti",
+    "specialist gdpr",
+    "ředitel vzdělá",
+    "remax",
+    "facility alza",
+    "data science",
     "french",
     "nákup kaufland",
     "manager financ",
