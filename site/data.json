@@ -3608,16 +3608,6 @@
           "found_at": "2026-10-09T08:12:35.580222+00:00"
         },
         {
-          "id": "2001413519",
-          "site": "jobscz",
-          "title": "Junior produktový manažer pro Seznam Homepage",
-          "url": "https://www.jobs.cz/rpd/2001413519/?searchId=5f63d44d-3476-4e5d-a7ea-a10b84445f2a&rps=233",
-          "employer": "Seznam.cz, a.s.",
-          "salary": null,
-          "posted": "Aktualizováno včera",
-          "found_at": "2026-10-09T08:12:35.580222+00:00"
-        },
-        {
           "id": "2001364876",
           "site": "jobscz",
           "title": "Cyber Security Specialist OT",
@@ -3635,16 +3625,6 @@
           "employer": "ManpowerGroup s.r.o.",
           "salary": null,
           "posted": "Přidáno včera",
-          "found_at": "2026-10-09T08:12:35.580222+00:00"
-        },
-        {
-          "id": "2001413439",
-          "site": "jobscz",
-          "title": "Vedoucí stavby v energetice",
-          "url": "https://www.jobs.cz/rpd/2001413439/?searchId=f793ca59-4f5e-4b7d-8444-60a6eb96e82b&rps=233",
-          "employer": "Slovenské energetické strojárne, a.s. – organizační jednotka",
-          "salary": null,
-          "posted": "Aktualizováno včera",
           "found_at": "2026-10-09T08:12:35.580222+00:00"
         },
         {
@@ -3754,16 +3734,6 @@
           "url": "https://www.jobs.cz/rpd/2001467322/?searchId=bb8ca291-8612-4b25-a9ef-51c34da242f3&rps=233",
           "employer": "Randstad HR Solutions s.r.o.",
           "salary": "80 000 ‍–‍ 110 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-09T08:12:35.580222+00:00"
-        },
-        {
-          "id": "2001469888",
-          "site": "jobscz",
-          "title": "Sales consultant – rezidenční prodeje | 45 000 Kč + neomezené provize",
-          "url": "https://www.jobs.cz/rpd/2001469888/?searchId=bb8ca291-8612-4b25-a9ef-51c34da242f3&rps=233",
-          "employer": "ENGEL & VÖLKERS",
-          "salary": "45 000 ‍–‍ 90 000 Kč",
           "posted": "Přidáno včera",
           "found_at": "2026-10-09T08:12:35.580222+00:00"
         },
@@ -3919,6 +3889,9 @@
     "diabetolog",
     "jan becher",
     "obchod ředitel",
+    "junior seznam",
+    "vedoucí stavby",
+    "rezidenční prodej",
     "hrbp",
     "prodej realit",
     "ředitel strojíren",
