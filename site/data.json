@@ -1,216 +1,6 @@
 {
-  "generated_at": "2026-10-20T06:43:34.950258+00:00",
+  "generated_at": "2026-10-20T13:21:20.212277+00:00",
   "runs": [
-    {
-      "run_at": "2026-10-01T08:12:48.085638+00:00",
-      "offers": [
-        {
-          "id": "2001266371",
-          "site": "jobscz",
-          "title": "Projektový manažer IT projektů – Infrastruktura",
-          "url": "https://www.jobs.cz/rpd/2001266371/?searchId=9cb83d97-d08a-4ba4-b700-5c192e7a9c57&rps=233",
-          "employer": "Skupina ICZ",
-          "salary": null,
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001109108",
-          "site": "jobscz",
-          "title": "PROJEKTOVÝ MANAŽER (odbor Investice Metro)",
-          "url": "https://www.jobs.cz/rpd/2001109108/?searchId=f00c36d6-792c-4dc6-a180-906bb492e6d9&rps=233",
-          "employer": "Dopravní podnik hl. m. Prahy, akciová společnost",
-          "salary": null,
-          "posted": "Aktualizováno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001456439",
-          "site": "jobscz",
-          "title": "Key Account Manager",
-          "url": "https://www.jobs.cz/rpd/2001456439/?searchId=f00c36d6-792c-4dc6-a180-906bb492e6d9&rps=233",
-          "employer": "Sunnysoft s.r.o.",
-          "salary": "70 000 ‍–‍ 90 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001456238",
-          "site": "jobscz",
-          "title": "SPECIALISTA BACK OFFICE V INVESTIČNÍ SPOLEČNOSTI",
-          "url": "https://www.jobs.cz/rpd/2001456238/?searchId=9a261140-c5ad-4550-8975-b71405de5c95&rps=233",
-          "employer": "J&T BANKA",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001456142",
-          "site": "jobscz",
-          "title": "Team Leader / Manažer prodejního týmu",
-          "url": "https://www.jobs.cz/rpd/2001456142/?searchId=9a261140-c5ad-4550-8975-b71405de5c95&rps=233",
-          "employer": "PS Office s.r.o.",
-          "salary": "60 000 ‍–‍ 80 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001456100",
-          "site": "jobscz",
-          "title": "Manager of Commercial & Industrial Solar & Battery Energy Storage Systems",
-          "url": "https://www.jobs.cz/rpd/2001456100/?searchId=9a261140-c5ad-4550-8975-b71405de5c95&rps=233",
-          "employer": "Skupina ČEZ",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001456060",
-          "site": "jobscz",
-          "title": "JUNIOR BID MANAGER",
-          "url": "https://www.jobs.cz/rpd/2001456060/?searchId=b51968e9-45c3-47ab-b3ca-24865c414bf3&rps=233",
-          "employer": "TOTAL SERVICE a.s.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001455908",
-          "site": "jobscz",
-          "title": "Aplikační specialista (m/ž)",
-          "url": "https://www.jobs.cz/rpd/2001455908/?searchId=b51968e9-45c3-47ab-b3ca-24865c414bf3&rps=233",
-          "employer": "BARTON Consulting s.r.o.",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001455794",
-          "site": "jobscz",
-          "title": "Vedoucí týmu cost management – 120-130 tis. Kč",
-          "url": "https://www.jobs.cz/rpd/2001455794/?searchId=78320672-56b6-4863-b0b6-3a9ad2dfeea5&rps=233",
-          "employer": "LD Human Resources s.r.o.",
-          "salary": "120 000 ‍–‍ 130 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001455807",
-          "site": "jobscz",
-          "title": "Senior B2B obchodník → Team Leader | schůzky domluvené a produkt s AI",
-          "url": "https://www.jobs.cz/rpd/2001455807/?searchId=78320672-56b6-4863-b0b6-3a9ad2dfeea5&rps=233",
-          "employer": "ATLAS GROUP",
-          "salary": "50 000 ‍–‍ 100 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "2001455688",
-          "site": "jobscz",
-          "title": "Hledáme Akvizičního obchodníka!",
-          "url": "https://www.jobs.cz/rpd/2001455688/?searchId=de3411d1-37a8-4807-be96-4408c64dc9b2&rps=233",
-          "employer": "Smartizen s.r.o.",
-          "salary": "65 000 ‍–‍ 75 000 Kč",
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "763d255f-ec56-4bf0-ac4e-08efc59b2f6a",
-          "site": "pracecz",
-          "title": "ŘIDIČ skupiny C (+ 13. a 14. plat)",
-          "url": "https://www.prace.cz/nabidka/763d255f-ec56-4bf0-ac4e-08efc59b2f6a/?rps=2077",
-          "employer": "Komwag, podnik čistoty a údržby města, a.s.",
-          "salary": null,
-          "posted": "Nová nabídka",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "5798a7ba-aa7d-4c10-a352-1c0a6bf50112",
-          "site": "pracecz",
-          "title": "Referent/ka odboru dopravy MČ Praha 3",
-          "url": "https://www.prace.cz/nabidka/5798a7ba-aa7d-4c10-a352-1c0a6bf50112/?rps=2077",
-          "employer": "Městská část Praha 3",
-          "salary": null,
-          "posted": "Nová nabídka",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "1c1d32d6-7ed4-4913-b3d7-10086dd94c8a",
-          "site": "pracecz",
-          "title": "Medicínský reprezentant pro Střední Čechy",
-          "url": "https://www.prace.cz/nabidka/1c1d32d6-7ed4-4913-b3d7-10086dd94c8a/?rps=2077",
-          "employer": "QUICKSEAL INTERNATIONAL",
-          "salary": null,
-          "posted": "Dnešní",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "7ec5bb99-ef0d-42be-b347-e69066d1d7bf",
-          "site": "pracecz",
-          "title": "Řidič skupiny C - Praha (JISTOTA práce, mzdy, a pracovní doby)",
-          "url": "https://www.prace.cz/nabidka/7ec5bb99-ef0d-42be-b347-e69066d1d7bf/?rps=2077",
-          "employer": "PŘEDVÝBĚR.CZ a.s.",
-          "salary": "40 000 – 60 000 Kč/měsíc",
-          "posted": "Dnešní",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "71381da1-60b5-4e15-a790-a9d7ecdfc271",
-          "site": "pracecz",
-          "title": "řidič",
-          "url": "https://www.prace.cz/nabidka/71381da1-60b5-4e15-a790-a9d7ecdfc271/?rps=2077",
-          "employer": "MAXIMUM Services s.r.o.",
-          "salary": "40 000 – 60 000 Kč/měsíc",
-          "posted": "Dnešní",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "e7b6a126-49a3-4ad4-9f1b-42a19454dc6b",
-          "site": "pracecz",
-          "title": "5class.cz - řidič(ka) vozů BMW řady 5 october 2026",
-          "url": "https://www.prace.cz/nabidka/e7b6a126-49a3-4ad4-9f1b-42a19454dc6b/?rps=2077",
-          "employer": "European Train Transport and Service s.r.o.",
-          "salary": "30 000 – 60 000 Kč/měsíc",
-          "posted": "Dnešní",
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "108191",
-          "site": "startupjobs",
-          "title": "Project Coordinator",
-          "url": "https://www.startupjobs.cz/nabidka/108191/project-coordinator",
-          "employer": "DevCors",
-          "salary": null,
-          "posted": null,
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        },
-        {
-          "id": "108169",
-          "site": "startupjobs",
-          "title": "🚀 Hledáme CTO 200 - 250tis Kč",
-          "url": "https://www.startupjobs.cz/nabidka/108169/hledame-cto-200-250tis-kc",
-          "employer": "TangibleCodes",
-          "salary": "200 - 250 000 Kč / měsíc",
-          "posted": null,
-          "found_at": "2026-10-01T08:12:48.085638+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 240,
-          "new": 75
-        },
-        "pracecz": {
-          "total_found": 150,
-          "new": 24
-        },
-        "startupjobs": {
-          "total_found": 80,
-          "new": 15
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-10-02T08:12:22.120773+00:00",
       "offers": [
@@ -4493,6 +4283,266 @@
         "pracecz": {
           "total_found": 87,
           "new": 7
+        },
+        "startupjobs": {
+          "total_found": 20,
+          "new": 0
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-10-20T13:21:20.212277+00:00",
+      "offers": [
+        {
+          "id": "2001490103",
+          "site": "jobscz",
+          "title": "Embryolog / Embryoložka v IVF centru v Praze",
+          "url": "https://www.jobs.cz/rpd/2001490103/?searchId=63070019-814d-4a9e-9d4b-ca939fee3012&rps=233",
+          "employer": "EUROPE IVF International s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 11 minutami",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001490087",
+          "site": "jobscz",
+          "title": "IT manager",
+          "url": "https://www.jobs.cz/rpd/2001490087/?searchId=63070019-814d-4a9e-9d4b-ca939fee3012&rps=233",
+          "employer": "PŘEDVÝBĚR.CZ a.s.",
+          "salary": null,
+          "posted": "Přidáno před 18 minutami",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2000819351",
+          "site": "jobscz",
+          "title": "Projektový manažer fixní sítě",
+          "url": "https://www.jobs.cz/rpd/2000819351/?searchId=a3b093a9-ce0a-43a9-a06b-b1d6952bfca5&rps=233",
+          "employer": "Vodafone Czech Republic a.s.",
+          "salary": null,
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489894",
+          "site": "jobscz",
+          "title": "Senior B2B obchodník – akvizice SaaS (CDP/CRM)",
+          "url": "https://www.jobs.cz/rpd/2001489894/?searchId=a3b093a9-ce0a-43a9-a06b-b1d6952bfca5&rps=233",
+          "employer": "CORTEX a.s.",
+          "salary": "70 000 ‍–‍ 100 000 Kč",
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489890",
+          "site": "jobscz",
+          "title": "APLIKAČNÍ MANAGER",
+          "url": "https://www.jobs.cz/rpd/2001489890/?searchId=a3b093a9-ce0a-43a9-a06b-b1d6952bfca5&rps=233",
+          "employer": "GIT Consult Czech s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před hodinou",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489721",
+          "site": "jobscz",
+          "title": "Specialista softwarové podpory a testování IS",
+          "url": "https://www.jobs.cz/rpd/2001489721/?searchId=f22819b3-b390-4ce2-ba35-444568d5e42c&rps=233",
+          "employer": "OBIS s.r.o.",
+          "salary": "45 000 ‍–‍ 70 000 Kč",
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001440654",
+          "site": "jobscz",
+          "title": "Provozní analytik a specialista optimalizace (CNG & eMobility)",
+          "url": "https://www.jobs.cz/rpd/2001440654/?searchId=f22819b3-b390-4ce2-ba35-444568d5e42c&rps=233",
+          "employer": "innogy Česká republika a.s.",
+          "salary": null,
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489727",
+          "site": "jobscz",
+          "title": "PRODEJCE BMW MOTORRAD",
+          "url": "https://www.jobs.cz/rpd/2001489727/?searchId=f22819b3-b390-4ce2-ba35-444568d5e42c&rps=233",
+          "employer": "invelt - s.r.o.",
+          "salary": "55 000 ‍–‍ 110 000 Kč",
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489687",
+          "site": "jobscz",
+          "title": "Business Development Manager | Praha",
+          "url": "https://www.jobs.cz/rpd/2001489687/?searchId=f22819b3-b390-4ce2-ba35-444568d5e42c&rps=233",
+          "employer": "ManpowerGroup s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 2 hodinami",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489697",
+          "site": "jobscz",
+          "title": "PRODEJNÍ PORADCE - LEXUS",
+          "url": "https://www.jobs.cz/rpd/2001489697/?searchId=f22819b3-b390-4ce2-ba35-444568d5e42c&rps=233",
+          "employer": "Louwman Motor Praha s.r.o.",
+          "salary": null,
+          "posted": "Přidáno před 3 hodinami",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489483",
+          "site": "jobscz",
+          "title": "Obchodní zástupce bez cestování",
+          "url": "https://www.jobs.cz/rpd/2001489483/?searchId=89cea348-aad4-493e-b0a5-429dac4d26e2&rps=233",
+          "employer": "K & V ELEKTRO a.s.",
+          "salary": null,
+          "posted": "Přidáno dnes",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489547",
+          "site": "jobscz",
+          "title": "Obchodní zástupce - Praha",
+          "url": "https://www.jobs.cz/rpd/2001489547/?searchId=89cea348-aad4-493e-b0a5-429dac4d26e2&rps=233",
+          "employer": "GurmEko s.r.o.",
+          "salary": "45 000 ‍–‍ 70 000 Kč",
+          "posted": "Přidáno dnes",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489356",
+          "site": "jobscz",
+          "title": "Projektový vedoucí / Projektová vedoucí (monitorovací a řídicí systémy)",
+          "url": "https://www.jobs.cz/rpd/2001489356/?searchId=9140e146-ab91-4e27-b5b6-9f966a9c4012&rps=233",
+          "employer": "Skupina ČEZ",
+          "salary": "50 000 ‍–‍ 70 000 Kč",
+          "posted": "Přidáno dnes",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489291",
+          "site": "jobscz",
+          "title": "KEY ACCOUNT MANAGER (chladírenské dveřní systémy)",
+          "url": "https://www.jobs.cz/rpd/2001489291/?searchId=9140e146-ab91-4e27-b5b6-9f966a9c4012&rps=233",
+          "employer": "ManpowerGroup s.r.o.",
+          "salary": "60 000 ‍–‍ 70 000 Kč",
+          "posted": "Přidáno dnes",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001385176",
+          "site": "jobscz",
+          "title": "CMDB & Discovery Manager",
+          "url": "https://www.jobs.cz/rpd/2001385176/?searchId=9140e146-ab91-4e27-b5b6-9f966a9c4012&rps=233",
+          "employer": "CME Services s.r.o.",
+          "salary": null,
+          "posted": "Přidáno dnes",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2001489200",
+          "site": "jobscz",
+          "title": "PKI konzultant/ka – medior / senior",
+          "url": "https://www.jobs.cz/rpd/2001489200/?searchId=9140e146-ab91-4e27-b5b6-9f966a9c4012&rps=233",
+          "employer": "SEFIRA spol. s r.o.",
+          "salary": null,
+          "posted": "Přidáno dnes",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2000978997",
+          "site": "jobscz",
+          "title": "Specialista na diesel- generátorové stanice",
+          "url": "https://www.jobs.cz/rpd/2000978997/?searchId=b6434144-0755-4a57-a800-dd9070dbf6f7&rps=233",
+          "employer": "ENERGOPROJEKT PRAHA s.r.o.",
+          "salary": null,
+          "posted": "Přidáno dnes",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2000978044",
+          "site": "jobscz",
+          "title": "Specialista SW podpory BIM projektů",
+          "url": "https://www.jobs.cz/rpd/2000978044/?searchId=b6434144-0755-4a57-a800-dd9070dbf6f7&rps=233",
+          "employer": "ENERGOPROJEKT PRAHA s.r.o.",
+          "salary": null,
+          "posted": "Přidáno dnes",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "2000979305",
+          "site": "jobscz",
+          "title": "Expert jaderného paliva",
+          "url": "https://www.jobs.cz/rpd/2000979305/?searchId=b6434144-0755-4a57-a800-dd9070dbf6f7&rps=233",
+          "employer": "ENERGOPROJEKT PRAHA s.r.o.",
+          "salary": null,
+          "posted": "Přidáno dnes",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "df31942f-bf8d-4541-aba3-03fd89c37a22",
+          "site": "pracecz",
+          "title": "IT manager",
+          "url": "https://www.prace.cz/nabidka/df31942f-bf8d-4541-aba3-03fd89c37a22/?rps=2077",
+          "employer": "PŘEDVÝBĚR.CZ a.s.",
+          "salary": null,
+          "posted": "Nová nabídka",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "4745480a-e142-4369-ab20-0e94d8fe491a",
+          "site": "pracecz",
+          "title": "TOPENÁŘ / INSTALATÉR",
+          "url": "https://www.prace.cz/nabidka/4745480a-e142-4369-ab20-0e94d8fe491a/?rps=2077",
+          "employer": "MPCH CZ s.r.o.",
+          "salary": "50 000 – 70 000 Kč/měsíc",
+          "posted": "Nová nabídka",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "9bb40c3d-e4e4-4bb8-a1ef-51d7be0aa2a5",
+          "site": "pracecz",
+          "title": "APLIKAČNÍ MANAGER",
+          "url": "https://www.prace.cz/nabidka/9bb40c3d-e4e4-4bb8-a1ef-51d7be0aa2a5/?rps=2077",
+          "employer": "GIT Consult Czech s.r.o.",
+          "salary": null,
+          "posted": "Nová nabídka",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "849c682a-8019-4888-accb-7bbb1e414ab5",
+          "site": "pracecz",
+          "title": "Zástupce vedoucího asistenčního centra v Global Assistance",
+          "url": "https://www.prace.cz/nabidka/849c682a-8019-4888-accb-7bbb1e414ab5/?rps=2077",
+          "employer": "GLOBAL ASSISTANCE a.s.",
+          "salary": null,
+          "posted": "Jen pár hodin",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        },
+        {
+          "id": "0fbeba14-2b42-4be3-afe2-5caa0bc813e2",
+          "site": "pracecz",
+          "title": "Expedient na noční směny",
+          "url": "https://www.prace.cz/nabidka/0fbeba14-2b42-4be3-afe2-5caa0bc813e2/?rps=2077",
+          "employer": "Beskyd Fryčovice, a.s.",
+          "salary": "50 000 – 60 000 Kč/měsíc",
+          "posted": "Jen pár hodin",
+          "found_at": "2026-10-20T13:21:20.212277+00:00"
+        }
+      ],
+      "counts": {
+        "jobscz": {
+          "total_found": 240,
+          "new": 95
+        },
+        "pracecz": {
+          "total_found": 139,
+          "new": 19
         },
         "startupjobs": {
           "total_found": 20,
