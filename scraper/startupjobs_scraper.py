@@ -110,6 +110,14 @@ def scrape_startupjobs(
                     pass
                 page.wait_for_timeout(2000)
 
+                # Ojediněle (zřejmě pomalejší vykreslení na straně webu) se
+                # stane, že po týhle pauze ještě nejsou karty v DOM vůbec -
+                # než se to vyhodnotí jako "web nic nemá", zkusit počkat
+                # jednou déle.
+                if not _offer_anchors(BeautifulSoup(page.content(), "lxml")):
+                    log.info("startupjobs.cz: po prvním čekání 0 karet, zkouším počkat déle")
+                    page.wait_for_timeout(5000)
+
                 seen_hrefs: set[str] = set()
                 for page_num in range(max_pages):
                     soup = BeautifulSoup(page.content(), "lxml")

@@ -24272,9 +24272,7 @@
         "new": 0
       }
     },
-    "warnings": [
-      "StartupJobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
-    ]
+    "warnings": []
   },
   {
     "run_at": "2026-10-19T15:17:32.179151+00:00",
