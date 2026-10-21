@@ -10,6 +10,11 @@
 # stavbyvedoucí
 diabetolog
 jan becher
+embryo
+expert paliva
+instalatér
+topenář
+git consult
 obchod ředitel
 qppv
 manažer poradců
