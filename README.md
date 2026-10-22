@@ -19,7 +19,7 @@ kdy scraper běžel.
 ## Jak to funguje
 
 - **GitHub Actions** (`.github/workflows/scrape.yml`) spouští scraper
-  automaticky každý všední den (cron `0 8 * * 1-5`, tj. cca 9–10h ráno v
+  automaticky každý všední den (cron `17 8 * * 1-5`, tj. cca 9–10h ráno v
   Praze podle letního/zimního času) a taky ručně přes tlačítko *Run workflow*.
 - Scraper (`scraper/`) stáhne výsledkové stránky z URL, které si nastavíš
   v `config/settings.yaml`, posbírá jméno firmy/plat/datum přidání, porovná

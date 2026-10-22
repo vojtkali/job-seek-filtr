@@ -2,10 +2,15 @@ name: Scrape job offers
 
 "on":
   schedule:
-    # 8:00 UTC = cca 9-10h ráno v Praze (podle letního/zimního času).
+    # 8:17 UTC = cca 9-10h ráno v Praze (podle letního/zimního času).
+    # Schválně NE celá hodina (XX:00) - GitHub naplánované (cron) běhy
+    # zpožďuje nejvíc právě kolem celé hodiny, kdy je nejvyšší zátěž
+    # (zdokumentované chování, doporučují zvolit "jinou minutu v hodině").
+    # Od 13.10. se běhy kvůli tomu posouvaly o 5-7 hodin pozdě - tohle by
+    # to mělo zmírnit.
     # Pondělí (den 1) tak přirozeně zachytí i vše nové z víkendu, protože
     # scraper si pamatuje ID naposledy viděných nabídek, ne přesné datum.
-    - cron: "0 8 * * 1-5"
+    - cron: "17 8 * * 1-5"
   workflow_dispatch:
     inputs:
       debug_html:
