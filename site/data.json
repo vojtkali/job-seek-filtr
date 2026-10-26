@@ -4165,16 +4165,6 @@
           "found_at": "2026-10-26T09:57:52.489022+00:00"
         },
         {
-          "id": "2000989206",
-          "site": "jobscz",
-          "title": "Account Manager prodeje po telefonu",
-          "url": "https://www.jobs.cz/rpd/2000989206/?searchId=1e5a1bb5-073a-40ab-be32-bdc3ff37948a&rps=233",
-          "employer": "Edenred CZ s.r.o.",
-          "salary": "45 000 ‍–‍ 70 000 Kč",
-          "posted": "24. října",
-          "found_at": "2026-10-26T09:57:52.489022+00:00"
-        },
-        {
           "id": "2001496391",
           "site": "jobscz",
           "title": "Business Development Manager v technicky náročném prostředí",
@@ -4252,16 +4242,6 @@
           "employer": "PŘEDVÝBĚR.CZ a.s.",
           "salary": "45 000 – 60 000 Kč/měsíc",
           "posted": "Nová nabídka",
-          "found_at": "2026-10-26T09:57:52.489022+00:00"
-        },
-        {
-          "id": "c844ae8a-74bd-4c64-8471-a959096392f6",
-          "site": "pracecz",
-          "title": "Pracovník/pracovnice prodejny",
-          "url": "https://www.prace.cz/nabidka/c844ae8a-74bd-4c64-8471-a959096392f6/?rps=2077",
-          "employer": "KING-KRATOM.CZ s.r.o.",
-          "salary": "40 000 – 50 000 Kč/měsíc",
-          "posted": null,
           "found_at": "2026-10-26T09:57:52.489022+00:00"
         },
         {
@@ -4437,6 +4417,8 @@
     "trenýrkárna",
     "ignite vape",
     "servisní poradce auto",
+    "prodej po telefonu",
+    "kratom",
     "interiéry",
     "wine food",
     "jan becher",
