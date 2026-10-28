@@ -1,24 +1,5 @@
 [
   {
-    "run_at": "2026-09-25T08:31:36.904301+00:00",
-    "offers": [],
-    "counts": {
-      "jobscz": {
-        "total_found": 60,
-        "new": 0
-      },
-      "pracecz": {
-        "total_found": 53,
-        "new": 0
-      },
-      "startupjobs": {
-        "total_found": 0,
-        "new": 0
-      }
-    },
-    "warnings": []
-  },
-  {
     "run_at": "2026-09-25T08:35:14.334581+00:00",
     "offers": [],
     "counts": {
@@ -31966,5 +31947,97 @@
       }
     },
     "warnings": []
+  },
+  {
+    "run_at": "2026-10-28T16:00:32.084503+00:00",
+    "offers": [
+      {
+        "id": "cc56d95c-cbee-4310-8a31-773f0be4760f",
+        "site": "pracecz",
+        "title": "Skladník pro prodejnu adidas Palladium",
+        "url": "https://www.prace.cz/nabidka/cc56d95c-cbee-4310-8a31-773f0be4760f/?rps=2077",
+        "employer": "URBANGAMES s.r.o.",
+        "salary": "27 000 – 50 000 Kč/měsíc",
+        "posted": "Jen pár hodin",
+        "found_at": "2026-10-28T16:00:32.084503+00:00"
+      },
+      {
+        "id": "800916a9-68ba-48fb-a3ac-7079533908a0",
+        "site": "pracecz",
+        "title": "Přípravář aut v autopůjčovně – příprava, převozy a přezouvání | Praha 6",
+        "url": "https://www.prace.cz/nabidka/800916a9-68ba-48fb-a3ac-7079533908a0/?rps=2077",
+        "employer": "ACT holding s.r.o.",
+        "salary": "40 000 – 57 500 Kč/měsíc",
+        "posted": "Jen pár hodin",
+        "found_at": "2026-10-28T16:00:32.084503+00:00"
+      },
+      {
+        "id": "7199f570-b272-4bf4-be5e-9fa82fe16a34",
+        "site": "pracecz",
+        "title": "Obchodník/obchodnice po telefonu – práce z domova, až 80 000 Kč",
+        "url": "https://www.prace.cz/nabidka/7199f570-b272-4bf4-be5e-9fa82fe16a34/?rps=2077",
+        "employer": "Reas.cz",
+        "salary": "40 000 – 80 000 Kč/měsíc",
+        "posted": "Jen pár hodin",
+        "found_at": "2026-10-28T16:00:32.084503+00:00"
+      },
+      {
+        "id": "48b0ee52-51e0-4d13-9ec3-8ffe46c3aba8",
+        "site": "pracecz",
+        "title": "🚀 Práce v kryptoměnách bez zkušeností - 4 DNY TÝDNĚ S VÝPLATOU 50 - 150 000 💸",
+        "url": "https://www.prace.cz/nabidka/48b0ee52-51e0-4d13-9ec3-8ffe46c3aba8/?rps=2077",
+        "employer": "Digital Machine s.r.o.",
+        "salary": "50 000 – 100 000 Kč/měsíc",
+        "posted": "Jen pár hodin",
+        "found_at": "2026-10-28T16:00:32.084503+00:00"
+      },
+      {
+        "id": "61684362-15be-49df-b26a-e09e7b709484",
+        "site": "pracecz",
+        "title": "OBCHODNÍ ZÁSTUPCE PRO PRODEJ HI-TECH STROJNÍCH ZAŘÍZENÍ",
+        "url": "https://www.prace.cz/nabidka/61684362-15be-49df-b26a-e09e7b709484/?rps=2077",
+        "employer": "A T G s.r.o.(ADVANCED TECHNOLOGY GROUP,spol.s r.o.)",
+        "salary": null,
+        "posted": "Dnešní",
+        "found_at": "2026-10-28T16:00:32.084503+00:00"
+      },
+      {
+        "id": "bdc96293-bb6b-46b2-abf9-d6a5caf53e36",
+        "site": "pracecz",
+        "title": "🚀Oblastní manažer poboček - Praha / Čechy - Alza.cz (JPO08746)",
+        "url": "https://www.prace.cz/firma/2fecjy-alza-cz-a-s/nabidka/bdc96293-bb6b-46b2-abf9-d6a5caf53e36/?rps=2077",
+        "employer": "Alza.cz a.s.",
+        "salary": null,
+        "posted": "Dnešní",
+        "found_at": "2026-10-28T16:00:32.084503+00:00"
+      },
+      {
+        "id": "a7b20e92-6ddb-4af0-bfb8-1a631998bdc7",
+        "site": "pracecz",
+        "title": "Sales Team Manager – veďte náš obchodní tým v oblasti security!",
+        "url": "https://www.prace.cz/firma/jjg1gz-g4s-secure-solutions-cz-a-s/nabidka/a7b20e92-6ddb-4af0-bfb8-1a631998bdc7/?rps=2077",
+        "employer": "G4S Secure Solutions (CZ), a.s.",
+        "salary": null,
+        "posted": "Dnešní",
+        "found_at": "2026-10-28T16:00:32.084503+00:00"
+      }
+    ],
+    "counts": {
+      "jobscz": {
+        "total_found": 0,
+        "new": 0
+      },
+      "pracecz": {
+        "total_found": 136,
+        "new": 7
+      },
+      "startupjobs": {
+        "total_found": 20,
+        "new": 0
+      }
+    },
+    "warnings": [
+      "Jobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
+    ]
   }
 ]
