@@ -1,31 +1,5 @@
 [
   {
-    "run_at": "2026-09-25T08:51:20.487173+00:00",
-    "offers": [
-      {
-        "id": "2001175030",
-        "site": "jobscz",
-        "title": "Vedoucí provozní jednotky – oblast Mostního stavitelství (m/ž) - Praha východ",
-        "url": "https://www.jobs.cz/rpd/2001175030/?searchId=fc692cd2-6ed0-4f3a-b3ac-473ee82f55ed&rps=233",
-        "employer": "STRABAG a.s.",
-        "salary": null,
-        "posted": "Přidáno před 8 minutami",
-        "found_at": "2026-09-25T08:51:20.487173+00:00"
-      }
-    ],
-    "counts": {
-      "jobscz": {
-        "total_found": 90,
-        "new": 1
-      },
-      "pracecz": {
-        "total_found": 52,
-        "new": 0
-      }
-    },
-    "warnings": []
-  },
-  {
     "run_at": "2026-09-25T08:59:07.226935+00:00",
     "offers": [
       {
@@ -32364,6 +32338,25 @@
       },
       "pracecz": {
         "total_found": 58,
+        "new": 0
+      },
+      "startupjobs": {
+        "total_found": 20,
+        "new": 0
+      }
+    },
+    "warnings": []
+  },
+  {
+    "run_at": "2026-10-29T07:46:36.885189+00:00",
+    "offers": [],
+    "counts": {
+      "jobscz": {
+        "total_found": 60,
+        "new": 0
+      },
+      "pracecz": {
+        "total_found": 57,
         "new": 0
       },
       "startupjobs": {

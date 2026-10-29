@@ -1,206 +1,6 @@
 {
-  "generated_at": "2026-10-29T07:41:36.944488+00:00",
+  "generated_at": "2026-10-29T07:46:36.885189+00:00",
   "runs": [
-    {
-      "run_at": "2026-10-15T13:04:43.991551+00:00",
-      "offers": [
-        {
-          "id": "2001481737",
-          "site": "jobscz",
-          "title": "Specialista technického servisu měřidel - Field Service",
-          "url": "https://www.jobs.cz/rpd/2001481737/?searchId=c041ea72-dea3-48f7-82fa-8af26d5f0251&rps=233",
-          "employer": "PŘEDVÝBĚR.CZ a.s.",
-          "salary": "50 000 ‍–‍ 80 000 Kč",
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001481683",
-          "site": "jobscz",
-          "title": "Vedoucí odboru vnějších vztahů",
-          "url": "https://www.jobs.cz/rpd/2001481683/?searchId=c041ea72-dea3-48f7-82fa-8af26d5f0251&rps=233",
-          "employer": "Univerzita Karlova - Přírodovědecká fakulta",
-          "salary": "65 000 ‍–‍ 70 000 Kč",
-          "posted": "Přidáno před hodinou",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001481547",
-          "site": "jobscz",
-          "title": "Hledám parťáka do týmu. Troufneš si na novou výzvu?",
-          "url": "https://www.jobs.cz/rpd/2001481547/?searchId=cfde0625-8acc-4fd4-9e91-f5b255369b22&rps=233",
-          "employer": "ČSOB Pojišťovna, a. s., člen holdingu ČSOB",
-          "salary": "45 000 ‍–‍ 70 000 Kč",
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001481578",
-          "site": "jobscz",
-          "title": "Business Development Manager",
-          "url": "https://www.jobs.cz/rpd/2001481578/?searchId=cfde0625-8acc-4fd4-9e91-f5b255369b22&rps=233",
-          "employer": "PPL CZ s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001481471",
-          "site": "jobscz",
-          "title": "IT Projektový manažer (M/Ž)",
-          "url": "https://www.jobs.cz/rpd/2001481471/?searchId=cfde0625-8acc-4fd4-9e91-f5b255369b22&rps=233",
-          "employer": "České dráhy, a.s.",
-          "salary": null,
-          "posted": "Přidáno před 2 hodinami",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001481278",
-          "site": "jobscz",
-          "title": "Senior Delivery Manager (m/ž)",
-          "url": "https://www.jobs.cz/rpd/2001481278/?searchId=cfde0625-8acc-4fd4-9e91-f5b255369b22&rps=233",
-          "employer": "Skupina E.ON",
-          "salary": null,
-          "posted": "Přidáno před 3 hodinami",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001481232",
-          "site": "jobscz",
-          "title": "►► Obchodník s technickým zaměřením (M/Ž) 🏆✅",
-          "url": "https://www.jobs.cz/rpd/2001481232/?searchId=6adcab05-03fd-4a2f-ab8c-c746293db180&rps=233",
-          "employer": "WAMAG, spol. s r.o.",
-          "salary": null,
-          "posted": "Přidáno dnes",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001481190",
-          "site": "jobscz",
-          "title": "Marketing Specialist",
-          "url": "https://www.jobs.cz/rpd/2001481190/?searchId=96bde41e-fa53-4e23-be47-876d5902c4d5&rps=233",
-          "employer": "SBLCore s.r.o.",
-          "salary": "50 000 ‍–‍ 80 000 Kč",
-          "posted": "Přidáno dnes",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001481173",
-          "site": "jobscz",
-          "title": "Medical & Clinical Affairs Specialist",
-          "url": "https://www.jobs.cz/rpd/2001481173/?searchId=96bde41e-fa53-4e23-be47-876d5902c4d5&rps=233",
-          "employer": "Bioline Products s.r.o.",
-          "salary": "65 000 ‍–‍ 70 000 Kč",
-          "posted": "Přidáno dnes",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001481159",
-          "site": "jobscz",
-          "title": "Head of Merchandising & Demand Planning / PRAHA",
-          "url": "https://www.jobs.cz/rpd/2001481159/?searchId=96bde41e-fa53-4e23-be47-876d5902c4d5&rps=233",
-          "employer": "BAŤA, akciová společnost",
-          "salary": null,
-          "posted": "Přidáno dnes",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001479163",
-          "site": "jobscz",
-          "title": "HW Design Team Leader (f/m)",
-          "url": "https://www.jobs.cz/rpd/2001479163/?searchId=96bde41e-fa53-4e23-be47-876d5902c4d5&rps=233",
-          "employer": "ComAp a.s.",
-          "salary": null,
-          "posted": "Přidáno dnes",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001480989",
-          "site": "jobscz",
-          "title": "Specialista mezinárodního nákupu a rozvoje produktů AERIUM",
-          "url": "https://www.jobs.cz/rpd/2001480989/?searchId=a601c080-dd2d-410c-aff4-1f08ed64708e&rps=233",
-          "employer": "NEXT VISION s.r.o.",
-          "salary": "50 000 ‍–‍ 70 000 Kč",
-          "posted": "Přidáno dnes",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "2001480183",
-          "site": "jobscz",
-          "title": "Ředitel/ka marketu - Non-food sortiment",
-          "url": "https://www.jobs.cz/rpd/2001480183/?searchId=a8d3422d-b121-4b2e-abb3-725c910cb787&rps=233",
-          "employer": "SBR Recruiting",
-          "salary": null,
-          "posted": "Přidáno včera",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "a9c1b832-416d-48d3-bead-15009c84dcc5",
-          "site": "pracecz",
-          "title": "SMC Specialist",
-          "url": "https://www.prace.cz/firma/96q5ew-kosik-cz-s-r-o/nabidka/a9c1b832-416d-48d3-bead-15009c84dcc5/?rps=2077",
-          "employer": "Košík.cz s.r.o.",
-          "salary": null,
-          "posted": "Nová nabídka",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "cbc290d2-eb82-466a-a612-e612db60c9be",
-          "site": "pracecz",
-          "title": "Řidič skupiny B",
-          "url": "https://www.prace.cz/nabidka/cbc290d2-eb82-466a-a612-e612db60c9be/?rps=2077",
-          "employer": "C.I.P.A., s.r.o.",
-          "salary": "40 000 – 52 000 Kč/měsíc",
-          "posted": "Jen pár hodin",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "ee2abf39-fc4d-405c-8adf-9c0b846fb82a",
-          "site": "pracecz",
-          "title": "Medical & Clinical Affairs Specialist",
-          "url": "https://www.prace.cz/nabidka/ee2abf39-fc4d-405c-8adf-9c0b846fb82a/?rps=2077",
-          "employer": "Bioline Products s.r.o.",
-          "salary": "65 000 – 70 000 Kč/měsíc",
-          "posted": "Jen pár hodin",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "a04f32f4-8a37-409f-adb6-0cf05f83bf47",
-          "site": "pracecz",
-          "title": "ŘIDIČ SKUPINY C – KAŽDÝ DEN DOMA, VÍKENDY VOLNÉ",
-          "url": "https://www.prace.cz/nabidka/a04f32f4-8a37-409f-adb6-0cf05f83bf47/?rps=2077",
-          "employer": "MB Autodoprava s.r.o.",
-          "salary": "53 000 – 59 000 Kč/měsíc",
-          "posted": "Jen pár hodin",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        },
-        {
-          "id": "d69ef9d8-b4c8-4163-a792-5331fdcaa9ca",
-          "site": "pracecz",
-          "title": "Ředitel/ka marketu - Non-food sortiment",
-          "url": "https://www.prace.cz/nabidka/d69ef9d8-b4c8-4163-a792-5331fdcaa9ca/?rps=2077",
-          "employer": "SBR Recruiting",
-          "salary": null,
-          "posted": "Dnešní",
-          "found_at": "2026-10-15T13:04:43.991551+00:00"
-        }
-      ],
-      "counts": {
-        "jobscz": {
-          "total_found": 240,
-          "new": 72
-        },
-        "pracecz": {
-          "total_found": 133,
-          "new": 20
-        },
-        "startupjobs": {
-          "total_found": 20,
-          "new": 0
-        }
-      },
-      "warnings": []
-    },
     {
       "run_at": "2026-10-16T13:01:35.117794+00:00",
       "offers": [
@@ -3230,6 +3030,25 @@
         },
         "pracecz": {
           "total_found": 58,
+          "new": 0
+        },
+        "startupjobs": {
+          "total_found": 20,
+          "new": 0
+        }
+      },
+      "warnings": []
+    },
+    {
+      "run_at": "2026-10-29T07:46:36.885189+00:00",
+      "offers": [],
+      "counts": {
+        "jobscz": {
+          "total_found": 60,
+          "new": 0
+        },
+        "pracecz": {
+          "total_found": 57,
           "new": 0
         },
         "startupjobs": {
