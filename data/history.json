@@ -32017,9 +32017,7 @@
         "new": 0
       }
     },
-    "warnings": [
-      "Jobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
-    ]
+    "warnings": []
   },
   {
     "run_at": "2026-10-29T07:21:58.707304+00:00",

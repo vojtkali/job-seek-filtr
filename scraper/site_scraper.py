@@ -30,6 +30,7 @@ from __future__ import annotations
 
 import logging
 import re
+import time
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 
@@ -191,6 +192,23 @@ _SITE_EXTRACTORS = {
 }
 
 
+def _find_cards(soup: BeautifulSoup, card_selector: str, detail_url_pattern: str) -> list[tuple[Tag, Tag]]:
+    if card_selector:
+        pairs = []
+        for card in soup.select(card_selector):
+            anchor = card.find("a", href=lambda h: h and detail_url_pattern in h)
+            if anchor:
+                pairs.append((card, anchor))
+        return pairs
+    # bez card_selector nejde karty rozlišit - každý odpovídající odkaz je
+    # vlastní "karta" (nápovědy pak hledají jen v jeho bezprostředním okolí,
+    # ne v celé kartě).
+    return [
+        (a.parent or a, a)
+        for a in soup.find_all("a", href=lambda h: h and detail_url_pattern in h)
+    ]
+
+
 def scrape_site(
     site_key: str,
     search_urls: list[str],
@@ -232,20 +250,19 @@ def scrape_site(
                 (debug_dir / f"{site_key}.html").write_text(str(soup), encoding="utf-8")
                 debug_saved = True
 
-            if card_selector:
-                card_anchor_pairs = []
-                for card in soup.select(card_selector):
-                    anchor = card.find("a", href=lambda h: h and detail_url_pattern in h)
-                    if anchor:
-                        card_anchor_pairs.append((card, anchor))
-            else:
-                # bez card_selector nejde karty rozlišit - každý odpovídající
-                # odkaz je vlastní "karta" (nápovědy pak hledají jen v jeho
-                # bezprostředním okolí, ne v celé kartě).
-                card_anchor_pairs = [
-                    (a.parent or a, a)
-                    for a in soup.find_all("a", href=lambda h: h and detail_url_pattern in h)
-                ]
+            card_anchor_pairs = _find_cards(soup, card_selector, detail_url_pattern)
+
+            if page_num == 1 and not card_anchor_pairs:
+                # Ojediněle web vrátí prázdnou/nestandardní odpověď bez
+                # chyby (viz jobs.cz 2026-10-28, startupjobs.cz 2026-10-16)
+                # - než to vyhodnotit jako "web nic nemá", zkusit jednou
+                # znovu po krátké pauze.
+                log.info("%s: 0 karet na první stránce, zkouším znovu", site_key)
+                time.sleep(5)
+                retry_soup = fetch(url, session)
+                if retry_soup is not None:
+                    soup = retry_soup
+                    card_anchor_pairs = _find_cards(soup, card_selector, detail_url_pattern)
 
             page_offer_ids: list[str] = []
             for card, anchor in card_anchor_pairs:
