@@ -1,24 +1,5 @@
 [
   {
-    "run_at": "2026-09-25T08:44:20.682198+00:00",
-    "offers": [],
-    "counts": {
-      "jobscz": {
-        "total_found": 60,
-        "new": 0
-      },
-      "pracecz": {
-        "total_found": 53,
-        "new": 0
-      },
-      "startupjobs": {
-        "total_found": 0,
-        "new": 0
-      }
-    },
-    "warnings": []
-  },
-  {
     "run_at": "2026-09-25T08:51:20.487173+00:00",
     "offers": [
       {
@@ -32374,5 +32355,24 @@
     "warnings": [
       "Jobs.cz: nenalezena žádná nabídka. Scraper pravděpodobně potřebuje seřídit (zkontroluj search_urls a detail_url_pattern v config/settings.yaml)."
     ]
+  },
+  {
+    "run_at": "2026-10-29T07:41:36.944488+00:00",
+    "offers": [],
+    "counts": {
+      "jobscz": {
+        "total_found": 60,
+        "new": 0
+      },
+      "pracecz": {
+        "total_found": 58,
+        "new": 0
+      },
+      "startupjobs": {
+        "total_found": 20,
+        "new": 0
+      }
+    },
+    "warnings": []
   }
 ]
