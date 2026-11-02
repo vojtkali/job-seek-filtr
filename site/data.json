@@ -2632,16 +2632,6 @@
           "found_at": "2026-11-02T13:13:08.562797+00:00"
         },
         {
-          "id": "2001453709",
-          "site": "jobscz",
-          "title": "🏗️ Hledáte novou výzvu ve stavebnictví? V Praze máme hned 6 příležitostí!",
-          "url": "https://www.jobs.cz/rpd/2001453709/?searchId=76e1b1fd-0d94-4e73-a6f6-c95738a20d63&rps=233",
-          "employer": "Jobs Contact Personal, s.r.o.",
-          "salary": null,
-          "posted": "Přidáno před 28 minutami",
-          "found_at": "2026-11-02T13:13:08.562797+00:00"
-        },
-        {
           "id": "2001511061",
           "site": "jobscz",
           "title": "Projektový manažer/projektová manažerka",
@@ -2859,16 +2849,6 @@
           "employer": "A 11 s.r.o.",
           "salary": "60 000 ‍–‍ 120 000 Kč",
           "posted": "Přidáno dnes",
-          "found_at": "2026-11-02T13:13:08.562797+00:00"
-        },
-        {
-          "id": "955b44df-c945-4a21-9322-f11cd7fdeff2",
-          "site": "pracecz",
-          "title": "🏗️ Hledáte novou výzvu ve stavebnictví? V Praze máme hned 6 příležitostí!",
-          "url": "https://www.prace.cz/nabidka/955b44df-c945-4a21-9322-f11cd7fdeff2/?rps=2077",
-          "employer": "Jobs Contact Personal, s.r.o.",
-          "salary": null,
-          "posted": "Nová nabídka",
           "found_at": "2026-11-02T13:13:08.562797+00:00"
         },
         {
@@ -3251,6 +3231,7 @@
   ],
   "blacklist": [
     "diabetolog",
+    "stavebnictví",
     "trenýrkárna",
     "ignite vape",
     "o2 obchod zástup",
